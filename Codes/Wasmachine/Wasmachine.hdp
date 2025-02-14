@@ -1,0 +1,17 @@
+[hdl]
+Wasmachine = $HDS_PROJECT_DIR\Wasmachine\hdl
+Wasmachine_lib = $HDS_PROJECT_DIR\Wasmachine_lib\hdl
+[hds]
+Wasmachine = $HDS_PROJECT_DIR\Wasmachine\hds
+Wasmachine_lib = $HDS_PROJECT_DIR\Wasmachine_lib\hds
+[hds_settings]
+default_library = Wasmachine
+project_description = Digitale besturing project
+version = 3
+[library_files_inclusion]
+Wasmachine = all
+[library_type]
+Wasmachine = regular
+Wasmachine_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp
