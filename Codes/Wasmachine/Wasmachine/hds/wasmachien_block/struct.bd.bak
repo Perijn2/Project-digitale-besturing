@@ -181,7 +181,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:52:27"
+value "15:53:47"
 )
 (vvPair
 variable "group"
@@ -277,7 +277,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:52:27"
+value "15:53:47"
 )
 (vvPair
 variable "unit"
@@ -1018,8 +1018,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-21200,39000,-20400"
-st "start               : std_logic
-"
+st "start               : std_logic"
 )
 )
 *30 (PortIoIn
@@ -1372,8 +1371,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-200,42500,600"
-st "SIGNAL wassen_ready        : std_logic
-"
+st "SIGNAL wassen_ready        : std_logic"
 )
 )
 *45 (Net
@@ -1391,8 +1389,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-3400,42500,-2600"
-st "SIGNAL go_wassen           : std_logic
-"
+st "SIGNAL go_wassen           : std_logic"
 )
 )
 *46 (Net
@@ -1410,8 +1407,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-8200,42500,-7400"
-st "SIGNAL centrifugeren_ready : std_logic
-"
+st "SIGNAL centrifugeren_ready : std_logic"
 )
 )
 *47 (Net
@@ -1429,8 +1425,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-26000,39000,-25200"
-st "aan_uit             : std_logic
-"
+st "aan_uit             : std_logic"
 )
 )
 *48 (Net
@@ -1449,8 +1444,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-22000,49000,-21200"
-st "programmakeuze      : std_logic_vector(1 DOWNTO 0)
-"
+st "programmakeuze      : std_logic_vector(1 DOWNTO 0)"
 )
 )
 *49 (PortIoIn
@@ -1514,8 +1508,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-23600,39000,-22800"
-st "deur_dicht          : std_logic
-"
+st "deur_dicht          : std_logic"
 )
 )
 *51 (Net
@@ -1533,8 +1526,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-6600,42500,-5800"
-st "SIGNAL go_centrifugeren    : std_logic
-"
+st "SIGNAL go_centrifugeren    : std_logic"
 )
 )
 *52 (Net
@@ -1552,8 +1544,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-15600,39000,-14800"
-st "led_aan             : std_logic
-"
+st "led_aan             : std_logic"
 )
 )
 *53 (Net
@@ -1571,8 +1562,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-13200,39000,-12400"
-st "led_vuldeur         : std_logic
-"
+st "led_vuldeur         : std_logic"
 )
 )
 *54 (Net
@@ -1590,8 +1580,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-14800,39000,-14000"
-st "led_start           : std_logic
-"
+st "led_start           : std_logic"
 )
 )
 *55 (Net
@@ -1610,8 +1599,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-14000,49000,-13200"
-st "led_status          : std_logic_vector(2 DOWNTO 0)
-"
+st "led_status          : std_logic_vector(2 DOWNTO 0)"
 )
 )
 *56 (Net
@@ -1630,8 +1618,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,600,52500,1400"
-st "SIGNAL wassen_status       : std_logic_vector(2 DOWNTO 0)
-"
+st "SIGNAL wassen_status       : std_logic_vector(2 DOWNTO 0)"
 )
 )
 *57 (PortIoIn
@@ -1741,8 +1728,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-19600,39000,-18800"
-st "t_laag              : std_logic
-"
+st "t_laag              : std_logic"
 )
 )
 *60 (Net
@@ -1760,8 +1746,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-20400,39000,-19600"
-st "t_hoog              : std_logic
-"
+st "t_hoog              : std_logic"
 )
 )
 *61 (Net
@@ -1779,8 +1764,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-10800,39000,-10000"
-st "verwarmen           : std_logic
-"
+st "verwarmen           : std_logic"
 )
 )
 *62 (PortIoOut
@@ -1843,8 +1827,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-17200,39000,-16400"
-st "deur_grendel        : std_logic
-"
+st "deur_grendel        : std_logic"
 )
 )
 *64 (Net
@@ -1862,8 +1845,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-16400,39000,-15600"
-st "klep_open           : std_logic
-"
+st "klep_open           : std_logic"
 )
 )
 *65 (Net
@@ -1881,8 +1863,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-11600,39000,-10800"
-st "pomp_aan            : std_logic
-"
+st "pomp_aan            : std_logic"
 )
 )
 *66 (Net
@@ -1901,8 +1882,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-12400,49000,-11600"
-st "motor               : std_logic_vector(2 DOWNTO 0)
-"
+st "motor               : std_logic_vector(2 DOWNTO 0)"
 )
 )
 *67 (Net
@@ -1920,8 +1900,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-24400,39000,-23600"
-st "clk                 : std_logic
-"
+st "clk                 : std_logic"
 )
 )
 *68 (PortIoIn
@@ -2584,8 +2563,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-25200,49000,-24400"
-st "centrifugeerkeuze   : std_logic_vector(1 DOWNTO 0)
-"
+st "centrifugeerkeuze   : std_logic_vector(1 DOWNTO 0)"
 )
 )
 *83 (PortIoOut
@@ -2922,8 +2900,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-18000,39000,-17200"
-st "w_laag              : std_logic
-"
+st "w_laag              : std_logic"
 )
 )
 *91 (Net
@@ -2941,8 +2918,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-18800,39000,-18000"
-st "w_hoog              : std_logic
-"
+st "w_hoog              : std_logic"
 )
 )
 *92 (PortIoIn
@@ -3144,8 +3120,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-22800,39000,-22000"
-st "kuip_leeg           : std_logic
-"
+st "kuip_leeg           : std_logic"
 )
 )
 *97 (PortIoIn
@@ -3255,8 +3230,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-9000,42500,-8200"
-st "SIGNAL afpompen_ready      : std_logic
-"
+st "SIGNAL afpompen_ready      : std_logic"
 )
 )
 *100 (Net
@@ -3274,8 +3248,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-7400,42500,-6600"
-st "SIGNAL go_afmpompen        : std_logic
-"
+st "SIGNAL go_afmpompen        : std_logic"
 )
 )
 *101 (Net
@@ -3293,8 +3266,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-1000,42500,-200"
-st "SIGNAL verwarmen_ready     : std_logic
-"
+st "SIGNAL verwarmen_ready     : std_logic"
 )
 )
 *102 (Net
@@ -3312,8 +3284,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-4200,42500,-3400"
-st "SIGNAL go_verwarmen        : std_logic
-"
+st "SIGNAL go_verwarmen        : std_logic"
 )
 )
 *103 (Net
@@ -3331,8 +3302,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-2600,42500,-1800"
-st "SIGNAL toevoer_ready       : std_logic
-"
+st "SIGNAL toevoer_ready       : std_logic"
 )
 )
 *104 (Net
@@ -3350,8 +3320,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-5800,42500,-5000"
-st "SIGNAL go_toevoer          : std_logic
-"
+st "SIGNAL go_toevoer          : std_logic"
 )
 )
 *105 (Net
@@ -3369,8 +3338,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-1800,42500,-1000"
-st "SIGNAL trommel_ready       : std_logic
-"
+st "SIGNAL trommel_ready       : std_logic"
 )
 )
 *106 (Net
@@ -3388,8 +3356,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-5000,42500,-4200"
-st "SIGNAL go_trommel          : std_logic
-"
+st "SIGNAL go_trommel          : std_logic"
 )
 )
 *107 (PortIoOut
@@ -5838,7 +5805,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,32,1537,864"
-viewArea "4124,22201,130293,90057"
+viewArea "4124,-4787,130293,63069"
 cachedDiagramExtent "0,-28000,124900,89000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
