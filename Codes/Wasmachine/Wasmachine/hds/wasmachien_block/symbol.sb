@@ -752,19 +752,19 @@ value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\W
 )
 (vvPair
 variable "date"
-value "25/02/2025"
+value "26/02/2025"
 )
 (vvPair
 variable "day"
-value "Tue"
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "Tuesday"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "25"
+value "26"
 )
 (vvPair
 variable "entity_name"
@@ -792,7 +792,7 @@ value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value "25/02/2025"
+value "26/02/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -804,7 +804,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:57:30"
+value "00:14:00"
 )
 (vvPair
 variable "group"
@@ -900,7 +900,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:57:30"
+value "00:14:00"
 )
 (vvPair
 variable "unit"
@@ -2555,6 +2555,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1477,0
+lastUid 1546,0
 activeModelName "Symbol:CDM"
 )
