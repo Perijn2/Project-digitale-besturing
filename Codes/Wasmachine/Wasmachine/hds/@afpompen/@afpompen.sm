@@ -34,23 +34,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen\\@afpompen.sm.info"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen\\@afpompen.sm.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen\\@afpompen.sm.user"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen\\@afpompen.sm.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "appl"
@@ -66,27 +66,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Afpompen"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Afpompen"
 )
 (vvPair
 variable "date"
-value "25/02/2025"
+value "26/02/2025"
 )
 (vvPair
 variable "day"
-value "Tue"
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "Tuesday"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "25"
+value "26"
 )
 (vvPair
 variable "entity_name"
@@ -114,7 +114,7 @@ value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value "25/02/2025"
+value "26/02/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -126,7 +126,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:14:43"
+value "18:12:57"
 )
 (vvPair
 variable "group"
@@ -143,6 +143,14 @@ value "VHDL"
 (vvPair
 variable "library"
 value "Wasmachine"
+)
+(vvPair
+variable "library_downstream_HdsLintPlugin"
+value "$HDS_PROJECT_DIR/Wasmachine/designcheck"
+)
+(vvPair
+variable "library_downstream_QuestaSimCompiler"
+value "$HDS_PROJECT_DIR/Wasmachine/questasim"
 )
 (vvPair
 variable "mm"
@@ -162,11 +170,11 @@ value "February"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen\\@afpompen.sm"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen\\@afpompen.sm"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Afpompen\\Afpompen.sm"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Afpompen\\Afpompen.sm"
 )
 (vvPair
 variable "package_name"
@@ -222,7 +230,7 @@ value "Afpompen"
 )
 (vvPair
 variable "time"
-value "15:14:43"
+value "18:12:57"
 )
 (vvPair
 variable "unit"
@@ -250,6 +258,7 @@ value "25"
 )
 ]
 )
+uid 168,0
 optionalChildren [
 *1 (ConcurrentSM
 uid 1,0
@@ -1405,8 +1414,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "228,129,1244,819"
-viewArea "-500,-500,70420,47740"
+windowSize "228,129,1247,819"
+viewArea "-500,-500,70690,45220"
 cachedDiagramExtent "0,-1000,73000,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
@@ -1784,11 +1793,12 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 167,0
+lastUid 294,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *53 (LEmptyRow
 )
+uid 170,0
 optionalChildren [
 *54 (RefLabelRowHdr
 )
@@ -1871,7 +1881,7 @@ expr "clk'EVENT AND clk = '1'"
 port (LogicalPort
 lang 2
 decl (Decl
-n "go_afmpompen"
+n "go_afpompen"
 t "std_logic"
 o 3
 )
@@ -1920,6 +1930,7 @@ scheme 0
 pdm (PhysicalDM
 displayShortBounds 1
 editShortBounds 1
+uid 189,0
 optionalChildren [
 *78 (Sheet
 sheetRow (SheetRow
@@ -1943,22 +1954,26 @@ litem &53
 pos 6
 dimension 20
 )
+uid 191,0
 optionalChildren [
 *80 (MRCItem
 litem &54
 pos 0
 dimension 20
+uid 192,0
 )
 *81 (MRCItem
 litem &55
 pos 1
 dimension 23
+uid 193,0
 )
 *82 (MRCItem
 litem &56
 pos 2
 hidden 1
 dimension 20
+uid 194,0
 )
 *83 (MRCItem
 litem &72
@@ -1968,25 +1983,25 @@ uid 157,0
 )
 *84 (MRCItem
 litem &73
-pos 1
+pos 2
 dimension 20
 uid 159,0
 )
 *85 (MRCItem
 litem &74
-pos 2
+pos 3
 dimension 20
 uid 161,0
 )
 *86 (MRCItem
 litem &75
-pos 3
+pos 4
 dimension 20
 uid 163,0
 )
 *87 (MRCItem
 litem &76
-pos 4
+pos 1
 dimension 20
 uid 165,0
 )
@@ -2005,93 +2020,111 @@ fontColor "0,0,0"
 font "Tahoma,10,0"
 textAngle 90
 )
+uid 195,0
 optionalChildren [
 *89 (MRCItem
 litem &57
 pos 0
 dimension 20
+uid 196,0
 )
 *90 (MRCItem
 litem &59
 pos 1
 dimension 50
+uid 197,0
 )
 *91 (MRCItem
 litem &60
 pos 2
 dimension 70
+uid 198,0
 )
 *92 (MRCItem
 litem &61
 pos 3
 dimension 50
+uid 199,0
 )
 *93 (MRCItem
 litem &62
 pos 4
 dimension 80
+uid 200,0
 )
 *94 (MRCItem
 litem &63
 pos 5
 dimension 80
+uid 201,0
 )
 *95 (MRCItem
 litem &64
 pos 6
 dimension 40
+uid 202,0
 )
 *96 (MRCItem
 litem &65
 pos 7
 dimension 100
+uid 203,0
 )
 *97 (MRCItem
 litem &66
 pos 8
 dimension 60
+uid 204,0
 )
 *98 (MRCItem
 litem &67
 pos 9
 dimension 130
+uid 205,0
 )
 *99 (MRCItem
 litem &68
 pos 10
 dimension 56
+uid 206,0
 )
 *100 (MRCItem
 litem &69
 pos 11
 dimension 50
+uid 207,0
 )
 *101 (MRCItem
 litem &70
 pos 12
 dimension 50
+uid 208,0
 )
 *102 (MRCItem
 litem &71
 pos 13
 dimension 80
+uid 209,0
 )
 ]
 )
 fixedCol 4
 fixedRow 2
 name "Ports"
+uid 190,0
 vaOverrides [
 ]
 )
 ]
 )
+uid 169,0
 )
 cdmCsm &1
 genericsCommonDM (CommonDM
 ldm (LogicalDM
 emptyRow *103 (LEmptyRow
 )
+uid 211,0
 optionalChildren [
 *104 (RefLabelRowHdr
 )
@@ -2128,6 +2161,7 @@ tm "GenericEolColHdrMgr"
 pdm (PhysicalDM
 displayShortBounds 1
 editShortBounds 1
+uid 223,0
 optionalChildren [
 *115 (Sheet
 sheetRow (SheetRow
@@ -2151,22 +2185,26 @@ litem &103
 pos 0
 dimension 20
 )
+uid 225,0
 optionalChildren [
 *117 (MRCItem
 litem &104
 pos 0
 dimension 20
+uid 226,0
 )
 *118 (MRCItem
 litem &105
 pos 1
 dimension 23
+uid 227,0
 )
 *119 (MRCItem
 litem &106
 pos 2
 hidden 1
 dimension 20
+uid 228,0
 )
 ]
 )
@@ -2177,52 +2215,62 @@ fontColor "0,0,0"
 font "Tahoma,10,0"
 textAngle 90
 )
+uid 229,0
 optionalChildren [
 *120 (MRCItem
 litem &107
 pos 0
 dimension 20
+uid 230,0
 )
 *121 (MRCItem
 litem &109
 pos 1
 dimension 50
+uid 231,0
 )
 *122 (MRCItem
 litem &110
 pos 2
 dimension 100
+uid 232,0
 )
 *123 (MRCItem
 litem &111
 pos 3
 dimension 100
+uid 233,0
 )
 *124 (MRCItem
 litem &112
 pos 4
 dimension 50
+uid 234,0
 )
 *125 (MRCItem
 litem &113
 pos 5
 dimension 50
+uid 235,0
 )
 *126 (MRCItem
 litem &114
 pos 6
 dimension 80
+uid 236,0
 )
 ]
 )
 fixedCol 3
 fixedRow 2
 name "Ports"
+uid 224,0
 vaOverrides [
 ]
 )
 ]
 )
+uid 210,0
 type 1
 )
 signalSuffix "_int"
@@ -2812,7 +2860,7 @@ va (VaSet
 vasetType 1
 transparent 1
 )
-xt "-371,971,-115,1279"
+xt "-443,924,-115,1325"
 )
 ]
 )
@@ -2889,7 +2937,7 @@ va (VaSet
 vasetType 1
 transparent 1
 )
-xt "-415,1064,-76,1263"
+xt "-425,943,-76,1304"
 )
 (Line
 sl 0
@@ -3104,6 +3152,6 @@ pts [
 ]
 )
 )
-activeModelName "StateMachine"
+activeModelName "StateMachine:CDM"
 LanguageMgr "Vhdl93LangMgr"
 )
