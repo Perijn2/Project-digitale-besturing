@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom logic
+DEFAULT_FILE atom wasmachien_block_tester_logic.vhd

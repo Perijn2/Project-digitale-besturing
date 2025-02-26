@@ -1,9 +1,13 @@
+[DesignChecker]
+Wasmachine = $HDS_PROJECT_DIR\Wasmachine\designcheck
+[QuestaSim]
+Wasmachine = $HDS_PROJECT_DIR\Wasmachine\questasim
 [hdl]
-Wasmachine = $HDS_PROJECT_DIR\Wasmachine\hdl
-Wasmachine_lib = $HDS_PROJECT_DIR\Wasmachine_lib\hdl
+Wasmachine = $HDS_PROJECT_DIR/Wasmachine/hdl
+Wasmachine_lib = $HDS_PROJECT_DIR/Wasmachine_lib/hdl
 [hds]
-Wasmachine = $HDS_PROJECT_DIR\Wasmachine\hds
-Wasmachine_lib = $HDS_PROJECT_DIR\Wasmachine_lib\hds
+Wasmachine = $HDS_PROJECT_DIR/Wasmachine/hds
+Wasmachine_lib = $HDS_PROJECT_DIR/Wasmachine_lib/hds
 [hds_settings]
 default_library = Wasmachine
 project_description = Digitale besturing project

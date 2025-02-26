@@ -1,0 +1,40 @@
+# vsim -f hds_args.tmp -no_autoacc -foreign "hdsInit C:/MentorGraphics/HDS_2022.1/resources/downstream/modelsim/ModelSim_64Bit.dll" -pli ""C:/MentorGraphics/HDS_2022.1/resources/downstream/modelsim/ModelSim_64Bit.dll"" 
+# Start time: 00:36:00 on Feb 26,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.wasmachien_block_tester(logic)#1
+# Loading C:/MentorGraphics/HDS_2022.1/resources/downstream/modelsim/ModelSim_64Bit.dll
+add wave -position insertpoint  \
+sim:/wasmachien_block_tester/clk \
+sim:/wasmachien_block_tester/aan_uit
+add wave -position insertpoint  \
+sim:/wasmachien_block_tester/centrifugeerkeuze
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+# End time: 00:36:45 on Feb 26,2025, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 0
