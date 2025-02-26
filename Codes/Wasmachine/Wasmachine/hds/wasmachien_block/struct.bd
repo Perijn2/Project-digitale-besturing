@@ -34,7 +34,7 @@ uid 417,0
 (Instance
 name "U_3"
 duLibraryName "Wasmachine"
-duName "Verwarmen"
+duName "Verwarming"
 elements [
 ]
 mwi 0
@@ -89,23 +89,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\struct.bd.info"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\struct.bd.user"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "appl"
@@ -121,11 +121,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block"
 )
 (vvPair
 variable "date"
@@ -181,7 +181,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "00:14:00"
+value "17:47:48"
 )
 (vvPair
 variable "group"
@@ -198,6 +198,14 @@ value "VHDL"
 (vvPair
 variable "library"
 value "Wasmachine"
+)
+(vvPair
+variable "library_downstream_HdsLintPlugin"
+value "$HDS_PROJECT_DIR/Wasmachine/designcheck"
+)
+(vvPair
+variable "library_downstream_QuestaSimCompiler"
+value "$HDS_PROJECT_DIR/Wasmachine/questasim"
 )
 (vvPair
 variable "mm"
@@ -217,11 +225,11 @@ value "February"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\struct.bd"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\struct.bd"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -277,7 +285,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "00:14:00"
+value "17:47:48"
 )
 (vvPair
 variable "unit"
@@ -828,8 +836,8 @@ uid 431,0
 va (VaSet
 font "arial,8,1"
 )
-xt "103200,7500,107600,8500"
-st "Verwarmen"
+xt "103200,7500,108300,8500"
+st "Verwarming"
 blo "103200,8300"
 tm "BlkNameMgr"
 )
@@ -5928,7 +5936,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,32,1537,864"
-viewArea "-5051,-2056,95884,52229"
+viewArea "36634,-2100,137427,52108"
 cachedDiagramExtent "0,-28000,124900,89000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -5952,7 +5960,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-10000,-81000"
-lastUid 2841,0
+lastUid 3004,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
