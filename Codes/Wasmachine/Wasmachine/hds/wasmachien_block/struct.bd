@@ -89,23 +89,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
+value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\struct.bd.info"
+value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\struct.bd.user"
+value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "appl"
@@ -121,23 +121,23 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block"
+value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block"
+value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block"
 )
 (vvPair
 variable "date"
-value "26/02/2025"
+value "26-02-2025"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "wo"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "woensdag"
 )
 (vvPair
 variable "dd"
@@ -165,11 +165,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "Perij"
+value "jesse"
 )
 (vvPair
 variable "graphical_source_date"
-value "26/02/2025"
+value "26-02-2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -177,11 +177,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "LAPTOP-Q0P13GKH"
+value "MSI"
 )
 (vvPair
 variable "graphical_source_time"
-value "00:14:00"
+value "13:31:39"
 )
 (vvPair
 variable "group"
@@ -189,7 +189,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "LAPTOP-Q0P13GKH"
+value "MSI"
 )
 (vvPair
 variable "language"
@@ -198,6 +198,14 @@ value "VHDL"
 (vvPair
 variable "library"
 value "Wasmachine"
+)
+(vvPair
+variable "library_downstream_HdsLintPlugin"
+value "$HDS_PROJECT_DIR/Wasmachine/designcheck"
+)
+(vvPair
+variable "library_downstream_QuestaSimCompiler"
+value "$HDS_PROJECT_DIR/Wasmachine/questasim"
 )
 (vvPair
 variable "mm"
@@ -209,19 +217,19 @@ value "wasmachien_block"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "feb"
 )
 (vvPair
 variable "month_long"
-value "February"
+value "februari"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\struct.bd"
+value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\struct.bd"
+value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -245,7 +253,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "<TBD>"
+value "C:\\Users\\jesse\\Downloads\\win64"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -257,7 +265,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_QuestaSimPath"
-value "C:\\questasim64_2022.1\\win64"
+value "C:\\Users\\jesse\\Desktop\\questasim\\win64"
 )
 (vvPair
 variable "task_VCSPath"
@@ -277,7 +285,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "00:14:00"
+value "13:31:39"
 )
 (vvPair
 variable "unit"
@@ -285,7 +293,7 @@ value "wasmachien_block"
 )
 (vvPair
 variable "user"
-value "Perij"
+value "jesse"
 )
 (vvPair
 variable "version"
@@ -329,7 +337,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "72200,88000,81300,89000"
+xt "72200,88000,81200,89000"
 st "
 by %user on %dd %month %year
 "
@@ -3234,24 +3242,6 @@ st "SIGNAL afpompen_ready      : std_logic"
 )
 )
 *100 (Net
-uid 1998,0
-lang 2
-decl (Decl
-n "go_afmpompen"
-t "std_logic"
-o 29
-suid 100,0
-)
-declText (MLText
-uid 1999,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "22000,-7400,42500,-6600"
-st "SIGNAL go_afmpompen        : std_logic"
-)
-)
-*101 (Net
 uid 2020,0
 lang 2
 decl (Decl
@@ -3269,7 +3259,7 @@ xt "22000,-1000,42500,-200"
 st "SIGNAL verwarmen_ready     : std_logic"
 )
 )
-*102 (Net
+*101 (Net
 uid 2022,0
 lang 2
 decl (Decl
@@ -3287,7 +3277,7 @@ xt "22000,-4200,42500,-3400"
 st "SIGNAL go_verwarmen        : std_logic"
 )
 )
-*103 (Net
+*102 (Net
 uid 2044,0
 lang 2
 decl (Decl
@@ -3305,7 +3295,7 @@ xt "22000,-2600,42500,-1800"
 st "SIGNAL toevoer_ready       : std_logic"
 )
 )
-*104 (Net
+*103 (Net
 uid 2046,0
 lang 2
 decl (Decl
@@ -3323,7 +3313,7 @@ xt "22000,-5800,42500,-5000"
 st "SIGNAL go_toevoer          : std_logic"
 )
 )
-*105 (Net
+*104 (Net
 uid 2068,0
 lang 2
 decl (Decl
@@ -3341,7 +3331,7 @@ xt "22000,-1800,42500,-1000"
 st "SIGNAL trommel_ready       : std_logic"
 )
 )
-*106 (Net
+*105 (Net
 uid 2070,0
 lang 2
 decl (Decl
@@ -3359,7 +3349,7 @@ xt "22000,-5000,42500,-4200"
 st "SIGNAL go_trommel          : std_logic"
 )
 )
-*107 (PortIoOut
+*106 (PortIoOut
 uid 2136,0
 shape (CompositeShape
 uid 2137,0
@@ -3404,7 +3394,7 @@ tm "WireNameMgr"
 )
 )
 )
-*108 (PortIoOut
+*107 (PortIoOut
 uid 2142,0
 shape (CompositeShape
 uid 2143,0
@@ -3449,7 +3439,7 @@ tm "WireNameMgr"
 )
 )
 )
-*109 (PortIoOut
+*108 (PortIoOut
 uid 2148,0
 shape (CompositeShape
 uid 2149,0
@@ -3494,7 +3484,7 @@ tm "WireNameMgr"
 )
 )
 )
-*110 (PortIoOut
+*109 (PortIoOut
 uid 2154,0
 shape (CompositeShape
 uid 2155,0
@@ -3539,7 +3529,7 @@ tm "WireNameMgr"
 )
 )
 )
-*111 (PortIoOut
+*110 (PortIoOut
 uid 2160,0
 shape (CompositeShape
 uid 2161,0
@@ -3584,7 +3574,7 @@ tm "WireNameMgr"
 )
 )
 )
-*112 (PortIoIn
+*111 (PortIoIn
 uid 2504,0
 shape (CompositeShape
 uid 2505,0
@@ -3628,6 +3618,24 @@ ju 2
 blo "44000,23300"
 tm "WireNameMgr"
 )
+)
+)
+*112 (Net
+uid 3013,0
+lang 2
+decl (Decl
+n "go_afpompen"
+t "std_logic"
+o 34
+suid 114,0
+)
+declText (MLText
+uid 3014,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "22000,-7400,42500,-6600"
+st "SIGNAL go_afpompen         : std_logic"
 )
 )
 *113 (Wire
@@ -3684,9 +3692,8 @@ pts [
 ]
 )
 start &31
-end &16
 sat 32
-eat 1
+eat 16
 sty 1
 stc 0
 st 0
@@ -3876,7 +3883,7 @@ pts [
 ]
 )
 start &12
-end &107
+end &106
 sat 2
 eat 32
 st 0
@@ -3914,7 +3921,7 @@ pts [
 ]
 )
 start &12
-end &108
+end &107
 sat 2
 eat 32
 st 0
@@ -3952,7 +3959,7 @@ pts [
 ]
 )
 start &12
-end &109
+end &108
 sat 2
 eat 32
 st 0
@@ -3991,7 +3998,7 @@ pts [
 ]
 )
 start &12
-end &110
+end &109
 sat 2
 eat 32
 sty 1
@@ -4186,7 +4193,7 @@ pts [
 ]
 )
 start &12
-end &111
+end &110
 sat 2
 eat 32
 st 0
@@ -5283,7 +5290,7 @@ blo "94000,5800"
 tm "WireNameMgr"
 )
 )
-on &101
+on &100
 )
 *156 (Wire
 uid 2012,0
@@ -5320,7 +5327,7 @@ blo "63000,7800"
 tm "WireNameMgr"
 )
 )
-on &102
+on &101
 )
 *157 (Wire
 uid 2026,0
@@ -5357,7 +5364,7 @@ blo "95000,23800"
 tm "WireNameMgr"
 )
 )
-on &103
+on &102
 )
 *158 (Wire
 uid 2036,0
@@ -5394,7 +5401,7 @@ blo "63000,25800"
 tm "WireNameMgr"
 )
 )
-on &104
+on &103
 )
 *159 (Wire
 uid 2050,0
@@ -5445,7 +5452,7 @@ blo "95000,42800"
 tm "WireNameMgr"
 )
 )
-on &105
+on &104
 )
 *161 (Wire
 uid 2060,0
@@ -5496,7 +5503,7 @@ blo "95000,44800"
 tm "WireNameMgr"
 )
 )
-on &106
+on &105
 )
 *163 (Wire
 uid 2072,0
@@ -5650,13 +5657,13 @@ uid 2101,0
 va (VaSet
 font "arial,8,0"
 )
-xt "63000,33000,69000,34000"
-st "go_afmpompen"
+xt "63000,33000,68300,34000"
+st "go_afpompen"
 blo "63000,33800"
 tm "WireNameMgr"
 )
 )
-on &100
+on &112
 )
 *167 (Wire
 uid 2104,0
@@ -5695,7 +5702,7 @@ blo "63000,30800"
 tm "WireNameMgr"
 )
 )
-on &105
+on &104
 )
 *168 (Wire
 uid 2112,0
@@ -5734,7 +5741,7 @@ blo "63000,29800"
 tm "WireNameMgr"
 )
 )
-on &106
+on &105
 )
 *169 (Wire
 uid 2510,0
@@ -5749,10 +5756,9 @@ pts [
 "53000,23000"
 ]
 )
-start &112
-end &16
+start &111
 sat 32
-eat 1
+eat 16
 stc 0
 st 0
 sf 1
@@ -5928,7 +5934,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,32,1537,864"
-viewArea "-5051,-2056,95884,52229"
+viewArea "42486,35861,143279,90069"
 cachedDiagramExtent "0,-28000,124900,89000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -5952,7 +5958,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-10000,-81000"
-lastUid 2841,0
+lastUid 3183,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -7012,7 +7018,7 @@ tm "BdDeclarativeTextMgr"
 )
 commonDM (CommonDM
 ldm (LogicalDM
-suid 113,0
+suid 114,0
 usingSuid 1
 emptyRow *202 (LEmptyRow
 )
@@ -7388,19 +7394,6 @@ port (LogicalPort
 lang 2
 m 4
 decl (Decl
-n "go_afmpompen"
-t "std_logic"
-o 29
-suid 100,0
-)
-)
-uid 2122,0
-)
-*242 (LeafLogPort
-port (LogicalPort
-lang 2
-m 4
-decl (Decl
 n "verwarmen_ready"
 t "std_logic"
 o 30
@@ -7409,7 +7402,7 @@ suid 103,0
 )
 uid 2124,0
 )
-*243 (LeafLogPort
+*242 (LeafLogPort
 port (LogicalPort
 lang 2
 m 4
@@ -7422,7 +7415,7 @@ suid 104,0
 )
 uid 2126,0
 )
-*244 (LeafLogPort
+*243 (LeafLogPort
 port (LogicalPort
 lang 2
 m 4
@@ -7435,7 +7428,7 @@ suid 107,0
 )
 uid 2128,0
 )
-*245 (LeafLogPort
+*244 (LeafLogPort
 port (LogicalPort
 lang 2
 m 4
@@ -7448,7 +7441,7 @@ suid 108,0
 )
 uid 2130,0
 )
-*246 (LeafLogPort
+*245 (LeafLogPort
 port (LogicalPort
 lang 2
 m 4
@@ -7461,7 +7454,7 @@ suid 111,0
 )
 uid 2132,0
 )
-*247 (LeafLogPort
+*246 (LeafLogPort
 port (LogicalPort
 lang 2
 m 4
@@ -7473,6 +7466,19 @@ suid 112,0
 )
 )
 uid 2134,0
+)
+*247 (LeafLogPort
+port (LogicalPort
+lang 2
+m 4
+decl (Decl
+n "go_afpompen"
+t "std_logic"
+o 34
+suid 114,0
+)
+)
+uid 3015,0
 )
 ]
 )
@@ -7684,43 +7690,43 @@ uid 2121,0
 litem &241
 pos 26
 dimension 20
-uid 2123,0
+uid 2125,0
 )
 *280 (MRCItem
 litem &242
 pos 27
 dimension 20
-uid 2125,0
+uid 2127,0
 )
 *281 (MRCItem
 litem &243
 pos 28
 dimension 20
-uid 2127,0
+uid 2129,0
 )
 *282 (MRCItem
 litem &244
 pos 29
 dimension 20
-uid 2129,0
+uid 2131,0
 )
 *283 (MRCItem
 litem &245
 pos 30
 dimension 20
-uid 2131,0
+uid 2133,0
 )
 *284 (MRCItem
 litem &246
 pos 31
 dimension 20
-uid 2133,0
+uid 2135,0
 )
 *285 (MRCItem
 litem &247
 pos 32
 dimension 20
-uid 2135,0
+uid 3016,0
 )
 ]
 )

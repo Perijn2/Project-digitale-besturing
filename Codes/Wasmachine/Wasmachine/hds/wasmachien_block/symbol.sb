@@ -712,23 +712,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
+value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\symbol.sb.info"
+value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\symbol.sb.user"
+value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "appl"
@@ -744,23 +744,23 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block"
+value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block"
+value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block"
 )
 (vvPair
 variable "date"
-value "26/02/2025"
+value "26-02-2025"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "wo"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "woensdag"
 )
 (vvPair
 variable "dd"
@@ -788,11 +788,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "Perij"
+value "jesse"
 )
 (vvPair
 variable "graphical_source_date"
-value "26/02/2025"
+value "26-02-2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -800,11 +800,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "LAPTOP-Q0P13GKH"
+value "MSI"
 )
 (vvPair
 variable "graphical_source_time"
-value "00:14:00"
+value "13:31:39"
 )
 (vvPair
 variable "group"
@@ -812,7 +812,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "LAPTOP-Q0P13GKH"
+value "MSI"
 )
 (vvPair
 variable "language"
@@ -821,6 +821,14 @@ value "VHDL"
 (vvPair
 variable "library"
 value "Wasmachine"
+)
+(vvPair
+variable "library_downstream_HdsLintPlugin"
+value "$HDS_PROJECT_DIR/Wasmachine/designcheck"
+)
+(vvPair
+variable "library_downstream_QuestaSimCompiler"
+value "$HDS_PROJECT_DIR/Wasmachine/questasim"
 )
 (vvPair
 variable "mm"
@@ -832,19 +840,19 @@ value "wasmachien_block"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "feb"
 )
 (vvPair
 variable "month_long"
-value "February"
+value "februari"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\symbol.sb"
+value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\symbol.sb"
+value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -868,7 +876,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "<TBD>"
+value "C:\\Users\\jesse\\Downloads\\win64"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -880,7 +888,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_QuestaSimPath"
-value "C:\\questasim64_2022.1\\win64"
+value "C:\\Users\\jesse\\Desktop\\questasim\\win64"
 )
 (vvPair
 variable "task_VCSPath"
@@ -900,7 +908,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "00:14:00"
+value "13:31:39"
 )
 (vvPair
 variable "unit"
@@ -908,7 +916,7 @@ value "wasmachien_block"
 )
 (vvPair
 variable "user"
-value "Perij"
+value "jesse"
 )
 (vvPair
 variable "version"
@@ -1939,7 +1947,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,45300,49000"
+xt "36200,48000,45200,49000"
 st "
 by %user on %dd %month %year
 "
@@ -2555,6 +2563,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1546,0
+lastUid 1615,0
 activeModelName "Symbol:CDM"
 )
