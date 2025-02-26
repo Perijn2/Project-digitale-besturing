@@ -804,7 +804,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "17:47:48"
+value "18:15:34"
 )
 (vvPair
 variable "group"
@@ -908,7 +908,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "17:47:48"
+value "18:15:34"
 )
 (vvPair
 variable "unit"
@@ -2563,6 +2563,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1661,0
+lastUid 1684,0
 activeModelName "Symbol:CDM"
 )
