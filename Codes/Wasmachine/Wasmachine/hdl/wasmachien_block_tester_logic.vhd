@@ -44,6 +44,7 @@ ARCHITECTURE logic OF wasmachien_block_tester IS
 BEGIN
   
   aan_uit <= '0', '1' after 100 ns;
+  start <= '0', '1' after 500 ns;
   
   clk_signal:
   process

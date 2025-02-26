@@ -1,0 +1,151 @@
+DESIGN @wassen
+VIEW interface
+NO_GRAPHIC 0
+DESIGN @wassen
+VIEW interface
+GRAPHIC 50,0 8 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 891,0 14 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 896,0 15 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 901,0 16 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 906,0 17 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 911,0 18 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 941,0 19 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 946,0 20 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 951,0 21 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 956,0 22 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 961,0 23 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 966,0 24 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 971,0 25 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 976,0 26 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 981,0 27 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 916,0 28 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 921,0 29 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 926,0 30 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 931,0 31 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 936,0 32 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 986,0 33 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 991,0 34 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 1,0 37 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 1,0 38 0 
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 31,0 50 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+NO_GRAPHIC 53
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 2,0 67 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+NO_GRAPHIC 68
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 2,0 71 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+NO_GRAPHIC 72
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 70,0 73 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 60,0 75 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+NO_GRAPHIC 76
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 2,0 78 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+NO_GRAPHIC 79
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 2,0 81 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+NO_GRAPHIC 82
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 2,0 86 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 43,0 87 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 93,0 89 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+NO_GRAPHIC 91
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 2,0 92 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+NO_GRAPHIC 93

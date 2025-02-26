@@ -138,7 +138,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "00:18:47"
+value "14:47:22"
 )
 (vvPair
 variable "group"
@@ -155,6 +155,14 @@ value "VHDL"
 (vvPair
 variable "library"
 value "Wasmachine"
+)
+(vvPair
+variable "library_downstream_HdsLintPlugin"
+value "$HDS_PROJECT_DIR/Wasmachine/designcheck"
+)
+(vvPair
+variable "library_downstream_QuestaSimCompiler"
+value "$HDS_PROJECT_DIR/Wasmachine/questasim"
 )
 (vvPair
 variable "mm"
@@ -234,7 +242,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "00:18:47"
+value "14:47:22"
 )
 (vvPair
 variable "unit"
@@ -3394,12 +3402,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1544,832"
-viewArea "20884,11002,97146,52013"
+windowSize "0,0,1537,840"
+viewArea "20900,3112,96822,42784"
 cachedDiagramExtent "0,0,93400,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 688,0
+lastUid 831,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

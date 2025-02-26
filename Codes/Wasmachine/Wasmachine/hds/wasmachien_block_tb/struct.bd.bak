@@ -138,7 +138,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "00:18:15"
+value "00:18:47"
 )
 (vvPair
 variable "group"
@@ -234,7 +234,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "00:18:15"
+value "00:18:47"
 )
 (vvPair
 variable "unit"
@@ -263,6 +263,7 @@ value "25"
 ]
 )
 LanguageMgr "Vhdl93LangMgr"
+uid 512,0
 optionalChildren [
 *1 (SaComponent
 uid 89,0
@@ -1109,8 +1110,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,16600,41500,17400"
-st "SIGNAL verwarmen         : std_logic
-"
+st "SIGNAL verwarmen         : std_logic"
 )
 )
 *26 (Net
@@ -1128,8 +1128,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7000,41500,7800"
-st "SIGNAL klep_open         : std_logic
-"
+st "SIGNAL klep_open         : std_logic"
 )
 )
 *27 (Net
@@ -1147,8 +1146,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,12600,41500,13400"
-st "SIGNAL pomp_aan          : std_logic
-"
+st "SIGNAL pomp_aan          : std_logic"
 )
 )
 *28 (Net
@@ -1167,8 +1165,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,11800,51500,12600"
-st "SIGNAL motor             : std_logic_vector(2 DOWNTO 0)
-"
+st "SIGNAL motor             : std_logic_vector(2 DOWNTO 0)"
 )
 )
 *29 (Net
@@ -1186,8 +1183,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,8600,41500,9400"
-st "SIGNAL led_aan           : std_logic
-"
+st "SIGNAL led_aan           : std_logic"
 )
 )
 *30 (Net
@@ -1205,8 +1201,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,11000,41500,11800"
-st "SIGNAL led_vuldeur       : std_logic
-"
+st "SIGNAL led_vuldeur       : std_logic"
 )
 )
 *31 (Net
@@ -1224,8 +1219,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,9400,41500,10200"
-st "SIGNAL led_start         : std_logic
-"
+st "SIGNAL led_start         : std_logic"
 )
 )
 *32 (Net
@@ -1244,8 +1238,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,10200,51500,11000"
-st "SIGNAL led_status        : std_logic_vector(2 DOWNTO 0)
-"
+st "SIGNAL led_status        : std_logic_vector(2 DOWNTO 0)"
 )
 )
 *33 (Net
@@ -1263,8 +1256,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,6200,41500,7000"
-st "SIGNAL deur_grendel      : std_logic
-"
+st "SIGNAL deur_grendel      : std_logic"
 )
 )
 *34 (Net
@@ -1282,8 +1274,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,14200,41500,15000"
-st "SIGNAL start             : std_logic
-"
+st "SIGNAL start             : std_logic"
 )
 )
 *35 (Net
@@ -1301,8 +1292,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3000,41500,3800"
-st "SIGNAL aan_uit           : std_logic
-"
+st "SIGNAL aan_uit           : std_logic"
 )
 )
 *36 (Net
@@ -1321,8 +1311,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3800,51500,4600"
-st "SIGNAL centrifugeerkeuze : std_logic_vector(1 DOWNTO 0)
-"
+st "SIGNAL centrifugeerkeuze : std_logic_vector(1 DOWNTO 0)"
 )
 )
 *37 (Net
@@ -1341,8 +1330,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,13400,51500,14200"
-st "SIGNAL programmakeuze    : std_logic_vector(1 DOWNTO 0)
-"
+st "SIGNAL programmakeuze    : std_logic_vector(1 DOWNTO 0)"
 )
 )
 *38 (Net
@@ -1360,8 +1348,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,5400,41500,6200"
-st "SIGNAL deur_dicht        : std_logic
-"
+st "SIGNAL deur_dicht        : std_logic"
 )
 )
 *39 (Net
@@ -1379,8 +1366,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,15800,41500,16600"
-st "SIGNAL t_laag            : std_logic
-"
+st "SIGNAL t_laag            : std_logic"
 )
 )
 *40 (Net
@@ -1398,8 +1384,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,15000,41500,15800"
-st "SIGNAL t_hoog            : std_logic
-"
+st "SIGNAL t_hoog            : std_logic"
 )
 )
 *41 (Net
@@ -1417,8 +1402,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4600,41500,5400"
-st "SIGNAL clk               : std_logic
-"
+st "SIGNAL clk               : std_logic"
 )
 )
 *42 (Net
@@ -1436,8 +1420,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,18200,41500,19000"
-st "SIGNAL w_laag            : std_logic
-"
+st "SIGNAL w_laag            : std_logic"
 )
 )
 *43 (Net
@@ -1455,8 +1438,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,17400,41500,18200"
-st "SIGNAL w_hoog            : std_logic
-"
+st "SIGNAL w_hoog            : std_logic"
 )
 )
 *44 (Net
@@ -1474,8 +1456,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7800,41500,8600"
-st "SIGNAL kuip_leeg         : std_logic
-"
+st "SIGNAL kuip_leeg         : std_logic"
 )
 )
 *45 (Blk
@@ -1552,8 +1533,9 @@ vasetType 1
 fg "49152,49152,49152"
 )
 xt "62250,39250,63750,40750"
-iconName "UnknownFile.png"
-iconMaskName "UnknownFile.msk"
+iconName "VhdlFileViewIcon.png"
+iconMaskName "VhdlFileViewIcon.msk"
+ftype 10
 )
 viewiconposition 0
 )
@@ -1856,7 +1838,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,47000,45200,48000"
+xt "36200,47000,51700,48000"
 st "
 %library/%unit/%view
 "
@@ -3412,11 +3394,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,1015,690"
-viewArea "0,0,0,0"
-cachedDiagramExtent "0,0,0,0"
+windowSize "-8,-8,1544,832"
+viewArea "20884,11002,97146,52013"
+cachedDiagramExtent "0,0,93400,49000"
+hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 511,0
+lastUid 688,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -4480,6 +4463,7 @@ suid 20,0
 usingSuid 1
 emptyRow *131 (LEmptyRow
 )
+uid 514,0
 optionalChildren [
 *132 (RefLabelRowHdr
 )
@@ -4783,6 +4767,7 @@ uid 499,0
 pdm (PhysicalDM
 displayShortBounds 1
 editShortBounds 1
+uid 527,0
 optionalChildren [
 *164 (Sheet
 sheetRow (SheetRow
@@ -4803,25 +4788,29 @@ font "Tahoma,10,0"
 )
 emptyMRCItem *165 (MRCItem
 litem &131
-pos 3
+pos 20
 dimension 20
 )
+uid 529,0
 optionalChildren [
 *166 (MRCItem
 litem &132
 pos 0
 dimension 20
+uid 530,0
 )
 *167 (MRCItem
 litem &133
 pos 1
 dimension 23
+uid 531,0
 )
 *168 (MRCItem
 litem &134
 pos 2
 hidden 1
 dimension 20
+uid 532,0
 )
 *169 (MRCItem
 litem &144
@@ -4952,62 +4941,74 @@ fontColor "0,0,0"
 font "Tahoma,10,0"
 textAngle 90
 )
+uid 533,0
 optionalChildren [
 *189 (MRCItem
 litem &135
 pos 0
 dimension 20
+uid 534,0
 )
 *190 (MRCItem
 litem &137
 pos 1
 dimension 50
+uid 535,0
 )
 *191 (MRCItem
 litem &138
 pos 2
 dimension 100
+uid 536,0
 )
 *192 (MRCItem
 litem &139
 pos 3
 dimension 50
+uid 537,0
 )
 *193 (MRCItem
 litem &140
 pos 4
 dimension 100
+uid 538,0
 )
 *194 (MRCItem
 litem &141
 pos 5
 dimension 100
+uid 539,0
 )
 *195 (MRCItem
 litem &142
 pos 6
 dimension 50
+uid 540,0
 )
 *196 (MRCItem
 litem &143
 pos 7
 dimension 80
+uid 541,0
 )
 ]
 )
 fixedCol 4
 fixedRow 2
 name "Ports"
+uid 528,0
 vaOverrides [
 ]
 )
 ]
 )
+uid 513,0
 )
 genericsCommonDM (CommonDM
 ldm (LogicalDM
 emptyRow *197 (LEmptyRow
 )
+uid 543,0
 optionalChildren [
 *198 (RefLabelRowHdr
 )
@@ -5044,6 +5045,7 @@ tm "GenericEolColHdrMgr"
 pdm (PhysicalDM
 displayShortBounds 1
 editShortBounds 1
+uid 555,0
 optionalChildren [
 *209 (Sheet
 sheetRow (SheetRow
@@ -5064,25 +5066,29 @@ font "Tahoma,10,0"
 )
 emptyMRCItem *210 (MRCItem
 litem &197
-pos 3
+pos 0
 dimension 20
 )
+uid 557,0
 optionalChildren [
 *211 (MRCItem
 litem &198
 pos 0
 dimension 20
+uid 558,0
 )
 *212 (MRCItem
 litem &199
 pos 1
 dimension 23
+uid 559,0
 )
 *213 (MRCItem
 litem &200
 pos 2
 hidden 1
 dimension 20
+uid 560,0
 )
 ]
 )
@@ -5093,52 +5099,63 @@ fontColor "0,0,0"
 font "Tahoma,10,0"
 textAngle 90
 )
+uid 561,0
 optionalChildren [
 *214 (MRCItem
 litem &201
 pos 0
 dimension 20
+uid 562,0
 )
 *215 (MRCItem
 litem &203
 pos 1
 dimension 50
+uid 563,0
 )
 *216 (MRCItem
 litem &204
 pos 2
 dimension 100
+uid 564,0
 )
 *217 (MRCItem
 litem &205
 pos 3
 dimension 100
+uid 565,0
 )
 *218 (MRCItem
 litem &206
 pos 4
 dimension 50
+uid 566,0
 )
 *219 (MRCItem
 litem &207
 pos 5
 dimension 50
+uid 567,0
 )
 *220 (MRCItem
 litem &208
 pos 6
 dimension 80
+uid 568,0
 )
 ]
 )
 fixedCol 3
 fixedRow 2
 name "Ports"
+uid 556,0
 vaOverrides [
 ]
 )
 ]
 )
+uid 542,0
 type 1
 )
+activeModelName "BlockDiag"
 )

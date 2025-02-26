@@ -804,7 +804,21 @@ value "MSI"
 )
 (vvPair
 variable "graphical_source_time"
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 value "13:31:39"
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+value "14:47:26"
+=======
+value "13:31:39"
+>>>>>>> 360e3e768a909cdd366583d0bbd4e00cd60d2969
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 )
 (vvPair
 variable "group"
@@ -908,7 +922,21 @@ value "symbol"
 )
 (vvPair
 variable "time"
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 value "13:31:39"
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+value "14:47:26"
+=======
+value "13:31:39"
+>>>>>>> 360e3e768a909cdd366583d0bbd4e00cd60d2969
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 )
 (vvPair
 variable "unit"
@@ -2563,6 +2591,20 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 lastUid 1615,0
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+lastUid 1730,0
+=======
+lastUid 1615,0
+>>>>>>> 360e3e768a909cdd366583d0bbd4e00cd60d2969
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 activeModelName "Symbol:CDM"
 )

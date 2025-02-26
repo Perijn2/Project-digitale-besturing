@@ -1,0 +1,106 @@
+DESIGN @centrifugeren
+VIEW interface
+NO_GRAPHIC 0
+DESIGN @centrifugeren
+VIEW interface
+GRAPHIC 50,0 8 0 
+DESIGN @centrifugeren
+VIEW interface
+GRAPHIC 295,0 14 0 
+DESIGN @centrifugeren
+VIEW interface
+GRAPHIC 305,0 15 0 
+DESIGN @centrifugeren
+VIEW interface
+GRAPHIC 310,0 16 0 
+DESIGN @centrifugeren
+VIEW interface
+GRAPHIC 320,0 17 0 
+DESIGN @centrifugeren
+VIEW interface
+GRAPHIC 300,0 18 0 
+DESIGN @centrifugeren
+VIEW interface
+GRAPHIC 315,0 19 0 
+DESIGN @centrifugeren
+VIEW interface
+GRAPHIC 1,0 22 0 
+DESIGN @centrifugeren
+VIEW interface
+GRAPHIC 1,0 23 0 
+LIBRARY Wasmachine
+DESIGN @centrifugeren
+VIEW @centrifugeren.sm
+GRAPHIC 31,0 35 0
+LIBRARY Wasmachine
+DESIGN @centrifugeren
+VIEW @centrifugeren.sm
+NO_GRAPHIC 38
+LIBRARY Wasmachine
+DESIGN @centrifugeren
+VIEW @centrifugeren.sm
+GRAPHIC 2,0 52 0
+LIBRARY Wasmachine
+DESIGN @centrifugeren
+VIEW @centrifugeren.sm
+NO_GRAPHIC 53
+LIBRARY Wasmachine
+DESIGN @centrifugeren
+VIEW @centrifugeren.sm
+GRAPHIC 2,0 56 0
+LIBRARY Wasmachine
+DESIGN @centrifugeren
+VIEW @centrifugeren.sm
+NO_GRAPHIC 57
+LIBRARY Wasmachine
+DESIGN @centrifugeren
+VIEW @centrifugeren.sm
+GRAPHIC 70,0 58 0
+LIBRARY Wasmachine
+DESIGN @centrifugeren
+VIEW @centrifugeren.sm
+GRAPHIC 60,0 60 0
+LIBRARY Wasmachine
+DESIGN @centrifugeren
+VIEW @centrifugeren.sm
+NO_GRAPHIC 61
+LIBRARY Wasmachine
+DESIGN @centrifugeren
+VIEW @centrifugeren.sm
+GRAPHIC 2,0 63 0
+LIBRARY Wasmachine
+DESIGN @centrifugeren
+VIEW @centrifugeren.sm
+NO_GRAPHIC 64
+LIBRARY Wasmachine
+DESIGN @centrifugeren
+VIEW @centrifugeren.sm
+GRAPHIC 2,0 66 0
+LIBRARY Wasmachine
+DESIGN @centrifugeren
+VIEW @centrifugeren.sm
+NO_GRAPHIC 67
+LIBRARY Wasmachine
+DESIGN @centrifugeren
+VIEW @centrifugeren.sm
+GRAPHIC 2,0 71 0
+LIBRARY Wasmachine
+DESIGN @centrifugeren
+VIEW @centrifugeren.sm
+GRAPHIC 43,0 72 0
+LIBRARY Wasmachine
+DESIGN @centrifugeren
+VIEW @centrifugeren.sm
+GRAPHIC 93,0 74 0
+LIBRARY Wasmachine
+DESIGN @centrifugeren
+VIEW @centrifugeren.sm
+NO_GRAPHIC 76
+LIBRARY Wasmachine
+DESIGN @centrifugeren
+VIEW @centrifugeren.sm
+GRAPHIC 2,0 77 0
+LIBRARY Wasmachine
+DESIGN @centrifugeren
+VIEW @centrifugeren.sm
+NO_GRAPHIC 78
