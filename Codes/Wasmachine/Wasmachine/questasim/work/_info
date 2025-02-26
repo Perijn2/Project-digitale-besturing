@@ -1,0 +1,66 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/MentorGraphics/HDS_2022.1/bin
+T_opt
+!s110 1740526561
+VcM;_;n1NKgOWoi6liig>m2
+04 23 5 work wasmachien_block_tester logic 1
+=1-7c10c92450a5-67be53e0-312-3664
+R0
+!s124 OEM100
+o-quiet -work Wasmachine -L Wasmachine
+tCvgOpt 0
+n@_opt
+OL;O;2022.1;75
+Ewasmachien_block_tester
+Z1 w1740526534
+Z2 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
+Z3 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z4 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 2
+Z5 dC:/Users/Perij/Documents/GitHub/Project-digitale-besturing/Codes/Wasmachine/Wasmachine/questasim/work
+Z6 8C:/Users/Perij/Documents/GitHub/Project-digitale-besturing/Codes/Wasmachine/Wasmachine/hdl/wasmachien_block_tester_logic.vhd
+Z7 FC:/Users/Perij/Documents/GitHub/Project-digitale-besturing/Codes/Wasmachine/Wasmachine/hdl/wasmachien_block_tester_logic.vhd
+l0
+L14 1
+VKazPLmN:B[5EEE?X@fDj93
+!s100 XGf]?j[T_CPVfGj3N>DV_0
+Z8 OL;C;2022.1;75
+31
+Z9 !s110 1740526538
+!i10b 1
+Z10 !s108 1740526538.000000
+Z11 !s90 -work|Wasmachine|-nologo|-93|-f|C:/Users/Perij/AppData/Local/Temp/Files0|
+Z12 !s107 C:/Users/Perij/Documents/GitHub/Project-digitale-besturing/Codes/Wasmachine/Wasmachine/hdl/wasmachien_block_tester_logic.vhd|
+!i113 0
+Z13 o-nologo -work Wasmachine -93
+Z14 tExplicit 1 CvgOpt 0
+Alogic
+R2
+R3
+R4
+DEx4 work 23 wasmachien_block_tester 0 22 KazPLmN:B[5EEE?X@fDj93
+!i122 2
+l44
+L43 22
+VlcX?@DAhbS=TK0kjg78OI0
+!s100 2270ZV<0b99]][SddVXf@2
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14

@@ -1,0 +1,1 @@
+ -L Wasmachine -l ../transcript.txt -i -t ns -multisource_delay latest +typdelays Wasmachine.wasmachien_block_tester(logic)
