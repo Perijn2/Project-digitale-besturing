@@ -131,7 +131,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "18:18:36"
+value "18:33:26"
 )
 (vvPair
 variable "group"
@@ -235,7 +235,7 @@ value "Master"
 )
 (vvPair
 variable "time"
-value "18:18:36"
+value "18:33:26"
 )
 (vvPair
 variable "unit"
@@ -335,7 +335,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "42380,5784,48580,6984"
+xt "41380,5784,49580,6984"
 )
 autoResize 1
 tline (Line
@@ -346,10 +346,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "42480,5684,48480,5684"
+xt "41480,5684,49480,5684"
 pts [
-"42480,5684"
-"48480,5684"
+"41480,5684"
+"49480,5684"
 ]
 )
 bline (Line
@@ -360,10 +360,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "42480,5034,48480,5034"
+xt "41480,5034,49480,5034"
 pts [
-"42480,5034"
-"48480,5034"
+"41480,5034"
+"49480,5034"
 ]
 )
 ttri (Triangle
@@ -377,7 +377,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "42030,5309,42380,5659"
+xt "41030,5309,41380,5659"
 )
 btri (Triangle
 uid 56,0
@@ -390,14 +390,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "42030,3009,42380,3359"
+xt "41030,3009,41380,3359"
 )
 entryActions (MLText
 uid 57,0
 va (VaSet
 font "arial,8,0"
 )
-xt "42480,5484,42480,5484"
+xt "41480,5484,41480,5484"
 tm "Actions"
 )
 inActions (MLText
@@ -405,8 +405,8 @@ uid 58,0
 va (VaSet
 font "arial,8,0"
 )
-xt "42480,5884,48480,6884"
-st "led_aan <= '0' ;"
+xt "41480,5884,49480,6884"
+st "led_aan <= aan_uit ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -543,10 +543,10 @@ vasetType 3
 )
 xt "4150,19700,4749,20300"
 pts [
-"4749,19700"
-"4449,19700"
+"4749,20300"
 "4449,20300"
-"4150,20300"
+"4449,19700"
+"4150,19700"
 ]
 )
 (Line
@@ -605,7 +605,7 @@ isHidden 1
 font "arial,8,0"
 )
 xt "2400,18000,7300,19000"
-st "aan_uit = '1'"
+st "aan_uit = '0'"
 tm "SmControlConditionMgr"
 )
 )
@@ -666,7 +666,6 @@ st "< Automatic >"
 tm "Actions"
 )
 )
-level 1
 )
 *5 (Link
 uid 87,0
@@ -3195,7 +3194,7 @@ start &4
 end &5
 ss 0
 es 0
-cond "aan_uit = '1'"
+cond "aan_uit = '0'"
 tb (TransitionBlock
 uid 106,0
 ps "CenterOffsetStrategy"
@@ -3227,7 +3226,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "9500,19000,14400,20000"
-st "aan_uit = '1'"
+st "aan_uit = '0'"
 tm "Condition"
 )
 actions (MLText
@@ -4646,7 +4645,7 @@ tm "SmCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,24,1537,864"
-viewArea "-14322,6017,80973,57851"
+viewArea "-14337,-10831,81220,41145"
 cachedDiagramExtent "0,-11800,75232,74360"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-51000"
@@ -5035,7 +5034,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 918,0
+lastUid 947,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *93 (LEmptyRow
@@ -5103,8 +5102,8 @@ o 1
 )
 )
 uid 156,0
-cat 9
-expr "aan_uit = '1'"
+cat 8
+expr "aan_uit = '0'"
 )
 *113 (LeafLogPort
 port (LogicalPort
