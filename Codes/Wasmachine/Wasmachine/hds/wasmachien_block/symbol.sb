@@ -712,23 +712,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\symbol.sb.info"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\symbol.sb.user"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "appl"
@@ -744,27 +744,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block"
 )
 (vvPair
 variable "date"
-value "26/02/2025"
+value "28/02/2025"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "26"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -792,7 +792,7 @@ value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value "26/02/2025"
+value "28/02/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -804,7 +804,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "00:14:00"
+value "09:49:20"
 )
 (vvPair
 variable "group"
@@ -821,6 +821,14 @@ value "VHDL"
 (vvPair
 variable "library"
 value "Wasmachine"
+)
+(vvPair
+variable "library_downstream_HdsLintPlugin"
+value "$HDS_PROJECT_DIR/Wasmachine/designcheck"
+)
+(vvPair
+variable "library_downstream_QuestaSimCompiler"
+value "$HDS_PROJECT_DIR/Wasmachine/questasim"
 )
 (vvPair
 variable "mm"
@@ -840,11 +848,11 @@ value "February"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\symbol.sb"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\symbol.sb"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasmachien_block\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -900,7 +908,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "00:14:00"
+value "09:49:20"
 )
 (vvPair
 variable "unit"
@@ -2555,6 +2563,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1546,0
+lastUid 1707,0
 activeModelName "Symbol:CDM"
 )

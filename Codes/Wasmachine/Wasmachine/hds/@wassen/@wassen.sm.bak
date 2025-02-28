@@ -34,23 +34,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@wassen\\@wassen.sm.info"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@wassen\\@wassen.sm.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@wassen\\@wassen.sm.user"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@wassen\\@wassen.sm.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "appl"
@@ -66,27 +66,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@wassen"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@wassen"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Wassen"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Wassen"
 )
 (vvPair
 variable "date"
-value "25/02/2025"
+value "26/02/2025"
 )
 (vvPair
 variable "day"
-value "Tue"
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "Tuesday"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "25"
+value "26"
 )
 (vvPair
 variable "entity_name"
@@ -114,7 +114,7 @@ value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value "25/02/2025"
+value "26/02/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -126,7 +126,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:14:05"
+value "18:15:15"
 )
 (vvPair
 variable "group"
@@ -143,6 +143,14 @@ value "VHDL"
 (vvPair
 variable "library"
 value "Wasmachine"
+)
+(vvPair
+variable "library_downstream_HdsLintPlugin"
+value "$HDS_PROJECT_DIR/Wasmachine/designcheck"
+)
+(vvPair
+variable "library_downstream_QuestaSimCompiler"
+value "$HDS_PROJECT_DIR/Wasmachine/questasim"
 )
 (vvPair
 variable "mm"
@@ -162,11 +170,11 @@ value "February"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@wassen\\@wassen.sm"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@wassen\\@wassen.sm"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Wassen\\Wassen.sm"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Wassen\\Wassen.sm"
 )
 (vvPair
 variable "package_name"
@@ -222,7 +230,7 @@ value "Wassen"
 )
 (vvPair
 variable "time"
-value "15:14:05"
+value "18:15:15"
 )
 (vvPair
 variable "unit"
@@ -1406,8 +1414,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "76,43,1093,733"
-viewArea "-500,-500,70510,45220"
+windowSize "0,24,1537,864"
+viewArea "-500,-500,118619,61744"
 cachedDiagramExtent "0,-1000,73000,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
@@ -1686,7 +1694,7 @@ font "Courier New,8,0"
 )
 xt "35600,0,66600,6400"
 st "SIGNAL            MODE    DEFAULT  RESET  SCHEME COMMENT  
-go_afmpompen      OUT                     COMB            
+go_afpompen       OUT                     COMB            
 go_centrifugeren  OUT                     COMB            
 go_toevoer        OUT                     COMB            
 go_trommel        OUT                     COMB            
@@ -1790,7 +1798,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 264,0
+lastUid 574,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *53 (LEmptyRow
@@ -1878,7 +1886,7 @@ lang 2
 decl (Decl
 n "centrifugeren_ready"
 t "std_logic"
-o 3
+o 4
 )
 )
 uid 160,0
@@ -1889,7 +1897,7 @@ lang 2
 decl (Decl
 n "clk"
 t "std_logic"
-o 4
+o 5
 )
 )
 uid 162,0
@@ -1902,7 +1910,7 @@ lang 2
 decl (Decl
 n "go_wassen"
 t "std_logic"
-o 5
+o 6
 )
 )
 uid 164,0
@@ -1913,7 +1921,7 @@ lang 2
 decl (Decl
 n "t_hoog"
 t "std_logic"
-o 6
+o 8
 )
 )
 uid 166,0
@@ -1924,7 +1932,7 @@ lang 2
 decl (Decl
 n "t_laag"
 t "std_logic"
-o 7
+o 9
 )
 )
 uid 168,0
@@ -1935,7 +1943,7 @@ lang 2
 decl (Decl
 n "toevoer_ready"
 t "std_logic"
-o 8
+o 10
 )
 )
 uid 170,0
@@ -1946,7 +1954,7 @@ lang 2
 decl (Decl
 n "trommel_ready"
 t "std_logic"
-o 9
+o 11
 )
 )
 uid 172,0
@@ -1957,7 +1965,7 @@ lang 2
 decl (Decl
 n "verwarmen_ready"
 t "std_logic"
-o 10
+o 12
 )
 )
 uid 174,0
@@ -1968,7 +1976,7 @@ lang 2
 decl (Decl
 n "w_hoog"
 t "std_logic"
-o 11
+o 13
 )
 )
 uid 176,0
@@ -1979,7 +1987,7 @@ lang 2
 decl (Decl
 n "w_laag"
 t "std_logic"
-o 12
+o 14
 )
 )
 uid 178,0
@@ -1989,9 +1997,9 @@ port (LogicalPort
 lang 2
 m 1
 decl (Decl
-n "go_afmpompen"
+n "go_afpompen"
 t "std_logic"
-o 13
+o 15
 )
 )
 uid 180,0
@@ -2004,7 +2012,7 @@ m 1
 decl (Decl
 n "go_centrifugeren"
 t "std_logic"
-o 14
+o 16
 )
 )
 uid 182,0
@@ -2017,7 +2025,7 @@ m 1
 decl (Decl
 n "go_toevoer"
 t "std_logic"
-o 15
+o 17
 )
 )
 uid 184,0
@@ -2030,7 +2038,7 @@ m 1
 decl (Decl
 n "go_trommel"
 t "std_logic"
-o 16
+o 18
 )
 )
 uid 186,0
@@ -2043,7 +2051,7 @@ m 1
 decl (Decl
 n "go_verwarmen"
 t "std_logic"
-o 17
+o 19
 )
 )
 uid 188,0
@@ -2056,7 +2064,7 @@ m 1
 decl (Decl
 n "wassen_ready"
 t "std_logic"
-o 18
+o 20
 )
 )
 uid 190,0
@@ -2070,11 +2078,35 @@ decl (Decl
 n "wassen_status"
 t "std_logic_vector"
 b "(2 DOWNTO 0)"
-o 19
+o 21
 )
 )
 uid 192,0
 scheme 0
+)
+*91 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "centrifugeerkeuze"
+t "std_logic_vector"
+b "(1 DOWNTO 0)"
+o 3
+)
+)
+uid 542,0
+)
+*92 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "programmakeuze"
+t "std_logic_vector"
+b "(1 DOWNTO 0)"
+o 7
+)
+)
+uid 544,0
 )
 ]
 )
@@ -2083,7 +2115,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 217,0
 optionalChildren [
-*91 (Sheet
+*93 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -2100,145 +2132,157 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "Tahoma,10,0"
 )
-emptyMRCItem *92 (MRCItem
+emptyMRCItem *94 (MRCItem
 litem &53
-pos 19
+pos 21
 dimension 20
 )
 uid 219,0
 optionalChildren [
-*93 (MRCItem
+*95 (MRCItem
 litem &54
 pos 0
 dimension 20
 uid 220,0
 )
-*94 (MRCItem
+*96 (MRCItem
 litem &55
 pos 1
 dimension 23
 uid 221,0
 )
-*95 (MRCItem
+*97 (MRCItem
 litem &56
 pos 2
 hidden 1
 dimension 20
 uid 222,0
 )
-*96 (MRCItem
+*98 (MRCItem
 litem &72
 pos 0
 dimension 20
 uid 157,0
 )
-*97 (MRCItem
+*99 (MRCItem
 litem &73
 pos 1
 dimension 20
 uid 159,0
 )
-*98 (MRCItem
+*100 (MRCItem
 litem &74
-pos 2
+pos 3
 dimension 20
 uid 161,0
 )
-*99 (MRCItem
+*101 (MRCItem
 litem &75
-pos 3
+pos 4
 dimension 20
 uid 163,0
 )
-*100 (MRCItem
+*102 (MRCItem
 litem &76
-pos 9
+pos 10
 dimension 20
 uid 165,0
 )
-*101 (MRCItem
+*103 (MRCItem
 litem &77
-pos 10
+pos 12
 dimension 20
 uid 167,0
 )
-*102 (MRCItem
+*104 (MRCItem
 litem &78
-pos 11
+pos 13
 dimension 20
 uid 169,0
 )
-*103 (MRCItem
+*105 (MRCItem
 litem &79
-pos 12
+pos 14
 dimension 20
 uid 171,0
 )
-*104 (MRCItem
+*106 (MRCItem
 litem &80
-pos 13
+pos 15
 dimension 20
 uid 173,0
 )
-*105 (MRCItem
+*107 (MRCItem
 litem &81
-pos 14
+pos 16
 dimension 20
 uid 175,0
 )
-*106 (MRCItem
+*108 (MRCItem
 litem &82
-pos 15
+pos 17
 dimension 20
 uid 177,0
 )
-*107 (MRCItem
+*109 (MRCItem
 litem &83
-pos 16
+pos 18
 dimension 20
 uid 179,0
 )
-*108 (MRCItem
+*110 (MRCItem
 litem &84
-pos 4
+pos 5
 dimension 20
 uid 181,0
 )
-*109 (MRCItem
+*111 (MRCItem
 litem &85
-pos 5
+pos 6
 dimension 20
 uid 183,0
 )
-*110 (MRCItem
+*112 (MRCItem
 litem &86
-pos 6
+pos 7
 dimension 20
 uid 185,0
 )
-*111 (MRCItem
+*113 (MRCItem
 litem &87
-pos 7
+pos 8
 dimension 20
 uid 187,0
 )
-*112 (MRCItem
+*114 (MRCItem
 litem &88
-pos 8
+pos 9
 dimension 20
 uid 189,0
 )
-*113 (MRCItem
+*115 (MRCItem
 litem &89
-pos 17
+pos 19
 dimension 20
 uid 191,0
 )
-*114 (MRCItem
+*116 (MRCItem
 litem &90
-pos 18
+pos 20
 dimension 20
 uid 193,0
+)
+*117 (MRCItem
+litem &91
+pos 2
+dimension 20
+uid 543,0
+)
+*118 (MRCItem
+litem &92
+pos 11
+dimension 20
+uid 545,0
 )
 ]
 )
@@ -2251,85 +2295,85 @@ textAngle 90
 )
 uid 223,0
 optionalChildren [
-*115 (MRCItem
+*119 (MRCItem
 litem &57
 pos 0
 dimension 20
 uid 224,0
 )
-*116 (MRCItem
+*120 (MRCItem
 litem &59
 pos 1
 dimension 50
 uid 225,0
 )
-*117 (MRCItem
+*121 (MRCItem
 litem &60
 pos 2
-dimension 70
+dimension 227
 uid 226,0
 )
-*118 (MRCItem
+*122 (MRCItem
 litem &61
 pos 3
 dimension 50
 uid 227,0
 )
-*119 (MRCItem
+*123 (MRCItem
 litem &62
 pos 4
 dimension 80
 uid 228,0
 )
-*120 (MRCItem
+*124 (MRCItem
 litem &63
 pos 5
 dimension 80
 uid 229,0
 )
-*121 (MRCItem
+*125 (MRCItem
 litem &64
 pos 6
 dimension 40
 uid 230,0
 )
-*122 (MRCItem
+*126 (MRCItem
 litem &65
 pos 7
 dimension 100
 uid 231,0
 )
-*123 (MRCItem
+*127 (MRCItem
 litem &66
 pos 8
 dimension 60
 uid 232,0
 )
-*124 (MRCItem
+*128 (MRCItem
 litem &67
 pos 9
 dimension 130
 uid 233,0
 )
-*125 (MRCItem
+*129 (MRCItem
 litem &68
 pos 10
 dimension 56
 uid 234,0
 )
-*126 (MRCItem
+*130 (MRCItem
 litem &69
 pos 11
 dimension 50
 uid 235,0
 )
-*127 (MRCItem
+*131 (MRCItem
 litem &70
 pos 12
 dimension 50
 uid 236,0
 )
-*128 (MRCItem
+*132 (MRCItem
 litem &71
 pos 13
 dimension 80
@@ -2351,38 +2395,38 @@ uid 197,0
 cdmCsm &1
 genericsCommonDM (CommonDM
 ldm (LogicalDM
-emptyRow *129 (LEmptyRow
+emptyRow *133 (LEmptyRow
 )
 uid 239,0
 optionalChildren [
-*130 (RefLabelRowHdr
+*134 (RefLabelRowHdr
 )
-*131 (TitleRowHdr
+*135 (TitleRowHdr
 )
-*132 (FilterRowHdr
+*136 (FilterRowHdr
 )
-*133 (RefLabelColHdr
+*137 (RefLabelColHdr
 tm "RefLabelColHdrMgr"
 )
-*134 (RowExpandColHdr
+*138 (RowExpandColHdr
 tm "RowExpandColHdrMgr"
 )
-*135 (GroupColHdr
+*139 (GroupColHdr
 tm "GroupColHdrMgr"
 )
-*136 (NameColHdr
+*140 (NameColHdr
 tm "GenericNameColHdrMgr"
 )
-*137 (TypeColHdr
+*141 (TypeColHdr
 tm "GenericTypeColHdrMgr"
 )
-*138 (InitColHdr
+*142 (InitColHdr
 tm "GenericValueColHdrMgr"
 )
-*139 (PragmaColHdr
+*143 (PragmaColHdr
 tm "GenericPragmaColHdrMgr"
 )
-*140 (EolColHdr
+*144 (EolColHdr
 tm "GenericEolColHdrMgr"
 )
 ]
@@ -2392,7 +2436,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 251,0
 optionalChildren [
-*141 (Sheet
+*145 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -2409,27 +2453,27 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "Tahoma,10,0"
 )
-emptyMRCItem *142 (MRCItem
-litem &129
+emptyMRCItem *146 (MRCItem
+litem &133
 pos 0
 dimension 20
 )
 uid 253,0
 optionalChildren [
-*143 (MRCItem
-litem &130
+*147 (MRCItem
+litem &134
 pos 0
 dimension 20
 uid 254,0
 )
-*144 (MRCItem
-litem &131
+*148 (MRCItem
+litem &135
 pos 1
 dimension 23
 uid 255,0
 )
-*145 (MRCItem
-litem &132
+*149 (MRCItem
+litem &136
 pos 2
 hidden 1
 dimension 20
@@ -2446,44 +2490,44 @@ textAngle 90
 )
 uid 257,0
 optionalChildren [
-*146 (MRCItem
-litem &133
+*150 (MRCItem
+litem &137
 pos 0
 dimension 20
 uid 258,0
 )
-*147 (MRCItem
-litem &135
+*151 (MRCItem
+litem &139
 pos 1
 dimension 50
 uid 259,0
 )
-*148 (MRCItem
-litem &136
+*152 (MRCItem
+litem &140
 pos 2
 dimension 100
 uid 260,0
 )
-*149 (MRCItem
-litem &137
+*153 (MRCItem
+litem &141
 pos 3
 dimension 100
 uid 261,0
 )
-*150 (MRCItem
-litem &138
+*154 (MRCItem
+litem &142
 pos 4
 dimension 50
 uid 262,0
 )
-*151 (MRCItem
-litem &139
+*155 (MRCItem
+litem &143
 pos 5
 dimension 50
 uid 263,0
 )
-*152 (MRCItem
-litem &140
+*156 (MRCItem
+litem &144
 pos 6
 dimension 80
 uid 264,0
