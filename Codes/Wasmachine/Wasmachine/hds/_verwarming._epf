@@ -1,2 +1,2 @@
-DEFAULT_FILE atom @verwarming/@verwarmen.sm
-DEFAULT_ARCHITECTURE atom @verwarmen
+DEFAULT_FILE atom @verwarming/@verwarming.sm
+DEFAULT_ARCHITECTURE atom Verwarming

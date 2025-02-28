@@ -485,23 +485,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
+value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@verwarming\\interface.info"
+value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@verwarmen\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@verwarming\\interface.user"
+value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@verwarmen\\interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "appl"
@@ -517,31 +517,31 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@verwarming"
+value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@verwarmen"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Verwarming"
+value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Verwarmen"
 )
 (vvPair
 variable "date"
-value "28/02/2025"
+value "25/02/2025"
 )
 (vvPair
 variable "day"
-value "Fri"
+value "Tue"
 )
 (vvPair
 variable "day_long"
-value "Friday"
+value "Tuesday"
 )
 (vvPair
 variable "dd"
-value "28"
+value "25"
 )
 (vvPair
 variable "entity_name"
-value "Verwarming"
+value "Verwarmen"
 )
 (vvPair
 variable "ext"
@@ -565,7 +565,7 @@ value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value "28/02/2025"
+value "25/02/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -577,7 +577,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:49:20"
+value "15:16:10"
 )
 (vvPair
 variable "group"
@@ -596,20 +596,12 @@ variable "library"
 value "Wasmachine"
 )
 (vvPair
-variable "library_downstream_HdsLintPlugin"
-value "$HDS_PROJECT_DIR/Wasmachine/designcheck"
-)
-(vvPair
-variable "library_downstream_QuestaSimCompiler"
-value "$HDS_PROJECT_DIR/Wasmachine/questasim"
-)
-(vvPair
 variable "mm"
 value "02"
 )
 (vvPair
 variable "module_name"
-value "Verwarming"
+value "Verwarmen"
 )
 (vvPair
 variable "month"
@@ -621,11 +613,11 @@ value "February"
 )
 (vvPair
 variable "p"
-value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@verwarming\\interface"
+value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@verwarmen\\interface"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Verwarming\\interface"
+value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Verwarmen\\interface"
 )
 (vvPair
 variable "package_name"
@@ -681,11 +673,11 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "09:49:20"
+value "15:16:10"
 )
 (vvPair
 variable "unit"
-value "Verwarming"
+value "Verwarmen"
 )
 (vvPair
 variable "user"
@@ -1107,8 +1099,8 @@ uid 12,0
 va (VaSet
 font "arial,8,1"
 )
-xt "16200,13500,21300,14500"
-st "Verwarming"
+xt "16200,13500,20600,14500"
+st "Verwarmen"
 blo "16200,14300"
 )
 )
@@ -1440,7 +1432,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,47000,49400,48000"
+xt "36200,47000,49200,48000"
 st "
 %library/%unit/%view
 "
