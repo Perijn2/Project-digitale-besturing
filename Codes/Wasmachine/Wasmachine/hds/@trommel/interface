@@ -330,6 +330,30 @@ tm "GenericPragmaColHdrMgr"
 *50 (EolColHdr
 tm "GenericEolColHdrMgr"
 )
+*51 (LogGeneric
+generic (GiElement
+name "Richting"
+type "integer"
+value "0"
+)
+uid 243,0
+)
+*52 (LogGeneric
+generic (GiElement
+name "Kant"
+type "integer"
+value "0"
+)
+uid 268,0
+)
+*53 (LogGeneric
+generic (GiElement
+name "Rotaties"
+type "integer"
+value "0"
+)
+uid 270,0
+)
 ]
 )
 pdm (PhysicalDM
@@ -337,7 +361,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 136,0
 optionalChildren [
-*51 (Sheet
+*54 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -354,31 +378,49 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "Tahoma,10,0"
 )
-emptyMRCItem *52 (MRCItem
+emptyMRCItem *55 (MRCItem
 litem &39
 pos 3
 dimension 20
 )
 uid 138,0
 optionalChildren [
-*53 (MRCItem
+*56 (MRCItem
 litem &40
 pos 0
 dimension 20
 uid 139,0
 )
-*54 (MRCItem
+*57 (MRCItem
 litem &41
 pos 1
 dimension 23
 uid 140,0
 )
-*55 (MRCItem
+*58 (MRCItem
 litem &42
 pos 2
 hidden 1
 dimension 20
 uid 141,0
+)
+*59 (MRCItem
+litem &51
+pos 0
+dimension 20
+uid 242,0
+)
+*60 (MRCItem
+litem &52
+pos 1
+dimension 20
+uid 267,0
+)
+*61 (MRCItem
+litem &53
+pos 2
+dimension 20
+uid 269,0
 )
 ]
 )
@@ -391,43 +433,43 @@ textAngle 90
 )
 uid 142,0
 optionalChildren [
-*56 (MRCItem
+*62 (MRCItem
 litem &43
 pos 0
 dimension 20
 uid 143,0
 )
-*57 (MRCItem
+*63 (MRCItem
 litem &45
 pos 1
 dimension 50
 uid 144,0
 )
-*58 (MRCItem
+*64 (MRCItem
 litem &46
 pos 2
 dimension 100
 uid 145,0
 )
-*59 (MRCItem
+*65 (MRCItem
 litem &47
 pos 3
 dimension 100
 uid 146,0
 )
-*60 (MRCItem
+*66 (MRCItem
 litem &48
 pos 4
 dimension 50
 uid 147,0
 )
-*61 (MRCItem
+*67 (MRCItem
 litem &49
 pos 5
 dimension 50
 uid 148,0
 )
-*62 (MRCItem
+*68 (MRCItem
 litem &50
 pos 6
 dimension 80
@@ -451,23 +493,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@trommel\\interface.info"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@trommel\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@trommel\\interface.user"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@trommel\\interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "appl"
@@ -483,27 +525,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@trommel"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@trommel"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Trommel"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Trommel"
 )
 (vvPair
 variable "date"
-value "25/02/2025"
+value " 3-03-2025"
 )
 (vvPair
 variable "day"
-value "Tue"
+value "ma"
 )
 (vvPair
 variable "day_long"
-value "Tuesday"
+value "maandag"
 )
 (vvPair
 variable "dd"
-value "25"
+value "03"
 )
 (vvPair
 variable "entity_name"
@@ -527,11 +569,11 @@ value "interface"
 )
 (vvPair
 variable "graphical_source_author"
-value "Perij"
+value "jesse"
 )
 (vvPair
 variable "graphical_source_date"
-value "25/02/2025"
+value " 3-03-2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -539,11 +581,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "LAPTOP-Q0P13GKH"
+value "MSI"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:15:16"
+value "13:05:16"
 )
 (vvPair
 variable "group"
@@ -551,7 +593,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "LAPTOP-Q0P13GKH"
+value "MSI"
 )
 (vvPair
 variable "language"
@@ -562,8 +604,16 @@ variable "library"
 value "Wasmachine"
 )
 (vvPair
+variable "library_downstream_HdsLintPlugin"
+value "$HDS_PROJECT_DIR/Wasmachine/designcheck"
+)
+(vvPair
+variable "library_downstream_QuestaSimCompiler"
+value "$HDS_PROJECT_DIR/Wasmachine/questasim"
+)
+(vvPair
 variable "mm"
-value "02"
+value "03"
 )
 (vvPair
 variable "module_name"
@@ -571,19 +621,19 @@ value "Trommel"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "mrt"
 )
 (vvPair
 variable "month_long"
-value "February"
+value "maart"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@trommel\\interface"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@trommel\\interface"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Trommel\\interface"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Trommel\\interface"
 )
 (vvPair
 variable "package_name"
@@ -607,7 +657,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "<TBD>"
+value "C:\\Users\\jesse\\Downloads\\win64"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -619,7 +669,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_QuestaSimPath"
-value "C:\\questasim64_2022.1\\win64"
+value "C:\\Users\\jesse\\Desktop\\questasim\\win64"
 )
 (vvPair
 variable "task_VCSPath"
@@ -639,7 +689,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "15:15:16"
+value "13:05:16"
 )
 (vvPair
 variable "unit"
@@ -647,7 +697,7 @@ value "Trommel"
 )
 (vvPair
 variable "user"
-value "Perij"
+value "jesse"
 )
 (vvPair
 variable "version"
@@ -670,10 +720,10 @@ value "25"
 LanguageMgr "Vhdl93LangMgr"
 uid 93,0
 optionalChildren [
-*63 (SymbolBody
+*69 (SymbolBody
 uid 8,0
 optionalChildren [
-*64 (CptPort
+*70 (CptPort
 uid 51,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -718,7 +768,7 @@ suid 1,0
 )
 )
 )
-*65 (CptPort
+*71 (CptPort
 uid 56,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -764,7 +814,7 @@ suid 2,0
 )
 )
 )
-*66 (CptPort
+*72 (CptPort
 uid 61,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -809,7 +859,7 @@ suid 3,0
 )
 )
 )
-*67 (CptPort
+*73 (CptPort
 uid 66,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -854,7 +904,7 @@ suid 4,0
 )
 )
 )
-*68 (CptPort
+*74 (CptPort
 uid 71,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -902,7 +952,7 @@ suid 5,0
 )
 )
 )
-*69 (CptPort
+*75 (CptPort
 uid 76,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -982,7 +1032,7 @@ st "Trommel"
 blo "16200,14300"
 )
 )
-gi *70 (GenericInterface
+gi *76 (GenericInterface
 uid 13,0
 ps "CenterOffsetStrategy"
 matrix (Matrix
@@ -992,13 +1042,33 @@ uid 15,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "-5000,9500,6500,10300"
-st "Generic Declarations"
+xt "-5000,9500,6500,13500"
+st "Generic Declarations
+
+Richting integer 0  
+Kant     integer 0  
+Rotaties integer 0  
+"
 )
 header "Generic Declarations"
 showHdrWhenContentsEmpty 1
 )
 elements [
+(GiElement
+name "Richting"
+type "integer"
+value "0"
+)
+(GiElement
+name "Kant"
+type "integer"
+value "0"
+)
+(GiElement
+name "Rotaties"
+type "integer"
+value "0"
+)
 ]
 )
 portInstanceVisAsIs 1
@@ -1011,10 +1081,10 @@ sTC 0
 sF 0
 )
 )
-*71 (Grouping
+*77 (Grouping
 uid 16,0
 optionalChildren [
-*72 (CommentText
+*78 (CommentText
 uid 18,0
 shape (Rectangle
 uid 19,0
@@ -1032,7 +1102,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,45300,49000"
+xt "36200,48000,45400,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1045,7 +1115,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*73 (CommentText
+*79 (CommentText
 uid 21,0
 shape (Rectangle
 uid 22,0
@@ -1076,7 +1146,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*74 (CommentText
+*80 (CommentText
 uid 24,0
 shape (Rectangle
 uid 25,0
@@ -1107,7 +1177,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*75 (CommentText
+*81 (CommentText
 uid 27,0
 shape (Rectangle
 uid 28,0
@@ -1138,7 +1208,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*76 (CommentText
+*82 (CommentText
 uid 30,0
 shape (Rectangle
 uid 31,0
@@ -1168,7 +1238,7 @@ visibleWidth 20000
 ignorePrefs 1
 titleBlock 1
 )
-*77 (CommentText
+*83 (CommentText
 uid 33,0
 shape (Rectangle
 uid 34,0
@@ -1199,7 +1269,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*78 (CommentText
+*84 (CommentText
 uid 36,0
 shape (Rectangle
 uid 37,0
@@ -1230,7 +1300,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*79 (CommentText
+*85 (CommentText
 uid 39,0
 shape (Rectangle
 uid 40,0
@@ -1261,7 +1331,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*80 (CommentText
+*86 (CommentText
 uid 42,0
 shape (Rectangle
 uid 43,0
@@ -1292,7 +1362,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*81 (CommentText
+*87 (CommentText
 uid 45,0
 shape (Rectangle
 uid 46,0
@@ -1348,11 +1418,11 @@ xShown 1
 yShown 1
 color "26368,26368,26368"
 )
-packageList *82 (PackageList
+packageList *88 (PackageList
 uid 48,0
 stg "VerticalLayoutStrategy"
 textVec [
-*83 (Text
+*89 (Text
 uid 49,0
 va (VaSet
 font "arial,8,1"
@@ -1361,7 +1431,7 @@ xt "0,0,5400,1000"
 st "Package List"
 blo "0,800"
 )
-*84 (MLText
+*90 (MLText
 uid 50,0
 va (VaSet
 font "arial,8,0"
@@ -1489,7 +1559,7 @@ st "<cell>"
 blo "22200,16800"
 )
 )
-gi *85 (GenericInterface
+gi *91 (GenericInterface
 ps "CenterOffsetStrategy"
 matrix (Matrix
 text (MLText
@@ -1590,7 +1660,7 @@ o 0
 )
 )
 )
-DeclarativeBlock *86 (SymDeclBlock
+DeclarativeBlock *92 (SymDeclBlock
 uid 1,0
 stg "SymDeclLayoutStrategy"
 declLabel (Text
@@ -1648,6 +1718,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 218,0
+lastUid 270,0
 activeModelName "Symbol:CDM"
 )
