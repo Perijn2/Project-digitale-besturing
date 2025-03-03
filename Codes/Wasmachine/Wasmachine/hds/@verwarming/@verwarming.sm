@@ -126,7 +126,7 @@ value "LAPTOP_DIRK"
 )
 (vvPair
 variable "graphical_source_time"
-value "12:04:33"
+value "13:38:36"
 )
 (vvPair
 variable "group"
@@ -230,7 +230,7 @@ value "Verwarming"
 )
 (vvPair
 variable "time"
-value "12:04:33"
+value "13:38:36"
 )
 (vvPair
 variable "unit"
@@ -1481,7 +1481,7 @@ arrow 1
 )
 start &2
 end &19
-cond "go_verwarmen = '1' AND w_laag = '0'"
+cond "go_verwarmen = '1' AND w_laag = '0' AND t_laag = '1'"
 tb (TransitionBlock
 uid 323,0
 ps "CenterOffsetStrategy"
@@ -1493,7 +1493,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "30312,21260,45512,23260"
+xt "30312,21260,51712,23260"
 )
 autoResize 1
 lineShape (Line
@@ -1513,8 +1513,8 @@ uid 326,0
 va (VaSet
 font "arial,8,0"
 )
-xt "30812,21760,45012,22760"
-st "go_verwarmen = '1' AND w_laag = '0'"
+xt "30812,21760,51212,22760"
+st "go_verwarmen = '1' AND w_laag = '0' AND t_laag = '1'"
 tm "Condition"
 )
 actions (MLText
@@ -1522,7 +1522,7 @@ uid 327,0
 va (VaSet
 font "arial,8,0"
 )
-xt "37912,23160,37912,23160"
+xt "41012,23160,41012,23160"
 tm "Actions"
 )
 )
@@ -1573,7 +1573,7 @@ arrow 1
 start &2
 end &2
 es 0
-cond "go_verwarmen = '0' OR w_laag = '1'"
+cond "go_verwarmen = '0' OR w_laag = '1' OR t_laag = '0'"
 tb (TransitionBlock
 uid 333,0
 ps "CenterOffsetStrategy"
@@ -1585,7 +1585,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "35959,8521,50659,10521"
+xt "31339,8851,51739,10851"
 )
 autoResize 1
 lineShape (Line
@@ -1594,10 +1594,10 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "38159,10421,38159,10421"
+xt "33539,10751,33539,10751"
 pts [
-"38159,10421"
-"38159,10421"
+"33539,10751"
+"33539,10751"
 ]
 )
 condition (MLText
@@ -1605,8 +1605,8 @@ uid 336,0
 va (VaSet
 font "arial,8,0"
 )
-xt "36459,9021,50159,10021"
-st "go_verwarmen = '0' OR w_laag = '1'"
+xt "31839,9351,51239,10351"
+st "go_verwarmen = '0' OR w_laag = '1' OR t_laag = '0'"
 tm "Condition"
 )
 actions (MLText
@@ -1614,7 +1614,7 @@ uid 337,0
 va (VaSet
 font "arial,8,0"
 )
-xt "43309,10421,43309,10421"
+xt "41539,10751,41539,10751"
 tm "Actions"
 )
 )
@@ -1941,8 +1941,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "713,0,1447,859"
-viewArea "17258,-1164,61347,43922"
+windowSize "706,0,1441,859"
+viewArea "17226,3185,61116,47999"
 cachedDiagramExtent "0,-1000,73000,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
@@ -2321,7 +2321,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 360,0
+lastUid 389,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *58 (LEmptyRow
