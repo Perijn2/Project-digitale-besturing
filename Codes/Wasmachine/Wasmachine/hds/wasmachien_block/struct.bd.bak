@@ -172,7 +172,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:25:58"
+value "13:31:14"
 )
 (vvPair
 variable "group"
@@ -276,7 +276,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "13:25:58"
+value "13:31:14"
 )
 (vvPair
 variable "unit"
@@ -5441,8 +5441,9 @@ pts [
 ]
 )
 start &116
+end &28
 sat 32
-eat 16
+eat 1
 sty 1
 stc 0
 st 0
@@ -5604,7 +5605,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-10000,-81000"
-lastUid 4014,0
+lastUid 4163,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
