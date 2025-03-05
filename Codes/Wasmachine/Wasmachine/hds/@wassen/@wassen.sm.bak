@@ -34,23 +34,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\EIGENAAR\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\EIGENAAR\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\EIGENAAR\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@wassen\\@wassen.sm.info"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@wassen\\@wassen.sm.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\EIGENAAR\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@wassen\\@wassen.sm.user"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@wassen\\@wassen.sm.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\EIGENAAR\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "appl"
@@ -66,27 +66,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\EIGENAAR\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@wassen"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@wassen"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\EIGENAAR\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Wassen"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Wassen"
 )
 (vvPair
 variable "date"
-value " 3-03-2025"
+value "05/03/2025"
 )
 (vvPair
 variable "day"
-value "ma"
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "maandag"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "03"
+value "05"
 )
 (vvPair
 variable "entity_name"
@@ -110,11 +110,11 @@ value "@wassen"
 )
 (vvPair
 variable "graphical_source_author"
-value "EIGENAAR"
+value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value " 3-03-2025"
+value "05/03/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -122,11 +122,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "DESKTOP-19Q08NH"
+value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:03:33"
+value "14:15:30"
 )
 (vvPair
 variable "group"
@@ -134,7 +134,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "DESKTOP-19Q08NH"
+value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "language"
@@ -162,19 +162,19 @@ value "Wassen"
 )
 (vvPair
 variable "month"
-value "mrt"
+value "Mar"
 )
 (vvPair
 variable "month_long"
-value "maart"
+value "March"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\EIGENAAR\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@wassen\\@wassen.sm"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@wassen\\@wassen.sm"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\EIGENAAR\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Wassen\\Wassen.sm"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Wassen\\Wassen.sm"
 )
 (vvPair
 variable "package_name"
@@ -230,7 +230,7 @@ value "Wassen"
 )
 (vvPair
 variable "time"
-value "14:03:33"
+value "14:15:30"
 )
 (vvPair
 variable "unit"
@@ -238,7 +238,7 @@ value "Wassen"
 )
 (vvPair
 variable "user"
-value "EIGENAAR"
+value "Perij"
 )
 (vvPair
 variable "version"
@@ -816,7 +816,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "89316,183982,100716,184982"
+xt "89316,183982,98516,184982"
 st "
 by %user on %dd %month %year
 "
@@ -3941,7 +3941,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "51690,37010,59990,38210"
+xt "51390,37010,60290,38210"
 )
 autoResize 1
 tline (Line
@@ -3952,10 +3952,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "51790,36910,59890,36910"
+xt "51490,36910,60190,36910"
 pts [
-"51790,36910"
-"59890,36910"
+"51490,36910"
+"60190,36910"
 ]
 )
 bline (Line
@@ -3966,10 +3966,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "51790,36260,59890,36260"
+xt "51490,36260,60190,36260"
 pts [
-"51790,36260"
-"59890,36260"
+"51490,36260"
+"60190,36260"
 ]
 )
 ttri (Triangle
@@ -3983,7 +3983,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "51340,36535,51690,36885"
+xt "51040,36535,51390,36885"
 )
 btri (Triangle
 uid 1903,0
@@ -3996,14 +3996,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "51340,34235,51690,34585"
+xt "51040,34235,51390,34585"
 )
 entryActions (MLText
 uid 1904,0
 va (VaSet
 font "arial,8,0"
 )
-xt "51790,36710,51790,36710"
+xt "51490,36710,51490,36710"
 tm "Actions"
 )
 inActions (MLText
@@ -4011,8 +4011,8 @@ uid 1905,0
 va (VaSet
 font "arial,8,0"
 )
-xt "51790,37110,59890,38110"
-st "go_verwarmen <= '0'"
+xt "51490,37110,60190,38110"
+st "go_verwarmen <= '0';"
 tm "Actions"
 )
 exitActions (MLText
@@ -4302,7 +4302,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "34644,19047,35444,20047"
-st "1"
+st "2"
 ju 0
 blo "35044,19847"
 tm "TransitionPriority"
@@ -4396,7 +4396,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "33539,11701,34339,12701"
-st "2"
+st "1"
 ju 0
 blo "33939,12501"
 tm "TransitionPriority"
@@ -4421,7 +4421,7 @@ arrow 1
 )
 start &19
 end &20
-cond "programmakeuze = \"10\" OR \"01\""
+cond "programmakeuze = \"10\" OR programmakeuze = \"01\""
 tb (TransitionBlock
 uid 753,0
 ps "CenterOffsetStrategy"
@@ -4433,7 +4433,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "56405,84521,69905,86521"
+xt "47449,82685,68249,84685"
 )
 autoResize 1
 lineShape (Line
@@ -4442,10 +4442,10 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "58605,86421,58605,86421"
+xt "49649,84585,49649,84585"
 pts [
-"58605,86421"
-"58605,86421"
+"49649,84585"
+"49649,84585"
 ]
 )
 condition (MLText
@@ -4453,8 +4453,8 @@ uid 756,0
 va (VaSet
 font "arial,8,0"
 )
-xt "56905,85021,69405,86021"
-st "programmakeuze = \"10\" OR \"01\""
+xt "47949,83185,67749,84185"
+st "programmakeuze = \"10\" OR programmakeuze = \"01\""
 tm "Condition"
 )
 actions (MLText
@@ -4462,7 +4462,7 @@ uid 757,0
 va (VaSet
 font "arial,8,0"
 )
-xt "63155,86421,63155,86421"
+xt "57849,84585,57849,84585"
 tm "Actions"
 )
 )
@@ -4889,7 +4889,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "34012,44199,40112,46199"
+xt "35809,43450,41909,45450"
 )
 autoResize 1
 lineShape (Line
@@ -4898,10 +4898,10 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "36212,46099,36212,46099"
+xt "38009,45350,38009,45350"
 pts [
-"36212,46099"
-"36212,46099"
+"38009,45350"
+"38009,45350"
 ]
 )
 condition (MLText
@@ -4909,7 +4909,7 @@ uid 1126,0
 va (VaSet
 font "arial,8,0"
 )
-xt "34512,44699,39612,45699"
+xt "36309,43950,41409,44950"
 st "w_hoog = '1'"
 tm "Condition"
 )
@@ -4918,7 +4918,7 @@ uid 1127,0
 va (VaSet
 font "arial,8,0"
 )
-xt "37062,46099,37062,46099"
+xt "38859,45350,38859,45350"
 tm "Actions"
 )
 )
@@ -5518,7 +5518,7 @@ arrow 1
 start &25
 end &27
 es 0
-cond "centrifugeerkeuze = '11'"
+cond "centrifugeerkeuze = \"11\""
 tb (TransitionBlock
 uid 1291,0
 ps "CenterOffsetStrategy"
@@ -5530,7 +5530,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "52061,131078,62361,133078"
+xt "52061,131078,62561,133078"
 )
 autoResize 1
 lineShape (Line
@@ -5550,8 +5550,8 @@ uid 1294,0
 va (VaSet
 font "arial,8,0"
 )
-xt "52561,131578,61861,132578"
-st "centrifugeerkeuze = '11'"
+xt "52561,131578,62061,132578"
+st "centrifugeerkeuze = \"11\""
 tm "Condition"
 )
 actions (MLText
@@ -5559,7 +5559,7 @@ uid 1295,0
 va (VaSet
 font "arial,8,0"
 )
-xt "57211,132978,57211,132978"
+xt "57311,132978,57311,132978"
 tm "Actions"
 )
 )
@@ -6484,7 +6484,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "39761,50208,40561,51208"
-st "2"
+st "3"
 ju 0
 blo "40161,51008"
 tm "TransitionPriority"
@@ -6573,7 +6573,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "34886,52755,35686,53755"
-st "1"
+st "2"
 ju 0
 blo "35286,53555"
 tm "TransitionPriority"
@@ -6757,7 +6757,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "29923,52770,30723,53770"
-st "3"
+st "1"
 ju 0
 blo "30323,53570"
 tm "TransitionPriority"
@@ -7149,8 +7149,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,1537,832"
-viewArea "14068,13867,116758,63147"
+windowSize "320,-1088,2256,-32"
+viewArea "-7394,79686,117994,147812"
 cachedDiagramExtent "0,-1000,126734,186484"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -7571,7 +7571,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 1946,0
+lastUid 2004,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *102 (LEmptyRow
