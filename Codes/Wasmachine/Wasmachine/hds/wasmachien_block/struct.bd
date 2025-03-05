@@ -172,7 +172,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "12:44:56"
+value "13:25:58"
 )
 (vvPair
 variable "group"
@@ -276,7 +276,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "12:44:56"
+value "13:25:58"
 )
 (vvPair
 variable "unit"
@@ -4553,6 +4553,7 @@ shape (OrthoPolyLine
 uid 1584,0
 va (VaSet
 vasetType 3
+lineWidth 2
 )
 xt "97000,48000,102000,48000"
 pts [
@@ -4564,6 +4565,7 @@ start &73
 end &28
 sat 32
 eat 1
+sty 1
 stc 0
 st 0
 sf 1
@@ -5439,9 +5441,8 @@ pts [
 ]
 )
 start &116
-end &28
 sat 32
-eat 1
+eat 16
 sty 1
 stc 0
 st 0
@@ -5603,7 +5604,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-10000,-81000"
-lastUid 3865,0
+lastUid 4014,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
