@@ -752,19 +752,19 @@ value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasma
 )
 (vvPair
 variable "date"
-value "03/03/2025"
+value "05/03/2025"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "03"
+value "05"
 )
 (vvPair
 variable "entity_name"
@@ -792,7 +792,7 @@ value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value "03/03/2025"
+value "05/03/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -804,7 +804,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "12:18:48"
+value "12:44:56"
 )
 (vvPair
 variable "group"
@@ -908,7 +908,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "12:18:48"
+value "12:44:56"
 )
 (vvPair
 variable "unit"
@@ -1947,7 +1947,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,45300,49000"
+xt "36200,48000,45400,49000"
 st "
 by %user on %dd %month %year
 "
@@ -2563,6 +2563,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1730,0
+lastUid 1753,0
 activeModelName "Symbol:CDM"
 )
