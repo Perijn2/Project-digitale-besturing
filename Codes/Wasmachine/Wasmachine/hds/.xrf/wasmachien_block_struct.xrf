@@ -1,0 +1,374 @@
+DESIGN wasmachien_block
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 709,0 14 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 714,0 15 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 869,0 16 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 724,0 17 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 932,0 18 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 719,0 19 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 673,0 20 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 763,0 21 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 758,0 22 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 879,0 23 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 874,0 24 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 1082,0 25 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 854,0 26 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 1062,0 27 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 1072,0 28 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 1077,0 29 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 1067,0 30 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 864,0 31 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 859,0 32 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 768,0 33 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 1,0 36 0 
+DESIGN wasmachien_block
+VIEW symbol.sb
+GRAPHIC 1,0 37 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+NO_GRAPHIC 40
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 329,0 49 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+NO_GRAPHIC 52
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 0,0 55 2 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1996,0 60 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 3359,0 61 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2046,0 62 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2070,0 63 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2022,0 64 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 838,0 65 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2044,0 66 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2068,0 67 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2020,0 68 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 826,0 69 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1030,0 70 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+NO_GRAPHIC 71
+DESIGN wasmachien_block
+VIEW struct.bd
+NO_GRAPHIC 72
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen
+GRAPHIC 796,0 74 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1533,0 76 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1539,0 77 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2096,0 78 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1795,0 79 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2088,0 80 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1188,0 81 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 397,0 84 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 892,0 86 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1391,0 87 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 938,0 88 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 736,0 89 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1693,0 90 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1683,0 91 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 818,0 92 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1022,0 93 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1164,0 94 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 830,0 95 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 950,0 96 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 974,0 97 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 986,0 98 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 962,0 99 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 806,0 102 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1557,0 104 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1563,0 105 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2036,0 106 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1829,0 107 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1823,0 108 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1176,0 109 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2026,0 110 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 786,0 113 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1509,0 115 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1583,0 116 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1515,0 117 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2060,0 118 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 3858,0 119 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1200,0 120 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2050,0 121 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 427,0 124 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1485,0 126 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1491,0 127 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2012,0 128 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1124,0 129 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1118,0 130 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1713,0 131 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1146,0 132 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2002,0 133 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 417,0 136 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1437,0 138 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2088,0 139 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2510,0 140 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1443,0 141 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 830,0 142 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 780,0 143 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1663,0 144 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1657,0 145 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2026,0 146 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2104,0 147 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2002,0 148 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1767,0 149 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1761,0 150 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2096,0 151 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2036,0 152 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2112,0 153 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 2012,0 154 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 818,0 155 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 1022,0 156 0 
+LIBRARY Wasmachine
+DESIGN wasmachien_block
+VIEW struct.bd
+NO_GRAPHIC 159
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 796,0 162 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 397,0 163 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 806,0 164 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 786,0 165 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 427,0 166 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 417,0 167 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+NO_GRAPHIC 170
+DESIGN wasmachien_block
+VIEW struct.bd
+NO_GRAPHIC 172
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 796,0 174 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 397,0 183 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 806,0 200 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 786,0 210 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 427,0 220 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+GRAPHIC 417,0 231 0 
+DESIGN wasmachien_block
+VIEW struct.bd
+NO_GRAPHIC 254

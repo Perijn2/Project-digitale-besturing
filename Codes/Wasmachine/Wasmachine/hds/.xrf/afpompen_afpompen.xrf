@@ -1,0 +1,222 @@
+DESIGN @afpompen
+VIEW interface
+NO_GRAPHIC 0
+DESIGN @afpompen
+VIEW interface
+GRAPHIC 50,0 8 0 
+DESIGN @afpompen
+VIEW interface
+GRAPHIC 402,0 14 0 
+DESIGN @afpompen
+VIEW interface
+GRAPHIC 412,0 15 0 
+DESIGN @afpompen
+VIEW interface
+GRAPHIC 417,0 16 0 
+DESIGN @afpompen
+VIEW interface
+GRAPHIC 422,0 17 0 
+DESIGN @afpompen
+VIEW interface
+GRAPHIC 407,0 18 0 
+DESIGN @afpompen
+VIEW interface
+GRAPHIC 427,0 19 0 
+DESIGN @afpompen
+VIEW interface
+GRAPHIC 1,0 22 0 
+DESIGN @afpompen
+VIEW interface
+GRAPHIC 1,0 23 0 
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 31,0 35 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+NO_GRAPHIC 38
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 2,0 54 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+NO_GRAPHIC 55
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 2,0 58 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+NO_GRAPHIC 59
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 70,0 60 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 60,0 62 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+NO_GRAPHIC 63
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 2,0 65 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+NO_GRAPHIC 66
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 2,0 68 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+NO_GRAPHIC 69
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 2,0 75 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 237,0 76 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 276,0 77 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 254,0 78 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 286,0 79 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 237,0 80 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+NO_GRAPHIC 81
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 237,0 82 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+NO_GRAPHIC 83
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 254,0 84 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 313,0 85 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 291,0 86 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 333,0 87 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 254,0 88 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+NO_GRAPHIC 89
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 254,0 90 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+NO_GRAPHIC 91
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 291,0 92 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 237,0 93 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 93,0 94 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+NO_GRAPHIC 96
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 2,0 97 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+NO_GRAPHIC 98
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 2,0 100 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+NO_GRAPHIC 101
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 2,0 107 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 237,0 108 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 252,0 109 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 254,0 110 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 269,0 111 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 291,0 113 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 306,0 114 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+NO_GRAPHIC 115
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+GRAPHIC 2,0 117 0
+LIBRARY Wasmachine
+DESIGN @afpompen
+VIEW @afpompen.sm
+NO_GRAPHIC 119

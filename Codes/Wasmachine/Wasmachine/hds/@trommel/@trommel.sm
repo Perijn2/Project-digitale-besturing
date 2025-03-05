@@ -131,7 +131,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:27:30"
+value "16:07:35"
 )
 (vvPair
 variable "group"
@@ -235,7 +235,7 @@ value "Trommel"
 )
 (vvPair
 variable "time"
-value "13:27:30"
+value "16:07:35"
 )
 (vvPair
 variable "unit"
@@ -6015,7 +6015,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 2217,0
+lastUid 2306,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *101 (LEmptyRow
@@ -6130,7 +6130,7 @@ decl (Decl
 n "motor"
 t "std_logic_vector"
 b "(2 DOWNTO 0)"
-o 5
+o 6
 )
 )
 uid 164,0
@@ -6143,7 +6143,7 @@ m 1
 decl (Decl
 n "trommel_ready"
 t "std_logic"
-o 6
+o 7
 )
 )
 uid 166,0
@@ -6156,7 +6156,7 @@ m 4
 decl (Decl
 n "Richting"
 t "std_logic"
-o 7
+o 8
 )
 )
 uid 2156,0
@@ -6166,14 +6166,13 @@ scheme 0
 port (LogicalPort
 lang 2
 decl (Decl
-n "wassen_status"
-t "std_logic_vector"
-b "(2 DOWNTO 0)"
-o 8
+n "trommel_keuze"
+t "std_logic"
+o 5
 )
 )
-uid 2187,0
-scheme 1
+uid 2276,0
+scheme 0
 )
 ]
 )
@@ -6271,7 +6270,7 @@ uid 2157,0
 litem &127
 pos 7
 dimension 20
-uid 2188,0
+uid 2277,0
 )
 ]
 )
@@ -6418,30 +6417,6 @@ tm "GenericPragmaColHdrMgr"
 *166 (EolColHdr
 tm "GenericEolColHdrMgr"
 )
-*167 (LogGeneric
-generic (GiElement
-name "Richting"
-type "integer"
-value "0"
-)
-uid 1511,0
-)
-*168 (LogGeneric
-generic (GiElement
-name "Kant"
-type "integer"
-value "0"
-)
-uid 1784,0
-)
-*169 (LogGeneric
-generic (GiElement
-name "Rotaties"
-type "integer"
-value "0"
-)
-uid 2008,0
-)
 ]
 )
 pdm (PhysicalDM
@@ -6449,7 +6424,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 223,0
 optionalChildren [
-*170 (Sheet
+*167 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -6466,49 +6441,31 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "Tahoma,10,0"
 )
-emptyMRCItem *171 (MRCItem
+emptyMRCItem *168 (MRCItem
 litem &155
-pos 3
+pos 0
 dimension 20
 )
 uid 225,0
 optionalChildren [
-*172 (MRCItem
+*169 (MRCItem
 litem &156
 pos 0
 dimension 20
 uid 226,0
 )
-*173 (MRCItem
+*170 (MRCItem
 litem &157
 pos 1
 dimension 23
 uid 227,0
 )
-*174 (MRCItem
+*171 (MRCItem
 litem &158
 pos 2
 hidden 1
 dimension 20
 uid 228,0
-)
-*175 (MRCItem
-litem &167
-pos 0
-dimension 20
-uid 1512,0
-)
-*176 (MRCItem
-litem &168
-pos 1
-dimension 20
-uid 1785,0
-)
-*177 (MRCItem
-litem &169
-pos 2
-dimension 20
-uid 2009,0
 )
 ]
 )
@@ -6521,43 +6478,43 @@ textAngle 90
 )
 uid 229,0
 optionalChildren [
-*178 (MRCItem
+*172 (MRCItem
 litem &159
 pos 0
 dimension 20
 uid 230,0
 )
-*179 (MRCItem
+*173 (MRCItem
 litem &161
 pos 1
 dimension 50
 uid 231,0
 )
-*180 (MRCItem
+*174 (MRCItem
 litem &162
 pos 2
 dimension 100
 uid 232,0
 )
-*181 (MRCItem
+*175 (MRCItem
 litem &163
 pos 3
 dimension 100
 uid 233,0
 )
-*182 (MRCItem
+*176 (MRCItem
 litem &164
 pos 4
 dimension 50
 uid 234,0
 )
-*183 (MRCItem
+*177 (MRCItem
 litem &165
 pos 5
 dimension 50
 uid 235,0
 )
-*184 (MRCItem
+*178 (MRCItem
 litem &166
 pos 6
 dimension 80
