@@ -74,19 +74,19 @@ value "C:\\Users\\EIGENAAR\\Documents\\GitHub\\Project-digitale-besturing\\Codes
 )
 (vvPair
 variable "date"
-value " 3-03-2025"
+value " 5-03-2025"
 )
 (vvPair
 variable "day"
-value "ma"
+value "wo"
 )
 (vvPair
 variable "day_long"
-value "maandag"
+value "woensdag"
 )
 (vvPair
 variable "dd"
-value "03"
+value "05"
 )
 (vvPair
 variable "entity_name"
@@ -114,7 +114,7 @@ value "EIGENAAR"
 )
 (vvPair
 variable "graphical_source_date"
-value " 3-03-2025"
+value " 5-03-2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -126,7 +126,7 @@ value "DESKTOP-19Q08NH"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:03:33"
+value "12:53:58"
 )
 (vvPair
 variable "group"
@@ -230,7 +230,7 @@ value "Wassen"
 )
 (vvPair
 variable "time"
-value "14:03:33"
+value "12:53:58"
 )
 (vvPair
 variable "unit"
@@ -7150,7 +7150,7 @@ tm "SmCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,1537,832"
-viewArea "14068,13867,116758,63147"
+viewArea "14100,111900,116790,161180"
 cachedDiagramExtent "0,-1000,126734,186484"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -7571,7 +7571,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 1946,0
+lastUid 1975,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *102 (LEmptyRow

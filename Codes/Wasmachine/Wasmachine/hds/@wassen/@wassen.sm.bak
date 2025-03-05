@@ -126,7 +126,7 @@ value "DESKTOP-19Q08NH"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:03:31"
+value "14:03:33"
 )
 (vvPair
 variable "group"
@@ -230,7 +230,7 @@ value "Wassen"
 )
 (vvPair
 variable "time"
-value "14:03:30"
+value "14:03:33"
 )
 (vvPair
 variable "unit"
