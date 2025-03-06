@@ -129,6 +129,7 @@ n "verwarmen"
 t "std_logic"
 o 7
 suid 6,0
+i "'0'"
 )
 )
 uid 101,0
@@ -142,6 +143,7 @@ n "verwarmen_ready"
 t "std_logic"
 o 8
 suid 7,0
+i "'0'"
 )
 )
 uid 103,0
@@ -525,19 +527,19 @@ value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Verwa
 )
 (vvPair
 variable "date"
-value "28/02/2025"
+value "05/03/2025"
 )
 (vvPair
 variable "day"
-value "Fri"
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "Friday"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "28"
+value "05"
 )
 (vvPair
 variable "entity_name"
@@ -565,7 +567,7 @@ value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value "28/02/2025"
+value "05/03/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -577,7 +579,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:49:20"
+value "23:03:25"
 )
 (vvPair
 variable "group"
@@ -604,8 +606,12 @@ variable "library_downstream_QuestaSimCompiler"
 value "$HDS_PROJECT_DIR/Wasmachine/questasim"
 )
 (vvPair
+variable "library_downstream_QuestaSimSimulator"
+value "$HDS_PROJECT_DIR\\Wasmachine\\sim"
+)
+(vvPair
 variable "mm"
-value "02"
+value "03"
 )
 (vvPair
 variable "module_name"
@@ -613,11 +619,11 @@ value "Verwarming"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "Mar"
 )
 (vvPair
 variable "month_long"
-value "February"
+value "March"
 )
 (vvPair
 variable "p"
@@ -681,7 +687,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "09:49:20"
+value "23:03:25"
 )
 (vvPair
 variable "unit"
@@ -748,7 +754,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2000,64000,2800"
-st "aan_uit         : IN     std_logic  ;"
+st "aan_uit         : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -793,7 +800,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2800,64000,3600"
-st "clk             : IN     std_logic  ;"
+st "clk             : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -838,7 +846,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3600,64000,4400"
-st "go_verwarmen    : IN     std_logic  ;"
+st "go_verwarmen    : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -883,7 +892,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4400,64000,5200"
-st "t_hoog          : IN     std_logic  ;"
+st "t_hoog          : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -928,7 +938,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5200,64000,6000"
-st "t_laag          : IN     std_logic  ;"
+st "t_laag          : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -973,8 +984,9 @@ uid 80,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,6800,64000,7600"
-st "verwarmen       : OUT    std_logic  ;"
+xt "44000,6800,68000,7600"
+st "verwarmen       : OUT    std_logic  := '0' ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -984,6 +996,7 @@ n "verwarmen"
 t "std_logic"
 o 7
 suid 6,0
+i "'0'"
 )
 )
 )
@@ -1019,8 +1032,9 @@ uid 85,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,7600,63000,8400"
-st "verwarmen_ready : OUT    std_logic "
+xt "44000,7600,67000,8400"
+st "verwarmen_ready : OUT    std_logic  := '0'
+"
 )
 thePort (LogicalPort
 lang 2
@@ -1030,6 +1044,7 @@ n "verwarmen_ready"
 t "std_logic"
 o 8
 suid 7,0
+i "'0'"
 )
 )
 )
@@ -1066,7 +1081,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6000,64000,6800"
-st "w_laag          : IN     std_logic  ;"
+st "w_laag          : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -1162,7 +1178,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,45300,49000"
+xt "36200,48000,45400,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1778,6 +1794,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 232,0
+lastUid 278,0
 activeModelName "Symbol:CDM"
 )

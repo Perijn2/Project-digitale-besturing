@@ -126,7 +126,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:39:07"
+value "23:03:37"
 )
 (vvPair
 variable "group"
@@ -151,6 +151,10 @@ value "$HDS_PROJECT_DIR/Wasmachine/designcheck"
 (vvPair
 variable "library_downstream_QuestaSimCompiler"
 value "$HDS_PROJECT_DIR/Wasmachine/questasim"
+)
+(vvPair
+variable "library_downstream_QuestaSimSimulator"
+value "$HDS_PROJECT_DIR\\Wasmachine\\sim"
 )
 (vvPair
 variable "mm"
@@ -230,7 +234,7 @@ value "Toevoer"
 )
 (vvPair
 variable "time"
-value "13:39:07"
+value "23:03:37"
 )
 (vvPair
 variable "unit"
@@ -815,7 +819,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,46000,45300,47000"
+xt "36200,46000,45400,47000"
 st "
 by %user on %dd %month %year
 "
@@ -1941,8 +1945,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "320,-1088,2256,-32"
-viewArea "-3560,-6793,94821,46660"
+windowSize "0,0,1537,864"
+viewArea "-3600,-6800,94575,46300"
 cachedDiagramExtent "0,-1000,73000,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
@@ -2321,7 +2325,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 355,0
+lastUid 413,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *58 (LEmptyRow
@@ -2446,6 +2450,7 @@ decl (Decl
 n "klep_open"
 t "std_logic"
 o 6
+i "'0'"
 )
 )
 uid 166,0
@@ -2459,6 +2464,7 @@ decl (Decl
 n "toevoer_ready"
 t "std_logic"
 o 7
+i "'0'"
 )
 )
 uid 168,0
@@ -3697,6 +3703,6 @@ pts [
 ]
 )
 )
-activeModelName "StateMachine"
+activeModelName "StateMachine:CDM"
 LanguageMgr "Vhdl93LangMgr"
 )

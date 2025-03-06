@@ -118,6 +118,7 @@ n "go_wassen"
 t "std_logic"
 o 10
 suid 114,0
+i "'0'"
 )
 )
 uid 1225,0
@@ -131,6 +132,7 @@ n "led_aan"
 t "std_logic"
 o 11
 suid 115,0
+i "'0'"
 )
 )
 uid 1227,0
@@ -144,6 +146,7 @@ n "led_start"
 t "std_logic"
 o 12
 suid 116,0
+i "'0'"
 )
 )
 uid 1229,0
@@ -158,6 +161,7 @@ t "std_logic_vector"
 b "(2 DOWNTO 0)"
 o 13
 suid 117,0
+i "\"000\""
 )
 )
 uid 1231,0
@@ -171,6 +175,7 @@ n "led_vuldeur"
 t "std_logic"
 o 14
 suid 118,0
+i "'0'"
 )
 )
 uid 1233,0
@@ -639,7 +644,7 @@ value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Maste
 )
 (vvPair
 variable "date"
-value "26/02/2025"
+value "05/03/2025"
 )
 (vvPair
 variable "day"
@@ -651,7 +656,7 @@ value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "26"
+value "05"
 )
 (vvPair
 variable "entity_name"
@@ -679,7 +684,7 @@ value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value "26/02/2025"
+value "05/03/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -691,7 +696,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "18:18:17"
+value "23:02:14"
 )
 (vvPair
 variable "group"
@@ -718,8 +723,12 @@ variable "library_downstream_QuestaSimCompiler"
 value "$HDS_PROJECT_DIR/Wasmachine/questasim"
 )
 (vvPair
+variable "library_downstream_QuestaSimSimulator"
+value "$HDS_PROJECT_DIR\\Wasmachine\\sim"
+)
+(vvPair
 variable "mm"
-value "02"
+value "03"
 )
 (vvPair
 variable "module_name"
@@ -727,11 +736,11 @@ value "Master"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "Mar"
 )
 (vvPair
 variable "month_long"
-value "February"
+value "March"
 )
 (vvPair
 variable "p"
@@ -795,7 +804,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "18:18:17"
+value "23:02:14"
 )
 (vvPair
 variable "unit"
@@ -1048,8 +1057,8 @@ uid 1171,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,9200,63000,10000"
-st "go_wassen     : OUT    std_logic  ;
+xt "44000,9200,76500,10000"
+st "go_wassen     : OUT    std_logic                     := '0' ;
 "
 )
 thePort (LogicalPort
@@ -1060,6 +1069,7 @@ n "go_wassen"
 t "std_logic"
 o 10
 suid 114,0
+i "'0'"
 )
 )
 )
@@ -1096,8 +1106,8 @@ uid 1176,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,10000,63000,10800"
-st "led_aan       : OUT    std_logic  ;
+xt "44000,10000,76500,10800"
+st "led_aan       : OUT    std_logic                     := '0' ;
 "
 )
 thePort (LogicalPort
@@ -1108,6 +1118,7 @@ n "led_aan"
 t "std_logic"
 o 11
 suid 115,0
+i "'0'"
 )
 )
 )
@@ -1144,8 +1155,8 @@ uid 1181,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,10800,63000,11600"
-st "led_start     : OUT    std_logic  ;
+xt "44000,10800,76500,11600"
+st "led_start     : OUT    std_logic                     := '0' ;
 "
 )
 thePort (LogicalPort
@@ -1156,6 +1167,7 @@ n "led_start"
 t "std_logic"
 o 12
 suid 116,0
+i "'0'"
 )
 )
 )
@@ -1192,8 +1204,8 @@ uid 1186,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,11600,73000,12400"
-st "led_status    : OUT    std_logic_vector (2 DOWNTO 0) ;
+xt "44000,11600,77500,12400"
+st "led_status    : OUT    std_logic_vector (2 DOWNTO 0) := \"000\" ;
 "
 )
 thePort (LogicalPort
@@ -1205,6 +1217,7 @@ t "std_logic_vector"
 b "(2 DOWNTO 0)"
 o 13
 suid 117,0
+i "\"000\""
 )
 )
 )
@@ -1241,8 +1254,8 @@ uid 1191,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,12400,62000,13200"
-st "led_vuldeur   : OUT    std_logic 
+xt "44000,12400,75500,13200"
+st "led_vuldeur   : OUT    std_logic                     := '0'
 "
 )
 thePort (LogicalPort
@@ -1253,6 +1266,7 @@ n "led_vuldeur"
 t "std_logic"
 o 14
 suid 118,0
+i "'0'"
 )
 )
 )
@@ -1574,7 +1588,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,45300,49000"
+xt "36200,48000,45400,49000"
 st "
 by %user on %dd %month %year
 "
@@ -2190,6 +2204,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1267,0
+lastUid 1336,0
 activeModelName "Symbol:CDM"
 )

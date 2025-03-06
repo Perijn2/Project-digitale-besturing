@@ -804,7 +804,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "16:40:26"
+value "23:04:21"
 )
 (vvPair
 variable "group"
@@ -829,6 +829,10 @@ value "$HDS_PROJECT_DIR/Wasmachine/designcheck"
 (vvPair
 variable "library_downstream_QuestaSimCompiler"
 value "$HDS_PROJECT_DIR/Wasmachine/questasim"
+)
+(vvPair
+variable "library_downstream_QuestaSimSimulator"
+value "$HDS_PROJECT_DIR\\Wasmachine\\sim"
 )
 (vvPair
 variable "mm"
@@ -908,7 +912,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "16:40:26"
+value "23:04:21"
 )
 (vvPair
 variable "unit"
@@ -2563,6 +2567,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1822,0
+lastUid 1891,0
 activeModelName "Symbol:CDM"
 )

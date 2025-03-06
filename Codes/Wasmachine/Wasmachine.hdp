@@ -1,7 +1,9 @@
 [DesignChecker]
-Wasmachine = $HDS_PROJECT_DIR\Wasmachine\designcheck
+Wasmachine = $HDS_PROJECT_DIR/Wasmachine/designcheck
 [QuestaSim]
-Wasmachine = $HDS_PROJECT_DIR\Wasmachine\questasim
+Wasmachine = $HDS_PROJECT_DIR/Wasmachine/questasim
+[QuestaSim_Invoke_Dir]
+Wasmachine = $HDS_PROJECT_DIR\Wasmachine\sim
 [hdl]
 Wasmachine = $HDS_PROJECT_DIR/Wasmachine/hdl
 Wasmachine_lib = $HDS_PROJECT_DIR/Wasmachine_lib/hdl

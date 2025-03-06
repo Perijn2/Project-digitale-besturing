@@ -66,7 +66,7 @@ lang 2
 decl (Decl
 n "aan_uit"
 t "std_logic"
-o 7
+o 1
 suid 44,0
 )
 )
@@ -79,7 +79,7 @@ decl (Decl
 n "centrifugeerkeuze"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 23
+o 2
 suid 45,0
 )
 )
@@ -91,7 +91,7 @@ lang 2
 decl (Decl
 n "clk"
 t "std_logic"
-o 23
+o 3
 suid 46,0
 )
 )
@@ -103,7 +103,7 @@ lang 2
 decl (Decl
 n "go_trommel"
 t "std_logic"
-o 35
+o 4
 suid 47,0
 )
 )
@@ -117,8 +117,9 @@ decl (Decl
 n "motor"
 t "std_logic_vector"
 b "(2 DOWNTO 0)"
-o 22
+o 6
 suid 48,0
+i "\"000\""
 )
 )
 uid 780,0
@@ -129,7 +130,7 @@ lang 2
 decl (Decl
 n "trommel_keuze"
 t "std_logic"
-o 32
+o 5
 suid 49,0
 )
 )
@@ -142,8 +143,9 @@ m 1
 decl (Decl
 n "trommel_ready"
 t "std_logic"
-o 34
+o 7
 suid 50,0
+i "'0'"
 )
 )
 uid 784,0
@@ -561,7 +563,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "16:29:00"
+value "23:03:54"
 )
 (vvPair
 variable "group"
@@ -586,6 +588,10 @@ value "$HDS_PROJECT_DIR/Wasmachine/designcheck"
 (vvPair
 variable "library_downstream_QuestaSimCompiler"
 value "$HDS_PROJECT_DIR/Wasmachine/questasim"
+)
+(vvPair
+variable "library_downstream_QuestaSimSimulator"
+value "$HDS_PROJECT_DIR\\Wasmachine\\sim"
 )
 (vvPair
 variable "mm"
@@ -665,7 +671,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "16:29:00"
+value "23:03:54"
 )
 (vvPair
 variable "unit"
@@ -740,7 +746,7 @@ lang 2
 decl (Decl
 n "aan_uit"
 t "std_logic"
-o 7
+o 1
 suid 44,0
 )
 )
@@ -787,7 +793,7 @@ decl (Decl
 n "centrifugeerkeuze"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 23
+o 2
 suid 45,0
 )
 )
@@ -833,7 +839,7 @@ lang 2
 decl (Decl
 n "clk"
 t "std_logic"
-o 23
+o 3
 suid 46,0
 )
 )
@@ -879,7 +885,7 @@ lang 2
 decl (Decl
 n "go_trommel"
 t "std_logic"
-o 35
+o 4
 suid 47,0
 )
 )
@@ -917,8 +923,8 @@ uid 761,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,6000,75000,6800"
-st "motor             : OUT    std_logic_vector (2 DOWNTO 0) ;
+xt "44000,6000,79500,6800"
+st "motor             : OUT    std_logic_vector (2 DOWNTO 0) := \"000\" ;
 "
 )
 thePort (LogicalPort
@@ -928,8 +934,9 @@ decl (Decl
 n "motor"
 t "std_logic_vector"
 b "(2 DOWNTO 0)"
-o 22
+o 6
 suid 48,0
+i "\"000\""
 )
 )
 )
@@ -974,7 +981,7 @@ lang 2
 decl (Decl
 n "trommel_keuze"
 t "std_logic"
-o 32
+o 5
 suid 49,0
 )
 )
@@ -1011,8 +1018,8 @@ uid 771,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,6800,64000,7600"
-st "trommel_ready     : OUT    std_logic 
+xt "44000,6800,77500,7600"
+st "trommel_ready     : OUT    std_logic                     := '0'
 "
 )
 thePort (LogicalPort
@@ -1021,8 +1028,9 @@ m 1
 decl (Decl
 n "trommel_ready"
 t "std_logic"
-o 34
+o 7
 suid 50,0
+i "'0'"
 )
 )
 )
@@ -1727,6 +1735,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 785,0
+lastUid 831,0
 activeModelName "Symbol:CDM"
 )

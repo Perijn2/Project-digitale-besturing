@@ -79,7 +79,7 @@ value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Maste
 )
 (vvPair
 variable "date"
-value "26/02/2025"
+value "05/03/2025"
 )
 (vvPair
 variable "day"
@@ -91,7 +91,7 @@ value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "26"
+value "05"
 )
 (vvPair
 variable "entity_name"
@@ -119,7 +119,7 @@ value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value "26/02/2025"
+value "05/03/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -131,7 +131,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "18:37:04"
+value "23:02:14"
 )
 (vvPair
 variable "group"
@@ -158,8 +158,12 @@ variable "library_downstream_QuestaSimCompiler"
 value "$HDS_PROJECT_DIR/Wasmachine/questasim"
 )
 (vvPair
+variable "library_downstream_QuestaSimSimulator"
+value "$HDS_PROJECT_DIR\\Wasmachine\\sim"
+)
+(vvPair
 variable "mm"
-value "02"
+value "03"
 )
 (vvPair
 variable "module_name"
@@ -167,11 +171,11 @@ value "Master"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "Mar"
 )
 (vvPair
 variable "month_long"
-value "February"
+value "March"
 )
 (vvPair
 variable "p"
@@ -235,7 +239,7 @@ value "Master"
 )
 (vvPair
 variable "time"
-value "18:37:04"
+value "23:02:14"
 )
 (vvPair
 variable "unit"
@@ -820,7 +824,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "38432,73360,47532,74360"
+xt "38432,73360,47632,74360"
 st "
 by %user on %dd %month %year
 "
@@ -1879,7 +1883,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "35200,49000,44300,50000"
+xt "35200,49000,44400,50000"
 st "
 by %user on %dd %month %year
 "
@@ -4645,7 +4649,7 @@ tm "SmCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,24,1537,864"
-viewArea "-14337,-21197,81220,30779"
+viewArea "-14300,-21200,81257,28732"
 cachedDiagramExtent "0,-11800,75232,74360"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-51000"
@@ -5034,7 +5038,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 947,0
+lastUid 1005,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *93 (LEmptyRow
@@ -5206,6 +5210,7 @@ decl (Decl
 n "go_wassen"
 t "std_logic"
 o 10
+i "'0'"
 )
 )
 uid 182,0
@@ -5219,6 +5224,7 @@ decl (Decl
 n "led_aan"
 t "std_logic"
 o 11
+i "'0'"
 )
 )
 uid 184,0
@@ -5232,6 +5238,7 @@ decl (Decl
 n "led_start"
 t "std_logic"
 o 12
+i "'0'"
 )
 )
 uid 186,0
@@ -5246,6 +5253,7 @@ n "led_status"
 t "std_logic_vector"
 b "(2 DOWNTO 0)"
 o 13
+i "\"000\""
 )
 )
 uid 188,0
@@ -5259,6 +5267,7 @@ decl (Decl
 n "led_vuldeur"
 t "std_logic"
 o 14
+i "'0'"
 )
 )
 uid 190,0
@@ -6539,6 +6548,6 @@ pts [
 ]
 )
 )
-activeModelName "StateMachine"
+activeModelName "StateMachine:CDM"
 LanguageMgr "Vhdl93LangMgr"
 )

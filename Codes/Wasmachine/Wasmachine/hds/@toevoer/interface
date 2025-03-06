@@ -105,6 +105,7 @@ n "klep_open"
 t "std_logic"
 o 6
 suid 4,0
+i "'0'"
 )
 )
 uid 92,0
@@ -118,6 +119,7 @@ n "toevoer_ready"
 t "std_logic"
 o 7
 suid 5,0
+i "'0'"
 )
 )
 uid 94,0
@@ -467,23 +469,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@toevoer\\interface.info"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@toevoer\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@toevoer\\interface.user"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@toevoer\\interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "appl"
@@ -499,27 +501,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@toevoer"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@toevoer"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Toevoer"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Toevoer"
 )
 (vvPair
 variable "date"
-value "25/02/2025"
+value "05/03/2025"
 )
 (vvPair
 variable "day"
-value "Tue"
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "Tuesday"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "25"
+value "05"
 )
 (vvPair
 variable "entity_name"
@@ -547,7 +549,7 @@ value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value "25/02/2025"
+value "05/03/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -559,7 +561,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:15:48"
+value "23:03:37"
 )
 (vvPair
 variable "group"
@@ -578,8 +580,20 @@ variable "library"
 value "Wasmachine"
 )
 (vvPair
+variable "library_downstream_HdsLintPlugin"
+value "$HDS_PROJECT_DIR/Wasmachine/designcheck"
+)
+(vvPair
+variable "library_downstream_QuestaSimCompiler"
+value "$HDS_PROJECT_DIR/Wasmachine/questasim"
+)
+(vvPair
+variable "library_downstream_QuestaSimSimulator"
+value "$HDS_PROJECT_DIR\\Wasmachine\\sim"
+)
+(vvPair
 variable "mm"
-value "02"
+value "03"
 )
 (vvPair
 variable "module_name"
@@ -587,19 +601,19 @@ value "Toevoer"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "Mar"
 )
 (vvPair
 variable "month_long"
-value "February"
+value "March"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@toevoer\\interface"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@toevoer\\interface"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\Perij\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Toevoer\\interface"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Toevoer\\interface"
 )
 (vvPair
 variable "package_name"
@@ -655,7 +669,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "15:15:48"
+value "23:03:37"
 )
 (vvPair
 variable "unit"
@@ -722,7 +736,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2000,63000,2800"
-st "aan_uit       : IN     std_logic  ;"
+st "aan_uit       : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -767,7 +782,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2800,63000,3600"
-st "clk           : IN     std_logic  ;"
+st "clk           : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -812,7 +828,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3600,63000,4400"
-st "go_toevoer    : IN     std_logic  ;"
+st "go_toevoer    : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -857,8 +874,9 @@ uid 70,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,6000,63000,6800"
-st "klep_open     : OUT    std_logic  ;"
+xt "44000,6000,67000,6800"
+st "klep_open     : OUT    std_logic  := '0' ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -868,6 +886,7 @@ n "klep_open"
 t "std_logic"
 o 6
 suid 4,0
+i "'0'"
 )
 )
 )
@@ -903,8 +922,9 @@ uid 75,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,6800,62000,7600"
-st "toevoer_ready : OUT    std_logic "
+xt "44000,6800,66000,7600"
+st "toevoer_ready : OUT    std_logic  := '0'
+"
 )
 thePort (LogicalPort
 lang 2
@@ -914,6 +934,7 @@ n "toevoer_ready"
 t "std_logic"
 o 7
 suid 5,0
+i "'0'"
 )
 )
 )
@@ -950,7 +971,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4400,63000,5200"
-st "w_hoog        : IN     std_logic  ;"
+st "w_hoog        : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -995,7 +1017,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5200,63000,6000"
-st "w_laag        : IN     std_logic  ;"
+st "w_laag        : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -1091,7 +1114,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,45300,49000"
+xt "36200,48000,45400,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1707,6 +1730,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 294,0
+lastUid 340,0
 activeModelName "Symbol:CDM"
 )

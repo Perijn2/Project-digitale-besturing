@@ -34,23 +34,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen\\@afpompen.sm.info"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen\\@afpompen.sm.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen\\@afpompen.sm.user"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen\\@afpompen.sm.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "appl"
@@ -66,27 +66,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Afpompen"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Afpompen"
 )
 (vvPair
 variable "date"
-value "26-02-2025"
+value "05/03/2025"
 )
 (vvPair
 variable "day"
-value "wo"
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "woensdag"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "26"
+value "05"
 )
 (vvPair
 variable "entity_name"
@@ -110,11 +110,11 @@ value "@afpompen"
 )
 (vvPair
 variable "graphical_source_author"
-value "jesse"
+value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value "26-02-2025"
+value "05/03/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -122,11 +122,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "MSI"
+value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:47:20"
+value "23:04:06"
 )
 (vvPair
 variable "group"
@@ -134,7 +134,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "MSI"
+value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "language"
@@ -153,8 +153,12 @@ variable "library_downstream_QuestaSimCompiler"
 value "$HDS_PROJECT_DIR/Wasmachine/questasim"
 )
 (vvPair
+variable "library_downstream_QuestaSimSimulator"
+value "$HDS_PROJECT_DIR\\Wasmachine\\sim"
+)
+(vvPair
 variable "mm"
-value "02"
+value "03"
 )
 (vvPair
 variable "module_name"
@@ -162,19 +166,19 @@ value "Afpompen"
 )
 (vvPair
 variable "month"
-value "feb"
+value "Mar"
 )
 (vvPair
 variable "month_long"
-value "februari"
+value "March"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen\\@afpompen.sm"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen\\@afpompen.sm"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Afpompen\\Afpompen.sm"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Afpompen\\Afpompen.sm"
 )
 (vvPair
 variable "package_name"
@@ -198,7 +202,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "C:\\Users\\jesse\\Downloads\\win64"
+value "<TBD>"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -210,7 +214,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_QuestaSimPath"
-value "C:\\Users\\jesse\\Desktop\\questasim\\win64"
+value "C:\\questasim64_2022.1\\win64"
 )
 (vvPair
 variable "task_VCSPath"
@@ -230,7 +234,7 @@ value "Afpompen"
 )
 (vvPair
 variable "time"
-value "14:47:20"
+value "23:04:06"
 )
 (vvPair
 variable "unit"
@@ -238,7 +242,7 @@ value "Afpompen"
 )
 (vvPair
 variable "user"
-value "jesse"
+value "Perij"
 )
 (vvPair
 variable "version"
@@ -653,7 +657,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,46000,45200,47000"
+xt "36200,46000,45400,47000"
 st "
 by %user on %dd %month %year
 "
@@ -2194,7 +2198,7 @@ tm "SmCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,32,1537,864"
-viewArea "-5200,2900,70722,43732"
+viewArea "-5200,2900,70722,42108"
 cachedDiagramExtent "0,-1000,73000,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
@@ -2574,7 +2578,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 395,0
+lastUid 453,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *60 (LEmptyRow
@@ -2688,6 +2692,7 @@ decl (Decl
 n "afpompen_ready"
 t "std_logic"
 o 5
+i "'0'"
 )
 )
 uid 164,0
@@ -2701,6 +2706,7 @@ decl (Decl
 n "pomp_aan"
 t "std_logic"
 o 6
+i "'0'"
 )
 )
 uid 166,0
@@ -3933,6 +3939,6 @@ pts [
 ]
 )
 )
-activeModelName "StateMachine"
+activeModelName "StateMachine:CDM"
 LanguageMgr "Vhdl93LangMgr"
 )

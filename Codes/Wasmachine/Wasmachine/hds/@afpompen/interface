@@ -81,6 +81,7 @@ n "afpompen_ready"
 t "std_logic"
 o 5
 suid 21,0
+i "'0'"
 )
 )
 uid 434,0
@@ -130,6 +131,7 @@ n "pomp_aan"
 t "std_logic"
 o 6
 suid 25,0
+i "'0'"
 )
 )
 uid 442,0
@@ -449,23 +451,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen\\interface.info"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen\\interface.user"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen\\interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds"
 )
 (vvPair
 variable "appl"
@@ -481,27 +483,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Afpompen"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Afpompen"
 )
 (vvPair
 variable "date"
-value "26-02-2025"
+value "05/03/2025"
 )
 (vvPair
 variable "day"
-value "wo"
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "woensdag"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "26"
+value "05"
 )
 (vvPair
 variable "entity_name"
@@ -525,11 +527,11 @@ value "interface"
 )
 (vvPair
 variable "graphical_source_author"
-value "jesse"
+value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value "26-02-2025"
+value "05/03/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -537,11 +539,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "MSI"
+value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:31:33"
+value "23:04:06"
 )
 (vvPair
 variable "group"
@@ -549,7 +551,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "MSI"
+value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "language"
@@ -568,8 +570,12 @@ variable "library_downstream_QuestaSimCompiler"
 value "$HDS_PROJECT_DIR/Wasmachine/questasim"
 )
 (vvPair
+variable "library_downstream_QuestaSimSimulator"
+value "$HDS_PROJECT_DIR\\Wasmachine\\sim"
+)
+(vvPair
 variable "mm"
-value "02"
+value "03"
 )
 (vvPair
 variable "module_name"
@@ -577,19 +583,19 @@ value "Afpompen"
 )
 (vvPair
 variable "month"
-value "feb"
+value "Mar"
 )
 (vvPair
 variable "month_long"
-value "februari"
+value "March"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen\\interface"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\@afpompen\\interface"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\jesse\\Documents\\GitHub\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Afpompen\\interface"
+value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Afpompen\\interface"
 )
 (vvPair
 variable "package_name"
@@ -613,7 +619,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "C:\\Users\\jesse\\Downloads\\win64"
+value "<TBD>"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -625,7 +631,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_QuestaSimPath"
-value "C:\\Users\\jesse\\Desktop\\questasim\\win64"
+value "C:\\questasim64_2022.1\\win64"
 )
 (vvPair
 variable "task_VCSPath"
@@ -645,7 +651,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "13:31:33"
+value "23:04:06"
 )
 (vvPair
 variable "unit"
@@ -653,7 +659,7 @@ value "Afpompen"
 )
 (vvPair
 variable "user"
-value "jesse"
+value "Perij"
 )
 (vvPair
 variable "version"
@@ -757,8 +763,8 @@ uid 411,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,5200,63500,6000"
-st "afpompen_ready : OUT    std_logic  ;
+xt "44000,5200,67500,6000"
+st "afpompen_ready : OUT    std_logic  := '0' ;
 "
 )
 thePort (LogicalPort
@@ -769,6 +775,7 @@ n "afpompen_ready"
 t "std_logic"
 o 5
 suid 21,0
+i "'0'"
 )
 )
 )
@@ -943,8 +950,8 @@ uid 431,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,6000,62500,6800"
-st "pomp_aan       : OUT    std_logic 
+xt "44000,6000,66500,6800"
+st "pomp_aan       : OUT    std_logic  := '0'
 "
 )
 thePort (LogicalPort
@@ -955,6 +962,7 @@ n "pomp_aan"
 t "std_logic"
 o 6
 suid 25,0
+i "'0'"
 )
 )
 )
@@ -1042,7 +1050,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,45200,49000"
+xt "36200,48000,45400,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1658,6 +1666,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 466,0
+lastUid 512,0
 activeModelName "Symbol:CDM"
 )
