@@ -131,7 +131,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "23:01:35"
+value "23:02:14"
 )
 (vvPair
 variable "group"
@@ -239,7 +239,7 @@ value "Master"
 )
 (vvPair
 variable "time"
-value "23:01:35"
+value "23:02:14"
 )
 (vvPair
 variable "unit"
@@ -5253,7 +5253,7 @@ n "led_status"
 t "std_logic_vector"
 b "(2 DOWNTO 0)"
 o 13
-i "'0'"
+i "\"000\""
 )
 )
 uid 188,0
