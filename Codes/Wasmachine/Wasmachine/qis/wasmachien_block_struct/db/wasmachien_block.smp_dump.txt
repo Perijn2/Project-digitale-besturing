@@ -1,0 +1,68 @@
+
+State Machine - |wasmachien_block|Wassen:U_2|current_state
+Name current_state.s2 current_state.eind current_state.centr_1 current_state.centr_0 current_state.keuze2 current_state.s19 current_state.s15 current_state.s24 current_state.s23 current_state.s_verwarm1 current_state.s_t_hoog1 current_state.wassen_done1 current_state.w_trommel1 current_state.wassen1 current_state.w_trommel2 current_state.sSpoelen current_state.s12 current_state.s14 current_state.s5 current_state.s8 current_state.keuze current_state.s3 current_state.s1 current_state.s0 
+current_state.s0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.s1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.s3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.keuze 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.s8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.s5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.s14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.s12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.sSpoelen 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.w_trommel2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.wassen1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.w_trommel1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.wassen_done1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.s_t_hoog1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.s_verwarm1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.s23 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.s24 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.s15 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.s19 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.keuze2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.centr_0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.centr_1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.eind 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.s2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |wasmachien_block|Trommel:U_1|current_state
+Name current_state.s7 current_state.s8 current_state.rechts_201 current_state.s5 current_state.s6 current_state.links_200 current_state.s4 current_state.s3 current_state.start current_state.s1 current_state.s0 current_state.snel1200 current_state.Verander current_state.snelheidhoger3 current_state.snelheidhoger2 current_state.snel800 current_state.snel200 current_state.standkeuze current_state.idle 
+current_state.idle 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.standkeuze 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.snel200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.snel800 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.snelheidhoger2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.snelheidhoger3 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.Verander 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.snel1200 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.s0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.s1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.start 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.s3 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.s4 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.links_200 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.s6 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.s5 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.rechts_201 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.s8 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.s7 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |wasmachien_block|Master:U_0|current_state
+Name current_state.s0 current_state.s_spoelstop current_state.unlock current_state.prg_done current_state.L_status current_state.pow_on current_state.started current_state.wait_s current_state.proces current_state.idle 
+current_state.idle 0 0 0 0 0 0 0 0 0 0 
+current_state.proces 0 0 0 0 0 0 0 0 1 1 
+current_state.wait_s 0 0 0 0 0 0 0 1 0 1 
+current_state.started 0 0 0 0 0 0 1 0 0 1 
+current_state.pow_on 0 0 0 0 0 1 0 0 0 1 
+current_state.L_status 0 0 0 0 1 0 0 0 0 1 
+current_state.prg_done 0 0 0 1 0 0 0 0 0 1 
+current_state.unlock 0 0 1 0 0 0 0 0 0 1 
+current_state.s_spoelstop 0 1 0 0 0 0 0 0 0 1 
+current_state.s0 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |wasmachien_block|Afpompen:U_5|current_state
+Name current_state.s_leeg current_state.afpompen current_state.idle 
+current_state.idle 0 0 0 
+current_state.afpompen 0 1 1 
+current_state.s_leeg 1 0 1 

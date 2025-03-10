@@ -1,0 +1,207 @@
+|wasmachien_block
+aan_uit => Afpompen:U_5.aan_uit
+aan_uit => Master:U_0.aan_uit
+aan_uit => Toevoer:U_6.aan_uit
+aan_uit => Trommel:U_1.aan_uit
+aan_uit => Verwarming:U_3.aan_uit
+aan_uit => Wassen:U_2.aan_uit
+centrifugeerkeuze[0] => Trommel:U_1.centrifugeerkeuze[0]
+centrifugeerkeuze[0] => Wassen:U_2.centrifugeerkeuze[0]
+centrifugeerkeuze[1] => Trommel:U_1.centrifugeerkeuze[1]
+centrifugeerkeuze[1] => Wassen:U_2.centrifugeerkeuze[1]
+clk => Afpompen:U_5.clk
+clk => Master:U_0.clk
+clk => Toevoer:U_6.clk
+clk => Trommel:U_1.clk
+clk => Verwarming:U_3.clk
+clk => Wassen:U_2.clk
+deur_dicht => Master:U_0.deur_dicht
+kuip_leeg => Afpompen:U_5.kuip_leeg
+programmakeuze[0] => Wassen:U_2.programmakeuze[0]
+programmakeuze[1] => Wassen:U_2.programmakeuze[1]
+start => Master:U_0.start
+t_hoog => Verwarming:U_3.t_hoog
+t_hoog => Wassen:U_2.t_hoog
+t_laag => Verwarming:U_3.t_laag
+t_laag => Wassen:U_2.t_laag
+w_hoog => Master:U_0.w_hoog
+w_hoog => Toevoer:U_6.w_hoog
+w_hoog => Wassen:U_2.w_hoog
+w_laag => Master:U_0.w_laag
+w_laag => Toevoer:U_6.w_laag
+w_laag => Verwarming:U_3.w_laag
+w_laag => Wassen:U_2.w_laag
+deur_grendel <= Master:U_0.deur_grendel
+klep_open <= Toevoer:U_6.klep_open
+led_start <= Master:U_0.led_start
+led_status[0] <= Master:U_0.led_status[0]
+led_status[1] <= Master:U_0.led_status[1]
+led_status[2] <= Master:U_0.led_status[2]
+motor[0] <= Trommel:U_1.motor[0]
+motor[1] <= Trommel:U_1.motor[1]
+motor[2] <= Trommel:U_1.motor[2]
+pomp_aan <= Afpompen:U_5.pomp_aan
+verwarmen <= Verwarming:U_3.verwarmen
+
+
+|wasmachien_block|Afpompen:U_5
+aan_uit => current_state~3.DATAIN
+clk => current_state~1.DATAIN
+go_afpompen => Selector4.IN2
+go_afpompen => Selector3.IN2
+kuip_leeg => next_state.s_leeg.DATAB
+kuip_leeg => Selector4.IN1
+afpompen_ready <= afpompen_ready$latch.DB_MAX_OUTPUT_PORT_TYPE
+pomp_aan <= pomp_aan$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|wasmachien_block|Master:U_0
+aan_uit => Selector10.IN4
+aan_uit => Selector6.IN2
+aan_uit => current_state~3.DATAIN
+clk => current_state~1.DATAIN
+deur_dicht => nextstate_proc.IN0
+deur_dicht => nextstate_proc.IN0
+start => next_state.DATAA
+start => nextstate_proc.IN1
+start => next_state.DATAA
+start => Selector12.IN1
+start => Selector11.IN4
+w_hoog => nextstate_proc.IN1
+w_laag => nextstate_proc.IN1
+wassen_ready => next_state.OUTPUTSELECT
+wassen_ready => next_state.OUTPUTSELECT
+wassen_ready => next_state.wait_s.DATAB
+wassen_ready => Selector9.IN3
+wassen_ready => next_state.prg_done.DATAB
+wassen_ready => Selector9.IN1
+wassen_ready => Selector11.IN2
+wassen_ready => Selector11.IN3
+wassen_status[0] => Selector1.IN1
+wassen_status[1] => Selector0.IN1
+wassen_status[2] => Selector15.IN1
+deur_grendel <= deur_grendel$latch.DB_MAX_OUTPUT_PORT_TYPE
+go_wassen <= go_wassen$latch.DB_MAX_OUTPUT_PORT_TYPE
+led_start <= led_start$latch.DB_MAX_OUTPUT_PORT_TYPE
+led_status[0] <= led_status[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+led_status[1] <= led_status[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+led_status[2] <= led_status[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|wasmachien_block|Toevoer:U_6
+aan_uit => current_state.ACLR
+clk => current_state.CLK
+go_toevoer => nextstate_proc.IN0
+w_hoog => nextstate_proc.IN1
+w_hoog => next_state.DATAA
+w_laag => ~NO_FANOUT~
+klep_open <= <VCC>
+toevoer_ready <= current_state.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|wasmachien_block|Trommel:U_1
+aan_uit => csm_timer[0].ACLR
+aan_uit => csm_timer[1].ACLR
+aan_uit => csm_timer[2].ACLR
+aan_uit => csm_timer[3].ACLR
+aan_uit => csm_timer[4].ACLR
+aan_uit => csm_timer[5].ACLR
+aan_uit => current_state~3.DATAIN
+centrifugeerkeuze[0] => Equal0.IN0
+centrifugeerkeuze[0] => Equal1.IN1
+centrifugeerkeuze[1] => Equal0.IN1
+centrifugeerkeuze[1] => Equal1.IN0
+clk => csm_timer[0].CLK
+clk => csm_timer[1].CLK
+clk => csm_timer[2].CLK
+clk => csm_timer[3].CLK
+clk => csm_timer[4].CLK
+clk => csm_timer[5].CLK
+clk => current_state~1.DATAIN
+go_trommel => Selector1.IN2
+go_trommel => Selector2.IN1
+trommel_keuze => next_state.start.DATAB
+trommel_keuze => next_state.s4.DATAB
+motor[0] <= motor[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+motor[1] <= motor[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+motor[2] <= motor[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+trommel_ready <= trommel_ready$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|wasmachien_block|Verwarming:U_3
+aan_uit => current_state.ACLR
+clk => current_state.CLK
+go_verwarmen => nextstate_proc.IN0
+t_hoog => nextstate_proc.IN0
+t_laag => ~NO_FANOUT~
+w_laag => nextstate_proc.IN1
+w_laag => nextstate_proc.IN1
+verwarmen <= current_state.DB_MAX_OUTPUT_PORT_TYPE
+verwarmen_ready <= current_state.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|wasmachien_block|Wassen:U_2
+aan_uit => current_state~3.DATAIN
+afpompen_ready => nextstate_proc.IN1
+afpompen_ready => next_state.DATAA
+afpompen_ready => next_state.DATAA
+afpompen_ready => next_state.OUTPUTSELECT
+afpompen_ready => next_state.OUTPUTSELECT
+afpompen_ready => next_state.OUTPUTSELECT
+afpompen_ready => Selector11.IN3
+afpompen_ready => Selector24.IN2
+afpompen_ready => Selector12.IN1
+afpompen_ready => Selector13.IN1
+afpompen_ready => Selector25.IN1
+centrifugeerkeuze[0] => Equal0.IN0
+centrifugeerkeuze[0] => Equal1.IN1
+centrifugeerkeuze[1] => Equal0.IN1
+centrifugeerkeuze[1] => Equal1.IN0
+clk => current_state~1.DATAIN
+go_wassen => nextstate_proc.IN1
+go_wassen => nextstate_proc.IN1
+go_wassen => Selector8.IN2
+go_wassen => next_state.s2.DATAB
+programmakeuze[0] => Equal2.IN1
+programmakeuze[0] => Equal3.IN1
+programmakeuze[1] => Equal2.IN0
+programmakeuze[1] => Equal3.IN0
+t_hoog => nextstate_proc.IN0
+t_laag => next_state.OUTPUTSELECT
+t_laag => next_state.OUTPUTSELECT
+t_laag => Selector21.IN3
+toevoer_ready => Selector13.IN3
+toevoer_ready => Selector16.IN2
+toevoer_ready => Selector22.IN3
+toevoer_ready => Selector14.IN1
+toevoer_ready => Selector18.IN1
+toevoer_ready => Selector23.IN1
+trommel_ready => nextstate_proc.IN1
+trommel_ready => next_state.DATAA
+trommel_ready => Selector16.IN3
+trommel_ready => Selector18.IN3
+trommel_ready => Selector27.IN4
+trommel_ready => Selector15.IN0
+trommel_ready => Selector17.IN1
+trommel_ready => next_state.DATAA
+trommel_ready => Selector9.IN2
+trommel_ready => next_state.DATAA
+trommel_ready => next_state.eind.DATAB
+trommel_ready => next_state.DATAA
+trommel_ready => Selector28.IN1
+verwarmen_ready => next_state.OUTPUTSELECT
+verwarmen_ready => next_state.OUTPUTSELECT
+verwarmen_ready => Selector20.IN2
+w_hoog => ~NO_FANOUT~
+w_laag => ~NO_FANOUT~
+go_afpompen <= go_afpompen$latch.DB_MAX_OUTPUT_PORT_TYPE
+go_toevoer <= go_toevoer$latch.DB_MAX_OUTPUT_PORT_TYPE
+go_trommel <= go_trommel$latch.DB_MAX_OUTPUT_PORT_TYPE
+go_verwarmen <= go_verwarmen$latch.DB_MAX_OUTPUT_PORT_TYPE
+trommel_keuze <= <VCC>
+wassen_ready <= wassen_ready$latch.DB_MAX_OUTPUT_PORT_TYPE
+wassen_status[0] <= wassen_status[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+wassen_status[1] <= wassen_status[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+wassen_status[2] <= wassen_status[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

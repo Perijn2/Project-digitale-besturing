@@ -642,6 +642,10 @@ GRAPHIC 2749,0 259 0
 LIBRARY Wasmachine
 DESIGN @trommel
 VIEW @trommel.sm
+GRAPHIC 237,0 260 0
+LIBRARY Wasmachine
+DESIGN @trommel
+VIEW @trommel.sm
 GRAPHIC 93,0 261 0
 LIBRARY Wasmachine
 DESIGN @trommel

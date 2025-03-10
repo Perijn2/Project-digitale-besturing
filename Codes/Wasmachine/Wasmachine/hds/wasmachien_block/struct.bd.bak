@@ -172,7 +172,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "23:03:14"
+value "23:04:21"
 )
 (vvPair
 variable "group"
@@ -280,7 +280,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "23:03:14"
+value "23:04:21"
 )
 (vvPair
 variable "unit"

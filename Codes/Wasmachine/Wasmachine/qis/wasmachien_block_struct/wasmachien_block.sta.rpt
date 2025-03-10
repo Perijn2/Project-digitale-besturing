@@ -1,0 +1,1446 @@
+TimeQuest Timing Analyzer report for wasmachien_block
+Mon Mar 10 15:01:21 2025
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Fmax Summary
+  6. Setup Summary
+  7. Hold Summary
+  8. Recovery Summary
+  9. Removal Summary
+ 10. Minimum Pulse Width Summary
+ 11. Setup: 'clk'
+ 12. Setup: 'Afpompen:U_5|current_state.s_leeg'
+ 13. Setup: 'Master:U_0|current_state.idle'
+ 14. Setup: 'Trommel:U_1|current_state.idle'
+ 15. Setup: 'Trommel:U_1|csm_timer[0]'
+ 16. Setup: 'Wassen:U_2|current_state.eind'
+ 17. Setup: 'Master:U_0|current_state.L_status'
+ 18. Setup: 'Afpompen:U_5|current_state.idle'
+ 19. Setup: 'Wassen:U_2|current_state.centr_0'
+ 20. Setup: 'Wassen:U_2|current_state.s1'
+ 21. Setup: 'Wassen:U_2|current_state.keuze'
+ 22. Hold: 'Wassen:U_2|current_state.s1'
+ 23. Hold: 'Wassen:U_2|current_state.keuze'
+ 24. Hold: 'Master:U_0|current_state.L_status'
+ 25. Hold: 'Wassen:U_2|current_state.centr_0'
+ 26. Hold: 'Trommel:U_1|current_state.idle'
+ 27. Hold: 'Master:U_0|current_state.idle'
+ 28. Hold: 'clk'
+ 29. Hold: 'Afpompen:U_5|current_state.idle'
+ 30. Hold: 'Trommel:U_1|csm_timer[0]'
+ 31. Hold: 'Wassen:U_2|current_state.eind'
+ 32. Hold: 'Afpompen:U_5|current_state.s_leeg'
+ 33. Minimum Pulse Width: 'clk'
+ 34. Minimum Pulse Width: 'Afpompen:U_5|current_state.idle'
+ 35. Minimum Pulse Width: 'Afpompen:U_5|current_state.s_leeg'
+ 36. Minimum Pulse Width: 'Master:U_0|current_state.L_status'
+ 37. Minimum Pulse Width: 'Master:U_0|current_state.idle'
+ 38. Minimum Pulse Width: 'Trommel:U_1|csm_timer[0]'
+ 39. Minimum Pulse Width: 'Trommel:U_1|current_state.idle'
+ 40. Minimum Pulse Width: 'Wassen:U_2|current_state.centr_0'
+ 41. Minimum Pulse Width: 'Wassen:U_2|current_state.eind'
+ 42. Minimum Pulse Width: 'Wassen:U_2|current_state.keuze'
+ 43. Minimum Pulse Width: 'Wassen:U_2|current_state.s1'
+ 44. Setup Times
+ 45. Hold Times
+ 46. Clock to Output Times
+ 47. Minimum Clock to Output Times
+ 48. Setup Transfers
+ 49. Hold Transfers
+ 50. Report TCCS
+ 51. Report RSKM
+ 52. Unconstrained Paths
+ 53. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                      ;
++--------------------+-------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition ;
+; Revision Name      ; wasmachien_block                                                  ;
+; Device Family      ; MAX II                                                            ;
+; Device Name        ; EPM1270F256C5ES                                                   ;
+; Timing Models      ; Final                                                             ;
+; Delay Model        ; Slow Model                                                        ;
+; Rise/Fall Delays   ; Unavailable                                                       ;
++--------------------+-------------------------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 16     ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clocks                                                                                                                                                                                                                               ;
++-----------------------------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+---------------------------------------+
+; Clock Name                        ; Type ; Period ; Frequency  ; Rise  ; Fall  ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master ; Source ; Targets                               ;
++-----------------------------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+---------------------------------------+
+; Afpompen:U_5|current_state.idle   ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { Afpompen:U_5|current_state.idle }   ;
+; Afpompen:U_5|current_state.s_leeg ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { Afpompen:U_5|current_state.s_leeg } ;
+; clk                               ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { clk }                               ;
+; Master:U_0|current_state.idle     ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { Master:U_0|current_state.idle }     ;
+; Master:U_0|current_state.L_status ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { Master:U_0|current_state.L_status } ;
+; Trommel:U_1|csm_timer[0]          ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { Trommel:U_1|csm_timer[0] }          ;
+; Trommel:U_1|current_state.idle    ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { Trommel:U_1|current_state.idle }    ;
+; Wassen:U_2|current_state.centr_0  ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { Wassen:U_2|current_state.centr_0 }  ;
+; Wassen:U_2|current_state.eind     ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { Wassen:U_2|current_state.eind }     ;
+; Wassen:U_2|current_state.keuze    ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { Wassen:U_2|current_state.keuze }    ;
+; Wassen:U_2|current_state.s1       ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { Wassen:U_2|current_state.s1 }       ;
++-----------------------------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+---------------------------------------+
+
+
++-------------------------------------------------------------------------------------------+
+; Fmax Summary                                                                              ;
++------------+-----------------+----------------------------------+-------------------------+
+; Fmax       ; Restricted Fmax ; Clock Name                       ; Note                    ;
++------------+-----------------+----------------------------------+-------------------------+
+; INF MHz    ; 135.03 MHz      ; Wassen:U_2|current_state.centr_0 ; limit due to hold check ;
+; INF MHz    ; 68.61 MHz       ; Wassen:U_2|current_state.keuze   ; limit due to hold check ;
+; 122.84 MHz ; 122.84 MHz      ; clk                              ;                         ;
++------------+-----------------+----------------------------------+-------------------------+
+This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
+
+
++------------------------------------------------------------+
+; Setup Summary                                              ;
++-----------------------------------+--------+---------------+
+; Clock                             ; Slack  ; End Point TNS ;
++-----------------------------------+--------+---------------+
+; clk                               ; -9.314 ; -266.111      ;
+; Afpompen:U_5|current_state.s_leeg ; -4.815 ; -4.815        ;
+; Master:U_0|current_state.idle     ; -4.659 ; -16.721       ;
+; Trommel:U_1|current_state.idle    ; -4.212 ; -4.421        ;
+; Trommel:U_1|csm_timer[0]          ; -3.093 ; -3.093        ;
+; Wassen:U_2|current_state.eind     ; -3.033 ; -3.033        ;
+; Master:U_0|current_state.L_status ; -2.458 ; -8.250        ;
+; Afpompen:U_5|current_state.idle   ; -1.894 ; -1.894        ;
+; Wassen:U_2|current_state.centr_0  ; -1.489 ; -1.489        ;
+; Wassen:U_2|current_state.s1       ; -0.823 ; -1.334        ;
+; Wassen:U_2|current_state.keuze    ; 0.097  ; 0.000         ;
++-----------------------------------+--------+---------------+
+
+
++------------------------------------------------------------+
+; Hold Summary                                               ;
++-----------------------------------+--------+---------------+
+; Clock                             ; Slack  ; End Point TNS ;
++-----------------------------------+--------+---------------+
+; Wassen:U_2|current_state.s1       ; -8.218 ; -26.525       ;
+; Wassen:U_2|current_state.keuze    ; -7.288 ; -14.027       ;
+; Master:U_0|current_state.L_status ; -3.854 ; -10.511       ;
+; Wassen:U_2|current_state.centr_0  ; -3.703 ; -3.703        ;
+; Trommel:U_1|current_state.idle    ; -3.592 ; -10.197       ;
+; Master:U_0|current_state.idle     ; -2.768 ; -8.115        ;
+; clk                               ; -2.235 ; -26.793       ;
+; Afpompen:U_5|current_state.idle   ; -0.018 ; -0.018        ;
+; Trommel:U_1|csm_timer[0]          ; 1.293  ; 0.000         ;
+; Wassen:U_2|current_state.eind     ; 1.799  ; 0.000         ;
+; Afpompen:U_5|current_state.s_leeg ; 3.836  ; 0.000         ;
++-----------------------------------+--------+---------------+
+
+
+--------------------
+; Recovery Summary ;
+--------------------
+No paths to report.
+
+
+-------------------
+; Removal Summary ;
+-------------------
+No paths to report.
+
+
++------------------------------------------------------------+
+; Minimum Pulse Width Summary                                ;
++-----------------------------------+--------+---------------+
+; Clock                             ; Slack  ; End Point TNS ;
++-----------------------------------+--------+---------------+
+; clk                               ; -2.289 ; -2.289        ;
+; Afpompen:U_5|current_state.idle   ; 0.500  ; 0.000         ;
+; Afpompen:U_5|current_state.s_leeg ; 0.500  ; 0.000         ;
+; Master:U_0|current_state.L_status ; 0.500  ; 0.000         ;
+; Master:U_0|current_state.idle     ; 0.500  ; 0.000         ;
+; Trommel:U_1|csm_timer[0]          ; 0.500  ; 0.000         ;
+; Trommel:U_1|current_state.idle    ; 0.500  ; 0.000         ;
+; Wassen:U_2|current_state.centr_0  ; 0.500  ; 0.000         ;
+; Wassen:U_2|current_state.eind     ; 0.500  ; 0.000         ;
+; Wassen:U_2|current_state.keuze    ; 0.500  ; 0.000         ;
+; Wassen:U_2|current_state.s1       ; 0.500  ; 0.000         ;
++-----------------------------------+--------+---------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'clk'                                                                                                                                                                         ;
++--------+------------------------------------------+------------------------------------------+--------------------------------+-------------+--------------+------------+------------+
+; Slack  ; From Node                                ; To Node                                  ; Launch Clock                   ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++--------+------------------------------------------+------------------------------------------+--------------------------------+-------------+--------------+------------+------------+
+; -9.314 ; Trommel:U_1|Richting                     ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|current_state.idle ; clk         ; 0.500        ; -4.876     ; 4.605      ;
+; -9.000 ; Trommel:U_1|Richting                     ; Trommel:U_1|csm_timer[4]                 ; Trommel:U_1|current_state.idle ; clk         ; 0.500        ; -4.876     ; 4.291      ;
+; -8.691 ; Trommel:U_1|Richting                     ; Trommel:U_1|csm_timer[1]                 ; Trommel:U_1|current_state.idle ; clk         ; 0.500        ; -4.876     ; 3.982      ;
+; -8.463 ; Trommel:U_1|Richting                     ; Trommel:U_1|current_state.snel1200       ; Trommel:U_1|current_state.idle ; clk         ; 0.500        ; -4.876     ; 3.754      ;
+; -8.239 ; Trommel:U_1|Richting                     ; Trommel:U_1|csm_timer[0]                 ; Trommel:U_1|current_state.idle ; clk         ; 0.500        ; -4.876     ; 3.530      ;
+; -8.235 ; Trommel:U_1|Richting                     ; Trommel:U_1|csm_timer[3]                 ; Trommel:U_1|current_state.idle ; clk         ; 0.500        ; -4.876     ; 3.526      ;
+; -8.225 ; Trommel:U_1|Richting                     ; Trommel:U_1|csm_timer[2]                 ; Trommel:U_1|current_state.idle ; clk         ; 0.500        ; -4.876     ; 3.516      ;
+; -8.101 ; Trommel:U_1|Richting                     ; Trommel:U_1|current_state.rechts_201     ; Trommel:U_1|current_state.idle ; clk         ; 0.500        ; -4.876     ; 3.392      ;
+; -7.888 ; Trommel:U_1|Richting                     ; Trommel:U_1|current_state.s3             ; Trommel:U_1|current_state.idle ; clk         ; 0.500        ; -4.876     ; 3.179      ;
+; -7.771 ; Trommel:U_1|Richting                     ; Trommel:U_1|current_state.snelheidhoger2 ; Trommel:U_1|current_state.idle ; clk         ; 0.500        ; -4.876     ; 3.062      ;
+; -7.610 ; Trommel:U_1|Richting                     ; Trommel:U_1|current_state.links_200      ; Trommel:U_1|current_state.idle ; clk         ; 0.500        ; -4.876     ; 2.901      ;
+; -7.392 ; Trommel:U_1|Richting                     ; Trommel:U_1|current_state.snel200        ; Trommel:U_1|current_state.idle ; clk         ; 0.500        ; -4.876     ; 2.683      ;
+; -7.267 ; Trommel:U_1|Richting                     ; Trommel:U_1|current_state.s1             ; Trommel:U_1|current_state.idle ; clk         ; 0.500        ; -4.876     ; 2.558      ;
+; -7.259 ; Trommel:U_1|Richting                     ; Trommel:U_1|current_state.s0             ; Trommel:U_1|current_state.idle ; clk         ; 0.500        ; -4.876     ; 2.550      ;
+; -7.141 ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|csm_timer[5]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 7.808      ;
+; -7.131 ; Trommel:U_1|Richting                     ; Trommel:U_1|current_state.snel800        ; Trommel:U_1|current_state.idle ; clk         ; 0.500        ; -4.876     ; 2.422      ;
+; -7.077 ; Trommel:U_1|current_state.snelheidhoger3 ; Trommel:U_1|csm_timer[5]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 7.744      ;
+; -6.989 ; Trommel:U_1|csm_timer[3]                 ; Trommel:U_1|csm_timer[5]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 7.656      ;
+; -6.827 ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|csm_timer[4]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 7.494      ;
+; -6.815 ; Trommel:U_1|csm_timer[4]                 ; Trommel:U_1|csm_timer[5]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 7.482      ;
+; -6.763 ; Trommel:U_1|current_state.snelheidhoger3 ; Trommel:U_1|csm_timer[4]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 7.430      ;
+; -6.687 ; Trommel:U_1|Richting                     ; Trommel:U_1|current_state.snelheidhoger3 ; Trommel:U_1|current_state.idle ; clk         ; 0.500        ; -4.876     ; 1.978      ;
+; -6.675 ; Trommel:U_1|csm_timer[3]                 ; Trommel:U_1|csm_timer[4]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 7.342      ;
+; -6.533 ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|csm_timer[0]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 7.200      ;
+; -6.501 ; Trommel:U_1|csm_timer[4]                 ; Trommel:U_1|csm_timer[4]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 7.168      ;
+; -6.496 ; Trommel:U_1|current_state.s0             ; Trommel:U_1|csm_timer[5]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 7.163      ;
+; -6.478 ; Trommel:U_1|csm_timer[1]                 ; Trommel:U_1|csm_timer[5]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 7.145      ;
+; -6.448 ; Trommel:U_1|csm_timer[2]                 ; Trommel:U_1|csm_timer[5]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 7.115      ;
+; -6.430 ; Trommel:U_1|Richting                     ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|csm_timer[0]       ; clk         ; 0.500        ; -1.992     ; 4.605      ;
+; -6.381 ; Trommel:U_1|csm_timer[3]                 ; Trommel:U_1|csm_timer[0]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 7.048      ;
+; -6.207 ; Trommel:U_1|csm_timer[4]                 ; Trommel:U_1|csm_timer[0]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.874      ;
+; -6.188 ; Trommel:U_1|current_state.s8             ; Trommel:U_1|csm_timer[5]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.855      ;
+; -6.182 ; Trommel:U_1|current_state.s0             ; Trommel:U_1|csm_timer[4]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.849      ;
+; -6.171 ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|current_state.snel200        ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.838      ;
+; -6.164 ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|current_state.s6             ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.831      ;
+; -6.164 ; Trommel:U_1|csm_timer[1]                 ; Trommel:U_1|csm_timer[4]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.831      ;
+; -6.162 ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|current_state.snelheidhoger2 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.829      ;
+; -6.157 ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|current_state.s1             ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.824      ;
+; -6.134 ; Trommel:U_1|csm_timer[2]                 ; Trommel:U_1|csm_timer[4]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.801      ;
+; -6.116 ; Trommel:U_1|Richting                     ; Trommel:U_1|csm_timer[4]                 ; Trommel:U_1|csm_timer[0]       ; clk         ; 0.500        ; -1.992     ; 4.291      ;
+; -6.110 ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|csm_timer[3]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.777      ;
+; -6.019 ; Trommel:U_1|csm_timer[3]                 ; Trommel:U_1|current_state.snel200        ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.686      ;
+; -6.012 ; Trommel:U_1|csm_timer[3]                 ; Trommel:U_1|current_state.s6             ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.679      ;
+; -6.010 ; Trommel:U_1|csm_timer[3]                 ; Trommel:U_1|current_state.snelheidhoger2 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.677      ;
+; -6.005 ; Trommel:U_1|csm_timer[3]                 ; Trommel:U_1|current_state.s1             ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.672      ;
+; -5.958 ; Trommel:U_1|csm_timer[3]                 ; Trommel:U_1|csm_timer[3]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.625      ;
+; -5.874 ; Trommel:U_1|current_state.s8             ; Trommel:U_1|csm_timer[4]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.541      ;
+; -5.870 ; Trommel:U_1|csm_timer[1]                 ; Trommel:U_1|csm_timer[0]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.537      ;
+; -5.869 ; Trommel:U_1|current_state.rechts_201     ; Trommel:U_1|csm_timer[5]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.536      ;
+; -5.845 ; Trommel:U_1|csm_timer[4]                 ; Trommel:U_1|current_state.snel200        ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.512      ;
+; -5.840 ; Trommel:U_1|csm_timer[2]                 ; Trommel:U_1|csm_timer[0]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.507      ;
+; -5.838 ; Trommel:U_1|csm_timer[4]                 ; Trommel:U_1|current_state.s6             ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.505      ;
+; -5.836 ; Trommel:U_1|csm_timer[4]                 ; Trommel:U_1|current_state.snelheidhoger2 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.503      ;
+; -5.831 ; Trommel:U_1|csm_timer[4]                 ; Trommel:U_1|current_state.s1             ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.498      ;
+; -5.807 ; Trommel:U_1|Richting                     ; Trommel:U_1|csm_timer[1]                 ; Trommel:U_1|csm_timer[0]       ; clk         ; 0.500        ; -1.992     ; 3.982      ;
+; -5.796 ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|current_state.links_200      ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.463      ;
+; -5.789 ; Trommel:U_1|current_state.rechts_201     ; Trommel:U_1|csm_timer[3]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.456      ;
+; -5.787 ; Trommel:U_1|current_state.rechts_201     ; Trommel:U_1|csm_timer[4]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.454      ;
+; -5.784 ; Trommel:U_1|csm_timer[4]                 ; Trommel:U_1|csm_timer[3]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.451      ;
+; -5.780 ; Trommel:U_1|current_state.rechts_201     ; Trommel:U_1|csm_timer[2]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.447      ;
+; -5.775 ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|current_state.s0             ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.442      ;
+; -5.696 ; Trommel:U_1|current_state.snelheidhoger3 ; Trommel:U_1|csm_timer[0]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.363      ;
+; -5.651 ; Trommel:U_1|current_state.snelheidhoger3 ; Trommel:U_1|current_state.s3             ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.318      ;
+; -5.649 ; Trommel:U_1|current_state.snelheidhoger3 ; Trommel:U_1|csm_timer[1]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.316      ;
+; -5.644 ; Trommel:U_1|csm_timer[3]                 ; Trommel:U_1|current_state.links_200      ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.311      ;
+; -5.623 ; Trommel:U_1|csm_timer[3]                 ; Trommel:U_1|current_state.s0             ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.290      ;
+; -5.616 ; Trommel:U_1|current_state.rechts_201     ; Trommel:U_1|csm_timer[0]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.283      ;
+; -5.591 ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|csm_timer[2]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.258      ;
+; -5.586 ; Trommel:U_1|current_state.s8             ; Trommel:U_1|csm_timer[0]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.253      ;
+; -5.579 ; Trommel:U_1|Richting                     ; Trommel:U_1|current_state.snel1200       ; Trommel:U_1|csm_timer[0]       ; clk         ; 0.500        ; -1.992     ; 3.754      ;
+; -5.564 ; Trommel:U_1|csm_timer[1]                 ; Trommel:U_1|csm_timer[3]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.231      ;
+; -5.555 ; Trommel:U_1|csm_timer[1]                 ; Trommel:U_1|csm_timer[2]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.222      ;
+; -5.528 ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|current_state.rechts_201     ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.195      ;
+; -5.517 ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|current_state.s3             ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.184      ;
+; -5.515 ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|csm_timer[1]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.182      ;
+; -5.508 ; Trommel:U_1|csm_timer[1]                 ; Trommel:U_1|current_state.snel200        ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.175      ;
+; -5.501 ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|current_state.idle           ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.168      ;
+; -5.501 ; Trommel:U_1|csm_timer[1]                 ; Trommel:U_1|current_state.s6             ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.168      ;
+; -5.499 ; Trommel:U_1|csm_timer[1]                 ; Trommel:U_1|current_state.snelheidhoger2 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.166      ;
+; -5.494 ; Trommel:U_1|csm_timer[1]                 ; Trommel:U_1|current_state.s1             ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.161      ;
+; -5.486 ; Trommel:U_1|current_state.links_200      ; Trommel:U_1|csm_timer[5]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.153      ;
+; -5.478 ; Trommel:U_1|csm_timer[2]                 ; Trommel:U_1|current_state.snel200        ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.145      ;
+; -5.471 ; Trommel:U_1|csm_timer[2]                 ; Trommel:U_1|current_state.s6             ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.138      ;
+; -5.470 ; Trommel:U_1|csm_timer[4]                 ; Trommel:U_1|current_state.links_200      ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.137      ;
+; -5.469 ; Trommel:U_1|csm_timer[2]                 ; Trommel:U_1|current_state.snelheidhoger2 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.136      ;
+; -5.464 ; Trommel:U_1|csm_timer[2]                 ; Trommel:U_1|current_state.s1             ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.131      ;
+; -5.449 ; Trommel:U_1|csm_timer[4]                 ; Trommel:U_1|current_state.s0             ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.116      ;
+; -5.439 ; Trommel:U_1|csm_timer[3]                 ; Trommel:U_1|csm_timer[2]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.106      ;
+; -5.417 ; Trommel:U_1|csm_timer[2]                 ; Trommel:U_1|csm_timer[3]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.084      ;
+; -5.406 ; Trommel:U_1|current_state.links_200      ; Trommel:U_1|csm_timer[3]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.073      ;
+; -5.404 ; Trommel:U_1|current_state.links_200      ; Trommel:U_1|csm_timer[4]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.071      ;
+; -5.402 ; Trommel:U_1|current_state.links_200      ; Trommel:U_1|csm_timer[0]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.069      ;
+; -5.397 ; Trommel:U_1|current_state.links_200      ; Trommel:U_1|csm_timer[2]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.064      ;
+; -5.376 ; Trommel:U_1|csm_timer[3]                 ; Trommel:U_1|current_state.rechts_201     ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.043      ;
+; -5.365 ; Trommel:U_1|csm_timer[3]                 ; Trommel:U_1|current_state.s3             ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.032      ;
+; -5.363 ; Trommel:U_1|csm_timer[3]                 ; Trommel:U_1|csm_timer[1]                 ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.030      ;
+; -5.355 ; Trommel:U_1|Richting                     ; Trommel:U_1|csm_timer[0]                 ; Trommel:U_1|csm_timer[0]       ; clk         ; 0.500        ; -1.992     ; 3.530      ;
+; -5.351 ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|current_state.s5             ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.018      ;
+; -5.351 ; Trommel:U_1|Richting                     ; Trommel:U_1|csm_timer[3]                 ; Trommel:U_1|csm_timer[0]       ; clk         ; 0.500        ; -1.992     ; 3.526      ;
+; -5.349 ; Trommel:U_1|csm_timer[3]                 ; Trommel:U_1|current_state.idle           ; clk                            ; clk         ; 1.000        ; 0.000      ; 6.016      ;
++--------+------------------------------------------+------------------------------------------+--------------------------------+-------------+--------------+------------+------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'Afpompen:U_5|current_state.s_leeg'                                                                                                                             ;
++--------+-------------------------------------+-----------------------------+--------------+-----------------------------------+--------------+------------+------------+
+; Slack  ; From Node                           ; To Node                     ; Launch Clock ; Latch Clock                       ; Relationship ; Clock Skew ; Data Delay ;
++--------+-------------------------------------+-----------------------------+--------------+-----------------------------------+--------------+------------+------------+
+; -4.815 ; Afpompen:U_5|current_state.afpompen ; Afpompen:U_5|afpompen_ready ; clk          ; Afpompen:U_5|current_state.s_leeg ; 1.000        ; -2.312     ; 1.524      ;
++--------+-------------------------------------+-----------------------------+--------------+-----------------------------------+--------------+------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'Master:U_0|current_state.idle'                                                                                                                                          ;
++--------+-----------------------------------+--------------------------+--------------------------------+-------------------------------+--------------+------------+------------+
+; Slack  ; From Node                         ; To Node                  ; Launch Clock                   ; Latch Clock                   ; Relationship ; Clock Skew ; Data Delay ;
++--------+-----------------------------------+--------------------------+--------------------------------+-------------------------------+--------------+------------+------------+
+; -4.659 ; Wassen:U_2|wassen_status[0]       ; Master:U_0|led_status[0] ; Wassen:U_2|current_state.s1    ; Master:U_0|current_state.idle ; 1.000        ; -2.415     ; 1.239      ;
+; -4.485 ; Wassen:U_2|wassen_status[1]       ; Master:U_0|led_status[1] ; Wassen:U_2|current_state.s1    ; Master:U_0|current_state.idle ; 1.000        ; -2.459     ; 1.010      ;
+; -4.484 ; Wassen:U_2|wassen_status[2]       ; Master:U_0|led_status[2] ; Wassen:U_2|current_state.s1    ; Master:U_0|current_state.idle ; 1.000        ; -2.449     ; 1.010      ;
+; -3.729 ; Wassen:U_2|wassen_status[0]       ; Master:U_0|led_status[0] ; Wassen:U_2|current_state.keuze ; Master:U_0|current_state.idle ; 1.000        ; -1.485     ; 1.239      ;
+; -3.555 ; Wassen:U_2|wassen_status[1]       ; Master:U_0|led_status[1] ; Wassen:U_2|current_state.keuze ; Master:U_0|current_state.idle ; 1.000        ; -1.529     ; 1.010      ;
+; -3.554 ; Wassen:U_2|wassen_status[2]       ; Master:U_0|led_status[2] ; Wassen:U_2|current_state.keuze ; Master:U_0|current_state.idle ; 1.000        ; -1.519     ; 1.010      ;
+; -3.093 ; Master:U_0|current_state.started  ; Master:U_0|go_wassen     ; clk                            ; Master:U_0|current_state.idle ; 1.000        ; -0.478     ; 1.534      ;
+; -0.809 ; Master:U_0|current_state.prg_done ; Master:U_0|led_status[0] ; clk                            ; Master:U_0|current_state.idle ; 1.000        ; 4.684      ; 4.488      ;
+; 0.217  ; Master:U_0|current_state.prg_done ; Master:U_0|led_status[2] ; clk                            ; Master:U_0|current_state.idle ; 1.000        ; 4.700      ; 3.458      ;
+; 0.221  ; Master:U_0|current_state.prg_done ; Master:U_0|led_status[1] ; clk                            ; Master:U_0|current_state.idle ; 1.000        ; 4.696      ; 3.459      ;
+; 1.589  ; Master:U_0|current_state.prg_done ; Master:U_0|led_start     ; clk                            ; Master:U_0|current_state.idle ; 1.000        ; 4.281      ; 1.513      ;
+; 1.648  ; Master:U_0|current_state.unlock   ; Master:U_0|deur_grendel  ; clk                            ; Master:U_0|current_state.idle ; 1.000        ; 4.178      ; 1.506      ;
++--------+-----------------------------------+--------------------------+--------------------------------+-------------------------------+--------------+------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'Trommel:U_1|current_state.idle'                                                                                                                            ;
++--------+--------------------------------------+---------------------------+--------------+--------------------------------+--------------+------------+------------+
+; Slack  ; From Node                            ; To Node                   ; Launch Clock ; Latch Clock                    ; Relationship ; Clock Skew ; Data Delay ;
++--------+--------------------------------------+---------------------------+--------------+--------------------------------+--------------+------------+------------+
+; -4.212 ; Trommel:U_1|current_state.standkeuze ; Trommel:U_1|trommel_ready ; clk          ; Trommel:U_1|current_state.idle ; 1.000        ; -1.614     ; 1.892      ;
+; -0.209 ; Trommel:U_1|current_state.Verander   ; Trommel:U_1|Richting      ; clk          ; Trommel:U_1|current_state.idle ; 0.500        ; 4.876      ; 3.179      ;
+; 0.185  ; Trommel:U_1|current_state.s5         ; Trommel:U_1|Richting      ; clk          ; Trommel:U_1|current_state.idle ; 0.500        ; 4.876      ; 2.785      ;
+; 0.233  ; Trommel:U_1|current_state.snel200    ; Trommel:U_1|motor[0]      ; clk          ; Trommel:U_1|current_state.idle ; 1.000        ; 5.084      ; 3.893      ;
+; 0.301  ; Trommel:U_1|current_state.snel200    ; Trommel:U_1|motor[1]      ; clk          ; Trommel:U_1|current_state.idle ; 1.000        ; 5.091      ; 3.648      ;
+; 0.736  ; Trommel:U_1|current_state.snel800    ; Trommel:U_1|motor[1]      ; clk          ; Trommel:U_1|current_state.idle ; 1.000        ; 5.091      ; 3.213      ;
+; 0.964  ; Trommel:U_1|current_state.rechts_201 ; Trommel:U_1|motor[0]      ; clk          ; Trommel:U_1|current_state.idle ; 1.000        ; 5.084      ; 3.162      ;
+; 1.212  ; Trommel:U_1|current_state.snel1200   ; Trommel:U_1|motor[1]      ; clk          ; Trommel:U_1|current_state.idle ; 1.000        ; 5.091      ; 2.737      ;
+; 1.218  ; Trommel:U_1|current_state.rechts_201 ; Trommel:U_1|motor[1]      ; clk          ; Trommel:U_1|current_state.idle ; 1.000        ; 5.091      ; 2.731      ;
+; 1.696  ; Trommel:U_1|current_state.links_200  ; Trommel:U_1|motor[0]      ; clk          ; Trommel:U_1|current_state.idle ; 1.000        ; 5.084      ; 2.430      ;
+; 2.615  ; Trommel:U_1|current_state.snel1200   ; Trommel:U_1|motor[2]      ; clk          ; Trommel:U_1|current_state.idle ; 1.000        ; 5.085      ; 1.493      ;
++--------+--------------------------------------+---------------------------+--------------+--------------------------------+--------------+------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'Trommel:U_1|csm_timer[0]'                                                                                                                     ;
++--------+------------------------------------+----------------------+--------------+--------------------------+--------------+------------+------------+
+; Slack  ; From Node                          ; To Node              ; Launch Clock ; Latch Clock              ; Relationship ; Clock Skew ; Data Delay ;
++--------+------------------------------------+----------------------+--------------+--------------------------+--------------+------------+------------+
+; -3.093 ; Trommel:U_1|current_state.Verander ; Trommel:U_1|Richting ; clk          ; Trommel:U_1|csm_timer[0] ; 0.500        ; 1.992      ; 3.179      ;
+; -2.699 ; Trommel:U_1|current_state.s5       ; Trommel:U_1|Richting ; clk          ; Trommel:U_1|csm_timer[0] ; 0.500        ; 1.992      ; 2.785      ;
++--------+------------------------------------+----------------------+--------------+--------------------------+--------------+------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'Wassen:U_2|current_state.eind'                                                                                                                 ;
++--------+-----------------------------+-------------------------+--------------+-------------------------------+--------------+------------+------------+
+; Slack  ; From Node                   ; To Node                 ; Launch Clock ; Latch Clock                   ; Relationship ; Clock Skew ; Data Delay ;
++--------+-----------------------------+-------------------------+--------------+-------------------------------+--------------+------------+------------+
+; -3.033 ; Wassen:U_2|current_state.s2 ; Wassen:U_2|wassen_ready ; clk          ; Wassen:U_2|current_state.eind ; 1.000        ; -0.308     ; 1.491      ;
++--------+-----------------------------+-------------------------+--------------+-------------------------------+--------------+------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'Master:U_0|current_state.L_status'                                                                                                                                          ;
++--------+-----------------------------------+--------------------------+--------------------------------+-----------------------------------+--------------+------------+------------+
+; Slack  ; From Node                         ; To Node                  ; Launch Clock                   ; Latch Clock                       ; Relationship ; Clock Skew ; Data Delay ;
++--------+-----------------------------------+--------------------------+--------------------------------+-----------------------------------+--------------+------------+------------+
+; -2.458 ; Master:U_0|current_state.started  ; Master:U_0|go_wassen     ; clk                            ; Master:U_0|current_state.L_status ; 1.000        ; 0.157      ; 1.534      ;
+; -2.047 ; Wassen:U_2|wassen_status[0]       ; Master:U_0|led_status[0] ; Wassen:U_2|current_state.s1    ; Master:U_0|current_state.L_status ; 1.000        ; 0.197      ; 1.239      ;
+; -1.873 ; Wassen:U_2|wassen_status[1]       ; Master:U_0|led_status[1] ; Wassen:U_2|current_state.s1    ; Master:U_0|current_state.L_status ; 1.000        ; 0.153      ; 1.010      ;
+; -1.872 ; Wassen:U_2|wassen_status[2]       ; Master:U_0|led_status[2] ; Wassen:U_2|current_state.s1    ; Master:U_0|current_state.L_status ; 1.000        ; 0.163      ; 1.010      ;
+; -1.117 ; Wassen:U_2|wassen_status[0]       ; Master:U_0|led_status[0] ; Wassen:U_2|current_state.keuze ; Master:U_0|current_state.L_status ; 1.000        ; 1.127      ; 1.239      ;
+; -0.943 ; Wassen:U_2|wassen_status[1]       ; Master:U_0|led_status[1] ; Wassen:U_2|current_state.keuze ; Master:U_0|current_state.L_status ; 1.000        ; 1.083      ; 1.010      ;
+; -0.942 ; Wassen:U_2|wassen_status[2]       ; Master:U_0|led_status[2] ; Wassen:U_2|current_state.keuze ; Master:U_0|current_state.L_status ; 1.000        ; 1.093      ; 1.010      ;
+; 1.803  ; Master:U_0|current_state.prg_done ; Master:U_0|led_status[0] ; clk                            ; Master:U_0|current_state.L_status ; 1.000        ; 7.296      ; 4.488      ;
+; 2.829  ; Master:U_0|current_state.prg_done ; Master:U_0|led_status[2] ; clk                            ; Master:U_0|current_state.L_status ; 1.000        ; 7.312      ; 3.458      ;
+; 2.833  ; Master:U_0|current_state.prg_done ; Master:U_0|led_status[1] ; clk                            ; Master:U_0|current_state.L_status ; 1.000        ; 7.308      ; 3.459      ;
++--------+-----------------------------------+--------------------------+--------------------------------+-----------------------------------+--------------+------------+------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'Afpompen:U_5|current_state.idle'                                                                                                                                          ;
++--------+-----------------------------------+-----------------------+-----------------------------------+---------------------------------+--------------+------------+------------+
+; Slack  ; From Node                         ; To Node               ; Launch Clock                      ; Latch Clock                     ; Relationship ; Clock Skew ; Data Delay ;
++--------+-----------------------------------+-----------------------+-----------------------------------+---------------------------------+--------------+------------+------------+
+; -1.894 ; Afpompen:U_5|current_state.s_leeg ; Afpompen:U_5|pomp_aan ; Afpompen:U_5|current_state.s_leeg ; Afpompen:U_5|current_state.idle ; 0.500        ; 1.521      ; 1.879      ;
+; -1.394 ; Afpompen:U_5|current_state.s_leeg ; Afpompen:U_5|pomp_aan ; Afpompen:U_5|current_state.s_leeg ; Afpompen:U_5|current_state.idle ; 1.000        ; 1.521      ; 1.879      ;
++--------+-----------------------------------+-----------------------+-----------------------------------+---------------------------------+--------------+------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'Wassen:U_2|current_state.centr_0'                                                                                                                                           ;
++--------+-------------------------------------+-----------------------+----------------------------------+----------------------------------+--------------+------------+------------+
+; Slack  ; From Node                           ; To Node               ; Launch Clock                     ; Latch Clock                      ; Relationship ; Clock Skew ; Data Delay ;
++--------+-------------------------------------+-----------------------+----------------------------------+----------------------------------+--------------+------------+------------+
+; -1.489 ; Wassen:U_2|current_state.w_trommel2 ; Wassen:U_2|go_trommel ; clk                              ; Wassen:U_2|current_state.centr_0 ; 1.000        ; 3.041      ; 3.157      ;
+; -1.304 ; Wassen:U_2|current_state.w_trommel1 ; Wassen:U_2|go_trommel ; clk                              ; Wassen:U_2|current_state.centr_0 ; 1.000        ; 3.041      ; 2.972      ;
+; 1.830  ; Wassen:U_2|current_state.centr_0    ; Wassen:U_2|go_trommel ; Wassen:U_2|current_state.centr_0 ; Wassen:U_2|current_state.centr_0 ; 0.500        ; 6.860      ; 3.533      ;
+; 2.330  ; Wassen:U_2|current_state.centr_0    ; Wassen:U_2|go_trommel ; Wassen:U_2|current_state.centr_0 ; Wassen:U_2|current_state.centr_0 ; 1.000        ; 6.860      ; 3.533      ;
++--------+-------------------------------------+-----------------------+----------------------------------+----------------------------------+--------------+------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'Wassen:U_2|current_state.s1'                                                                                                                                                 ;
++--------+-------------------------------------+-----------------------------+----------------------------------+-----------------------------+--------------+------------+------------+
+; Slack  ; From Node                           ; To Node                     ; Launch Clock                     ; Latch Clock                 ; Relationship ; Clock Skew ; Data Delay ;
++--------+-------------------------------------+-----------------------------+----------------------------------+-----------------------------+--------------+------------+------------+
+; -0.823 ; Wassen:U_2|current_state.w_trommel2 ; Wassen:U_2|go_trommel       ; clk                              ; Wassen:U_2|current_state.s1 ; 1.000        ; 3.707      ; 3.157      ;
+; -0.638 ; Wassen:U_2|current_state.w_trommel1 ; Wassen:U_2|go_trommel       ; clk                              ; Wassen:U_2|current_state.s1 ; 1.000        ; 3.707      ; 2.972      ;
+; -0.273 ; Wassen:U_2|current_state.s24        ; Wassen:U_2|go_toevoer       ; clk                              ; Wassen:U_2|current_state.s1 ; 1.000        ; 2.592      ; 1.505      ;
+; -0.221 ; Wassen:U_2|current_state.s5         ; Wassen:U_2|go_afpompen      ; clk                              ; Wassen:U_2|current_state.s1 ; 1.000        ; 3.791      ; 2.962      ;
+; -0.017 ; Wassen:U_2|current_state.s_verwarm1 ; Wassen:U_2|go_verwarmen     ; clk                              ; Wassen:U_2|current_state.s1 ; 1.000        ; 2.874      ; 1.548      ;
+; 0.046  ; Wassen:U_2|current_state.s19        ; Wassen:U_2|go_afpompen      ; clk                              ; Wassen:U_2|current_state.s1 ; 1.000        ; 3.791      ; 2.695      ;
+; 0.596  ; Wassen:U_2|current_state.s2         ; Wassen:U_2|wassen_ready     ; clk                              ; Wassen:U_2|current_state.s1 ; 1.000        ; 3.321      ; 1.491      ;
+; 1.027  ; Wassen:U_2|current_state.keuze2     ; Wassen:U_2|wassen_status[2] ; clk                              ; Wassen:U_2|current_state.s1 ; 1.000        ; 7.149      ; 5.000      ;
+; 1.496  ; Wassen:U_2|current_state.w_trommel1 ; Wassen:U_2|wassen_status[0] ; clk                              ; Wassen:U_2|current_state.s1 ; 1.000        ; 7.099      ; 4.758      ;
+; 1.543  ; Wassen:U_2|current_state.sSpoelen   ; Wassen:U_2|wassen_status[2] ; clk                              ; Wassen:U_2|current_state.s1 ; 1.000        ; 7.149      ; 4.484      ;
+; 1.578  ; Wassen:U_2|current_state.s24        ; Wassen:U_2|wassen_status[0] ; clk                              ; Wassen:U_2|current_state.s1 ; 1.000        ; 7.099      ; 4.676      ;
+; 1.903  ; Wassen:U_2|current_state.keuze2     ; Wassen:U_2|wassen_status[0] ; clk                              ; Wassen:U_2|current_state.s1 ; 1.000        ; 7.099      ; 4.351      ;
+; 1.963  ; Wassen:U_2|current_state.s3         ; Wassen:U_2|wassen_status[2] ; clk                              ; Wassen:U_2|current_state.s1 ; 1.000        ; 7.149      ; 4.064      ;
+; 2.137  ; Wassen:U_2|current_state.wassen1    ; Wassen:U_2|wassen_status[1] ; clk                              ; Wassen:U_2|current_state.s1 ; 1.000        ; 7.155      ; 4.571      ;
+; 2.496  ; Wassen:U_2|current_state.centr_0    ; Wassen:U_2|go_trommel       ; Wassen:U_2|current_state.centr_0 ; Wassen:U_2|current_state.s1 ; 0.500        ; 7.526      ; 3.533      ;
+; 2.667  ; Wassen:U_2|current_state.s3         ; Wassen:U_2|wassen_status[0] ; clk                              ; Wassen:U_2|current_state.s1 ; 1.000        ; 7.099      ; 3.587      ;
+; 2.996  ; Wassen:U_2|current_state.centr_0    ; Wassen:U_2|go_trommel       ; Wassen:U_2|current_state.centr_0 ; Wassen:U_2|current_state.s1 ; 1.000        ; 7.526      ; 3.533      ;
+; 4.670  ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|wassen_status[0] ; Wassen:U_2|current_state.keuze   ; Wassen:U_2|current_state.s1 ; 0.500        ; 10.918     ; 5.279      ;
+; 5.170  ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|wassen_status[0] ; Wassen:U_2|current_state.keuze   ; Wassen:U_2|current_state.s1 ; 1.000        ; 10.918     ; 5.279      ;
+; 6.596  ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|wassen_status[2] ; Wassen:U_2|current_state.keuze   ; Wassen:U_2|current_state.s1 ; 0.500        ; 10.968     ; 3.126      ;
+; 7.096  ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|wassen_status[2] ; Wassen:U_2|current_state.keuze   ; Wassen:U_2|current_state.s1 ; 1.000        ; 10.968     ; 3.126      ;
++--------+-------------------------------------+-----------------------------+----------------------------------+-----------------------------+--------------+------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'Wassen:U_2|current_state.keuze'                                                                                                                                              ;
++-------+-------------------------------------+-----------------------------+--------------------------------+--------------------------------+--------------+------------+------------+
+; Slack ; From Node                           ; To Node                     ; Launch Clock                   ; Latch Clock                    ; Relationship ; Clock Skew ; Data Delay ;
++-------+-------------------------------------+-----------------------------+--------------------------------+--------------------------------+--------------+------------+------------+
+; 0.097 ; Wassen:U_2|current_state.keuze2     ; Wassen:U_2|wassen_status[2] ; clk                            ; Wassen:U_2|current_state.keuze ; 1.000        ; 6.219      ; 5.000      ;
+; 0.566 ; Wassen:U_2|current_state.w_trommel1 ; Wassen:U_2|wassen_status[0] ; clk                            ; Wassen:U_2|current_state.keuze ; 1.000        ; 6.169      ; 4.758      ;
+; 0.613 ; Wassen:U_2|current_state.sSpoelen   ; Wassen:U_2|wassen_status[2] ; clk                            ; Wassen:U_2|current_state.keuze ; 1.000        ; 6.219      ; 4.484      ;
+; 0.648 ; Wassen:U_2|current_state.s24        ; Wassen:U_2|wassen_status[0] ; clk                            ; Wassen:U_2|current_state.keuze ; 1.000        ; 6.169      ; 4.676      ;
+; 0.973 ; Wassen:U_2|current_state.keuze2     ; Wassen:U_2|wassen_status[0] ; clk                            ; Wassen:U_2|current_state.keuze ; 1.000        ; 6.169      ; 4.351      ;
+; 1.033 ; Wassen:U_2|current_state.s3         ; Wassen:U_2|wassen_status[2] ; clk                            ; Wassen:U_2|current_state.keuze ; 1.000        ; 6.219      ; 4.064      ;
+; 1.207 ; Wassen:U_2|current_state.wassen1    ; Wassen:U_2|wassen_status[1] ; clk                            ; Wassen:U_2|current_state.keuze ; 1.000        ; 6.225      ; 4.571      ;
+; 1.737 ; Wassen:U_2|current_state.s3         ; Wassen:U_2|wassen_status[0] ; clk                            ; Wassen:U_2|current_state.keuze ; 1.000        ; 6.169      ; 3.587      ;
+; 3.740 ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|wassen_status[0] ; Wassen:U_2|current_state.keuze ; Wassen:U_2|current_state.keuze ; 0.500        ; 9.988      ; 5.279      ;
+; 4.240 ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|wassen_status[0] ; Wassen:U_2|current_state.keuze ; Wassen:U_2|current_state.keuze ; 1.000        ; 9.988      ; 5.279      ;
+; 5.666 ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|wassen_status[2] ; Wassen:U_2|current_state.keuze ; Wassen:U_2|current_state.keuze ; 0.500        ; 10.038     ; 3.126      ;
+; 6.166 ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|wassen_status[2] ; Wassen:U_2|current_state.keuze ; Wassen:U_2|current_state.keuze ; 1.000        ; 10.038     ; 3.126      ;
++-------+-------------------------------------+-----------------------------+--------------------------------+--------------------------------+--------------+------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'Wassen:U_2|current_state.s1'                                                                                                                                                  ;
++--------+-------------------------------------+-----------------------------+----------------------------------+-----------------------------+--------------+------------+------------+
+; Slack  ; From Node                           ; To Node                     ; Launch Clock                     ; Latch Clock                 ; Relationship ; Clock Skew ; Data Delay ;
++--------+-------------------------------------+-----------------------------+----------------------------------+-----------------------------+--------------+------------+------------+
+; -8.218 ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|wassen_status[2] ; Wassen:U_2|current_state.keuze   ; Wassen:U_2|current_state.s1 ; 0.000        ; 10.968     ; 3.126      ;
+; -7.718 ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|wassen_status[2] ; Wassen:U_2|current_state.keuze   ; Wassen:U_2|current_state.s1 ; -0.500       ; 10.968     ; 3.126      ;
+; -6.015 ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|wassen_status[0] ; Wassen:U_2|current_state.keuze   ; Wassen:U_2|current_state.s1 ; 0.000        ; 10.918     ; 5.279      ;
+; -5.515 ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|wassen_status[0] ; Wassen:U_2|current_state.keuze   ; Wassen:U_2|current_state.s1 ; -0.500       ; 10.918     ; 5.279      ;
+; -4.369 ; Wassen:U_2|current_state.centr_0    ; Wassen:U_2|go_trommel       ; Wassen:U_2|current_state.centr_0 ; Wassen:U_2|current_state.s1 ; 0.000        ; 7.526      ; 3.533      ;
+; -3.869 ; Wassen:U_2|current_state.centr_0    ; Wassen:U_2|go_trommel       ; Wassen:U_2|current_state.centr_0 ; Wassen:U_2|current_state.s1 ; -0.500       ; 7.526      ; 3.533      ;
+; -3.512 ; Wassen:U_2|current_state.s3         ; Wassen:U_2|wassen_status[0] ; clk                              ; Wassen:U_2|current_state.s1 ; 0.000        ; 7.099      ; 3.587      ;
+; -3.085 ; Wassen:U_2|current_state.s3         ; Wassen:U_2|wassen_status[2] ; clk                              ; Wassen:U_2|current_state.s1 ; 0.000        ; 7.149      ; 4.064      ;
+; -2.748 ; Wassen:U_2|current_state.keuze2     ; Wassen:U_2|wassen_status[0] ; clk                              ; Wassen:U_2|current_state.s1 ; 0.000        ; 7.099      ; 4.351      ;
+; -2.665 ; Wassen:U_2|current_state.sSpoelen   ; Wassen:U_2|wassen_status[2] ; clk                              ; Wassen:U_2|current_state.s1 ; 0.000        ; 7.149      ; 4.484      ;
+; -2.584 ; Wassen:U_2|current_state.wassen1    ; Wassen:U_2|wassen_status[1] ; clk                              ; Wassen:U_2|current_state.s1 ; 0.000        ; 7.155      ; 4.571      ;
+; -2.423 ; Wassen:U_2|current_state.s24        ; Wassen:U_2|wassen_status[0] ; clk                              ; Wassen:U_2|current_state.s1 ; 0.000        ; 7.099      ; 4.676      ;
+; -2.341 ; Wassen:U_2|current_state.w_trommel1 ; Wassen:U_2|wassen_status[0] ; clk                              ; Wassen:U_2|current_state.s1 ; 0.000        ; 7.099      ; 4.758      ;
+; -2.149 ; Wassen:U_2|current_state.keuze2     ; Wassen:U_2|wassen_status[2] ; clk                              ; Wassen:U_2|current_state.s1 ; 0.000        ; 7.149      ; 5.000      ;
+; -1.830 ; Wassen:U_2|current_state.s2         ; Wassen:U_2|wassen_ready     ; clk                              ; Wassen:U_2|current_state.s1 ; 0.000        ; 3.321      ; 1.491      ;
+; -1.326 ; Wassen:U_2|current_state.s_verwarm1 ; Wassen:U_2|go_verwarmen     ; clk                              ; Wassen:U_2|current_state.s1 ; 0.000        ; 2.874      ; 1.548      ;
+; -1.096 ; Wassen:U_2|current_state.s19        ; Wassen:U_2|go_afpompen      ; clk                              ; Wassen:U_2|current_state.s1 ; 0.000        ; 3.791      ; 2.695      ;
+; -1.087 ; Wassen:U_2|current_state.s24        ; Wassen:U_2|go_toevoer       ; clk                              ; Wassen:U_2|current_state.s1 ; 0.000        ; 2.592      ; 1.505      ;
+; -0.829 ; Wassen:U_2|current_state.s5         ; Wassen:U_2|go_afpompen      ; clk                              ; Wassen:U_2|current_state.s1 ; 0.000        ; 3.791      ; 2.962      ;
+; -0.735 ; Wassen:U_2|current_state.w_trommel1 ; Wassen:U_2|go_trommel       ; clk                              ; Wassen:U_2|current_state.s1 ; 0.000        ; 3.707      ; 2.972      ;
+; -0.550 ; Wassen:U_2|current_state.w_trommel2 ; Wassen:U_2|go_trommel       ; clk                              ; Wassen:U_2|current_state.s1 ; 0.000        ; 3.707      ; 3.157      ;
++--------+-------------------------------------+-----------------------------+----------------------------------+-----------------------------+--------------+------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'Wassen:U_2|current_state.keuze'                                                                                                                                                ;
++--------+-------------------------------------+-----------------------------+--------------------------------+--------------------------------+--------------+------------+------------+
+; Slack  ; From Node                           ; To Node                     ; Launch Clock                   ; Latch Clock                    ; Relationship ; Clock Skew ; Data Delay ;
++--------+-------------------------------------+-----------------------------+--------------------------------+--------------------------------+--------------+------------+------------+
+; -7.288 ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|wassen_status[2] ; Wassen:U_2|current_state.keuze ; Wassen:U_2|current_state.keuze ; 0.000        ; 10.038     ; 3.126      ;
+; -6.788 ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|wassen_status[2] ; Wassen:U_2|current_state.keuze ; Wassen:U_2|current_state.keuze ; -0.500       ; 10.038     ; 3.126      ;
+; -5.085 ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|wassen_status[0] ; Wassen:U_2|current_state.keuze ; Wassen:U_2|current_state.keuze ; 0.000        ; 9.988      ; 5.279      ;
+; -4.585 ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|wassen_status[0] ; Wassen:U_2|current_state.keuze ; Wassen:U_2|current_state.keuze ; -0.500       ; 9.988      ; 5.279      ;
+; -2.582 ; Wassen:U_2|current_state.s3         ; Wassen:U_2|wassen_status[0] ; clk                            ; Wassen:U_2|current_state.keuze ; 0.000        ; 6.169      ; 3.587      ;
+; -2.155 ; Wassen:U_2|current_state.s3         ; Wassen:U_2|wassen_status[2] ; clk                            ; Wassen:U_2|current_state.keuze ; 0.000        ; 6.219      ; 4.064      ;
+; -1.818 ; Wassen:U_2|current_state.keuze2     ; Wassen:U_2|wassen_status[0] ; clk                            ; Wassen:U_2|current_state.keuze ; 0.000        ; 6.169      ; 4.351      ;
+; -1.735 ; Wassen:U_2|current_state.sSpoelen   ; Wassen:U_2|wassen_status[2] ; clk                            ; Wassen:U_2|current_state.keuze ; 0.000        ; 6.219      ; 4.484      ;
+; -1.654 ; Wassen:U_2|current_state.wassen1    ; Wassen:U_2|wassen_status[1] ; clk                            ; Wassen:U_2|current_state.keuze ; 0.000        ; 6.225      ; 4.571      ;
+; -1.493 ; Wassen:U_2|current_state.s24        ; Wassen:U_2|wassen_status[0] ; clk                            ; Wassen:U_2|current_state.keuze ; 0.000        ; 6.169      ; 4.676      ;
+; -1.411 ; Wassen:U_2|current_state.w_trommel1 ; Wassen:U_2|wassen_status[0] ; clk                            ; Wassen:U_2|current_state.keuze ; 0.000        ; 6.169      ; 4.758      ;
+; -1.219 ; Wassen:U_2|current_state.keuze2     ; Wassen:U_2|wassen_status[2] ; clk                            ; Wassen:U_2|current_state.keuze ; 0.000        ; 6.219      ; 5.000      ;
++--------+-------------------------------------+-----------------------------+--------------------------------+--------------------------------+--------------+------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'Master:U_0|current_state.L_status'                                                                                                                                           ;
++--------+-----------------------------------+--------------------------+--------------------------------+-----------------------------------+--------------+------------+------------+
+; Slack  ; From Node                         ; To Node                  ; Launch Clock                   ; Latch Clock                       ; Relationship ; Clock Skew ; Data Delay ;
++--------+-----------------------------------+--------------------------+--------------------------------+-----------------------------------+--------------+------------+------------+
+; -3.854 ; Master:U_0|current_state.prg_done ; Master:U_0|led_status[2] ; clk                            ; Master:U_0|current_state.L_status ; 0.000        ; 7.312      ; 3.458      ;
+; -3.849 ; Master:U_0|current_state.prg_done ; Master:U_0|led_status[1] ; clk                            ; Master:U_0|current_state.L_status ; 0.000        ; 7.308      ; 3.459      ;
+; -2.808 ; Master:U_0|current_state.prg_done ; Master:U_0|led_status[0] ; clk                            ; Master:U_0|current_state.L_status ; 0.000        ; 7.296      ; 4.488      ;
+; -0.083 ; Wassen:U_2|wassen_status[2]       ; Master:U_0|led_status[2] ; Wassen:U_2|current_state.keuze ; Master:U_0|current_state.L_status ; 0.000        ; 1.093      ; 1.010      ;
+; -0.073 ; Wassen:U_2|wassen_status[1]       ; Master:U_0|led_status[1] ; Wassen:U_2|current_state.keuze ; Master:U_0|current_state.L_status ; 0.000        ; 1.083      ; 1.010      ;
+; 0.112  ; Wassen:U_2|wassen_status[0]       ; Master:U_0|led_status[0] ; Wassen:U_2|current_state.keuze ; Master:U_0|current_state.L_status ; 0.000        ; 1.127      ; 1.239      ;
+; 0.847  ; Wassen:U_2|wassen_status[2]       ; Master:U_0|led_status[2] ; Wassen:U_2|current_state.s1    ; Master:U_0|current_state.L_status ; 0.000        ; 0.163      ; 1.010      ;
+; 0.857  ; Wassen:U_2|wassen_status[1]       ; Master:U_0|led_status[1] ; Wassen:U_2|current_state.s1    ; Master:U_0|current_state.L_status ; 0.000        ; 0.153      ; 1.010      ;
+; 1.042  ; Wassen:U_2|wassen_status[0]       ; Master:U_0|led_status[0] ; Wassen:U_2|current_state.s1    ; Master:U_0|current_state.L_status ; 0.000        ; 0.197      ; 1.239      ;
+; 1.377  ; Master:U_0|current_state.started  ; Master:U_0|go_wassen     ; clk                            ; Master:U_0|current_state.L_status ; 0.000        ; 0.157      ; 1.534      ;
++--------+-----------------------------------+--------------------------+--------------------------------+-----------------------------------+--------------+------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'Wassen:U_2|current_state.centr_0'                                                                                                                                            ;
++--------+-------------------------------------+-----------------------+----------------------------------+----------------------------------+--------------+------------+------------+
+; Slack  ; From Node                           ; To Node               ; Launch Clock                     ; Latch Clock                      ; Relationship ; Clock Skew ; Data Delay ;
++--------+-------------------------------------+-----------------------+----------------------------------+----------------------------------+--------------+------------+------------+
+; -3.703 ; Wassen:U_2|current_state.centr_0    ; Wassen:U_2|go_trommel ; Wassen:U_2|current_state.centr_0 ; Wassen:U_2|current_state.centr_0 ; 0.000        ; 6.860      ; 3.533      ;
+; -3.203 ; Wassen:U_2|current_state.centr_0    ; Wassen:U_2|go_trommel ; Wassen:U_2|current_state.centr_0 ; Wassen:U_2|current_state.centr_0 ; -0.500       ; 6.860      ; 3.533      ;
+; -0.069 ; Wassen:U_2|current_state.w_trommel1 ; Wassen:U_2|go_trommel ; clk                              ; Wassen:U_2|current_state.centr_0 ; 0.000        ; 3.041      ; 2.972      ;
+; 0.116  ; Wassen:U_2|current_state.w_trommel2 ; Wassen:U_2|go_trommel ; clk                              ; Wassen:U_2|current_state.centr_0 ; 0.000        ; 3.041      ; 3.157      ;
++--------+-------------------------------------+-----------------------+----------------------------------+----------------------------------+--------------+------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'Trommel:U_1|current_state.idle'                                                                                                                             ;
++--------+--------------------------------------+---------------------------+--------------+--------------------------------+--------------+------------+------------+
+; Slack  ; From Node                            ; To Node                   ; Launch Clock ; Latch Clock                    ; Relationship ; Clock Skew ; Data Delay ;
++--------+--------------------------------------+---------------------------+--------------+--------------------------------+--------------+------------+------------+
+; -3.592 ; Trommel:U_1|current_state.snel1200   ; Trommel:U_1|motor[2]      ; clk          ; Trommel:U_1|current_state.idle ; 0.000        ; 5.085      ; 1.493      ;
+; -2.654 ; Trommel:U_1|current_state.links_200  ; Trommel:U_1|motor[0]      ; clk          ; Trommel:U_1|current_state.idle ; 0.000        ; 5.084      ; 2.430      ;
+; -2.360 ; Trommel:U_1|current_state.rechts_201 ; Trommel:U_1|motor[1]      ; clk          ; Trommel:U_1|current_state.idle ; 0.000        ; 5.091      ; 2.731      ;
+; -2.354 ; Trommel:U_1|current_state.snel1200   ; Trommel:U_1|motor[1]      ; clk          ; Trommel:U_1|current_state.idle ; 0.000        ; 5.091      ; 2.737      ;
+; -1.922 ; Trommel:U_1|current_state.rechts_201 ; Trommel:U_1|motor[0]      ; clk          ; Trommel:U_1|current_state.idle ; 0.000        ; 5.084      ; 3.162      ;
+; -1.878 ; Trommel:U_1|current_state.snel800    ; Trommel:U_1|motor[1]      ; clk          ; Trommel:U_1|current_state.idle ; 0.000        ; 5.091      ; 3.213      ;
+; -1.591 ; Trommel:U_1|current_state.s5         ; Trommel:U_1|Richting      ; clk          ; Trommel:U_1|current_state.idle ; -0.500       ; 4.876      ; 2.785      ;
+; -1.443 ; Trommel:U_1|current_state.snel200    ; Trommel:U_1|motor[1]      ; clk          ; Trommel:U_1|current_state.idle ; 0.000        ; 5.091      ; 3.648      ;
+; -1.197 ; Trommel:U_1|current_state.Verander   ; Trommel:U_1|Richting      ; clk          ; Trommel:U_1|current_state.idle ; -0.500       ; 4.876      ; 3.179      ;
+; -1.191 ; Trommel:U_1|current_state.snel200    ; Trommel:U_1|motor[0]      ; clk          ; Trommel:U_1|current_state.idle ; 0.000        ; 5.084      ; 3.893      ;
+; 3.506  ; Trommel:U_1|current_state.standkeuze ; Trommel:U_1|trommel_ready ; clk          ; Trommel:U_1|current_state.idle ; 0.000        ; -1.614     ; 1.892      ;
++--------+--------------------------------------+---------------------------+--------------+--------------------------------+--------------+------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'Master:U_0|current_state.idle'                                                                                                                                           ;
++--------+-----------------------------------+--------------------------+--------------------------------+-------------------------------+--------------+------------+------------+
+; Slack  ; From Node                         ; To Node                  ; Launch Clock                   ; Latch Clock                   ; Relationship ; Clock Skew ; Data Delay ;
++--------+-----------------------------------+--------------------------+--------------------------------+-------------------------------+--------------+------------+------------+
+; -2.768 ; Master:U_0|current_state.prg_done ; Master:U_0|led_start     ; clk                            ; Master:U_0|current_state.idle ; 0.000        ; 4.281      ; 1.513      ;
+; -2.672 ; Master:U_0|current_state.unlock   ; Master:U_0|deur_grendel  ; clk                            ; Master:U_0|current_state.idle ; 0.000        ; 4.178      ; 1.506      ;
+; -1.242 ; Master:U_0|current_state.prg_done ; Master:U_0|led_status[2] ; clk                            ; Master:U_0|current_state.idle ; 0.000        ; 4.700      ; 3.458      ;
+; -1.237 ; Master:U_0|current_state.prg_done ; Master:U_0|led_status[1] ; clk                            ; Master:U_0|current_state.idle ; 0.000        ; 4.696      ; 3.459      ;
+; -0.196 ; Master:U_0|current_state.prg_done ; Master:U_0|led_status[0] ; clk                            ; Master:U_0|current_state.idle ; 0.000        ; 4.684      ; 4.488      ;
+; 2.012  ; Master:U_0|current_state.started  ; Master:U_0|go_wassen     ; clk                            ; Master:U_0|current_state.idle ; 0.000        ; -0.478     ; 1.534      ;
+; 2.529  ; Wassen:U_2|wassen_status[2]       ; Master:U_0|led_status[2] ; Wassen:U_2|current_state.keuze ; Master:U_0|current_state.idle ; 0.000        ; -1.519     ; 1.010      ;
+; 2.539  ; Wassen:U_2|wassen_status[1]       ; Master:U_0|led_status[1] ; Wassen:U_2|current_state.keuze ; Master:U_0|current_state.idle ; 0.000        ; -1.529     ; 1.010      ;
+; 2.724  ; Wassen:U_2|wassen_status[0]       ; Master:U_0|led_status[0] ; Wassen:U_2|current_state.keuze ; Master:U_0|current_state.idle ; 0.000        ; -1.485     ; 1.239      ;
+; 3.459  ; Wassen:U_2|wassen_status[2]       ; Master:U_0|led_status[2] ; Wassen:U_2|current_state.s1    ; Master:U_0|current_state.idle ; 0.000        ; -2.449     ; 1.010      ;
+; 3.469  ; Wassen:U_2|wassen_status[1]       ; Master:U_0|led_status[1] ; Wassen:U_2|current_state.s1    ; Master:U_0|current_state.idle ; 0.000        ; -2.459     ; 1.010      ;
+; 3.654  ; Wassen:U_2|wassen_status[0]       ; Master:U_0|led_status[0] ; Wassen:U_2|current_state.s1    ; Master:U_0|current_state.idle ; 0.000        ; -2.415     ; 1.239      ;
++--------+-----------------------------------+--------------------------+--------------------------------+-------------------------------+--------------+------------+------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'clk'                                                                                                                                                                        ;
++--------+-------------------------------------+------------------------------------------+-----------------------------------+-------------+--------------+------------+------------+
+; Slack  ; From Node                           ; To Node                                  ; Launch Clock                      ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++--------+-------------------------------------+------------------------------------------+-----------------------------------+-------------+--------------+------------+------------+
+; -2.235 ; Afpompen:U_5|current_state.idle     ; Afpompen:U_5|current_state.idle          ; Afpompen:U_5|current_state.idle   ; clk         ; 0.000        ; 3.819      ; 2.181      ;
+; -2.026 ; Trommel:U_1|current_state.idle      ; Trommel:U_1|current_state.idle           ; Trommel:U_1|current_state.idle    ; clk         ; 0.000        ; 3.819      ; 2.390      ;
+; -2.022 ; Trommel:U_1|current_state.idle      ; Trommel:U_1|current_state.standkeuze     ; Trommel:U_1|current_state.idle    ; clk         ; 0.000        ; 3.819      ; 2.394      ;
+; -1.962 ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|current_state.keuze           ; Wassen:U_2|current_state.keuze    ; clk         ; 0.000        ; 3.819      ; 2.454      ;
+; -1.944 ; Wassen:U_2|current_state.eind       ; Wassen:U_2|current_state.s0              ; Wassen:U_2|current_state.eind     ; clk         ; 0.000        ; 3.819      ; 2.472      ;
+; -1.944 ; Wassen:U_2|current_state.centr_0    ; Wassen:U_2|current_state.centr_0         ; Wassen:U_2|current_state.centr_0  ; clk         ; 0.000        ; 3.819      ; 2.472      ;
+; -1.943 ; Wassen:U_2|current_state.centr_0    ; Wassen:U_2|current_state.centr_1         ; Wassen:U_2|current_state.centr_0  ; clk         ; 0.000        ; 3.819      ; 2.473      ;
+; -1.924 ; Afpompen:U_5|current_state.s_leeg   ; Afpompen:U_5|current_state.idle          ; Afpompen:U_5|current_state.s_leeg ; clk         ; 0.000        ; 3.819      ; 2.492      ;
+; -1.904 ; Afpompen:U_5|current_state.idle     ; Afpompen:U_5|current_state.afpompen      ; Afpompen:U_5|current_state.idle   ; clk         ; 0.000        ; 3.819      ; 2.512      ;
+; -1.897 ; Master:U_0|current_state.L_status   ; Master:U_0|current_state.L_status        ; Master:U_0|current_state.L_status ; clk         ; 0.000        ; 3.819      ; 2.519      ;
+; -1.886 ; Master:U_0|current_state.L_status   ; Master:U_0|current_state.prg_done        ; Master:U_0|current_state.L_status ; clk         ; 0.000        ; 3.819      ; 2.530      ;
+; -1.735 ; Afpompen:U_5|current_state.idle     ; Afpompen:U_5|current_state.idle          ; Afpompen:U_5|current_state.idle   ; clk         ; -0.500       ; 3.819      ; 2.181      ;
+; -1.547 ; Master:U_0|current_state.idle       ; Master:U_0|current_state.pow_on          ; Master:U_0|current_state.idle     ; clk         ; 0.000        ; 3.819      ; 2.869      ;
+; -1.526 ; Trommel:U_1|current_state.idle      ; Trommel:U_1|current_state.idle           ; Trommel:U_1|current_state.idle    ; clk         ; -0.500       ; 3.819      ; 2.390      ;
+; -1.522 ; Trommel:U_1|current_state.idle      ; Trommel:U_1|current_state.standkeuze     ; Trommel:U_1|current_state.idle    ; clk         ; -0.500       ; 3.819      ; 2.394      ;
+; -1.462 ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|current_state.keuze           ; Wassen:U_2|current_state.keuze    ; clk         ; -0.500       ; 3.819      ; 2.454      ;
+; -1.444 ; Wassen:U_2|current_state.eind       ; Wassen:U_2|current_state.s0              ; Wassen:U_2|current_state.eind     ; clk         ; -0.500       ; 3.819      ; 2.472      ;
+; -1.444 ; Wassen:U_2|current_state.centr_0    ; Wassen:U_2|current_state.centr_0         ; Wassen:U_2|current_state.centr_0  ; clk         ; -0.500       ; 3.819      ; 2.472      ;
+; -1.443 ; Wassen:U_2|current_state.centr_0    ; Wassen:U_2|current_state.centr_1         ; Wassen:U_2|current_state.centr_0  ; clk         ; -0.500       ; 3.819      ; 2.473      ;
+; -1.424 ; Afpompen:U_5|current_state.s_leeg   ; Afpompen:U_5|current_state.idle          ; Afpompen:U_5|current_state.s_leeg ; clk         ; -0.500       ; 3.819      ; 2.492      ;
+; -1.404 ; Afpompen:U_5|current_state.idle     ; Afpompen:U_5|current_state.afpompen      ; Afpompen:U_5|current_state.idle   ; clk         ; -0.500       ; 3.819      ; 2.512      ;
+; -1.397 ; Master:U_0|current_state.L_status   ; Master:U_0|current_state.L_status        ; Master:U_0|current_state.L_status ; clk         ; -0.500       ; 3.819      ; 2.519      ;
+; -1.386 ; Master:U_0|current_state.L_status   ; Master:U_0|current_state.prg_done        ; Master:U_0|current_state.L_status ; clk         ; -0.500       ; 3.819      ; 2.530      ;
+; -1.364 ; Wassen:U_2|current_state.s1         ; Wassen:U_2|current_state.s3              ; Wassen:U_2|current_state.s1       ; clk         ; 0.000        ; 3.819      ; 3.052      ;
+; -1.226 ; Wassen:U_2|current_state.s1         ; Wassen:U_2|current_state.keuze           ; Wassen:U_2|current_state.s1       ; clk         ; 0.000        ; 3.819      ; 3.190      ;
+; -1.047 ; Master:U_0|current_state.idle       ; Master:U_0|current_state.pow_on          ; Master:U_0|current_state.idle     ; clk         ; -0.500       ; 3.819      ; 2.869      ;
+; -0.953 ; Afpompen:U_5|afpompen_ready         ; Wassen:U_2|current_state.s19             ; Afpompen:U_5|current_state.s_leeg ; clk         ; 0.000        ; 2.312      ; 1.580      ;
+; -0.922 ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|current_state.s8              ; Wassen:U_2|current_state.keuze    ; clk         ; 0.000        ; 3.819      ; 3.494      ;
+; -0.864 ; Wassen:U_2|current_state.s1         ; Wassen:U_2|current_state.s3              ; Wassen:U_2|current_state.s1       ; clk         ; -0.500       ; 3.819      ; 3.052      ;
+; -0.765 ; Wassen:U_2|current_state.s1         ; Wassen:U_2|current_state.s1              ; Wassen:U_2|current_state.s1       ; clk         ; 0.000        ; 3.819      ; 3.651      ;
+; -0.752 ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.Verander       ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 3.664      ;
+; -0.726 ; Wassen:U_2|current_state.s1         ; Wassen:U_2|current_state.keuze           ; Wassen:U_2|current_state.s1       ; clk         ; -0.500       ; 3.819      ; 3.190      ;
+; -0.493 ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.s3             ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 3.923      ;
+; -0.422 ; Wassen:U_2|current_state.keuze      ; Wassen:U_2|current_state.s8              ; Wassen:U_2|current_state.keuze    ; clk         ; -0.500       ; 3.819      ; 3.494      ;
+; -0.265 ; Wassen:U_2|current_state.s1         ; Wassen:U_2|current_state.s1              ; Wassen:U_2|current_state.s1       ; clk         ; -0.500       ; 3.819      ; 3.651      ;
+; -0.252 ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.Verander       ; Trommel:U_1|csm_timer[0]          ; clk         ; -0.500       ; 3.819      ; 3.664      ;
+; -0.175 ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.snelheidhoger3 ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 4.241      ;
+; -0.056 ; Afpompen:U_5|afpompen_ready         ; Wassen:U_2|current_state.s5              ; Afpompen:U_5|current_state.s_leeg ; clk         ; 0.000        ; 2.312      ; 2.477      ;
+; -0.003 ; Trommel:U_1|trommel_ready           ; Wassen:U_2|current_state.w_trommel2      ; Trommel:U_1|current_state.idle    ; clk         ; 0.000        ; 1.614      ; 1.832      ;
+; 0.004  ; Trommel:U_1|trommel_ready           ; Wassen:U_2|current_state.sSpoelen        ; Trommel:U_1|current_state.idle    ; clk         ; 0.000        ; 1.614      ; 1.839      ;
+; 0.007  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.s3             ; Trommel:U_1|csm_timer[0]          ; clk         ; -0.500       ; 3.819      ; 3.923      ;
+; 0.142  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|csm_timer[3]                 ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 4.558      ;
+; 0.181  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.s8             ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 4.597      ;
+; 0.195  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.snel1200       ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 4.611      ;
+; 0.314  ; Afpompen:U_5|afpompen_ready         ; Wassen:U_2|current_state.keuze2          ; Afpompen:U_5|current_state.s_leeg ; clk         ; 0.000        ; 2.312      ; 2.847      ;
+; 0.325  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.snelheidhoger3 ; Trommel:U_1|csm_timer[0]          ; clk         ; -0.500       ; 3.819      ; 4.241      ;
+; 0.354  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.s5             ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 4.770      ;
+; 0.423  ; Afpompen:U_5|afpompen_ready         ; Wassen:U_2|current_state.s8              ; Afpompen:U_5|current_state.s_leeg ; clk         ; 0.000        ; 2.312      ; 2.956      ;
+; 0.504  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.idle           ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 4.920      ;
+; 0.518  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|csm_timer[1]                 ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 4.934      ;
+; 0.531  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.rechts_201     ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 4.947      ;
+; 0.540  ; Afpompen:U_5|afpompen_ready         ; Wassen:U_2|current_state.s15             ; Afpompen:U_5|current_state.s_leeg ; clk         ; 0.000        ; 2.312      ; 3.073      ;
+; 0.548  ; Trommel:U_1|trommel_ready           ; Wassen:U_2|current_state.w_trommel1      ; Trommel:U_1|current_state.idle    ; clk         ; 0.000        ; 1.614      ; 2.383      ;
+; 0.565  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|csm_timer[0]                 ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 4.981      ;
+; 0.630  ; Trommel:U_1|trommel_ready           ; Wassen:U_2|current_state.s_verwarm1      ; Trommel:U_1|current_state.idle    ; clk         ; 0.000        ; 1.614      ; 2.465      ;
+; 0.633  ; Trommel:U_1|trommel_ready           ; Wassen:U_2|current_state.s_t_hoog1       ; Trommel:U_1|current_state.idle    ; clk         ; 0.000        ; 1.614      ; 2.468      ;
+; 0.635  ; Afpompen:U_5|afpompen_ready         ; Wassen:U_2|current_state.centr_0         ; Afpompen:U_5|current_state.s_leeg ; clk         ; 0.000        ; 2.312      ; 3.168      ;
+; 0.642  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|csm_timer[3]                 ; Trommel:U_1|csm_timer[0]          ; clk         ; -0.500       ; 3.819      ; 4.558      ;
+; 0.681  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.s8             ; Trommel:U_1|csm_timer[0]          ; clk         ; -0.500       ; 3.819      ; 4.597      ;
+; 0.695  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.snel1200       ; Trommel:U_1|csm_timer[0]          ; clk         ; -0.500       ; 3.819      ; 4.611      ;
+; 0.697  ; Trommel:U_1|trommel_ready           ; Wassen:U_2|current_state.s1              ; Trommel:U_1|current_state.idle    ; clk         ; 0.000        ; 1.614      ; 2.532      ;
+; 0.743  ; Trommel:U_1|trommel_ready           ; Wassen:U_2|current_state.wassen_done1    ; Trommel:U_1|current_state.idle    ; clk         ; 0.000        ; 1.614      ; 2.578      ;
+; 0.770  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.snel800        ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 5.186      ;
+; 0.778  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.s0             ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 5.194      ;
+; 0.781  ; Trommel:U_1|trommel_ready           ; Wassen:U_2|current_state.eind            ; Trommel:U_1|current_state.idle    ; clk         ; 0.000        ; 1.614      ; 2.616      ;
+; 0.786  ; Trommel:U_1|trommel_ready           ; Wassen:U_2|current_state.centr_1         ; Trommel:U_1|current_state.idle    ; clk         ; 0.000        ; 1.614      ; 2.621      ;
+; 0.788  ; Afpompen:U_5|afpompen_ready         ; Wassen:U_2|current_state.s14             ; Afpompen:U_5|current_state.s_leeg ; clk         ; 0.000        ; 2.312      ; 3.321      ;
+; 0.854  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.s5             ; Trommel:U_1|csm_timer[0]          ; clk         ; -0.500       ; 3.819      ; 4.770      ;
+; 0.856  ; Trommel:U_1|trommel_ready           ; Wassen:U_2|current_state.wassen1         ; Trommel:U_1|current_state.idle    ; clk         ; 0.000        ; 1.614      ; 2.691      ;
+; 0.949  ; Master:U_0|go_wassen                ; Wassen:U_2|current_state.s2              ; Master:U_0|current_state.idle     ; clk         ; 0.000        ; 0.478      ; 1.648      ;
+; 0.969  ; Trommel:U_1|trommel_ready           ; Wassen:U_2|current_state.centr_0         ; Trommel:U_1|current_state.idle    ; clk         ; 0.000        ; 1.614      ; 2.804      ;
+; 1.004  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.idle           ; Trommel:U_1|csm_timer[0]          ; clk         ; -0.500       ; 3.819      ; 4.920      ;
+; 1.018  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|csm_timer[1]                 ; Trommel:U_1|csm_timer[0]          ; clk         ; -0.500       ; 3.819      ; 4.934      ;
+; 1.031  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.rechts_201     ; Trommel:U_1|csm_timer[0]          ; clk         ; -0.500       ; 3.819      ; 4.947      ;
+; 1.065  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|csm_timer[0]                 ; Trommel:U_1|csm_timer[0]          ; clk         ; -0.500       ; 3.819      ; 4.981      ;
+; 1.118  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 5.534      ;
+; 1.136  ; Wassen:U_2|wassen_ready             ; Master:U_0|current_state.started         ; Wassen:U_2|current_state.eind     ; clk         ; 0.000        ; 0.308      ; 1.665      ;
+; 1.144  ; Wassen:U_2|wassen_ready             ; Master:U_0|current_state.wait_s          ; Wassen:U_2|current_state.eind     ; clk         ; 0.000        ; 0.308      ; 1.673      ;
+; 1.145  ; Wassen:U_2|wassen_ready             ; Master:U_0|current_state.prg_done        ; Wassen:U_2|current_state.eind     ; clk         ; 0.000        ; 0.308      ; 1.674      ;
+; 1.147  ; Wassen:U_2|wassen_ready             ; Master:U_0|current_state.L_status        ; Wassen:U_2|current_state.eind     ; clk         ; 0.000        ; 0.308      ; 1.676      ;
+; 1.160  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.s1             ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 5.576      ;
+; 1.165  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.snelheidhoger2 ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 5.581      ;
+; 1.167  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.s6             ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 5.583      ;
+; 1.174  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.snel200        ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 5.590      ;
+; 1.233  ; Wassen:U_2|wassen_ready             ; Master:U_0|current_state.idle            ; Wassen:U_2|current_state.eind     ; clk         ; 0.000        ; 0.308      ; 1.762      ;
+; 1.249  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.links_200      ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 5.665      ;
+; 1.270  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.snel800        ; Trommel:U_1|csm_timer[0]          ; clk         ; -0.500       ; 3.819      ; 5.186      ;
+; 1.278  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.s0             ; Trommel:U_1|csm_timer[0]          ; clk         ; -0.500       ; 3.819      ; 5.194      ;
+; 1.455  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|csm_timer[4]                 ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 5.871      ;
+; 1.584  ; Master:U_0|go_wassen                ; Wassen:U_2|current_state.s2              ; Master:U_0|current_state.L_status ; clk         ; 0.000        ; -0.157     ; 1.648      ;
+; 1.614  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|csm_timer[2]                 ; Trommel:U_1|csm_timer[0]          ; clk         ; 0.000        ; 3.819      ; 6.030      ;
+; 1.618  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|csm_timer[5]                 ; Trommel:U_1|csm_timer[0]          ; clk         ; -0.500       ; 3.819      ; 5.534      ;
+; 1.660  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.s1             ; Trommel:U_1|csm_timer[0]          ; clk         ; -0.500       ; 3.819      ; 5.576      ;
+; 1.665  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.snelheidhoger2 ; Trommel:U_1|csm_timer[0]          ; clk         ; -0.500       ; 3.819      ; 5.581      ;
+; 1.667  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.s6             ; Trommel:U_1|csm_timer[0]          ; clk         ; -0.500       ; 3.819      ; 5.583      ;
+; 1.668  ; Wassen:U_2|current_state.s24        ; Wassen:U_2|current_state.s24             ; clk                               ; clk         ; 0.000        ; 0.000      ; 1.889      ;
+; 1.674  ; Trommel:U_1|csm_timer[0]            ; Trommel:U_1|current_state.snel200        ; Trommel:U_1|csm_timer[0]          ; clk         ; -0.500       ; 3.819      ; 5.590      ;
+; 1.693  ; Master:U_0|current_state.started    ; Master:U_0|current_state.started         ; clk                               ; clk         ; 0.000        ; 0.000      ; 1.914      ;
+; 1.695  ; Afpompen:U_5|current_state.afpompen ; Afpompen:U_5|current_state.s_leeg        ; clk                               ; clk         ; 0.000        ; 0.000      ; 1.916      ;
+; 1.704  ; Master:U_0|current_state.started    ; Master:U_0|current_state.L_status        ; clk                               ; clk         ; 0.000        ; 0.000      ; 1.925      ;
++--------+-------------------------------------+------------------------------------------+-----------------------------------+-------------+--------------+------------+------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'Afpompen:U_5|current_state.idle'                                                                                                                                           ;
++--------+-----------------------------------+-----------------------+-----------------------------------+---------------------------------+--------------+------------+------------+
+; Slack  ; From Node                         ; To Node               ; Launch Clock                      ; Latch Clock                     ; Relationship ; Clock Skew ; Data Delay ;
++--------+-----------------------------------+-----------------------+-----------------------------------+---------------------------------+--------------+------------+------------+
+; -0.018 ; Afpompen:U_5|current_state.s_leeg ; Afpompen:U_5|pomp_aan ; Afpompen:U_5|current_state.s_leeg ; Afpompen:U_5|current_state.idle ; 0.000        ; 1.521      ; 1.879      ;
+; 0.482  ; Afpompen:U_5|current_state.s_leeg ; Afpompen:U_5|pomp_aan ; Afpompen:U_5|current_state.s_leeg ; Afpompen:U_5|current_state.idle ; -0.500       ; 1.521      ; 1.879      ;
++--------+-----------------------------------+-----------------------+-----------------------------------+---------------------------------+--------------+------------+------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'Trommel:U_1|csm_timer[0]'                                                                                                                     ;
++-------+------------------------------------+----------------------+--------------+--------------------------+--------------+------------+------------+
+; Slack ; From Node                          ; To Node              ; Launch Clock ; Latch Clock              ; Relationship ; Clock Skew ; Data Delay ;
++-------+------------------------------------+----------------------+--------------+--------------------------+--------------+------------+------------+
+; 1.293 ; Trommel:U_1|current_state.s5       ; Trommel:U_1|Richting ; clk          ; Trommel:U_1|csm_timer[0] ; -0.500       ; 1.992      ; 2.785      ;
+; 1.687 ; Trommel:U_1|current_state.Verander ; Trommel:U_1|Richting ; clk          ; Trommel:U_1|csm_timer[0] ; -0.500       ; 1.992      ; 3.179      ;
++-------+------------------------------------+----------------------+--------------+--------------------------+--------------+------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'Wassen:U_2|current_state.eind'                                                                                                                 ;
++-------+-----------------------------+-------------------------+--------------+-------------------------------+--------------+------------+------------+
+; Slack ; From Node                   ; To Node                 ; Launch Clock ; Latch Clock                   ; Relationship ; Clock Skew ; Data Delay ;
++-------+-----------------------------+-------------------------+--------------+-------------------------------+--------------+------------+------------+
+; 1.799 ; Wassen:U_2|current_state.s2 ; Wassen:U_2|wassen_ready ; clk          ; Wassen:U_2|current_state.eind ; 0.000        ; -0.308     ; 1.491      ;
++-------+-----------------------------+-------------------------+--------------+-------------------------------+--------------+------------+------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'Afpompen:U_5|current_state.s_leeg'                                                                                                                             ;
++-------+-------------------------------------+-----------------------------+--------------+-----------------------------------+--------------+------------+------------+
+; Slack ; From Node                           ; To Node                     ; Launch Clock ; Latch Clock                       ; Relationship ; Clock Skew ; Data Delay ;
++-------+-------------------------------------+-----------------------------+--------------+-----------------------------------+--------------+------------+------------+
+; 3.836 ; Afpompen:U_5|current_state.afpompen ; Afpompen:U_5|afpompen_ready ; clk          ; Afpompen:U_5|current_state.s_leeg ; 0.000        ; -2.312     ; 1.524      ;
++-------+-------------------------------------+-----------------------------+--------------+-----------------------------------+--------------+------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Minimum Pulse Width: 'clk'                                                                                                ;
++--------+--------------+----------------+------------------+-------+------------+------------------------------------------+
+; Slack  ; Actual Width ; Required Width ; Type             ; Clock ; Clock Edge ; Target                                   ;
++--------+--------------+----------------+------------------+-------+------------+------------------------------------------+
+; -2.289 ; 1.000        ; 3.289          ; Port Rate        ; clk   ; Rise       ; clk                                      ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Afpompen:U_5|current_state.afpompen      ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Afpompen:U_5|current_state.afpompen      ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Afpompen:U_5|current_state.idle          ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Afpompen:U_5|current_state.idle          ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Afpompen:U_5|current_state.s_leeg        ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Afpompen:U_5|current_state.s_leeg        ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Master:U_0|current_state.L_status        ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Master:U_0|current_state.L_status        ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Master:U_0|current_state.idle            ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Master:U_0|current_state.idle            ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Master:U_0|current_state.pow_on          ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Master:U_0|current_state.pow_on          ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Master:U_0|current_state.prg_done        ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Master:U_0|current_state.prg_done        ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Master:U_0|current_state.proces          ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Master:U_0|current_state.proces          ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Master:U_0|current_state.started         ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Master:U_0|current_state.started         ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Master:U_0|current_state.unlock          ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Master:U_0|current_state.unlock          ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Master:U_0|current_state.wait_s          ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Master:U_0|current_state.wait_s          ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Toevoer:U_6|current_state                ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Toevoer:U_6|current_state                ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|csm_timer[0]                 ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|csm_timer[0]                 ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|csm_timer[1]                 ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|csm_timer[1]                 ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|csm_timer[2]                 ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|csm_timer[2]                 ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|csm_timer[3]                 ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|csm_timer[3]                 ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|csm_timer[4]                 ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|csm_timer[4]                 ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|csm_timer[5]                 ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|csm_timer[5]                 ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|current_state.Verander       ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|current_state.Verander       ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|current_state.idle           ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|current_state.idle           ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|current_state.links_200      ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|current_state.links_200      ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|current_state.rechts_201     ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|current_state.rechts_201     ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|current_state.s0             ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|current_state.s0             ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|current_state.s1             ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|current_state.s1             ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|current_state.s3             ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|current_state.s3             ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|current_state.s5             ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|current_state.s5             ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|current_state.s6             ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|current_state.s6             ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|current_state.s8             ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|current_state.s8             ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|current_state.snel1200       ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|current_state.snel1200       ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|current_state.snel200        ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|current_state.snel200        ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|current_state.snel800        ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|current_state.snel800        ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|current_state.snelheidhoger2 ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|current_state.snelheidhoger2 ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|current_state.snelheidhoger3 ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|current_state.snelheidhoger3 ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|current_state.standkeuze     ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|current_state.standkeuze     ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Trommel:U_1|current_state.start          ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Trommel:U_1|current_state.start          ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Verwarming:U_3|current_state             ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Verwarming:U_3|current_state             ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Wassen:U_2|current_state.centr_0         ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Wassen:U_2|current_state.centr_0         ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Wassen:U_2|current_state.centr_1         ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Wassen:U_2|current_state.centr_1         ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Wassen:U_2|current_state.eind            ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Wassen:U_2|current_state.eind            ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Wassen:U_2|current_state.keuze           ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Wassen:U_2|current_state.keuze           ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Wassen:U_2|current_state.keuze2          ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Wassen:U_2|current_state.keuze2          ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Wassen:U_2|current_state.s0              ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Wassen:U_2|current_state.s0              ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Wassen:U_2|current_state.s1              ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Wassen:U_2|current_state.s1              ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Wassen:U_2|current_state.s12             ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Wassen:U_2|current_state.s12             ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Wassen:U_2|current_state.s14             ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Wassen:U_2|current_state.s14             ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Wassen:U_2|current_state.s15             ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Wassen:U_2|current_state.s15             ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Wassen:U_2|current_state.s19             ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Wassen:U_2|current_state.s19             ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Wassen:U_2|current_state.s2              ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Wassen:U_2|current_state.s2              ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Wassen:U_2|current_state.s23             ;
+; 0.234  ; 0.500        ; 0.266          ; Low Pulse Width  ; clk   ; Rise       ; Wassen:U_2|current_state.s23             ;
+; 0.234  ; 0.500        ; 0.266          ; High Pulse Width ; clk   ; Rise       ; Wassen:U_2|current_state.s24             ;
++--------+--------------+----------------+------------------+-------+------------+------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------+
+; Minimum Pulse Width: 'Afpompen:U_5|current_state.idle'                                                                                  ;
++-------+--------------+----------------+------------------+---------------------------------+------------+-------------------------------+
+; Slack ; Actual Width ; Required Width ; Type             ; Clock                           ; Clock Edge ; Target                        ;
++-------+--------------+----------------+------------------+---------------------------------+------------+-------------------------------+
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Afpompen:U_5|current_state.idle ; Fall       ; Afpompen:U_5|pomp_aan         ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Afpompen:U_5|current_state.idle ; Fall       ; Afpompen:U_5|pomp_aan         ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Afpompen:U_5|current_state.idle ; Rise       ; U_5|current_state.idle|regout ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Afpompen:U_5|current_state.idle ; Rise       ; U_5|current_state.idle|regout ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Afpompen:U_5|current_state.idle ; Rise       ; U_5|pomp_aan|datac            ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Afpompen:U_5|current_state.idle ; Rise       ; U_5|pomp_aan|datac            ;
++-------+--------------+----------------+------------------+---------------------------------+------------+-------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------+
+; Minimum Pulse Width: 'Afpompen:U_5|current_state.s_leeg'                                                                                    ;
++-------+--------------+----------------+------------------+-----------------------------------+------------+---------------------------------+
+; Slack ; Actual Width ; Required Width ; Type             ; Clock                             ; Clock Edge ; Target                          ;
++-------+--------------+----------------+------------------+-----------------------------------+------------+---------------------------------+
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Afpompen:U_5|current_state.s_leeg ; Rise       ; Afpompen:U_5|afpompen_ready     ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Afpompen:U_5|current_state.s_leeg ; Rise       ; Afpompen:U_5|afpompen_ready     ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Afpompen:U_5|current_state.s_leeg ; Rise       ; U_5|afpompen_ready|datac        ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Afpompen:U_5|current_state.s_leeg ; Rise       ; U_5|afpompen_ready|datac        ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Afpompen:U_5|current_state.s_leeg ; Rise       ; U_5|current_state.s_leeg|regout ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Afpompen:U_5|current_state.s_leeg ; Rise       ; U_5|current_state.s_leeg|regout ;
++-------+--------------+----------------+------------------+-----------------------------------+------------+---------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------+
+; Minimum Pulse Width: 'Master:U_0|current_state.L_status'                                                                                      ;
++-------+--------------+----------------+------------------+-----------------------------------+------------+-----------------------------------+
+; Slack ; Actual Width ; Required Width ; Type             ; Clock                             ; Clock Edge ; Target                            ;
++-------+--------------+----------------+------------------+-----------------------------------+------------+-----------------------------------+
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.L_status ; Rise       ; Master:U_0|go_wassen              ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.L_status ; Rise       ; Master:U_0|go_wassen              ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.L_status ; Rise       ; Master:U_0|led_status[0]          ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.L_status ; Rise       ; Master:U_0|led_status[0]          ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.L_status ; Rise       ; Master:U_0|led_status[1]          ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.L_status ; Rise       ; Master:U_0|led_status[1]          ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.L_status ; Rise       ; Master:U_0|led_status[2]          ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.L_status ; Rise       ; Master:U_0|led_status[2]          ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.L_status ; Rise       ; U_0|WideOr10|combout              ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.L_status ; Rise       ; U_0|WideOr10|combout              ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.L_status ; Rise       ; U_0|WideOr10|datab                ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.L_status ; Rise       ; U_0|WideOr10|datab                ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.L_status ; Rise       ; U_0|WideOr9~1|combout             ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.L_status ; Rise       ; U_0|WideOr9~1|combout             ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.L_status ; Rise       ; U_0|WideOr9~1|datab               ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.L_status ; Rise       ; U_0|WideOr9~1|datab               ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.L_status ; Rise       ; U_0|current_state.L_status|regout ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.L_status ; Rise       ; U_0|current_state.L_status|regout ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.L_status ; Rise       ; U_0|go_wassen|datab               ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.L_status ; Rise       ; U_0|go_wassen|datab               ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.L_status ; Rise       ; U_0|led_status[0]|datab           ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.L_status ; Rise       ; U_0|led_status[0]|datab           ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.L_status ; Rise       ; U_0|led_status[1]|datab           ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.L_status ; Rise       ; U_0|led_status[1]|datab           ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.L_status ; Rise       ; U_0|led_status[2]|datab           ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.L_status ; Rise       ; U_0|led_status[2]|datab           ;
++-------+--------------+----------------+------------------+-----------------------------------+------------+-----------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Minimum Pulse Width: 'Master:U_0|current_state.idle'                                                                                  ;
++-------+--------------+----------------+------------------+-------------------------------+------------+-------------------------------+
+; Slack ; Actual Width ; Required Width ; Type             ; Clock                         ; Clock Edge ; Target                        ;
++-------+--------------+----------------+------------------+-------------------------------+------------+-------------------------------+
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; Master:U_0|deur_grendel       ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; Master:U_0|deur_grendel       ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; Master:U_0|go_wassen          ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; Master:U_0|go_wassen          ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; Master:U_0|led_start          ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; Master:U_0|led_start          ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; Master:U_0|led_status[0]      ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; Master:U_0|led_status[0]      ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; Master:U_0|led_status[1]      ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; Master:U_0|led_status[1]      ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; Master:U_0|led_status[2]      ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; Master:U_0|led_status[2]      ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; U_0|WideOr10|combout          ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; U_0|WideOr10|combout          ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; U_0|WideOr10|datad            ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; U_0|WideOr10|datad            ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; U_0|WideOr7|combout           ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; U_0|WideOr7|combout           ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; U_0|WideOr7|datab             ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; U_0|WideOr7|datab             ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; U_0|WideOr8|combout           ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; U_0|WideOr8|combout           ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; U_0|WideOr8|datad             ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; U_0|WideOr8|datad             ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; U_0|WideOr9~1|combout         ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; U_0|WideOr9~1|combout         ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; U_0|WideOr9~1|datac           ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; U_0|WideOr9~1|datac           ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; U_0|current_state.idle|regout ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; U_0|current_state.idle|regout ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; U_0|deur_grendel|datab        ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; U_0|deur_grendel|datab        ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; U_0|go_wassen|datab           ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; U_0|go_wassen|datab           ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; U_0|led_start|dataa           ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; U_0|led_start|dataa           ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; U_0|led_status[0]|datab       ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; U_0|led_status[0]|datab       ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; U_0|led_status[1]|datab       ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; U_0|led_status[1]|datab       ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Master:U_0|current_state.idle ; Rise       ; U_0|led_status[2]|datab       ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Master:U_0|current_state.idle ; Rise       ; U_0|led_status[2]|datab       ;
++-------+--------------+----------------+------------------+-------------------------------+------------+-------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Minimum Pulse Width: 'Trommel:U_1|csm_timer[0]'                                                                             ;
++-------+--------------+----------------+------------------+--------------------------+------------+--------------------------+
+; Slack ; Actual Width ; Required Width ; Type             ; Clock                    ; Clock Edge ; Target                   ;
++-------+--------------+----------------+------------------+--------------------------+------------+--------------------------+
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|csm_timer[0] ; Fall       ; Trommel:U_1|Richting     ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|csm_timer[0] ; Fall       ; Trommel:U_1|Richting     ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|csm_timer[0] ; Rise       ; U_1|Equal2~1|combout     ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|csm_timer[0] ; Rise       ; U_1|Equal2~1|combout     ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|csm_timer[0] ; Rise       ; U_1|Equal2~1|datac       ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|csm_timer[0] ; Rise       ; U_1|Equal2~1|datac       ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|csm_timer[0] ; Rise       ; U_1|Richting|datab       ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|csm_timer[0] ; Rise       ; U_1|Richting|datab       ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|csm_timer[0] ; Rise       ; U_1|Selector25~4|combout ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|csm_timer[0] ; Rise       ; U_1|Selector25~4|combout ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|csm_timer[0] ; Rise       ; U_1|Selector25~4|datac   ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|csm_timer[0] ; Rise       ; U_1|Selector25~4|datac   ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|csm_timer[0] ; Rise       ; U_1|csm_timer[0]|regout  ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|csm_timer[0] ; Rise       ; U_1|csm_timer[0]|regout  ;
++-------+--------------+----------------+------------------+--------------------------+------------+--------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Minimum Pulse Width: 'Trommel:U_1|current_state.idle'                                                                                  ;
++-------+--------------+----------------+------------------+--------------------------------+------------+-------------------------------+
+; Slack ; Actual Width ; Required Width ; Type             ; Clock                          ; Clock Edge ; Target                        ;
++-------+--------------+----------------+------------------+--------------------------------+------------+-------------------------------+
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Fall       ; Trommel:U_1|Richting          ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Fall       ; Trommel:U_1|Richting          ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; Trommel:U_1|motor[0]          ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; Trommel:U_1|motor[0]          ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; Trommel:U_1|motor[1]          ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; Trommel:U_1|motor[1]          ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; Trommel:U_1|motor[2]          ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; Trommel:U_1|motor[2]          ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; Trommel:U_1|trommel_ready     ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; Trommel:U_1|trommel_ready     ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; U_1|Richting|datab            ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; U_1|Richting|datab            ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; U_1|Selector25~0|combout      ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; U_1|Selector25~0|combout      ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; U_1|Selector25~0|datad        ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; U_1|Selector25~0|datad        ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; U_1|Selector25~3|combout      ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; U_1|Selector25~3|combout      ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; U_1|Selector25~3|dataa        ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; U_1|Selector25~3|dataa        ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; U_1|Selector25~4|combout      ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; U_1|Selector25~4|combout      ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; U_1|Selector25~4|datad        ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; U_1|Selector25~4|datad        ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; U_1|WideOr18|combout          ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; U_1|WideOr18|combout          ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; U_1|WideOr18|datab            ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; U_1|WideOr18|datab            ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; U_1|WideOr19|combout          ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; U_1|WideOr19|combout          ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; U_1|WideOr19|datad            ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; U_1|WideOr19|datad            ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; U_1|current_state.idle|regout ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; U_1|current_state.idle|regout ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; U_1|motor[0]|datac            ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; U_1|motor[0]|datac            ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; U_1|motor[1]|datac            ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; U_1|motor[1]|datac            ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; U_1|motor[2]|datac            ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; U_1|motor[2]|datac            ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Trommel:U_1|current_state.idle ; Rise       ; U_1|trommel_ready|datad       ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Trommel:U_1|current_state.idle ; Rise       ; U_1|trommel_ready|datad       ;
++-------+--------------+----------------+------------------+--------------------------------+------------+-------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------+
+; Minimum Pulse Width: 'Wassen:U_2|current_state.centr_0'                                                                                     ;
++-------+--------------+----------------+------------------+----------------------------------+------------+----------------------------------+
+; Slack ; Actual Width ; Required Width ; Type             ; Clock                            ; Clock Edge ; Target                           ;
++-------+--------------+----------------+------------------+----------------------------------+------------+----------------------------------+
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.centr_0 ; Rise       ; U_2|WideOr30|combout             ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.centr_0 ; Rise       ; U_2|WideOr30|combout             ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.centr_0 ; Rise       ; U_2|WideOr30|datad               ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.centr_0 ; Rise       ; U_2|WideOr30|datad               ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.centr_0 ; Rise       ; U_2|WideOr30~0|combout           ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.centr_0 ; Rise       ; U_2|WideOr30~0|combout           ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.centr_0 ; Rise       ; U_2|WideOr30~0|datad             ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.centr_0 ; Rise       ; U_2|WideOr30~0|datad             ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.centr_0 ; Rise       ; U_2|current_state.centr_0|regout ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.centr_0 ; Rise       ; U_2|current_state.centr_0|regout ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.centr_0 ; Rise       ; U_2|go_trommel|datab             ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.centr_0 ; Rise       ; U_2|go_trommel|datab             ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.centr_0 ; Rise       ; Wassen:U_2|go_trommel            ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.centr_0 ; Rise       ; Wassen:U_2|go_trommel            ;
++-------+--------------+----------------+------------------+----------------------------------+------------+----------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Minimum Pulse Width: 'Wassen:U_2|current_state.eind'                                                                                  ;
++-------+--------------+----------------+------------------+-------------------------------+------------+-------------------------------+
+; Slack ; Actual Width ; Required Width ; Type             ; Clock                         ; Clock Edge ; Target                        ;
++-------+--------------+----------------+------------------+-------------------------------+------------+-------------------------------+
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.eind ; Rise       ; U_2|WideOr21|combout          ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.eind ; Rise       ; U_2|WideOr21|combout          ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.eind ; Rise       ; U_2|WideOr21|datad            ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.eind ; Rise       ; U_2|WideOr21|datad            ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.eind ; Rise       ; U_2|current_state.eind|regout ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.eind ; Rise       ; U_2|current_state.eind|regout ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.eind ; Rise       ; U_2|wassen_ready|datac        ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.eind ; Rise       ; U_2|wassen_ready|datac        ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.eind ; Rise       ; Wassen:U_2|wassen_ready       ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.eind ; Rise       ; Wassen:U_2|wassen_ready       ;
++-------+--------------+----------------+------------------+-------------------------------+------------+-------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------+
+; Minimum Pulse Width: 'Wassen:U_2|current_state.keuze'                                                                                   ;
++-------+--------------+----------------+------------------+--------------------------------+------------+--------------------------------+
+; Slack ; Actual Width ; Required Width ; Type             ; Clock                          ; Clock Edge ; Target                         ;
++-------+--------------+----------------+------------------+--------------------------------+------------+--------------------------------+
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|WideOr24|combout           ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|WideOr24|combout           ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|WideOr24|datad             ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|WideOr24|datad             ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|WideOr24~0|combout         ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|WideOr24~0|combout         ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|WideOr24~0|datab           ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|WideOr24~0|datab           ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|WideOr24~1|combout         ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|WideOr24~1|combout         ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|WideOr24~1|datad           ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|WideOr24~1|datad           ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|current_state.keuze|regout ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|current_state.keuze|regout ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|wassen_status[0]|datac     ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|wassen_status[0]|datac     ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|wassen_status[1]|datac     ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|wassen_status[1]|datac     ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|wassen_status[2]|datac     ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.keuze ; Rise       ; U_2|wassen_status[2]|datac     ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.keuze ; Rise       ; Wassen:U_2|wassen_status[0]    ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.keuze ; Rise       ; Wassen:U_2|wassen_status[0]    ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.keuze ; Rise       ; Wassen:U_2|wassen_status[1]    ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.keuze ; Rise       ; Wassen:U_2|wassen_status[1]    ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.keuze ; Rise       ; Wassen:U_2|wassen_status[2]    ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.keuze ; Rise       ; Wassen:U_2|wassen_status[2]    ;
++-------+--------------+----------------+------------------+--------------------------------+------------+--------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Minimum Pulse Width: 'Wassen:U_2|current_state.s1'                                                                                ;
++-------+--------------+----------------+------------------+-----------------------------+------------+-----------------------------+
+; Slack ; Actual Width ; Required Width ; Type             ; Clock                       ; Clock Edge ; Target                      ;
++-------+--------------+----------------+------------------+-----------------------------+------------+-----------------------------+
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr20~0|combout      ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr20~0|combout      ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr20~0|datad        ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr20~0|datad        ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr21|combout        ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr21|combout        ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr21|datac          ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr21|datac          ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr24|combout        ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr24|combout        ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr24|datac          ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr24|datac          ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr28|combout        ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr28|combout        ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr28|dataa          ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr28|dataa          ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr29|combout        ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr29|combout        ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr29|dataa          ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr29|dataa          ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr30|combout        ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr30|combout        ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr30|datab          ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr30|datab          ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr33|combout        ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr33|combout        ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr33|dataa          ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|WideOr33|dataa          ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|current_state.s1|regout ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|current_state.s1|regout ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|go_afpompen|datab       ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|go_afpompen|datab       ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|go_toevoer|dataa        ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|go_toevoer|dataa        ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|go_trommel|datab        ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|go_trommel|datab        ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|go_verwarmen|datab      ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|go_verwarmen|datab      ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|wassen_ready|datac      ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|wassen_ready|datac      ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|wassen_status[0]|datac  ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|wassen_status[0]|datac  ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|wassen_status[1]|datac  ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|wassen_status[1]|datac  ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|wassen_status[2]|datac  ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; U_2|wassen_status[2]|datac  ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; Wassen:U_2|go_afpompen      ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; Wassen:U_2|go_afpompen      ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; Wassen:U_2|go_toevoer       ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; Wassen:U_2|go_toevoer       ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; Wassen:U_2|go_trommel       ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; Wassen:U_2|go_trommel       ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; Wassen:U_2|go_verwarmen     ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; Wassen:U_2|go_verwarmen     ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; Wassen:U_2|wassen_ready     ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; Wassen:U_2|wassen_ready     ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; Wassen:U_2|wassen_status[0] ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; Wassen:U_2|wassen_status[0] ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; Wassen:U_2|wassen_status[1] ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; Wassen:U_2|wassen_status[1] ;
+; 0.500 ; 0.500        ; 0.000          ; High Pulse Width ; Wassen:U_2|current_state.s1 ; Rise       ; Wassen:U_2|wassen_status[2] ;
+; 0.500 ; 0.500        ; 0.000          ; Low Pulse Width  ; Wassen:U_2|current_state.s1 ; Rise       ; Wassen:U_2|wassen_status[2] ;
++-------+--------------+----------------+------------------+-----------------------------+------------+-----------------------------+
+
+
++-------------------------------------------------------------------------------------+
+; Setup Times                                                                         ;
++-----------------------+------------+--------+--------+------------+-----------------+
+; Data Port             ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------------------+------------+--------+--------+------------+-----------------+
+; centrifugeerkeuze[*]  ; clk        ; 10.421 ; 10.421 ; Rise       ; clk             ;
+;  centrifugeerkeuze[0] ; clk        ; 10.036 ; 10.036 ; Rise       ; clk             ;
+;  centrifugeerkeuze[1] ; clk        ; 10.421 ; 10.421 ; Rise       ; clk             ;
+; deur_dicht            ; clk        ; 5.928  ; 5.928  ; Rise       ; clk             ;
+; kuip_leeg             ; clk        ; 4.254  ; 4.254  ; Rise       ; clk             ;
+; programmakeuze[*]     ; clk        ; 6.344  ; 6.344  ; Rise       ; clk             ;
+;  programmakeuze[0]    ; clk        ; 5.727  ; 5.727  ; Rise       ; clk             ;
+;  programmakeuze[1]    ; clk        ; 6.344  ; 6.344  ; Rise       ; clk             ;
+; start                 ; clk        ; 6.815  ; 6.815  ; Rise       ; clk             ;
+; t_hoog                ; clk        ; 4.810  ; 4.810  ; Rise       ; clk             ;
+; t_laag                ; clk        ; 4.781  ; 4.781  ; Rise       ; clk             ;
+; w_hoog                ; clk        ; 5.869  ; 5.869  ; Rise       ; clk             ;
+; w_laag                ; clk        ; 5.554  ; 5.554  ; Rise       ; clk             ;
++-----------------------+------------+--------+--------+------------+-----------------+
+
+
++-------------------------------------------------------------------------------------+
+; Hold Times                                                                          ;
++-----------------------+------------+--------+--------+------------+-----------------+
+; Data Port             ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------------------+------------+--------+--------+------------+-----------------+
+; centrifugeerkeuze[*]  ; clk        ; -3.271 ; -3.271 ; Rise       ; clk             ;
+;  centrifugeerkeuze[0] ; clk        ; -3.271 ; -3.271 ; Rise       ; clk             ;
+;  centrifugeerkeuze[1] ; clk        ; -3.479 ; -3.479 ; Rise       ; clk             ;
+; deur_dicht            ; clk        ; -2.983 ; -2.983 ; Rise       ; clk             ;
+; kuip_leeg             ; clk        ; -3.691 ; -3.691 ; Rise       ; clk             ;
+; programmakeuze[*]     ; clk        ; -4.620 ; -4.620 ; Rise       ; clk             ;
+;  programmakeuze[0]    ; clk        ; -4.761 ; -4.761 ; Rise       ; clk             ;
+;  programmakeuze[1]    ; clk        ; -4.620 ; -4.620 ; Rise       ; clk             ;
+; start                 ; clk        ; -3.039 ; -3.039 ; Rise       ; clk             ;
+; t_hoog                ; clk        ; -3.631 ; -3.631 ; Rise       ; clk             ;
+; t_laag                ; clk        ; -3.703 ; -3.703 ; Rise       ; clk             ;
+; w_hoog                ; clk        ; -3.705 ; -3.705 ; Rise       ; clk             ;
+; w_laag                ; clk        ; -3.080 ; -3.080 ; Rise       ; clk             ;
++-----------------------+------------+--------+--------+------------+-----------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Clock to Output Times                                                                                                 ;
++----------------+-----------------------------------+--------+--------+------------+-----------------------------------+
+; Data Port      ; Clock Port                        ; Rise   ; Fall   ; Clock Edge ; Clock Reference                   ;
++----------------+-----------------------------------+--------+--------+------------+-----------------------------------+
+; pomp_aan       ; Afpompen:U_5|current_state.idle   ; 7.542  ; 7.542  ; Fall       ; Afpompen:U_5|current_state.idle   ;
+; led_status[*]  ; Master:U_0|current_state.L_status ; 17.060 ; 17.060 ; Rise       ; Master:U_0|current_state.L_status ;
+;  led_status[0] ; Master:U_0|current_state.L_status ; 16.091 ; 16.091 ; Rise       ; Master:U_0|current_state.L_status ;
+;  led_status[1] ; Master:U_0|current_state.L_status ; 17.060 ; 17.060 ; Rise       ; Master:U_0|current_state.L_status ;
+;  led_status[2] ; Master:U_0|current_state.L_status ; 15.895 ; 15.895 ; Rise       ; Master:U_0|current_state.L_status ;
+; deur_grendel   ; Master:U_0|current_state.idle     ; 13.061 ; 13.061 ; Rise       ; Master:U_0|current_state.idle     ;
+; led_start      ; Master:U_0|current_state.idle     ; 13.588 ; 13.588 ; Rise       ; Master:U_0|current_state.idle     ;
+; led_status[*]  ; Master:U_0|current_state.idle     ; 14.448 ; 14.448 ; Rise       ; Master:U_0|current_state.idle     ;
+;  led_status[0] ; Master:U_0|current_state.idle     ; 13.479 ; 13.479 ; Rise       ; Master:U_0|current_state.idle     ;
+;  led_status[1] ; Master:U_0|current_state.idle     ; 14.448 ; 14.448 ; Rise       ; Master:U_0|current_state.idle     ;
+;  led_status[2] ; Master:U_0|current_state.idle     ; 13.283 ; 13.283 ; Rise       ; Master:U_0|current_state.idle     ;
+; motor[*]       ; Trommel:U_1|current_state.idle    ; 15.360 ; 15.360 ; Rise       ; Trommel:U_1|current_state.idle    ;
+;  motor[0]      ; Trommel:U_1|current_state.idle    ; 13.889 ; 13.889 ; Rise       ; Trommel:U_1|current_state.idle    ;
+;  motor[1]      ; Trommel:U_1|current_state.idle    ; 13.752 ; 13.752 ; Rise       ; Trommel:U_1|current_state.idle    ;
+;  motor[2]      ; Trommel:U_1|current_state.idle    ; 15.360 ; 15.360 ; Rise       ; Trommel:U_1|current_state.idle    ;
+; verwarmen      ; clk                               ; 8.996  ; 8.996  ; Rise       ; clk                               ;
++----------------+-----------------------------------+--------+--------+------------+-----------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                                                                         ;
++----------------+-----------------------------------+--------+--------+------------+-----------------------------------+
+; Data Port      ; Clock Port                        ; Rise   ; Fall   ; Clock Edge ; Clock Reference                   ;
++----------------+-----------------------------------+--------+--------+------------+-----------------------------------+
+; pomp_aan       ; Afpompen:U_5|current_state.idle   ; 7.542  ; 7.542  ; Fall       ; Afpompen:U_5|current_state.idle   ;
+; led_status[*]  ; Master:U_0|current_state.L_status ; 15.895 ; 15.895 ; Rise       ; Master:U_0|current_state.L_status ;
+;  led_status[0] ; Master:U_0|current_state.L_status ; 16.091 ; 16.091 ; Rise       ; Master:U_0|current_state.L_status ;
+;  led_status[1] ; Master:U_0|current_state.L_status ; 17.060 ; 17.060 ; Rise       ; Master:U_0|current_state.L_status ;
+;  led_status[2] ; Master:U_0|current_state.L_status ; 15.895 ; 15.895 ; Rise       ; Master:U_0|current_state.L_status ;
+; deur_grendel   ; Master:U_0|current_state.idle     ; 13.061 ; 13.061 ; Rise       ; Master:U_0|current_state.idle     ;
+; led_start      ; Master:U_0|current_state.idle     ; 13.588 ; 13.588 ; Rise       ; Master:U_0|current_state.idle     ;
+; led_status[*]  ; Master:U_0|current_state.idle     ; 13.283 ; 13.283 ; Rise       ; Master:U_0|current_state.idle     ;
+;  led_status[0] ; Master:U_0|current_state.idle     ; 13.479 ; 13.479 ; Rise       ; Master:U_0|current_state.idle     ;
+;  led_status[1] ; Master:U_0|current_state.idle     ; 14.448 ; 14.448 ; Rise       ; Master:U_0|current_state.idle     ;
+;  led_status[2] ; Master:U_0|current_state.idle     ; 13.283 ; 13.283 ; Rise       ; Master:U_0|current_state.idle     ;
+; motor[*]       ; Trommel:U_1|current_state.idle    ; 13.752 ; 13.752 ; Rise       ; Trommel:U_1|current_state.idle    ;
+;  motor[0]      ; Trommel:U_1|current_state.idle    ; 13.889 ; 13.889 ; Rise       ; Trommel:U_1|current_state.idle    ;
+;  motor[1]      ; Trommel:U_1|current_state.idle    ; 13.752 ; 13.752 ; Rise       ; Trommel:U_1|current_state.idle    ;
+;  motor[2]      ; Trommel:U_1|current_state.idle    ; 15.360 ; 15.360 ; Rise       ; Trommel:U_1|current_state.idle    ;
+; verwarmen      ; clk                               ; 8.996  ; 8.996  ; Rise       ; clk                               ;
++----------------+-----------------------------------+--------+--------+------------+-----------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Setup Transfers                                                                                                   ;
++-----------------------------------+-----------------------------------+----------+----------+----------+----------+
+; From Clock                        ; To Clock                          ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++-----------------------------------+-----------------------------------+----------+----------+----------+----------+
+; Afpompen:U_5|current_state.s_leeg ; Afpompen:U_5|current_state.idle   ; 0        ; 0        ; 1        ; 1        ;
+; clk                               ; Afpompen:U_5|current_state.s_leeg ; 1        ; 0        ; 0        ; 0        ;
+; Afpompen:U_5|current_state.idle   ; clk                               ; 2        ; 2        ; 0        ; 0        ;
+; Afpompen:U_5|current_state.s_leeg ; clk                               ; 8        ; 1        ; 0        ; 0        ;
+; clk                               ; clk                               ; 332      ; 0        ; 0        ; 0        ;
+; Master:U_0|current_state.idle     ; clk                               ; 7        ; 1        ; 0        ; 0        ;
+; Master:U_0|current_state.L_status ; clk                               ; 8        ; 2        ; 0        ; 0        ;
+; Trommel:U_1|csm_timer[0]          ; clk                               ; 42       ; 63       ; 0        ; 0        ;
+; Trommel:U_1|current_state.idle    ; clk                               ; 13       ; 23       ; 0        ; 0        ;
+; Wassen:U_2|current_state.centr_0  ; clk                               ; 4        ; 2        ; 0        ; 0        ;
+; Wassen:U_2|current_state.eind     ; clk                               ; 7        ; 1        ; 0        ; 0        ;
+; Wassen:U_2|current_state.keuze    ; clk                               ; 2        ; 2        ; 0        ; 0        ;
+; Wassen:U_2|current_state.s1       ; clk                               ; 15       ; 3        ; 0        ; 0        ;
+; clk                               ; Master:U_0|current_state.idle     ; 6        ; 0        ; 0        ; 0        ;
+; Wassen:U_2|current_state.keuze    ; Master:U_0|current_state.idle     ; 3        ; 0        ; 0        ; 0        ;
+; Wassen:U_2|current_state.s1       ; Master:U_0|current_state.idle     ; 3        ; 0        ; 0        ; 0        ;
+; clk                               ; Master:U_0|current_state.L_status ; 4        ; 0        ; 0        ; 0        ;
+; Wassen:U_2|current_state.keuze    ; Master:U_0|current_state.L_status ; 3        ; 0        ; 0        ; 0        ;
+; Wassen:U_2|current_state.s1       ; Master:U_0|current_state.L_status ; 3        ; 0        ; 0        ; 0        ;
+; clk                               ; Trommel:U_1|csm_timer[0]          ; 0        ; 0        ; 2        ; 0        ;
+; clk                               ; Trommel:U_1|current_state.idle    ; 9        ; 0        ; 2        ; 0        ;
+; clk                               ; Wassen:U_2|current_state.centr_0  ; 2        ; 0        ; 0        ; 0        ;
+; Wassen:U_2|current_state.centr_0  ; Wassen:U_2|current_state.centr_0  ; 1        ; 1        ; 0        ; 0        ;
+; clk                               ; Wassen:U_2|current_state.eind     ; 1        ; 0        ; 0        ; 0        ;
+; clk                               ; Wassen:U_2|current_state.keuze    ; 8        ; 0        ; 0        ; 0        ;
+; Wassen:U_2|current_state.keuze    ; Wassen:U_2|current_state.keuze    ; 2        ; 2        ; 0        ; 0        ;
+; clk                               ; Wassen:U_2|current_state.s1       ; 15       ; 0        ; 0        ; 0        ;
+; Wassen:U_2|current_state.centr_0  ; Wassen:U_2|current_state.s1       ; 1        ; 1        ; 0        ; 0        ;
+; Wassen:U_2|current_state.keuze    ; Wassen:U_2|current_state.s1       ; 2        ; 2        ; 0        ; 0        ;
++-----------------------------------+-----------------------------------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Hold Transfers                                                                                                    ;
++-----------------------------------+-----------------------------------+----------+----------+----------+----------+
+; From Clock                        ; To Clock                          ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++-----------------------------------+-----------------------------------+----------+----------+----------+----------+
+; Afpompen:U_5|current_state.s_leeg ; Afpompen:U_5|current_state.idle   ; 0        ; 0        ; 1        ; 1        ;
+; clk                               ; Afpompen:U_5|current_state.s_leeg ; 1        ; 0        ; 0        ; 0        ;
+; Afpompen:U_5|current_state.idle   ; clk                               ; 2        ; 2        ; 0        ; 0        ;
+; Afpompen:U_5|current_state.s_leeg ; clk                               ; 8        ; 1        ; 0        ; 0        ;
+; clk                               ; clk                               ; 332      ; 0        ; 0        ; 0        ;
+; Master:U_0|current_state.idle     ; clk                               ; 7        ; 1        ; 0        ; 0        ;
+; Master:U_0|current_state.L_status ; clk                               ; 8        ; 2        ; 0        ; 0        ;
+; Trommel:U_1|csm_timer[0]          ; clk                               ; 42       ; 63       ; 0        ; 0        ;
+; Trommel:U_1|current_state.idle    ; clk                               ; 13       ; 23       ; 0        ; 0        ;
+; Wassen:U_2|current_state.centr_0  ; clk                               ; 4        ; 2        ; 0        ; 0        ;
+; Wassen:U_2|current_state.eind     ; clk                               ; 7        ; 1        ; 0        ; 0        ;
+; Wassen:U_2|current_state.keuze    ; clk                               ; 2        ; 2        ; 0        ; 0        ;
+; Wassen:U_2|current_state.s1       ; clk                               ; 15       ; 3        ; 0        ; 0        ;
+; clk                               ; Master:U_0|current_state.idle     ; 6        ; 0        ; 0        ; 0        ;
+; Wassen:U_2|current_state.keuze    ; Master:U_0|current_state.idle     ; 3        ; 0        ; 0        ; 0        ;
+; Wassen:U_2|current_state.s1       ; Master:U_0|current_state.idle     ; 3        ; 0        ; 0        ; 0        ;
+; clk                               ; Master:U_0|current_state.L_status ; 4        ; 0        ; 0        ; 0        ;
+; Wassen:U_2|current_state.keuze    ; Master:U_0|current_state.L_status ; 3        ; 0        ; 0        ; 0        ;
+; Wassen:U_2|current_state.s1       ; Master:U_0|current_state.L_status ; 3        ; 0        ; 0        ; 0        ;
+; clk                               ; Trommel:U_1|csm_timer[0]          ; 0        ; 0        ; 2        ; 0        ;
+; clk                               ; Trommel:U_1|current_state.idle    ; 9        ; 0        ; 2        ; 0        ;
+; clk                               ; Wassen:U_2|current_state.centr_0  ; 2        ; 0        ; 0        ; 0        ;
+; Wassen:U_2|current_state.centr_0  ; Wassen:U_2|current_state.centr_0  ; 1        ; 1        ; 0        ; 0        ;
+; clk                               ; Wassen:U_2|current_state.eind     ; 1        ; 0        ; 0        ; 0        ;
+; clk                               ; Wassen:U_2|current_state.keuze    ; 8        ; 0        ; 0        ; 0        ;
+; Wassen:U_2|current_state.keuze    ; Wassen:U_2|current_state.keuze    ; 2        ; 2        ; 0        ; 0        ;
+; clk                               ; Wassen:U_2|current_state.s1       ; 15       ; 0        ; 0        ; 0        ;
+; Wassen:U_2|current_state.centr_0  ; Wassen:U_2|current_state.s1       ; 1        ; 1        ; 0        ; 0        ;
+; Wassen:U_2|current_state.keuze    ; Wassen:U_2|current_state.s1       ; 2        ; 2        ; 0        ; 0        ;
++-----------------------------------+-----------------------------------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 12    ; 12   ;
+; Unconstrained Input Port Paths  ; 118   ; 118  ;
+; Unconstrained Output Ports      ; 10    ; 10   ;
+; Unconstrained Output Port Paths ; 10    ; 10   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Mon Mar 10 15:01:20 2025
+Info: Command: quartus_sta wasmachien_block -c wasmachien_block
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (306004): Started post-fitting delay annotation
+Info (306005): Delay annotation completed successfully
+Warning (335093): TimeQuest Timing Analyzer is analyzing 21 combinational loops as latches.
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'wasmachien_block.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332105): Deriving Clocks
+    Info (332105): create_clock -period 1.000 -name clk clk
+    Info (332105): create_clock -period 1.000 -name Wassen:U_2|current_state.eind Wassen:U_2|current_state.eind
+    Info (332105): create_clock -period 1.000 -name Wassen:U_2|current_state.keuze Wassen:U_2|current_state.keuze
+    Info (332105): create_clock -period 1.000 -name Trommel:U_1|csm_timer[0] Trommel:U_1|csm_timer[0]
+    Info (332105): create_clock -period 1.000 -name Wassen:U_2|current_state.centr_0 Wassen:U_2|current_state.centr_0
+    Info (332105): create_clock -period 1.000 -name Wassen:U_2|current_state.s1 Wassen:U_2|current_state.s1
+    Info (332105): create_clock -period 1.000 -name Master:U_0|current_state.L_status Master:U_0|current_state.L_status
+    Info (332105): create_clock -period 1.000 -name Trommel:U_1|current_state.idle Trommel:U_1|current_state.idle
+    Info (332105): create_clock -period 1.000 -name Afpompen:U_5|current_state.s_leeg Afpompen:U_5|current_state.s_leeg
+    Info (332105): create_clock -period 1.000 -name Master:U_0|current_state.idle Master:U_0|current_state.idle
+    Info (332105): create_clock -period 1.000 -name Afpompen:U_5|current_state.idle Afpompen:U_5|current_state.idle
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Critical Warning (332148): Timing requirements not met
+Info (332146): Worst-case setup slack is -9.314
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -9.314      -266.111 clk 
+    Info (332119):    -4.815        -4.815 Afpompen:U_5|current_state.s_leeg 
+    Info (332119):    -4.659       -16.721 Master:U_0|current_state.idle 
+    Info (332119):    -4.212        -4.421 Trommel:U_1|current_state.idle 
+    Info (332119):    -3.093        -3.093 Trommel:U_1|csm_timer[0] 
+    Info (332119):    -3.033        -3.033 Wassen:U_2|current_state.eind 
+    Info (332119):    -2.458        -8.250 Master:U_0|current_state.L_status 
+    Info (332119):    -1.894        -1.894 Afpompen:U_5|current_state.idle 
+    Info (332119):    -1.489        -1.489 Wassen:U_2|current_state.centr_0 
+    Info (332119):    -0.823        -1.334 Wassen:U_2|current_state.s1 
+    Info (332119):     0.097         0.000 Wassen:U_2|current_state.keuze 
+Info (332146): Worst-case hold slack is -8.218
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -8.218       -26.525 Wassen:U_2|current_state.s1 
+    Info (332119):    -7.288       -14.027 Wassen:U_2|current_state.keuze 
+    Info (332119):    -3.854       -10.511 Master:U_0|current_state.L_status 
+    Info (332119):    -3.703        -3.703 Wassen:U_2|current_state.centr_0 
+    Info (332119):    -3.592       -10.197 Trommel:U_1|current_state.idle 
+    Info (332119):    -2.768        -8.115 Master:U_0|current_state.idle 
+    Info (332119):    -2.235       -26.793 clk 
+    Info (332119):    -0.018        -0.018 Afpompen:U_5|current_state.idle 
+    Info (332119):     1.293         0.000 Trommel:U_1|csm_timer[0] 
+    Info (332119):     1.799         0.000 Wassen:U_2|current_state.eind 
+    Info (332119):     3.836         0.000 Afpompen:U_5|current_state.s_leeg 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is -2.289
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -2.289        -2.289 clk 
+    Info (332119):     0.500         0.000 Afpompen:U_5|current_state.idle 
+    Info (332119):     0.500         0.000 Afpompen:U_5|current_state.s_leeg 
+    Info (332119):     0.500         0.000 Master:U_0|current_state.L_status 
+    Info (332119):     0.500         0.000 Master:U_0|current_state.idle 
+    Info (332119):     0.500         0.000 Trommel:U_1|csm_timer[0] 
+    Info (332119):     0.500         0.000 Trommel:U_1|current_state.idle 
+    Info (332119):     0.500         0.000 Wassen:U_2|current_state.centr_0 
+    Info (332119):     0.500         0.000 Wassen:U_2|current_state.eind 
+    Info (332119):     0.500         0.000 Wassen:U_2|current_state.keuze 
+    Info (332119):     0.500         0.000 Wassen:U_2|current_state.s1 
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 4528 megabytes
+    Info: Processing ended: Mon Mar 10 15:01:21 2025
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
