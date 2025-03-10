@@ -126,7 +126,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "22:56:48"
+value "23:03:37"
 )
 (vvPair
 variable "group"
@@ -234,7 +234,7 @@ value "Toevoer"
 )
 (vvPair
 variable "time"
-value "22:56:48"
+value "23:03:37"
 )
 (vvPair
 variable "unit"
@@ -2325,7 +2325,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 384,0
+lastUid 413,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *58 (LEmptyRow
@@ -2450,7 +2450,7 @@ decl (Decl
 n "klep_open"
 t "std_logic"
 o 6
-i "0"
+i "'0'"
 )
 )
 uid 166,0
@@ -2464,7 +2464,7 @@ decl (Decl
 n "toevoer_ready"
 t "std_logic"
 o 7
-i "0"
+i "'0'"
 )
 )
 uid 168,0

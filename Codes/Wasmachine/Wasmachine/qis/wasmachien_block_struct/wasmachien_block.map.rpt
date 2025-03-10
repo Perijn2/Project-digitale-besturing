@@ -1,5 +1,5 @@
 Analysis & Synthesis report for wasmachien_block
-Mon Mar 10 15:01:16 2025
+Mon Mar 10 21:57:17 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -16,12 +16,11 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   8. State Machine - |wasmachien_block|Wassen:U_2|current_state
   9. State Machine - |wasmachien_block|Trommel:U_1|current_state
  10. State Machine - |wasmachien_block|Master:U_0|current_state
- 11. State Machine - |wasmachien_block|Afpompen:U_5|current_state
- 12. User-Specified and Inferred Latches
- 13. Registers Removed During Synthesis
- 14. General Register Statistics
- 15. Multiplexer Restructuring Statistics (Restructuring Performed)
- 16. Analysis & Synthesis Messages
+ 11. User-Specified and Inferred Latches
+ 12. Registers Removed During Synthesis
+ 13. General Register Statistics
+ 14. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 15. Analysis & Synthesis Messages
 
 
 
@@ -47,12 +46,12 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +-----------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Mon Mar 10 15:01:15 2025           ;
+; Analysis & Synthesis Status ; Successful - Mon Mar 10 21:57:17 2025           ;
 ; Quartus II 64-Bit Version   ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name               ; wasmachien_block                                ;
 ; Top-level Entity Name       ; wasmachien_block                                ;
 ; Family                      ; MAX II                                          ;
-; Total logic elements        ; 146                                             ;
+; Total logic elements        ; 112                                             ;
 ; Total pins                  ; 24                                              ;
 ; Total virtual pins          ; 0                                               ;
 ; UFM blocks                  ; 0 / 1 ( 0 % )                                   ;
@@ -163,32 +162,32 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Total logic elements                        ; 146   ;
-;     -- Combinational with no register       ; 86    ;
-;     -- Register only                        ; 1     ;
-;     -- Combinational with a register        ; 59    ;
+; Total logic elements                        ; 112   ;
+;     -- Combinational with no register       ; 60    ;
+;     -- Register only                        ; 0     ;
+;     -- Combinational with a register        ; 52    ;
 ;                                             ;       ;
 ; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 60    ;
-;     -- 3 input functions                    ; 56    ;
-;     -- 2 input functions                    ; 28    ;
+;     -- 4 input functions                    ; 51    ;
+;     -- 3 input functions                    ; 37    ;
+;     -- 2 input functions                    ; 23    ;
 ;     -- 1 input functions                    ; 1     ;
 ;     -- 0 input functions                    ; 0     ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 141   ;
+;     -- normal mode                          ; 107   ;
 ;     -- arithmetic mode                      ; 5     ;
 ;     -- qfbk mode                            ; 0     ;
 ;     -- register cascade mode                ; 0     ;
 ;     -- synchronous clear/load mode          ; 0     ;
-;     -- asynchronous clear/load mode         ; 60    ;
+;     -- asynchronous clear/load mode         ; 52    ;
 ;                                             ;       ;
-; Total registers                             ; 60    ;
+; Total registers                             ; 52    ;
 ; Total logic cells in carry chains           ; 6     ;
 ; I/O pins                                    ; 24    ;
 ; Maximum fan-out node                        ; clk   ;
-; Maximum fan-out                             ; 60    ;
-; Total fan-out                               ; 598   ;
+; Maximum fan-out                             ; 52    ;
+; Total fan-out                               ; 479   ;
 ; Average fan-out                             ; 3.52  ;
 +---------------------------------------------+-------+
 
@@ -198,76 +197,69 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+----------------------------------+--------------+
 ; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name              ; Library Name ;
 +----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+----------------------------------+--------------+
-; |wasmachien_block          ; 146 (0)     ; 60           ; 0          ; 24   ; 0            ; 86 (0)       ; 1 (0)             ; 59 (0)           ; 6 (0)           ; 0 (0)      ; |wasmachien_block                ; work         ;
-;    |Afpompen:U_5|          ; 5 (5)       ; 3            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 3 (3)            ; 0 (0)           ; 0 (0)      ; |wasmachien_block|Afpompen:U_5   ; work         ;
-;    |Master:U_0|            ; 24 (24)     ; 8            ; 0          ; 0    ; 0            ; 16 (16)      ; 0 (0)             ; 8 (8)            ; 0 (0)           ; 0 (0)      ; |wasmachien_block|Master:U_0     ; work         ;
+; |wasmachien_block          ; 112 (0)     ; 52           ; 0          ; 24   ; 0            ; 60 (0)       ; 0 (0)             ; 52 (0)           ; 6 (0)           ; 0 (0)      ; |wasmachien_block                ; work         ;
+;    |Afpompen:U_5|          ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |wasmachien_block|Afpompen:U_5   ; work         ;
+;    |Master:U_0|            ; 21 (21)     ; 8            ; 0          ; 0    ; 0            ; 13 (13)      ; 0 (0)             ; 8 (8)            ; 0 (0)           ; 0 (0)      ; |wasmachien_block|Master:U_0     ; work         ;
 ;    |Toevoer:U_6|           ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |wasmachien_block|Toevoer:U_6    ; work         ;
-;    |Trommel:U_1|           ; 59 (59)     ; 23           ; 0          ; 0    ; 0            ; 36 (36)      ; 1 (1)             ; 22 (22)          ; 6 (6)           ; 0 (0)      ; |wasmachien_block|Trommel:U_1    ; work         ;
+;    |Trommel:U_1|           ; 53 (53)     ; 18           ; 0          ; 0    ; 0            ; 35 (35)      ; 0 (0)             ; 18 (18)          ; 6 (6)           ; 0 (0)      ; |wasmachien_block|Trommel:U_1    ; work         ;
 ;    |Verwarming:U_3|        ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |wasmachien_block|Verwarming:U_3 ; work         ;
-;    |Wassen:U_2|            ; 56 (56)     ; 24           ; 0          ; 0    ; 0            ; 32 (32)      ; 0 (0)             ; 24 (24)          ; 0 (0)           ; 0 (0)      ; |wasmachien_block|Wassen:U_2     ; work         ;
+;    |Wassen:U_2|            ; 35 (35)     ; 23           ; 0          ; 0    ; 0            ; 12 (12)      ; 0 (0)             ; 23 (23)          ; 0 (0)           ; 0 (0)      ; |wasmachien_block|Wassen:U_2     ; work         ;
 +----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+----------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
 Encoding Type:  One-Hot
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |wasmachien_block|Wassen:U_2|current_state                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ;
-+----------------------------+------------------+--------------------+-----------------------+-----------------------+----------------------+-------------------+-------------------+-------------------+-------------------+--------------------------+-------------------------+----------------------------+--------------------------+-----------------------+--------------------------+------------------------+-------------------+-------------------+------------------+------------------+---------------------+------------------+------------------+------------------+
-; Name                       ; current_state.s2 ; current_state.eind ; current_state.centr_1 ; current_state.centr_0 ; current_state.keuze2 ; current_state.s19 ; current_state.s15 ; current_state.s24 ; current_state.s23 ; current_state.s_verwarm1 ; current_state.s_t_hoog1 ; current_state.wassen_done1 ; current_state.w_trommel1 ; current_state.wassen1 ; current_state.w_trommel2 ; current_state.sSpoelen ; current_state.s12 ; current_state.s14 ; current_state.s5 ; current_state.s8 ; current_state.keuze ; current_state.s3 ; current_state.s1 ; current_state.s0 ;
-+----------------------------+------------------+--------------------+-----------------------+-----------------------+----------------------+-------------------+-------------------+-------------------+-------------------+--------------------------+-------------------------+----------------------------+--------------------------+-----------------------+--------------------------+------------------------+-------------------+-------------------+------------------+------------------+---------------------+------------------+------------------+------------------+
-; current_state.s0           ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                          ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 0                ;
-; current_state.s1           ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                          ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 1                ; 1                ;
-; current_state.s3           ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                          ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 1                ; 0                ; 1                ;
-; current_state.keuze        ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                          ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 1                   ; 0                ; 0                ; 1                ;
-; current_state.s8           ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                          ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 1                ; 0                   ; 0                ; 0                ; 1                ;
-; current_state.s5           ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                          ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 1                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
-; current_state.s14          ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                          ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 1                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
-; current_state.s12          ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                          ; 0                        ; 0                     ; 0                        ; 0                      ; 1                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
-; current_state.sSpoelen     ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                          ; 0                        ; 0                     ; 0                        ; 1                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
-; current_state.w_trommel2   ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                          ; 0                        ; 0                     ; 1                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
-; current_state.wassen1      ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                          ; 0                        ; 1                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
-; current_state.w_trommel1   ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                          ; 1                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
-; current_state.wassen_done1 ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 1                          ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
-; current_state.s_t_hoog1    ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 1                       ; 0                          ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
-; current_state.s_verwarm1   ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 1                        ; 0                       ; 0                          ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
-; current_state.s23          ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 1                 ; 0                        ; 0                       ; 0                          ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
-; current_state.s24          ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 1                 ; 0                 ; 0                        ; 0                       ; 0                          ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
-; current_state.s15          ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 1                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                          ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
-; current_state.s19          ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 1                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                          ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
-; current_state.keuze2       ; 0                ; 0                  ; 0                     ; 0                     ; 1                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                          ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
-; current_state.centr_0      ; 0                ; 0                  ; 0                     ; 1                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                          ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
-; current_state.centr_1      ; 0                ; 0                  ; 1                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                          ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
-; current_state.eind         ; 0                ; 1                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                          ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
-; current_state.s2           ; 1                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                          ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
-+----------------------------+------------------+--------------------+-----------------------+-----------------------+----------------------+-------------------+-------------------+-------------------+-------------------+--------------------------+-------------------------+----------------------------+--------------------------+-----------------------+--------------------------+------------------------+-------------------+-------------------+------------------+------------------+---------------------+------------------+------------------+------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |wasmachien_block|Wassen:U_2|current_state                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ;
++--------------------------+------------------+--------------------+-----------------------+-----------------------+----------------------+-------------------+-------------------+-------------------+-------------------+--------------------------+-------------------------+--------------------------+-----------------------+--------------------------+------------------------+-------------------+-------------------+------------------+------------------+---------------------+------------------+------------------+------------------+
+; Name                     ; current_state.s2 ; current_state.eind ; current_state.centr_1 ; current_state.centr_0 ; current_state.keuze2 ; current_state.s19 ; current_state.s15 ; current_state.s24 ; current_state.s23 ; current_state.s_verwarm1 ; current_state.s_t_hoog1 ; current_state.w_trommel1 ; current_state.wassen1 ; current_state.w_trommel2 ; current_state.sSpoelen ; current_state.s12 ; current_state.s14 ; current_state.s5 ; current_state.s8 ; current_state.keuze ; current_state.s3 ; current_state.s1 ; current_state.s0 ;
++--------------------------+------------------+--------------------+-----------------------+-----------------------+----------------------+-------------------+-------------------+-------------------+-------------------+--------------------------+-------------------------+--------------------------+-----------------------+--------------------------+------------------------+-------------------+-------------------+------------------+------------------+---------------------+------------------+------------------+------------------+
+; current_state.s0         ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 0                ;
+; current_state.s1         ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 1                ; 1                ;
+; current_state.s3         ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 1                ; 0                ; 1                ;
+; current_state.keuze      ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 1                   ; 0                ; 0                ; 1                ;
+; current_state.s8         ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 1                ; 0                   ; 0                ; 0                ; 1                ;
+; current_state.s5         ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 1                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
+; current_state.s14        ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 1                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
+; current_state.s12        ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                        ; 0                     ; 0                        ; 0                      ; 1                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
+; current_state.sSpoelen   ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                        ; 0                     ; 0                        ; 1                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
+; current_state.w_trommel2 ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                        ; 0                     ; 1                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
+; current_state.wassen1    ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                        ; 1                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
+; current_state.w_trommel1 ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 1                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
+; current_state.s_t_hoog1  ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 1                       ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
+; current_state.s_verwarm1 ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 1                        ; 0                       ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
+; current_state.s23        ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 1                 ; 0                        ; 0                       ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
+; current_state.s24        ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 1                 ; 0                 ; 0                        ; 0                       ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
+; current_state.s15        ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 1                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
+; current_state.s19        ; 0                ; 0                  ; 0                     ; 0                     ; 0                    ; 1                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
+; current_state.keuze2     ; 0                ; 0                  ; 0                     ; 0                     ; 1                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
+; current_state.centr_0    ; 0                ; 0                  ; 0                     ; 1                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
+; current_state.centr_1    ; 0                ; 0                  ; 1                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
+; current_state.eind       ; 0                ; 1                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
+; current_state.s2         ; 1                ; 0                  ; 0                     ; 0                     ; 0                    ; 0                 ; 0                 ; 0                 ; 0                 ; 0                        ; 0                       ; 0                        ; 0                     ; 0                        ; 0                      ; 0                 ; 0                 ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                ;
++--------------------------+------------------+--------------------+-----------------------+-----------------------+----------------------+-------------------+-------------------+-------------------+-------------------+--------------------------+-------------------------+--------------------------+-----------------------+--------------------------+------------------------+-------------------+-------------------+------------------+------------------+---------------------+------------------+------------------+------------------+
 
 
 Encoding Type:  One-Hot
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |wasmachien_block|Trommel:U_1|current_state                                                                                                                                                                                                                                                                                                                                                                                                                     ;
-+------------------------------+------------------+------------------+--------------------------+------------------+------------------+-------------------------+------------------+------------------+---------------------+------------------+------------------+------------------------+------------------------+------------------------------+------------------------------+-----------------------+-----------------------+--------------------------+--------------------+
-; Name                         ; current_state.s7 ; current_state.s8 ; current_state.rechts_201 ; current_state.s5 ; current_state.s6 ; current_state.links_200 ; current_state.s4 ; current_state.s3 ; current_state.start ; current_state.s1 ; current_state.s0 ; current_state.snel1200 ; current_state.Verander ; current_state.snelheidhoger3 ; current_state.snelheidhoger2 ; current_state.snel800 ; current_state.snel200 ; current_state.standkeuze ; current_state.idle ;
-+------------------------------+------------------+------------------+--------------------------+------------------+------------------+-------------------------+------------------+------------------+---------------------+------------------+------------------+------------------------+------------------------+------------------------------+------------------------------+-----------------------+-----------------------+--------------------------+--------------------+
-; current_state.idle           ; 0                ; 0                ; 0                        ; 0                ; 0                ; 0                       ; 0                ; 0                ; 0                   ; 0                ; 0                ; 0                      ; 0                      ; 0                            ; 0                            ; 0                     ; 0                     ; 0                        ; 0                  ;
-; current_state.standkeuze     ; 0                ; 0                ; 0                        ; 0                ; 0                ; 0                       ; 0                ; 0                ; 0                   ; 0                ; 0                ; 0                      ; 0                      ; 0                            ; 0                            ; 0                     ; 0                     ; 1                        ; 1                  ;
-; current_state.snel200        ; 0                ; 0                ; 0                        ; 0                ; 0                ; 0                       ; 0                ; 0                ; 0                   ; 0                ; 0                ; 0                      ; 0                      ; 0                            ; 0                            ; 0                     ; 1                     ; 0                        ; 1                  ;
-; current_state.snel800        ; 0                ; 0                ; 0                        ; 0                ; 0                ; 0                       ; 0                ; 0                ; 0                   ; 0                ; 0                ; 0                      ; 0                      ; 0                            ; 0                            ; 1                     ; 0                     ; 0                        ; 1                  ;
-; current_state.snelheidhoger2 ; 0                ; 0                ; 0                        ; 0                ; 0                ; 0                       ; 0                ; 0                ; 0                   ; 0                ; 0                ; 0                      ; 0                      ; 0                            ; 1                            ; 0                     ; 0                     ; 0                        ; 1                  ;
-; current_state.snelheidhoger3 ; 0                ; 0                ; 0                        ; 0                ; 0                ; 0                       ; 0                ; 0                ; 0                   ; 0                ; 0                ; 0                      ; 0                      ; 1                            ; 0                            ; 0                     ; 0                     ; 0                        ; 1                  ;
-; current_state.Verander       ; 0                ; 0                ; 0                        ; 0                ; 0                ; 0                       ; 0                ; 0                ; 0                   ; 0                ; 0                ; 0                      ; 1                      ; 0                            ; 0                            ; 0                     ; 0                     ; 0                        ; 1                  ;
-; current_state.snel1200       ; 0                ; 0                ; 0                        ; 0                ; 0                ; 0                       ; 0                ; 0                ; 0                   ; 0                ; 0                ; 1                      ; 0                      ; 0                            ; 0                            ; 0                     ; 0                     ; 0                        ; 1                  ;
-; current_state.s0             ; 0                ; 0                ; 0                        ; 0                ; 0                ; 0                       ; 0                ; 0                ; 0                   ; 0                ; 1                ; 0                      ; 0                      ; 0                            ; 0                            ; 0                     ; 0                     ; 0                        ; 1                  ;
-; current_state.s1             ; 0                ; 0                ; 0                        ; 0                ; 0                ; 0                       ; 0                ; 0                ; 0                   ; 1                ; 0                ; 0                      ; 0                      ; 0                            ; 0                            ; 0                     ; 0                     ; 0                        ; 1                  ;
-; current_state.start          ; 0                ; 0                ; 0                        ; 0                ; 0                ; 0                       ; 0                ; 0                ; 1                   ; 0                ; 0                ; 0                      ; 0                      ; 0                            ; 0                            ; 0                     ; 0                     ; 0                        ; 1                  ;
-; current_state.s3             ; 0                ; 0                ; 0                        ; 0                ; 0                ; 0                       ; 0                ; 1                ; 0                   ; 0                ; 0                ; 0                      ; 0                      ; 0                            ; 0                            ; 0                     ; 0                     ; 0                        ; 1                  ;
-; current_state.s4             ; 0                ; 0                ; 0                        ; 0                ; 0                ; 0                       ; 1                ; 0                ; 0                   ; 0                ; 0                ; 0                      ; 0                      ; 0                            ; 0                            ; 0                     ; 0                     ; 0                        ; 1                  ;
-; current_state.links_200      ; 0                ; 0                ; 0                        ; 0                ; 0                ; 1                       ; 0                ; 0                ; 0                   ; 0                ; 0                ; 0                      ; 0                      ; 0                            ; 0                            ; 0                     ; 0                     ; 0                        ; 1                  ;
-; current_state.s6             ; 0                ; 0                ; 0                        ; 0                ; 1                ; 0                       ; 0                ; 0                ; 0                   ; 0                ; 0                ; 0                      ; 0                      ; 0                            ; 0                            ; 0                     ; 0                     ; 0                        ; 1                  ;
-; current_state.s5             ; 0                ; 0                ; 0                        ; 1                ; 0                ; 0                       ; 0                ; 0                ; 0                   ; 0                ; 0                ; 0                      ; 0                      ; 0                            ; 0                            ; 0                     ; 0                     ; 0                        ; 1                  ;
-; current_state.rechts_201     ; 0                ; 0                ; 1                        ; 0                ; 0                ; 0                       ; 0                ; 0                ; 0                   ; 0                ; 0                ; 0                      ; 0                      ; 0                            ; 0                            ; 0                     ; 0                     ; 0                        ; 1                  ;
-; current_state.s8             ; 0                ; 1                ; 0                        ; 0                ; 0                ; 0                       ; 0                ; 0                ; 0                   ; 0                ; 0                ; 0                      ; 0                      ; 0                            ; 0                            ; 0                     ; 0                     ; 0                        ; 1                  ;
-; current_state.s7             ; 1                ; 0                ; 0                        ; 0                ; 0                ; 0                       ; 0                ; 0                ; 0                   ; 0                ; 0                ; 0                      ; 0                      ; 0                            ; 0                            ; 0                     ; 0                     ; 0                        ; 1                  ;
-+------------------------------+------------------+------------------+--------------------------+------------------+------------------+-------------------------+------------------+------------------+---------------------+------------------+------------------+------------------------+------------------------+------------------------------+------------------------------+-----------------------+-----------------------+--------------------------+--------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |wasmachien_block|Trommel:U_1|current_state                                                                                                                                                                                                                                                                    ;
++------------------------------+------------------+------------------+------------------+------------------+------------------+------------------+---------------------+------------------+------------------------+------------------------------+------------------------------+--------------------------+--------------------+
+; Name                         ; current_state.s7 ; current_state.s8 ; current_state.s5 ; current_state.s6 ; current_state.s4 ; current_state.s3 ; current_state.start ; current_state.s0 ; current_state.snel1200 ; current_state.snelheidhoger3 ; current_state.snelheidhoger2 ; current_state.standkeuze ; current_state.idle ;
++------------------------------+------------------+------------------+------------------+------------------+------------------+------------------+---------------------+------------------+------------------------+------------------------------+------------------------------+--------------------------+--------------------+
+; current_state.idle           ; 0                ; 0                ; 0                ; 0                ; 0                ; 0                ; 0                   ; 0                ; 0                      ; 0                            ; 0                            ; 0                        ; 0                  ;
+; current_state.standkeuze     ; 0                ; 0                ; 0                ; 0                ; 0                ; 0                ; 0                   ; 0                ; 0                      ; 0                            ; 0                            ; 1                        ; 1                  ;
+; current_state.snelheidhoger2 ; 0                ; 0                ; 0                ; 0                ; 0                ; 0                ; 0                   ; 0                ; 0                      ; 0                            ; 1                            ; 0                        ; 1                  ;
+; current_state.snelheidhoger3 ; 0                ; 0                ; 0                ; 0                ; 0                ; 0                ; 0                   ; 0                ; 0                      ; 1                            ; 0                            ; 0                        ; 1                  ;
+; current_state.snel1200       ; 0                ; 0                ; 0                ; 0                ; 0                ; 0                ; 0                   ; 0                ; 1                      ; 0                            ; 0                            ; 0                        ; 1                  ;
+; current_state.s0             ; 0                ; 0                ; 0                ; 0                ; 0                ; 0                ; 0                   ; 1                ; 0                      ; 0                            ; 0                            ; 0                        ; 1                  ;
+; current_state.start          ; 0                ; 0                ; 0                ; 0                ; 0                ; 0                ; 1                   ; 0                ; 0                      ; 0                            ; 0                            ; 0                        ; 1                  ;
+; current_state.s3             ; 0                ; 0                ; 0                ; 0                ; 0                ; 1                ; 0                   ; 0                ; 0                      ; 0                            ; 0                            ; 0                        ; 1                  ;
+; current_state.s4             ; 0                ; 0                ; 0                ; 0                ; 1                ; 0                ; 0                   ; 0                ; 0                      ; 0                            ; 0                            ; 0                        ; 1                  ;
+; current_state.s6             ; 0                ; 0                ; 0                ; 1                ; 0                ; 0                ; 0                   ; 0                ; 0                      ; 0                            ; 0                            ; 0                        ; 1                  ;
+; current_state.s5             ; 0                ; 0                ; 1                ; 0                ; 0                ; 0                ; 0                   ; 0                ; 0                      ; 0                            ; 0                            ; 0                        ; 1                  ;
+; current_state.s8             ; 0                ; 1                ; 0                ; 0                ; 0                ; 0                ; 0                   ; 0                ; 0                      ; 0                            ; 0                            ; 0                        ; 1                  ;
+; current_state.s7             ; 1                ; 0                ; 0                ; 0                ; 0                ; 0                ; 0                   ; 0                ; 0                      ; 0                            ; 0                            ; 0                        ; 1                  ;
++------------------------------+------------------+------------------+------------------+------------------+------------------+------------------+---------------------+------------------+------------------------+------------------------------+------------------------------+--------------------------+--------------------+
 
 
 Encoding Type:  One-Hot
@@ -289,46 +281,14 @@ Encoding Type:  One-Hot
 +---------------------------+------------------+---------------------------+----------------------+------------------------+------------------------+----------------------+-----------------------+----------------------+----------------------+--------------------+
 
 
-Encoding Type:  One-Hot
-+---------------------------------------------------------------------------------------------+
-; State Machine - |wasmachien_block|Afpompen:U_5|current_state                                ;
-+------------------------+----------------------+------------------------+--------------------+
-; Name                   ; current_state.s_leeg ; current_state.afpompen ; current_state.idle ;
-+------------------------+----------------------+------------------------+--------------------+
-; current_state.idle     ; 0                    ; 0                      ; 0                  ;
-; current_state.afpompen ; 0                    ; 1                      ; 1                  ;
-; current_state.s_leeg   ; 1                    ; 0                      ; 1                  ;
-+------------------------+----------------------+------------------------+--------------------+
-
-
-+------------------------------------------------------------------------------------------------------------------+
-; User-Specified and Inferred Latches                                                                              ;
-+-----------------------------------------------------+-----------------------------------+------------------------+
-; Latch Name                                          ; Latch Enable Signal               ; Free of Timing Hazards ;
-+-----------------------------------------------------+-----------------------------------+------------------------+
-; Master:U_0|deur_grendel                             ; Master:U_0|WideOr7                ; yes                    ;
-; Master:U_0|led_start                                ; Master:U_0|WideOr8                ; yes                    ;
-; Master:U_0|led_status[0]                            ; Master:U_0|WideOr10               ; yes                    ;
-; Master:U_0|led_status[1]                            ; Master:U_0|WideOr10               ; yes                    ;
-; Master:U_0|led_status[2]                            ; Master:U_0|WideOr10               ; yes                    ;
-; Trommel:U_1|motor[0]                                ; Trommel:U_1|WideOr19              ; yes                    ;
-; Trommel:U_1|motor[1]                                ; Trommel:U_1|WideOr19              ; yes                    ;
-; Trommel:U_1|motor[2]                                ; Trommel:U_1|WideOr19              ; yes                    ;
-; Afpompen:U_5|pomp_aan                               ; Afpompen:U_5|current_state.idle   ; yes                    ;
-; Wassen:U_2|wassen_status[0]                         ; Wassen:U_2|WideOr24               ; yes                    ;
-; Wassen:U_2|wassen_status[1]                         ; Wassen:U_2|WideOr24               ; yes                    ;
-; Wassen:U_2|wassen_status[2]                         ; Wassen:U_2|WideOr24               ; yes                    ;
-; Wassen:U_2|go_verwarmen                             ; Wassen:U_2|WideOr33               ; yes                    ;
-; Wassen:U_2|wassen_ready                             ; Wassen:U_2|WideOr21               ; yes                    ;
-; Trommel:U_1|Richting                                ; Trommel:U_1|Selector25            ; yes                    ;
-; Wassen:U_2|go_trommel                               ; Wassen:U_2|WideOr30               ; yes                    ;
-; Wassen:U_2|go_afpompen                              ; Wassen:U_2|WideOr28               ; yes                    ;
-; Master:U_0|go_wassen                                ; Master:U_0|WideOr9                ; yes                    ;
-; Trommel:U_1|trommel_ready                           ; Trommel:U_1|WideOr18              ; yes                    ;
-; Afpompen:U_5|afpompen_ready                         ; Afpompen:U_5|current_state.s_leeg ; yes                    ;
-; Wassen:U_2|go_toevoer                               ; Wassen:U_2|WideOr29               ; yes                    ;
-; Number of user-specified and inferred latches = 21  ;                                   ;                        ;
-+-----------------------------------------------------+-----------------------------------+------------------------+
++------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                  ;
++----------------------------------------------------+------------------------+------------------------+
+; Latch Name                                         ; Latch Enable Signal    ; Free of Timing Hazards ;
++----------------------------------------------------+------------------------+------------------------+
+; Trommel:U_1|Richting                               ; Trommel:U_1|Selector13 ; yes                    ;
+; Number of user-specified and inferred latches = 1  ;                        ;                        ;
++----------------------------------------------------+------------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
@@ -337,11 +297,10 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +---------------------------------------+----------------------------------------+
 ; Register name                         ; Reason for Removal                     ;
 +---------------------------------------+----------------------------------------+
-; Trommel:U_1|current_state.s4          ; Stuck at GND due to stuck port data_in ;
 ; Trommel:U_1|current_state.s7          ; Stuck at GND due to stuck port data_in ;
 ; Master:U_0|current_state.s0           ; Stuck at GND due to stuck port data_in ;
 ; Master:U_0|current_state.s_spoelstop  ; Stuck at GND due to stuck port data_in ;
-; Total Number of Removed Registers = 4 ;                                        ;
+; Total Number of Removed Registers = 3 ;                                        ;
 +---------------------------------------+----------------------------------------+
 
 
@@ -350,24 +309,23 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 60    ;
+; Total registers                              ; 52    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 60    ;
+; Number of registers using Asynchronous Clear ; 52    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 2     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                             ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                   ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
-; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |wasmachien_block|Trommel:U_1|csm_timer[0]   ;
-; 6:1                ; 6 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |wasmachien_block|Trommel:U_1|csm_next_timer ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------+
+; 6:1                ; 6 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; Yes        ; |wasmachien_block|Trommel:U_1|csm_timer[1] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------+
 
 
 +-------------------------------+
@@ -376,7 +334,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon Mar 10 15:01:14 2025
+    Info: Processing started: Mon Mar 10 21:57:14 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off wasmachien_block -c wasmachien_block
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file /project-digitale-besturing/codes/wasmachine/wasmachine/hdl/master_master.vhd
@@ -402,91 +360,23 @@ Info (12021): Found 2 design units, including 1 entities, in source file /projec
     Info (12023): Found entity 1: wasmachien_block
 Info (12127): Elaborating entity "wasmachien_block" for the top level hierarchy
 Info (12128): Elaborating entity "Afpompen" for hierarchy "Afpompen:U_5"
-Warning (10631): VHDL Process Statement warning at afpompen_afpompen.vhd(101): inferring latch(es) for signal or variable "afpompen_ready", which holds its previous value in one or more paths through the process
-Warning (10631): VHDL Process Statement warning at afpompen_afpompen.vhd(101): inferring latch(es) for signal or variable "pomp_aan", which holds its previous value in one or more paths through the process
-Info (10041): Inferred latch for "pomp_aan" at afpompen_afpompen.vhd(101)
-Info (10041): Inferred latch for "afpompen_ready" at afpompen_afpompen.vhd(101)
 Info (12128): Elaborating entity "Master" for hierarchy "Master:U_0"
-Warning (10631): VHDL Process Statement warning at master_master.vhd(172): inferring latch(es) for signal or variable "deur_grendel", which holds its previous value in one or more paths through the process
-Warning (10631): VHDL Process Statement warning at master_master.vhd(172): inferring latch(es) for signal or variable "led_start", which holds its previous value in one or more paths through the process
-Warning (10631): VHDL Process Statement warning at master_master.vhd(172): inferring latch(es) for signal or variable "go_wassen", which holds its previous value in one or more paths through the process
-Warning (10631): VHDL Process Statement warning at master_master.vhd(172): inferring latch(es) for signal or variable "led_status", which holds its previous value in one or more paths through the process
-Info (10041): Inferred latch for "led_status[0]" at master_master.vhd(172)
-Info (10041): Inferred latch for "led_status[1]" at master_master.vhd(172)
-Info (10041): Inferred latch for "led_status[2]" at master_master.vhd(172)
-Info (10041): Inferred latch for "go_wassen" at master_master.vhd(172)
-Info (10041): Inferred latch for "led_start" at master_master.vhd(172)
-Info (10041): Inferred latch for "deur_grendel" at master_master.vhd(172)
 Info (12128): Elaborating entity "Toevoer" for hierarchy "Toevoer:U_6"
-Warning (10631): VHDL Process Statement warning at toevoer_toevoer.vhd(99): inferring latch(es) for signal or variable "klep_open", which holds its previous value in one or more paths through the process
-Info (10041): Inferred latch for "klep_open" at toevoer_toevoer.vhd(99)
 Info (12128): Elaborating entity "Trommel" for hierarchy "Trommel:U_1"
-Warning (10631): VHDL Process Statement warning at trommel_trommel.vhd(268): inferring latch(es) for signal or variable "trommel_ready", which holds its previous value in one or more paths through the process
-Warning (10631): VHDL Process Statement warning at trommel_trommel.vhd(268): inferring latch(es) for signal or variable "motor", which holds its previous value in one or more paths through the process
-Warning (10631): VHDL Process Statement warning at trommel_trommel.vhd(268): inferring latch(es) for signal or variable "Richting", which holds its previous value in one or more paths through the process
-Info (10041): Inferred latch for "Richting" at trommel_trommel.vhd(268)
-Info (10041): Inferred latch for "motor[0]" at trommel_trommel.vhd(268)
-Info (10041): Inferred latch for "motor[1]" at trommel_trommel.vhd(268)
-Info (10041): Inferred latch for "motor[2]" at trommel_trommel.vhd(268)
-Info (10041): Inferred latch for "trommel_ready" at trommel_trommel.vhd(268)
+Warning (10631): VHDL Process Statement warning at trommel_trommel.vhd(253): inferring latch(es) for signal or variable "Richting", which holds its previous value in one or more paths through the process
+Info (10041): Inferred latch for "Richting" at trommel_trommel.vhd(253)
 Info (12128): Elaborating entity "Verwarming" for hierarchy "Verwarming:U_3"
 Info (12128): Elaborating entity "Wassen" for hierarchy "Wassen:U_2"
-Warning (10631): VHDL Process Statement warning at wassen_wassen.vhd(291): inferring latch(es) for signal or variable "wassen_ready", which holds its previous value in one or more paths through the process
-Warning (10631): VHDL Process Statement warning at wassen_wassen.vhd(291): inferring latch(es) for signal or variable "wassen_status", which holds its previous value in one or more paths through the process
-Warning (10631): VHDL Process Statement warning at wassen_wassen.vhd(291): inferring latch(es) for signal or variable "go_afpompen", which holds its previous value in one or more paths through the process
-Warning (10631): VHDL Process Statement warning at wassen_wassen.vhd(291): inferring latch(es) for signal or variable "go_toevoer", which holds its previous value in one or more paths through the process
-Warning (10631): VHDL Process Statement warning at wassen_wassen.vhd(291): inferring latch(es) for signal or variable "go_trommel", which holds its previous value in one or more paths through the process
-Warning (10631): VHDL Process Statement warning at wassen_wassen.vhd(291): inferring latch(es) for signal or variable "go_verwarmen", which holds its previous value in one or more paths through the process
-Warning (10631): VHDL Process Statement warning at wassen_wassen.vhd(291): inferring latch(es) for signal or variable "trommel_keuze", which holds its previous value in one or more paths through the process
-Info (10041): Inferred latch for "trommel_keuze" at wassen_wassen.vhd(291)
-Info (10041): Inferred latch for "go_verwarmen" at wassen_wassen.vhd(291)
-Info (10041): Inferred latch for "go_trommel" at wassen_wassen.vhd(291)
-Info (10041): Inferred latch for "go_toevoer" at wassen_wassen.vhd(291)
-Info (10041): Inferred latch for "go_afpompen" at wassen_wassen.vhd(291)
-Info (10041): Inferred latch for "wassen_status[0]" at wassen_wassen.vhd(291)
-Info (10041): Inferred latch for "wassen_status[1]" at wassen_wassen.vhd(291)
-Info (10041): Inferred latch for "wassen_status[2]" at wassen_wassen.vhd(291)
-Info (10041): Inferred latch for "wassen_ready" at wassen_wassen.vhd(291)
-Warning (13012): Latch Master:U_0|deur_grendel has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal Master:U_0|current_state.unlock
-Warning (13012): Latch Master:U_0|led_start has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal Master:U_0|current_state.prg_done
-Warning (13012): Latch Master:U_0|led_status[0] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal Master:U_0|current_state.prg_done
-Warning (13012): Latch Master:U_0|led_status[1] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal Master:U_0|current_state.prg_done
-Warning (13012): Latch Master:U_0|led_status[2] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal Master:U_0|current_state.prg_done
-Warning (13012): Latch Wassen:U_2|wassen_status[0] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal Wassen:U_2|current_state.s3
-Warning (13012): Latch Wassen:U_2|wassen_status[1] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal Wassen:U_2|current_state.wassen1
-Warning (13012): Latch Wassen:U_2|wassen_status[2] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal Wassen:U_2|current_state.s3
-Warning (13012): Latch Wassen:U_2|go_verwarmen has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal Wassen:U_2|current_state.s_verwarm1
-Warning (13012): Latch Wassen:U_2|wassen_ready has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal Wassen:U_2|current_state.s2
 Warning (13012): Latch Trommel:U_1|Richting has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal Trommel:U_1|current_state.s5
-Warning (13012): Latch Wassen:U_2|go_trommel has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal Wassen:U_2|current_state.w_trommel2
-Warning (13012): Latch Wassen:U_2|go_afpompen has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal Wassen:U_2|current_state.s5
-Warning (13012): Latch Trommel:U_1|trommel_ready has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal Trommel:U_1|current_state.standkeuze
-Warning (13012): Latch Wassen:U_2|go_toevoer has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal Wassen:U_2|current_state.s24
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "klep_open" is stuck at VCC
-Info (21057): Implemented 170 device resources after synthesis - the final resource count might be different
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Trommel:U_1|current_state.s0
+Info (21057): Implemented 136 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 13 input pins
     Info (21059): Implemented 11 output pins
-    Info (21061): Implemented 146 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 50 warnings
-    Info: Peak virtual memory: 4613 megabytes
-    Info: Processing ended: Mon Mar 10 15:01:16 2025
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:01
+    Info (21061): Implemented 112 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 4617 megabytes
+    Info: Processing ended: Mon Mar 10 21:57:17 2025
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
 
 

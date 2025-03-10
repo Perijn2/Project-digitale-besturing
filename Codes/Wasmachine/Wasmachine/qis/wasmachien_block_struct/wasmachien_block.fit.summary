@@ -1,11 +1,11 @@
-Fitter Status : Successful - Mon Mar 10 15:01:18 2025
+Fitter Status : Successful - Mon Mar 10 21:57:21 2025
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : wasmachien_block
 Top-level Entity Name : wasmachien_block
 Family : MAX II
 Device : EPM1270F256C5ES
 Timing Models : Final
-Total logic elements : 145 / 1,270 ( 11 % )
+Total logic elements : 112 / 1,270 ( 9 % )
 Total pins : 24 / 212 ( 11 % )
 Total virtual pins : 0
 UFM blocks : 0 / 1 ( 0 % )

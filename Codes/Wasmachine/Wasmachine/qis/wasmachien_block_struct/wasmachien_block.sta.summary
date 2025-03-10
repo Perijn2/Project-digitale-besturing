@@ -3,135 +3,27 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Setup 'clk'
-Slack : -9.314
-TNS   : -266.111
+Slack : -8.891
+TNS   : -210.435
 
-Type  : Setup 'Afpompen:U_5|current_state.s_leeg'
-Slack : -4.815
-TNS   : -4.815
+Type  : Setup 'centrifugeerkeuze[0]'
+Slack : -2.487
+TNS   : -2.487
 
-Type  : Setup 'Master:U_0|current_state.idle'
-Slack : -4.659
-TNS   : -16.721
-
-Type  : Setup 'Trommel:U_1|current_state.idle'
-Slack : -4.212
-TNS   : -4.421
-
-Type  : Setup 'Trommel:U_1|csm_timer[0]'
-Slack : -3.093
-TNS   : -3.093
-
-Type  : Setup 'Wassen:U_2|current_state.eind'
-Slack : -3.033
-TNS   : -3.033
-
-Type  : Setup 'Master:U_0|current_state.L_status'
-Slack : -2.458
-TNS   : -8.250
-
-Type  : Setup 'Afpompen:U_5|current_state.idle'
-Slack : -1.894
-TNS   : -1.894
-
-Type  : Setup 'Wassen:U_2|current_state.centr_0'
-Slack : -1.489
-TNS   : -1.489
-
-Type  : Setup 'Wassen:U_2|current_state.s1'
-Slack : -0.823
-TNS   : -1.334
-
-Type  : Setup 'Wassen:U_2|current_state.keuze'
-Slack : 0.097
+Type  : Hold 'centrifugeerkeuze[0]'
+Slack : 0.333
 TNS   : 0.000
-
-Type  : Hold 'Wassen:U_2|current_state.s1'
-Slack : -8.218
-TNS   : -26.525
-
-Type  : Hold 'Wassen:U_2|current_state.keuze'
-Slack : -7.288
-TNS   : -14.027
-
-Type  : Hold 'Master:U_0|current_state.L_status'
-Slack : -3.854
-TNS   : -10.511
-
-Type  : Hold 'Wassen:U_2|current_state.centr_0'
-Slack : -3.703
-TNS   : -3.703
-
-Type  : Hold 'Trommel:U_1|current_state.idle'
-Slack : -3.592
-TNS   : -10.197
-
-Type  : Hold 'Master:U_0|current_state.idle'
-Slack : -2.768
-TNS   : -8.115
 
 Type  : Hold 'clk'
-Slack : -2.235
-TNS   : -26.793
-
-Type  : Hold 'Afpompen:U_5|current_state.idle'
-Slack : -0.018
-TNS   : -0.018
-
-Type  : Hold 'Trommel:U_1|csm_timer[0]'
-Slack : 1.293
+Slack : 1.541
 TNS   : 0.000
 
-Type  : Hold 'Wassen:U_2|current_state.eind'
-Slack : 1.799
-TNS   : 0.000
-
-Type  : Hold 'Afpompen:U_5|current_state.s_leeg'
-Slack : 3.836
-TNS   : 0.000
+Type  : Minimum Pulse Width 'centrifugeerkeuze[0]'
+Slack : -2.289
+TNS   : -2.289
 
 Type  : Minimum Pulse Width 'clk'
 Slack : -2.289
 TNS   : -2.289
-
-Type  : Minimum Pulse Width 'Afpompen:U_5|current_state.idle'
-Slack : 0.500
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'Afpompen:U_5|current_state.s_leeg'
-Slack : 0.500
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'Master:U_0|current_state.L_status'
-Slack : 0.500
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'Master:U_0|current_state.idle'
-Slack : 0.500
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'Trommel:U_1|csm_timer[0]'
-Slack : 0.500
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'Trommel:U_1|current_state.idle'
-Slack : 0.500
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'Wassen:U_2|current_state.centr_0'
-Slack : 0.500
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'Wassen:U_2|current_state.eind'
-Slack : 0.500
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'Wassen:U_2|current_state.keuze'
-Slack : 0.500
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'Wassen:U_2|current_state.s1'
-Slack : 0.500
-TNS   : 0.000
 
 ------------------------------------------------------------

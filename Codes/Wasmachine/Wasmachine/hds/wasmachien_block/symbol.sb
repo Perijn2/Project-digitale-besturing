@@ -155,6 +155,7 @@ n "verwarmen"
 t "std_logic"
 o 18
 suid 26,0
+i "'0'"
 )
 )
 uid 757,0
@@ -168,6 +169,7 @@ n "klep_open"
 t "std_logic"
 o 13
 suid 27,0
+i "'0'"
 )
 )
 uid 843,0
@@ -181,6 +183,7 @@ n "pomp_aan"
 t "std_logic"
 o 17
 suid 28,0
+i "'0'"
 )
 )
 uid 845,0
@@ -195,6 +198,7 @@ t "std_logic_vector"
 b "(2 DOWNTO 0)"
 o 16
 suid 29,0
+i "\"000\""
 )
 )
 uid 847,0
@@ -285,6 +289,7 @@ n "deur_grendel"
 t "std_logic"
 o 12
 suid 38,0
+i "'0'"
 )
 )
 uid 1061,0
@@ -768,7 +773,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:55:34"
+value "17:54:45"
 )
 (vvPair
 variable "group"
@@ -892,7 +897,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "14:55:34"
+value "17:54:45"
 )
 (vvPair
 variable "unit"
@@ -959,8 +964,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6800,65000,7600"
-st "start             : IN     std_logic  ;
-"
+st "start             : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1005,8 +1009,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2000,65000,2800"
-st "aan_uit           : IN     std_logic  ;
-"
+st "aan_uit           : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1051,8 +1054,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2800,75000,3600"
-st "centrifugeerkeuze : IN     std_logic_vector (1 DOWNTO 0) ;
-"
+st "centrifugeerkeuze : IN     std_logic_vector (1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1098,8 +1100,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6000,75000,6800"
-st "programmakeuze    : IN     std_logic_vector (1 DOWNTO 0) ;
-"
+st "programmakeuze    : IN     std_logic_vector (1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1145,8 +1146,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4400,65000,5200"
-st "deur_dicht        : IN     std_logic  ;
-"
+st "deur_dicht        : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1191,8 +1191,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,8400,65000,9200"
-st "t_laag            : IN     std_logic  ;
-"
+st "t_laag            : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1237,8 +1236,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,7600,65000,8400"
-st "t_hoog            : IN     std_logic  ;
-"
+st "t_hoog            : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1277,15 +1275,25 @@ ju 2
 blo "36000,7300"
 tm "CptPortNameMgr"
 )
+t (Text
+uid 1986,0
+va (VaSet
+font "arial,8,0"
+)
+xt "34800,7500,36000,8500"
+st "'0'"
+ju 2
+blo "36000,8300"
+tm "InitValueDelayMgr"
+)
 )
 dt (MLText
 uid 772,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,15600,64000,16400"
-st "verwarmen         : OUT    std_logic 
-"
+xt "44000,15600,77500,16400"
+st "verwarmen         : OUT    std_logic                     := '0'"
 )
 thePort (LogicalPort
 lang 2
@@ -1295,6 +1303,7 @@ n "verwarmen"
 t "std_logic"
 o 18
 suid 26,0
+i "'0'"
 )
 )
 )
@@ -1325,15 +1334,25 @@ ju 2
 blo "36000,8300"
 tm "CptPortNameMgr"
 )
+t (Text
+uid 1987,0
+va (VaSet
+font "arial,8,0"
+)
+xt "34800,8500,36000,9500"
+st "'0'"
+ju 2
+blo "36000,9300"
+tm "InitValueDelayMgr"
+)
 )
 dt (MLText
 uid 858,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,11600,65000,12400"
-st "klep_open         : OUT    std_logic  ;
-"
+xt "44000,11600,78500,12400"
+st "klep_open         : OUT    std_logic                     := '0' ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1343,6 +1362,7 @@ n "klep_open"
 t "std_logic"
 o 13
 suid 27,0
+i "'0'"
 )
 )
 )
@@ -1373,15 +1393,25 @@ ju 2
 blo "36000,9300"
 tm "CptPortNameMgr"
 )
+t (Text
+uid 1988,0
+va (VaSet
+font "arial,8,0"
+)
+xt "34800,9500,36000,10500"
+st "'0'"
+ju 2
+blo "36000,10300"
+tm "InitValueDelayMgr"
+)
 )
 dt (MLText
 uid 863,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,14800,65000,15600"
-st "pomp_aan          : OUT    std_logic  ;
-"
+xt "44000,14800,78500,15600"
+st "pomp_aan          : OUT    std_logic                     := '0' ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1391,6 +1421,7 @@ n "pomp_aan"
 t "std_logic"
 o 17
 suid 28,0
+i "'0'"
 )
 )
 )
@@ -1421,15 +1452,25 @@ ju 2
 blo "36000,10300"
 tm "CptPortNameMgr"
 )
+t (Text
+uid 1989,0
+va (VaSet
+font "arial,8,0"
+)
+xt "33800,10500,36000,11500"
+st "\"000\""
+ju 2
+blo "36000,11300"
+tm "InitValueDelayMgr"
+)
 )
 dt (MLText
 uid 868,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,14000,75000,14800"
-st "motor             : OUT    std_logic_vector (2 DOWNTO 0) ;
-"
+xt "44000,14000,79500,14800"
+st "motor             : OUT    std_logic_vector (2 DOWNTO 0) := \"000\" ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1440,6 +1481,7 @@ t "std_logic_vector"
 b "(2 DOWNTO 0)"
 o 16
 suid 29,0
+i "\"000\""
 )
 )
 )
@@ -1476,8 +1518,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3600,65000,4400"
-st "clk               : IN     std_logic  ;
-"
+st "clk               : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1522,8 +1563,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,10000,65000,10800"
-st "w_laag            : IN     std_logic  ;
-"
+st "w_laag            : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1568,8 +1608,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,9200,65000,10000"
-st "w_hoog            : IN     std_logic  ;
-"
+st "w_hoog            : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1614,8 +1653,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5200,65000,6000"
-st "kuip_leeg         : IN     std_logic  ;
-"
+st "kuip_leeg         : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1655,6 +1693,7 @@ blo "36000,13300"
 tm "CptPortNameMgr"
 )
 t (Text
+uid 1938,0
 va (VaSet
 font "arial,8,0"
 )
@@ -1671,8 +1710,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,12400,78500,13200"
-st "led_start         : OUT    std_logic                     := '0' ;
-"
+st "led_start         : OUT    std_logic                     := '0' ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1714,6 +1752,7 @@ blo "36000,14300"
 tm "CptPortNameMgr"
 )
 t (Text
+uid 1939,0
 va (VaSet
 font "arial,8,0"
 )
@@ -1730,8 +1769,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,13200,79500,14000"
-st "led_status        : OUT    std_logic_vector (2 DOWNTO 0) := \"000\" ;
-"
+st "led_status        : OUT    std_logic_vector (2 DOWNTO 0) := \"000\" ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1773,15 +1811,25 @@ ju 2
 blo "36000,15300"
 tm "CptPortNameMgr"
 )
+t (Text
+uid 1990,0
+va (VaSet
+font "arial,8,0"
+)
+xt "34800,15500,36000,16500"
+st "'0'"
+ju 2
+blo "36000,16300"
+tm "InitValueDelayMgr"
+)
 )
 dt (MLText
 uid 1086,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,10800,65000,11600"
-st "deur_grendel      : OUT    std_logic  ;
-"
+xt "44000,10800,78500,11600"
+st "deur_grendel      : OUT    std_logic                     := '0' ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1791,6 +1839,7 @@ n "deur_grendel"
 t "std_logic"
 o 12
 suid 38,0
+i "'0'"
 )
 )
 )
@@ -2493,6 +2542,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1914,0
+lastUid 2013,0
 activeModelName "Symbol:CDM"
 )

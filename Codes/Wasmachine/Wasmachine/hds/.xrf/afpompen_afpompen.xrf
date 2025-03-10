@@ -39,131 +39,131 @@ NO_GRAPHIC 38
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 2,0 54 0
+GRAPHIC 2,0 53 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-NO_GRAPHIC 55
+NO_GRAPHIC 54
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 2,0 58 0
+GRAPHIC 2,0 57 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-NO_GRAPHIC 59
+NO_GRAPHIC 58
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 70,0 60 0
+GRAPHIC 70,0 59 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 60,0 62 0
+GRAPHIC 60,0 61 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-NO_GRAPHIC 63
+NO_GRAPHIC 62
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 2,0 65 0
+GRAPHIC 2,0 64 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-NO_GRAPHIC 66
+NO_GRAPHIC 65
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 2,0 68 0
+GRAPHIC 2,0 67 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-NO_GRAPHIC 69
+NO_GRAPHIC 68
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 2,0 75 0
+GRAPHIC 2,0 74 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 237,0 76 0
+GRAPHIC 237,0 75 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 276,0 77 0
+GRAPHIC 276,0 76 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 254,0 78 0
+GRAPHIC 254,0 77 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 286,0 79 0
+GRAPHIC 286,0 78 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 237,0 80 0
+GRAPHIC 237,0 79 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-NO_GRAPHIC 81
+NO_GRAPHIC 80
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 237,0 82 0
+GRAPHIC 237,0 81 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-NO_GRAPHIC 83
+NO_GRAPHIC 82
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 254,0 84 0
+GRAPHIC 254,0 83 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 313,0 85 0
+GRAPHIC 313,0 84 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 291,0 86 0
+GRAPHIC 237,0 85 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 333,0 87 0
+GRAPHIC 333,0 86 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 254,0 88 0
+GRAPHIC 254,0 87 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-NO_GRAPHIC 89
+NO_GRAPHIC 88
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 254,0 90 0
+GRAPHIC 254,0 89 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-NO_GRAPHIC 91
+NO_GRAPHIC 90
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 291,0 92 0
+GRAPHIC 93,0 91 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 237,0 93 0
+NO_GRAPHIC 93
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 93,0 94 0
+GRAPHIC 2,0 94 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-NO_GRAPHIC 96
+NO_GRAPHIC 95
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
@@ -175,48 +175,32 @@ NO_GRAPHIC 98
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 2,0 100 0
+GRAPHIC 2,0 104 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-NO_GRAPHIC 101
+GRAPHIC 237,0 105 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 2,0 107 0
+GRAPHIC 252,0 106 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 237,0 108 0
+GRAPHIC 254,0 108 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 252,0 109 0
+GRAPHIC 269,0 109 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 254,0 110 0
+NO_GRAPHIC 111
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
-GRAPHIC 269,0 111 0
-LIBRARY Wasmachine
-DESIGN @afpompen
-VIEW @afpompen.sm
-GRAPHIC 291,0 113 0
-LIBRARY Wasmachine
-DESIGN @afpompen
-VIEW @afpompen.sm
-GRAPHIC 306,0 114 0
+GRAPHIC 2,0 113 0
 LIBRARY Wasmachine
 DESIGN @afpompen
 VIEW @afpompen.sm
 NO_GRAPHIC 115
-LIBRARY Wasmachine
-DESIGN @afpompen
-VIEW @afpompen.sm
-GRAPHIC 2,0 117 0
-LIBRARY Wasmachine
-DESIGN @afpompen
-VIEW @afpompen.sm
-NO_GRAPHIC 119

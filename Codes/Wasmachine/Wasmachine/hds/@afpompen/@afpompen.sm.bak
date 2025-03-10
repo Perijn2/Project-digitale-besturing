@@ -126,7 +126,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "22:57:19"
+value "23:04:06"
 )
 (vvPair
 variable "group"
@@ -234,7 +234,7 @@ value "Afpompen"
 )
 (vvPair
 variable "time"
-value "22:57:19"
+value "23:04:06"
 )
 (vvPair
 variable "unit"
@@ -657,7 +657,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,46000,45200,47000"
+xt "36200,46000,45400,47000"
 st "
 by %user on %dd %month %year
 "
@@ -2578,7 +2578,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 424,0
+lastUid 453,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *60 (LEmptyRow
@@ -2692,7 +2692,7 @@ decl (Decl
 n "afpompen_ready"
 t "std_logic"
 o 5
-i "0"
+i "'0'"
 )
 )
 uid 164,0
@@ -2706,7 +2706,7 @@ decl (Decl
 n "pomp_aan"
 t "std_logic"
 o 6
-i "0"
+i "'0'"
 )
 )
 uid 166,0

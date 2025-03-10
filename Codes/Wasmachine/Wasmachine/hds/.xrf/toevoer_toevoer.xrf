@@ -190,20 +190,20 @@ GRAPHIC 58,0 107 0
 LIBRARY Wasmachine
 DESIGN @toevoer
 VIEW @toevoer.sm
-GRAPHIC 279,0 108 0
+GRAPHIC 279,0 109 0
 LIBRARY Wasmachine
 DESIGN @toevoer
 VIEW @toevoer.sm
-GRAPHIC 294,0 109 0
+GRAPHIC 294,0 110 0
 LIBRARY Wasmachine
 DESIGN @toevoer
 VIEW @toevoer.sm
-NO_GRAPHIC 111
+NO_GRAPHIC 112
 LIBRARY Wasmachine
 DESIGN @toevoer
 VIEW @toevoer.sm
-GRAPHIC 2,0 113 0
+GRAPHIC 2,0 114 0
 LIBRARY Wasmachine
 DESIGN @toevoer
 VIEW @toevoer.sm
-NO_GRAPHIC 115
+NO_GRAPHIC 116

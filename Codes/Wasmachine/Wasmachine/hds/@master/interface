@@ -66,8 +66,9 @@ lang 2
 decl (Decl
 n "aan_uit"
 t "std_logic"
-o 7
+o 1
 suid 137,0
+i "'0'"
 )
 )
 uid 1534,0
@@ -78,8 +79,9 @@ lang 2
 decl (Decl
 n "clk"
 t "std_logic"
-o 23
+o 2
 suid 138,0
+i "'0'"
 )
 )
 uid 1536,0
@@ -90,8 +92,9 @@ lang 2
 decl (Decl
 n "deur_dicht"
 t "std_logic"
-o 9
+o 3
 suid 139,0
+i "'0'"
 )
 )
 uid 1538,0
@@ -103,8 +106,9 @@ m 1
 decl (Decl
 n "deur_grendel"
 t "std_logic"
-o 19
+o 9
 suid 140,0
+i "'0'"
 )
 )
 uid 1540,0
@@ -116,8 +120,9 @@ m 1
 decl (Decl
 n "go_wassen"
 t "std_logic"
-o 5
+o 10
 suid 141,0
+i "'0'"
 )
 )
 uid 1542,0
@@ -129,8 +134,9 @@ m 1
 decl (Decl
 n "led_start"
 t "std_logic"
-o 12
+o 11
 suid 142,0
+i "'0'"
 )
 )
 uid 1544,0
@@ -143,8 +149,9 @@ decl (Decl
 n "led_status"
 t "std_logic_vector"
 b "(2 DOWNTO 0)"
-o 13
+o 12
 suid 143,0
+i "\"000\""
 )
 )
 uid 1546,0
@@ -155,8 +162,9 @@ lang 2
 decl (Decl
 n "start"
 t "std_logic"
-o 17
+o 4
 suid 144,0
+i "'0'"
 )
 )
 uid 1548,0
@@ -167,8 +175,9 @@ lang 2
 decl (Decl
 n "w_hoog"
 t "std_logic"
-o 25
+o 5
 suid 145,0
+i "'0'"
 )
 )
 uid 1550,0
@@ -179,8 +188,9 @@ lang 2
 decl (Decl
 n "w_laag"
 t "std_logic"
-o 24
+o 6
 suid 146,0
+i "'0'"
 )
 )
 uid 1552,0
@@ -191,8 +201,9 @@ lang 2
 decl (Decl
 n "wassen_ready"
 t "std_logic"
-o 4
+o 7
 suid 147,0
+i "'0'"
 )
 )
 uid 1554,0
@@ -204,8 +215,9 @@ decl (Decl
 n "wassen_status"
 t "std_logic_vector"
 b "(2 DOWNTO 0)"
-o 14
+o 8
 suid 148,0
+i "\"000\""
 )
 )
 uid 1556,0
@@ -292,13 +304,13 @@ uid 1543,0
 )
 *36 (MRCItem
 litem &19
-pos 5
+pos 6
 dimension 20
 uid 1545,0
 )
 *37 (MRCItem
 litem &20
-pos 6
+pos 5
 dimension 20
 uid 1547,0
 )
@@ -653,7 +665,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:55:24"
+value "17:43:17"
 )
 (vvPair
 variable "group"
@@ -777,7 +789,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "14:55:24"
+value "17:43:17"
 )
 (vvPair
 variable "unit"
@@ -843,14 +855,18 @@ uid 1478,0
 va (VaSet
 font "Courier New,8,0"
 )
+xt "44000,2000,76500,2800"
+st "aan_uit       : IN     std_logic                     := '0' ;
+"
 )
 thePort (LogicalPort
 lang 2
 decl (Decl
 n "aan_uit"
 t "std_logic"
-o 7
+o 1
 suid 137,0
+i "'0'"
 )
 )
 )
@@ -886,14 +902,18 @@ uid 1483,0
 va (VaSet
 font "Courier New,8,0"
 )
+xt "44000,2800,76500,3600"
+st "clk           : IN     std_logic                     := '0' ;
+"
 )
 thePort (LogicalPort
 lang 2
 decl (Decl
 n "clk"
 t "std_logic"
-o 23
+o 2
 suid 138,0
+i "'0'"
 )
 )
 )
@@ -929,14 +949,18 @@ uid 1488,0
 va (VaSet
 font "Courier New,8,0"
 )
+xt "44000,3600,76500,4400"
+st "deur_dicht    : IN     std_logic                     := '0' ;
+"
 )
 thePort (LogicalPort
 lang 2
 decl (Decl
 n "deur_dicht"
 t "std_logic"
-o 9
+o 3
 suid 139,0
+i "'0'"
 )
 )
 )
@@ -973,6 +997,9 @@ uid 1493,0
 va (VaSet
 font "Courier New,8,0"
 )
+xt "44000,8400,76500,9200"
+st "deur_grendel  : OUT    std_logic                     := '0' ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -980,8 +1007,9 @@ m 1
 decl (Decl
 n "deur_grendel"
 t "std_logic"
-o 19
+o 9
 suid 140,0
+i "'0'"
 )
 )
 )
@@ -1018,6 +1046,9 @@ uid 1498,0
 va (VaSet
 font "Courier New,8,0"
 )
+xt "44000,9200,76500,10000"
+st "go_wassen     : OUT    std_logic                     := '0' ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -1025,8 +1056,9 @@ m 1
 decl (Decl
 n "go_wassen"
 t "std_logic"
-o 5
+o 10
 suid 141,0
+i "'0'"
 )
 )
 )
@@ -1063,6 +1095,9 @@ uid 1503,0
 va (VaSet
 font "Courier New,8,0"
 )
+xt "44000,10000,76500,10800"
+st "led_start     : OUT    std_logic                     := '0' ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -1070,8 +1105,9 @@ m 1
 decl (Decl
 n "led_start"
 t "std_logic"
-o 12
+o 11
 suid 142,0
+i "'0'"
 )
 )
 )
@@ -1108,6 +1144,9 @@ uid 1508,0
 va (VaSet
 font "Courier New,8,0"
 )
+xt "44000,10800,76500,11600"
+st "led_status    : OUT    std_logic_vector (2 DOWNTO 0) := \"000\"
+"
 )
 thePort (LogicalPort
 lang 2
@@ -1116,8 +1155,9 @@ decl (Decl
 n "led_status"
 t "std_logic_vector"
 b "(2 DOWNTO 0)"
-o 13
+o 12
 suid 143,0
+i "\"000\""
 )
 )
 )
@@ -1153,14 +1193,18 @@ uid 1513,0
 va (VaSet
 font "Courier New,8,0"
 )
+xt "44000,4400,76500,5200"
+st "start         : IN     std_logic                     := '0' ;
+"
 )
 thePort (LogicalPort
 lang 2
 decl (Decl
 n "start"
 t "std_logic"
-o 17
+o 4
 suid 144,0
+i "'0'"
 )
 )
 )
@@ -1196,14 +1240,18 @@ uid 1518,0
 va (VaSet
 font "Courier New,8,0"
 )
+xt "44000,5200,76500,6000"
+st "w_hoog        : IN     std_logic                     := '0' ;
+"
 )
 thePort (LogicalPort
 lang 2
 decl (Decl
 n "w_hoog"
 t "std_logic"
-o 25
+o 5
 suid 145,0
+i "'0'"
 )
 )
 )
@@ -1239,14 +1287,18 @@ uid 1523,0
 va (VaSet
 font "Courier New,8,0"
 )
+xt "44000,6000,76500,6800"
+st "w_laag        : IN     std_logic                     := '0' ;
+"
 )
 thePort (LogicalPort
 lang 2
 decl (Decl
 n "w_laag"
 t "std_logic"
-o 24
+o 6
 suid 146,0
+i "'0'"
 )
 )
 )
@@ -1283,14 +1335,18 @@ uid 1528,0
 va (VaSet
 font "Courier New,8,0"
 )
+xt "44000,6800,76500,7600"
+st "wassen_ready  : IN     std_logic                     := '0' ;
+"
 )
 thePort (LogicalPort
 lang 2
 decl (Decl
 n "wassen_ready"
 t "std_logic"
-o 4
+o 7
 suid 147,0
+i "'0'"
 )
 )
 )
@@ -1327,6 +1383,9 @@ uid 1533,0
 va (VaSet
 font "Courier New,8,0"
 )
+xt "44000,7600,77500,8400"
+st "wassen_status : IN     std_logic_vector (2 DOWNTO 0) := \"000\" ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -1334,8 +1393,9 @@ decl (Decl
 n "wassen_status"
 t "std_logic_vector"
 b "(2 DOWNTO 0)"
-o 14
+o 8
 suid 148,0
+i "\"000\""
 )
 )
 )
@@ -2040,6 +2100,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1557,0
+lastUid 1695,0
 activeModelName "Symbol:CDM"
 )

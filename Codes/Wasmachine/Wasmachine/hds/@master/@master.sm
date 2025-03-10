@@ -131,7 +131,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:55:24"
+value "17:54:14"
 )
 (vvPair
 variable "group"
@@ -255,7 +255,7 @@ value "Master"
 )
 (vvPair
 variable "time"
-value "14:55:24"
+value "17:54:14"
 )
 (vvPair
 variable "unit"
@@ -348,13 +348,14 @@ shape (Rectangle
 uid 52,0
 va (VaSet
 vasetType 1
-isHidden 1
+transparent 1
 fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "39936,56832,65280"
-lineWidth 2
+lineWidth -1
+fillStyle 1
 )
-xt "46183,2853,46383,3053"
+xt "42083,853,50483,5053"
 )
 autoResize 1
 tline (Line
@@ -363,12 +364,12 @@ va (VaSet
 vasetType 3
 isHidden 1
 lineColor "39936,56832,65280"
-lineWidth 2
+lineWidth -1
 )
-xt "42283,2253,50283,2253"
+xt "42183,753,50383,753"
 pts [
-"42283,2253"
-"50283,2253"
+"42183,753"
+"50383,753"
 ]
 )
 bline (Line
@@ -377,12 +378,12 @@ va (VaSet
 vasetType 3
 isHidden 1
 lineColor "39936,56832,65280"
-lineWidth 2
+lineWidth -1
 )
-xt "42283,1603,50283,1603"
+xt "42183,2353,50383,2353"
 pts [
-"42283,1603"
-"50283,1603"
+"42183,2353"
+"50383,2353"
 ]
 )
 ttri (Triangle
@@ -396,7 +397,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "41833,1878,42183,2228"
+xt "41733,378,42083,728"
 )
 btri (Triangle
 uid 56,0
@@ -409,14 +410,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "41833,-422,42183,-72"
+xt "41733,-422,42083,-72"
 )
 entryActions (MLText
 uid 57,0
 va (VaSet
 font "arial,8,0"
 )
-xt "42283,2053,42283,2053"
+xt "42183,553,42183,553"
 tm "Actions"
 )
 inActions (MLText
@@ -424,7 +425,11 @@ uid 58,0
 va (VaSet
 font "arial,8,0"
 )
-xt "42283,2453,50283,3453"
+xt "42183,953,50383,4953"
+st "deur_grendel <= '0';
+led_start <= '0' ;
+led_status <= \"000\"; 
+go_wassen <= '0' ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -1206,7 +1211,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "44328,24040,52528,26240"
+xt "44228,23040,52628,27240"
 )
 autoResize 1
 tline (Line
@@ -1217,10 +1222,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "44428,23940,52428,23940"
+xt "44328,22940,52528,22940"
 pts [
-"44428,23940"
-"52428,23940"
+"44328,22940"
+"52528,22940"
 ]
 )
 bline (Line
@@ -1231,10 +1236,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "44428,24040,52428,24040"
+xt "44328,24540,52528,24540"
 pts [
-"44428,24040"
-"52428,24040"
+"44328,24540"
+"52528,24540"
 ]
 )
 ttri (Triangle
@@ -1248,7 +1253,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "43978,23565,44328,23915"
+xt "43878,22565,44228,22915"
 )
 btri (Triangle
 uid 382,0
@@ -1261,14 +1266,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "43978,21765,44328,22115"
+xt "43878,21765,44228,22115"
 )
 entryActions (MLText
 uid 383,0
 va (VaSet
 font "arial,8,0"
 )
-xt "44428,23740,44428,23740"
+xt "44328,22740,44328,22740"
 tm "Actions"
 )
 inActions (MLText
@@ -1276,9 +1281,11 @@ uid 384,0
 va (VaSet
 font "arial,8,0"
 )
-xt "44428,24140,52428,26140"
-st "deur_grendel <= '1';
-led_start <= '1' ;"
+xt "44328,23140,52528,27140"
+st "deur_grendel <= '1' ;
+led_start <= '1' ;
+led_status <= \"000\"; 
+go_wassen <= '0' ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -1369,7 +1376,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "43820,35700,51020,36900"
+xt "43220,34200,51620,38400"
 )
 autoResize 1
 tline (Line
@@ -1380,10 +1387,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "43920,35600,50920,35600"
+xt "43320,34100,51520,34100"
 pts [
-"43920,35600"
-"50920,35600"
+"43320,34100"
+"51520,34100"
 ]
 )
 bline (Line
@@ -1394,10 +1401,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "43920,34950,50920,34950"
+xt "43320,35700,51520,35700"
 pts [
-"43920,34950"
-"50920,34950"
+"43320,35700"
+"51520,35700"
 ]
 )
 ttri (Triangle
@@ -1411,7 +1418,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "43470,35225,43820,35575"
+xt "42870,33725,43220,34075"
 )
 btri (Triangle
 uid 480,0
@@ -1424,14 +1431,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "43470,32925,43820,33275"
+xt "42870,32925,43220,33275"
 )
 entryActions (MLText
 uid 481,0
 va (VaSet
 font "arial,8,0"
 )
-xt "43920,35400,43920,35400"
+xt "43320,33900,43320,33900"
 tm "Actions"
 )
 inActions (MLText
@@ -1439,8 +1446,11 @@ uid 482,0
 va (VaSet
 font "arial,8,0"
 )
-xt "43920,35800,50920,36800"
-st "go_wassen <= '1';"
+xt "43320,34300,51520,38300"
+st "deur_grendel <= '1' ;
+led_start <= '1' ;
+led_status <= \"000\"; 
+go_wassen <= '1' ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -1531,7 +1541,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "43504,47652,50904,48852"
+xt "43004,46152,51404,50352"
 )
 autoResize 1
 tline (Line
@@ -1542,10 +1552,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "43604,47552,50804,47552"
+xt "43104,46052,51304,46052"
 pts [
-"43604,47552"
-"50804,47552"
+"43104,46052"
+"51304,46052"
 ]
 )
 bline (Line
@@ -1556,10 +1566,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "43604,46902,50804,46902"
+xt "43104,47652,51304,47652"
 pts [
-"43604,46902"
-"50804,46902"
+"43104,47652"
+"51304,47652"
 ]
 )
 ttri (Triangle
@@ -1573,7 +1583,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "43154,47177,43504,47527"
+xt "42654,45677,43004,46027"
 )
 btri (Triangle
 uid 527,0
@@ -1586,14 +1596,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "43154,44877,43504,45227"
+xt "42654,44877,43004,45227"
 )
 entryActions (MLText
 uid 528,0
 va (VaSet
 font "arial,8,0"
 )
-xt "43604,47352,43604,47352"
+xt "43104,45852,43104,45852"
 tm "Actions"
 )
 inActions (MLText
@@ -1601,8 +1611,11 @@ uid 529,0
 va (VaSet
 font "arial,8,0"
 )
-xt "43604,47752,50804,48752"
-st "go_wassen <= '0' ;"
+xt "43104,46252,51304,50252"
+st "deur_grendel <= '1' ;
+led_start <= '1' ;
+led_status <= \"000\"; 
+go_wassen <= '0' ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -1749,7 +1762,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "26261,14625,37661,15825"
+xt "10909,11225,22309,15425"
 )
 autoResize 1
 tline (Line
@@ -1760,10 +1773,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "26361,14525,37561,14525"
+xt "11009,11125,22209,11125"
 pts [
-"26361,14525"
-"37561,14525"
+"11009,11125"
+"22209,11125"
 ]
 )
 bline (Line
@@ -1774,10 +1787,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "26361,13875,37561,13875"
+xt "11009,12725,22209,12725"
 pts [
-"26361,13875"
-"37561,13875"
+"11009,12725"
+"22209,12725"
 ]
 )
 ttri (Triangle
@@ -1791,7 +1804,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "25911,14150,26261,14500"
+xt "10559,10750,10909,11100"
 )
 btri (Triangle
 uid 602,0
@@ -1804,14 +1817,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "25911,11850,26261,12200"
+xt "10559,9950,10909,10300"
 )
 entryActions (MLText
 uid 603,0
 va (VaSet
 font "arial,8,0"
 )
-xt "26361,14325,26361,14325"
+xt "11009,10925,11009,10925"
 tm "Actions"
 )
 inActions (MLText
@@ -1819,8 +1832,11 @@ uid 604,0
 va (VaSet
 font "arial,8,0"
 )
-xt "26361,14725,37561,15725"
-st "led_status <= wassen_status;"
+xt "11009,11325,22209,15325"
+st "led_status <= wassen_status;
+deur_grendel <= '1' ;
+led_start <= '1' ;
+go_wassen <= '0' ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -1828,7 +1844,7 @@ uid 605,0
 va (VaSet
 font "arial,8,0"
 )
-xt "27961,12025,27961,12025"
+xt "12609,10125,12609,10125"
 tm "Actions"
 )
 )
@@ -2264,7 +2280,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "28888,30616,37088,32816"
+xt "28788,30984,37188,35184"
 )
 autoResize 1
 tline (Line
@@ -2275,10 +2291,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "28988,30516,36988,30516"
+xt "28888,30884,37088,30884"
 pts [
-"28988,30516"
-"36988,30516"
+"28888,30884"
+"37088,30884"
 ]
 )
 bline (Line
@@ -2289,10 +2305,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "28988,30616,36988,30616"
+xt "28888,32484,37088,32484"
 pts [
-"28988,30616"
-"36988,30616"
+"28888,32484"
+"37088,32484"
 ]
 )
 ttri (Triangle
@@ -2306,7 +2322,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "28538,30141,28888,30491"
+xt "28438,30509,28788,30859"
 )
 btri (Triangle
 uid 725,0
@@ -2319,14 +2335,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "28538,28341,28888,28691"
+xt "28438,29709,28788,30059"
 )
 entryActions (MLText
 uid 726,0
 va (VaSet
 font "arial,8,0"
 )
-xt "28988,30316,28988,30316"
+xt "28888,30684,28888,30684"
 tm "Actions"
 )
 inActions (MLText
@@ -2334,9 +2350,11 @@ uid 727,0
 va (VaSet
 font "arial,8,0"
 )
-xt "28988,30716,36988,32716"
-st "led_start <= '0' ;
-led_status <= \"000\";"
+xt "28888,31084,37088,35084"
+st "led_status <= \"000\";
+deur_grendel <= '1' ;
+led_start <= '0' ;
+go_wassen <= '0' ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -2344,7 +2362,7 @@ uid 728,0
 va (VaSet
 font "arial,8,0"
 )
-xt "28988,28516,28988,28516"
+xt "28988,29884,28988,29884"
 tm "Actions"
 )
 )
@@ -2425,7 +2443,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth 2
 )
-xt "48800,9150,56200,10350"
+xt "47616,4214,56016,9814"
 )
 autoResize 1
 tline (Line
@@ -2436,24 +2454,23 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth 2
 )
-xt "48900,8850,56100,8850"
+xt "47716,4114,55916,4114"
 pts [
-"48900,8850"
-"56100,8850"
+"47716,4114"
+"55916,4114"
 ]
 )
 bline (Line
 uid 1046,0
 va (VaSet
 vasetType 3
-isHidden 1
 lineColor "39936,56832,65280"
 lineWidth 2
 )
-xt "48900,7900,56100,7900"
+xt "47716,8514,55916,8514"
 pts [
-"48900,7900"
-"56100,7900"
+"47716,8514"
+"55916,8514"
 ]
 )
 ttri (Triangle
@@ -2467,7 +2484,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "48450,8275,48800,8625"
+xt "47266,3739,47616,4089"
 )
 btri (Triangle
 uid 1048,0
@@ -2479,14 +2496,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "48450,9575,48800,9925"
+xt "47266,9039,47616,9389"
 )
 entryActions (MLText
 uid 1049,0
 va (VaSet
 font "arial,8,0"
 )
-xt "48900,8450,48900,8450"
+xt "47716,3914,47716,3914"
 tm "Actions"
 )
 inActions (MLText
@@ -2494,7 +2511,11 @@ uid 1050,0
 va (VaSet
 font "arial,8,0"
 )
-xt "48500,6550,48500,6550"
+xt "47716,4314,55916,8314"
+st "led_status <= \"101\";
+deur_grendel <= '1' ;
+led_start <= '1' ;
+go_wassen <= '0' ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -2502,7 +2523,7 @@ uid 1051,0
 va (VaSet
 font "arial,8,0"
 )
-xt "48900,9250,56100,10250"
+xt "47716,8714,54916,9714"
 st "go_wassen <= '1' ;"
 tm "Actions"
 )
@@ -2586,7 +2607,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "54350,27825,61750,29025"
+xt "55390,26933,66790,31133"
 )
 autoResize 1
 tline (Line
@@ -2597,10 +2618,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "54450,27725,61650,27725"
+xt "55490,26833,66690,26833"
 pts [
-"54450,27725"
-"61650,27725"
+"55490,26833"
+"66690,26833"
 ]
 )
 bline (Line
@@ -2611,10 +2632,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "54450,27075,61650,27075"
+xt "55490,28433,66690,28433"
 pts [
-"54450,27075"
-"61650,27075"
+"55490,28433"
+"66690,28433"
 ]
 )
 ttri (Triangle
@@ -2628,7 +2649,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "54000,27350,54350,27700"
+xt "55040,26458,55390,26808"
 )
 btri (Triangle
 uid 1095,0
@@ -2641,14 +2662,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "54000,25050,54350,25400"
+xt "55040,25658,55390,26008"
 )
 entryActions (MLText
 uid 1096,0
 va (VaSet
 font "arial,8,0"
 )
-xt "54450,27525,54450,27525"
+xt "55490,26633,55490,26633"
 tm "Actions"
 )
 inActions (MLText
@@ -2656,8 +2677,11 @@ uid 1097,0
 va (VaSet
 font "arial,8,0"
 )
-xt "54450,27925,61650,28925"
-st "go_wassen <= '0' ;"
+xt "55490,27033,66690,31033"
+st "led_status <= wassen_status;
+deur_grendel <= '1' ;
+led_start <= '1' ;
+go_wassen <= '0' ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -2665,7 +2689,7 @@ uid 1098,0
 va (VaSet
 font "arial,8,0"
 )
-xt "54050,25225,54050,25225"
+xt "57090,25833,57090,25833"
 tm "Actions"
 )
 )
@@ -3431,7 +3455,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "38490,24056,42890,25066"
+xt "38490,24056,45790,25066"
 )
 autoResize 1
 lineShape (Line
@@ -3451,7 +3475,7 @@ uid 1114,0
 va (VaSet
 font "arial,8,0"
 )
-xt "38990,24061,42390,25061"
+xt "38990,24061,45290,25061"
 tm "Condition"
 )
 actions (MLText
@@ -3459,7 +3483,7 @@ uid 1115,0
 va (VaSet
 font "arial,8,0"
 )
-xt "40690,25461,40690,25461"
+xt "42140,25461,42140,25461"
 tm "Actions"
 )
 )
@@ -3505,8 +3529,8 @@ yShown 1
 color "26368,26368,26368"
 )
 packageList &0
-windowSize "0,24,1537,864"
-viewArea "-1900,-2300,96275,51100"
+windowSize "0,34,1537,864"
+viewArea "1400,-7400,100884,45952"
 cachedDiagramExtent "7117,2085,72000,50000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-1000,1000"
@@ -3652,13 +3676,14 @@ shape (Rectangle
 uid 684,0
 va (VaSet
 vasetType 1
-isHidden 1
+transparent 1
 fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "39936,56832,65280"
-lineWidth 2
+lineWidth -1
+fillStyle 1
 )
-xt "45247,13001,45447,13201"
+xt "43264,9395,51664,13595"
 )
 autoResize 1
 tline (Line
@@ -3667,12 +3692,12 @@ va (VaSet
 vasetType 3
 isHidden 1
 lineColor "39936,56832,65280"
-lineWidth 2
+lineWidth -1
 )
-xt "42447,12401,48247,12401"
+xt "43364,9295,51564,9295"
 pts [
-"42447,12401"
-"48247,12401"
+"43364,9295"
+"51564,9295"
 ]
 )
 bline (Line
@@ -3681,12 +3706,12 @@ va (VaSet
 vasetType 3
 isHidden 1
 lineColor "39936,56832,65280"
-lineWidth 2
+lineWidth -1
 )
-xt "42447,11751,48247,11751"
+xt "43364,10895,51564,10895"
 pts [
-"42447,11751"
-"48247,11751"
+"43364,10895"
+"51564,10895"
 ]
 )
 ttri (Triangle
@@ -3700,7 +3725,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "40897,12026,41247,12376"
+xt "42914,8920,43264,9270"
 )
 btri (Triangle
 uid 688,0
@@ -3713,14 +3738,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "40897,9726,41247,10076"
+xt "42914,8120,43264,8470"
 )
 entryActions (MLText
 uid 689,0
 va (VaSet
 font "arial,8,0"
 )
-xt "42447,12201,42447,12201"
+xt "43364,9095,43364,9095"
 tm "Actions"
 )
 inActions (MLText
@@ -3728,7 +3753,11 @@ uid 690,0
 va (VaSet
 font "arial,8,0"
 )
-xt "42447,12601,48247,13601"
+xt "43364,9495,51564,13495"
+st "deur_grendel <= '0' ;
+led_start <= '0' ;
+led_status <= \"000\"; 
+go_wassen <= '0' ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -3736,7 +3765,7 @@ uid 691,0
 va (VaSet
 font "arial,8,0"
 )
-xt "41347,9901,41347,9901"
+xt "43464,8295,43464,8295"
 tm "Actions"
 )
 )
@@ -3862,7 +3891,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "61536,15239,69936,16439"
+xt "61536,13739,69936,17939"
 )
 autoResize 1
 tline (Line
@@ -3873,10 +3902,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "61636,15139,69836,15139"
+xt "61636,13639,69836,13639"
 pts [
-"61636,15139"
-"69836,15139"
+"61636,13639"
+"69836,13639"
 ]
 )
 bline (Line
@@ -3887,10 +3916,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "61636,14489,69836,14489"
+xt "61636,15239,69836,15239"
 pts [
-"61636,14489"
-"69836,14489"
+"61636,15239"
+"69836,15239"
 ]
 )
 ttri (Triangle
@@ -3904,7 +3933,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "61186,14764,61536,15114"
+xt "61186,13264,61536,13614"
 )
 btri (Triangle
 uid 788,0
@@ -3924,7 +3953,7 @@ uid 789,0
 va (VaSet
 font "arial,8,0"
 )
-xt "61636,14939,61636,14939"
+xt "61636,13439,61636,13439"
 tm "Actions"
 )
 inActions (MLText
@@ -3932,8 +3961,11 @@ uid 790,0
 va (VaSet
 font "arial,8,0"
 )
-xt "61636,15339,69836,16339"
-st "deur_grendel <= '0' ;"
+xt "61636,13839,69836,17839"
+st "deur_grendel <= '0' ;
+led_start <= '0' ;
+led_status <= \"000\"; 
+go_wassen <= '0' ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -4977,7 +5009,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "48094,14214,52494,15224"
+xt "45889,13909,53789,14919"
 )
 autoResize 1
 lineShape (Line
@@ -4986,10 +5018,10 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "50294,15619,50294,15619"
+xt "48089,15314,48089,15314"
 pts [
-"50294,15619"
-"50294,15619"
+"48089,15314"
+"48089,15314"
 ]
 )
 condition (MLText
@@ -4997,7 +5029,7 @@ uid 797,0
 va (VaSet
 font "arial,8,0"
 )
-xt "48594,14219,51994,15219"
+xt "46389,13914,53289,14914"
 tm "Condition"
 )
 actions (MLText
@@ -5005,7 +5037,7 @@ uid 798,0
 va (VaSet
 font "arial,8,0"
 )
-xt "50294,15619,50294,15619"
+xt "49839,15314,49839,15314"
 tm "Actions"
 )
 )
@@ -5427,8 +5459,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,24,1537,864"
-viewArea "-14300,-2183,81257,49793"
+windowSize "0,34,1537,864"
+viewArea "8300,24700,107784,78052"
 cachedDiagramExtent "0,-11800,75232,74360"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-51000"
@@ -5817,7 +5849,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 1176,0
+lastUid 1408,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *100 (LEmptyRow
@@ -5882,6 +5914,7 @@ decl (Decl
 n "aan_uit"
 t "std_logic"
 o 1
+i "'0'"
 )
 )
 uid 156,0
@@ -5895,6 +5928,7 @@ decl (Decl
 n "clk"
 t "std_logic"
 o 2
+i "'0'"
 )
 )
 uid 162,0
@@ -5908,6 +5942,7 @@ decl (Decl
 n "deur_dicht"
 t "std_logic"
 o 3
+i "'0'"
 )
 )
 uid 164,0
@@ -5919,6 +5954,7 @@ decl (Decl
 n "start"
 t "std_logic"
 o 4
+i "'0'"
 )
 )
 uid 168,0
@@ -5930,6 +5966,7 @@ decl (Decl
 n "w_hoog"
 t "std_logic"
 o 5
+i "'0'"
 )
 )
 uid 170,0
@@ -5941,6 +5978,7 @@ decl (Decl
 n "w_laag"
 t "std_logic"
 o 6
+i "'0'"
 )
 )
 uid 172,0
@@ -5952,6 +5990,7 @@ decl (Decl
 n "wassen_ready"
 t "std_logic"
 o 7
+i "'0'"
 )
 )
 uid 174,0
@@ -5964,6 +6003,7 @@ n "wassen_status"
 t "std_logic_vector"
 b "(2 DOWNTO 0)"
 o 8
+i "\"000\""
 )
 )
 uid 176,0
@@ -5976,6 +6016,7 @@ decl (Decl
 n "deur_grendel"
 t "std_logic"
 o 9
+i "'0'"
 )
 )
 uid 178,0
@@ -6003,7 +6044,7 @@ decl (Decl
 n "led_status"
 t "std_logic_vector"
 b "(2 DOWNTO 0)"
-o 11
+o 12
 i "\"000\""
 )
 )
@@ -6017,7 +6058,7 @@ m 1
 decl (Decl
 n "led_start"
 t "std_logic"
-o 12
+o 11
 i "'0'"
 )
 )
