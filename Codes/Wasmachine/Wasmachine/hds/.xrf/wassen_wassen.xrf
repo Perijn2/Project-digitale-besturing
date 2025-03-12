@@ -6,110 +6,105 @@ VIEW interface
 GRAPHIC 50,0 8 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3018,0 14 0 
+GRAPHIC 3303,0 14 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3023,0 15 0 
+GRAPHIC 3308,0 15 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3028,0 16 0 
+GRAPHIC 3313,0 16 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3033,0 17 0 
+GRAPHIC 3318,0 17 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3058,0 18 0 
+GRAPHIC 3343,0 18 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3063,0 19 0 
+GRAPHIC 3348,0 19 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3068,0 20 0 
+GRAPHIC 3353,0 20 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3073,0 21 0 
+GRAPHIC 3358,0 21 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3078,0 22 0 
+GRAPHIC 3363,0 22 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3088,0 23 0 
+GRAPHIC 3368,0 23 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3093,0 24 0 
+GRAPHIC 3378,0 24 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3098,0 25 0 
+GRAPHIC 3383,0 25 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3103,0 26 0 
+GRAPHIC 3388,0 26 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3038,0 27 0 
+GRAPHIC 3393,0 27 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3043,0 28 0 
+GRAPHIC 3323,0 28 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3048,0 29 0 
+GRAPHIC 3328,0 29 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3053,0 30 0 
+GRAPHIC 3333,0 30 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3083,0 31 0 
+GRAPHIC 3338,0 31 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3108,0 32 0 
+GRAPHIC 3373,0 32 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 3113,0 33 0 
+GRAPHIC 3398,0 33 0 
 DESIGN @wassen
 VIEW interface
-GRAPHIC 1,0 36 0 
+GRAPHIC 3403,0 34 0 
 DESIGN @wassen
 VIEW interface
 GRAPHIC 1,0 37 0 
+DESIGN @wassen
+VIEW interface
+GRAPHIC 1,0 38 0 
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 31,0 49 0
+GRAPHIC 31,0 50 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 52
+NO_GRAPHIC 53
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2,0 88 0
+GRAPHIC 2,0 91 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 89
+NO_GRAPHIC 92
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2,0 92 0
+GRAPHIC 2,0 95 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 93
+NO_GRAPHIC 96
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 70,0 94 0
+GRAPHIC 70,0 97 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 60,0 96 0
-LIBRARY Wasmachine
-DESIGN @wassen
-VIEW @wassen.sm
-NO_GRAPHIC 97
-LIBRARY Wasmachine
-DESIGN @wassen
-VIEW @wassen.sm
-GRAPHIC 2,0 99 0
+GRAPHIC 60,0 99 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -125,31 +120,23 @@ NO_GRAPHIC 103
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2,0 116 0
+GRAPHIC 2,0 105 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 43,0 117 0
+NO_GRAPHIC 106
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 665,0 118 0
+GRAPHIC 2,0 120 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 43,0 119 0
+GRAPHIC 43,0 121 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 655,0 120 0
-LIBRARY Wasmachine
-DESIGN @wassen
-VIEW @wassen.sm
-GRAPHIC 5277,0 121 0
-LIBRARY Wasmachine
-DESIGN @wassen
-VIEW @wassen.sm
-NO_GRAPHIC 122
+GRAPHIC 665,0 122 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -157,71 +144,71 @@ GRAPHIC 43,0 123 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 124
+GRAPHIC 655,0 124 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 633,0 125 0
+GRAPHIC 5277,0 125 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 756,0 126 0
+NO_GRAPHIC 126
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 687,0 127 0
+GRAPHIC 43,0 127 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 1146,0 128 0
+NO_GRAPHIC 128
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4437,0 129 0
+GRAPHIC 633,0 129 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 766,0 130 0
+GRAPHIC 756,0 130 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 633,0 131 0
+GRAPHIC 687,0 131 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 132
+GRAPHIC 1146,0 132 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 633,0 133 0
+GRAPHIC 4437,0 133 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 134
+GRAPHIC 766,0 134 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 687,0 135 0
+GRAPHIC 633,0 135 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2303,0 136 0
+NO_GRAPHIC 136
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4437,0 137 0
+GRAPHIC 633,0 137 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2329,0 138 0
+NO_GRAPHIC 138
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2303,0 139 0
+GRAPHIC 687,0 139 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 140
+GRAPHIC 2303,0 140 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -229,7 +216,7 @@ GRAPHIC 4437,0 141 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 142
+GRAPHIC 2329,0 142 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -237,23 +224,23 @@ GRAPHIC 2303,0 143 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2399,0 144 0
+NO_GRAPHIC 144
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2303,0 145 0
+GRAPHIC 4437,0 145 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2409,0 146 0
+NO_GRAPHIC 146
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2377,0 147 0
+GRAPHIC 2303,0 147 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 148
+GRAPHIC 2399,0 148 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -261,7 +248,7 @@ GRAPHIC 2303,0 149 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 150
+GRAPHIC 2409,0 150 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -269,55 +256,55 @@ GRAPHIC 2377,0 151 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2436,0 152 0
+NO_GRAPHIC 152
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2377,0 153 0
+GRAPHIC 2303,0 153 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4605,0 154 0
+NO_GRAPHIC 154
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4653,0 155 0
+GRAPHIC 2377,0 155 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4567,0 156 0
+GRAPHIC 2436,0 156 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4545,0 157 0
+GRAPHIC 2377,0 157 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 158
+GRAPHIC 4605,0 158 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2377,0 159 0
+GRAPHIC 4653,0 159 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 160
+GRAPHIC 4567,0 160 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2468,0 161 0
+GRAPHIC 4545,0 161 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2504,0 162 0
+NO_GRAPHIC 162
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2542,0 163 0
+GRAPHIC 2377,0 163 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2564,0 164 0
+NO_GRAPHIC 164
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -325,31 +312,31 @@ GRAPHIC 2468,0 165 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 166
+GRAPHIC 2504,0 166 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2468,0 167 0
+GRAPHIC 2542,0 167 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 168
+GRAPHIC 2564,0 168 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2542,0 169 0
+GRAPHIC 2468,0 169 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2574,0 170 0
+NO_GRAPHIC 170
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3993,0 171 0
+GRAPHIC 2468,0 171 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2584,0 172 0
+NO_GRAPHIC 172
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -357,39 +344,39 @@ GRAPHIC 2542,0 173 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 174
+GRAPHIC 2574,0 174 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2542,0 175 0
+GRAPHIC 3993,0 175 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 176
+GRAPHIC 2584,0 176 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3976,0 177 0
+GRAPHIC 2542,0 177 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4096,0 178 0
+NO_GRAPHIC 178
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3976,0 179 0
+GRAPHIC 2542,0 179 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4284,0 180 0
+NO_GRAPHIC 180
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 633,0 181 0
+GRAPHIC 3976,0 181 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 182
+GRAPHIC 4096,0 182 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -397,15 +384,15 @@ GRAPHIC 3976,0 183 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 184
+GRAPHIC 4284,0 184 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3993,0 185 0
+GRAPHIC 633,0 185 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4086,0 186 0
+NO_GRAPHIC 186
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -413,7 +400,7 @@ GRAPHIC 3976,0 187 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4116,0 188 0
+NO_GRAPHIC 188
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -421,31 +408,31 @@ GRAPHIC 3993,0 189 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 190
+GRAPHIC 4086,0 190 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3993,0 191 0
+GRAPHIC 3976,0 191 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 192
+GRAPHIC 4116,0 192 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3194,0 193 0
+GRAPHIC 3993,0 193 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3324,0 194 0
+NO_GRAPHIC 194
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3262,0 195 0
+GRAPHIC 3993,0 195 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3294,0 196 0
+NO_GRAPHIC 196
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -453,15 +440,15 @@ GRAPHIC 3194,0 197 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3372,0 198 0
+GRAPHIC 3324,0 198 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3491,0 199 0
+GRAPHIC 3262,0 199 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 200
+GRAPHIC 3294,0 200 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -469,15 +456,15 @@ GRAPHIC 3194,0 201 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 202
+GRAPHIC 3372,0 202 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3211,0 203 0
+GRAPHIC 3491,0 203 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3334,0 204 0
+NO_GRAPHIC 204
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -485,7 +472,7 @@ GRAPHIC 3194,0 205 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3344,0 206 0
+NO_GRAPHIC 206
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -493,27 +480,27 @@ GRAPHIC 3211,0 207 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 208
+GRAPHIC 3334,0 208 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3211,0 209 0
+GRAPHIC 3194,0 209 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 210
+GRAPHIC 3344,0 210 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3245,0 211 0
+GRAPHIC 3211,0 211 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3304,0 212 0
+NO_GRAPHIC 212
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3194,0 213 0
+GRAPHIC 3211,0 213 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -525,15 +512,15 @@ GRAPHIC 3245,0 215 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 216
+GRAPHIC 3304,0 216 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3262,0 217 0
+GRAPHIC 3194,0 217 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3284,0 218 0
+NO_GRAPHIC 218
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -541,39 +528,39 @@ GRAPHIC 3245,0 219 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3314,0 220 0
+NO_GRAPHIC 220
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3491,0 221 0
+GRAPHIC 3262,0 221 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 222
+GRAPHIC 3284,0 222 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3262,0 223 0
+GRAPHIC 3245,0 223 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 224
+GRAPHIC 3314,0 224 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3403,0 225 0
+GRAPHIC 3491,0 225 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3442,0 226 0
+NO_GRAPHIC 226
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3420,0 227 0
+GRAPHIC 3262,0 227 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3462,0 228 0
+NO_GRAPHIC 228
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -581,39 +568,39 @@ GRAPHIC 3403,0 229 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 230
+GRAPHIC 3442,0 230 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3403,0 231 0
+GRAPHIC 3420,0 231 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 232
+GRAPHIC 3462,0 232 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3420,0 233 0
+GRAPHIC 3403,0 233 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3452,0 234 0
+NO_GRAPHIC 234
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3420,0 235 0
+GRAPHIC 3403,0 235 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3482,0 236 0
+NO_GRAPHIC 236
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3211,0 237 0
+GRAPHIC 3420,0 237 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 238
+GRAPHIC 3452,0 238 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -621,31 +608,31 @@ GRAPHIC 3420,0 239 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 240
+GRAPHIC 3482,0 240 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3491,0 241 0
+GRAPHIC 3211,0 241 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3534,0 242 0
+NO_GRAPHIC 242
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3491,0 243 0
+GRAPHIC 3420,0 243 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3574,0 244 0
+NO_GRAPHIC 244
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3508,0 245 0
+GRAPHIC 3491,0 245 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 246
+GRAPHIC 3534,0 246 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -653,7 +640,7 @@ GRAPHIC 3491,0 247 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 248
+GRAPHIC 3574,0 248 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -661,23 +648,23 @@ GRAPHIC 3508,0 249 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3554,0 250 0
+NO_GRAPHIC 250
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3508,0 251 0
+GRAPHIC 3491,0 251 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2494,0 252 0
+NO_GRAPHIC 252
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2468,0 253 0
+GRAPHIC 3508,0 253 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 254
+GRAPHIC 3554,0 254 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -685,23 +672,23 @@ GRAPHIC 3508,0 255 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 256
+GRAPHIC 2494,0 256 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4545,0 257 0
+GRAPHIC 2468,0 257 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4605,0 258 0
+NO_GRAPHIC 258
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4653,0 259 0
+GRAPHIC 3508,0 259 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 5367,0 260 0
+NO_GRAPHIC 260
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -709,27 +696,27 @@ GRAPHIC 4545,0 261 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 262
+GRAPHIC 4605,0 262 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4545,0 263 0
+GRAPHIC 4653,0 263 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 264
+GRAPHIC 5367,0 264 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4653,0 265 0
+GRAPHIC 4545,0 265 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4702,0 266 0
+NO_GRAPHIC 266
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4670,0 267 0
+GRAPHIC 4545,0 267 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -741,7 +728,7 @@ GRAPHIC 4653,0 269 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 270
+GRAPHIC 4702,0 270 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -749,23 +736,23 @@ GRAPHIC 4670,0 271 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4692,0 272 0
+NO_GRAPHIC 272
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4670,0 273 0
+GRAPHIC 4653,0 273 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 5113,0 274 0
+NO_GRAPHIC 274
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 5091,0 275 0
+GRAPHIC 4670,0 275 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 276
+GRAPHIC 4692,0 276 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -773,7 +760,7 @@ GRAPHIC 4670,0 277 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 278
+GRAPHIC 5113,0 278 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -781,35 +768,43 @@ GRAPHIC 5091,0 279 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 43,0 280 0
+NO_GRAPHIC 280
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 5277,0 281 0
+GRAPHIC 4670,0 281 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3403,0 282 0
+NO_GRAPHIC 282
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 93,0 283 0
+GRAPHIC 5091,0 283 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 285
+GRAPHIC 43,0 284 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2,0 286 0
+GRAPHIC 5277,0 285 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 287
+GRAPHIC 3472,0 286 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2,0 289 0
+GRAPHIC 3403,0 287 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 5575,0 288 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 5500,0 289 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
@@ -817,200 +812,320 @@ NO_GRAPHIC 290
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2,0 296 0
+GRAPHIC 5277,0 291 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 43,0 297 0
+NO_GRAPHIC 292
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 58,0 298 0
+GRAPHIC 5500,0 293 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 633,0 305 0
+GRAPHIC 5585,0 294 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 648,0 306 0
+GRAPHIC 5500,0 295 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 687,0 313 0
+GRAPHIC 5595,0 296 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 702,0 314 0
+GRAPHIC 5553,0 297 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4437,0 321 0
+NO_GRAPHIC 298
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4452,0 322 0
+GRAPHIC 5500,0 299 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2303,0 329 0
+NO_GRAPHIC 300
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2318,0 330 0
+GRAPHIC 5553,0 301 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2377,0 337 0
+GRAPHIC 5605,0 302 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2392,0 338 0
+GRAPHIC 5553,0 303 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2468,0 345 0
+GRAPHIC 3472,0 304 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2483,0 346 0
+GRAPHIC 3403,0 305 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2542,0 353 0
+GRAPHIC 5575,0 306 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2557,0 354 0
+GRAPHIC 5500,0 307 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3976,0 361 0
+NO_GRAPHIC 308
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3991,0 362 0
+GRAPHIC 5553,0 309 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3993,0 369 0
+NO_GRAPHIC 310
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4008,0 370 0
+GRAPHIC 93,0 311 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3194,0 377 0
+NO_GRAPHIC 313
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3209,0 378 0
+GRAPHIC 2,0 314 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3211,0 385 0
+NO_GRAPHIC 315
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3226,0 386 0
+GRAPHIC 2,0 317 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3245,0 393 0
+NO_GRAPHIC 318
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3260,0 394 0
+GRAPHIC 2,0 324 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3262,0 401 0
+GRAPHIC 43,0 325 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3277,0 402 0
+GRAPHIC 58,0 326 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3403,0 409 0
+GRAPHIC 633,0 333 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3418,0 410 0
+GRAPHIC 648,0 334 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3420,0 417 0
+GRAPHIC 687,0 341 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3435,0 418 0
+GRAPHIC 702,0 342 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3491,0 425 0
+GRAPHIC 4437,0 349 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3506,0 426 0
+GRAPHIC 4452,0 350 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3508,0 433 0
+GRAPHIC 2303,0 357 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 3523,0 434 0
+GRAPHIC 2318,0 358 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4545,0 441 0
+GRAPHIC 2377,0 365 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4560,0 442 0
+GRAPHIC 2392,0 366 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4653,0 449 0
+GRAPHIC 2468,0 373 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4668,0 450 0
+GRAPHIC 2483,0 374 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4670,0 457 0
+GRAPHIC 2542,0 381 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 4685,0 458 0
+GRAPHIC 2557,0 382 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 5091,0 465 0
+GRAPHIC 3976,0 389 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 5106,0 466 0
+GRAPHIC 3991,0 390 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 5277,0 473 0
+GRAPHIC 3993,0 397 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 5292,0 474 0
+GRAPHIC 4008,0 398 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 481
+GRAPHIC 3194,0 405 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-GRAPHIC 2,0 483 0
+GRAPHIC 3209,0 406 0
 LIBRARY Wasmachine
 DESIGN @wassen
 VIEW @wassen.sm
-NO_GRAPHIC 485
+GRAPHIC 3211,0 413 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 3226,0 414 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 3245,0 421 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 3260,0 422 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 3262,0 429 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 3277,0 430 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 3403,0 437 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 3418,0 438 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 3420,0 445 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 3435,0 446 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 3491,0 453 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 3506,0 454 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 3508,0 461 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 3523,0 462 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 4545,0 469 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 4560,0 470 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 4653,0 477 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 4668,0 478 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 4670,0 485 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 4685,0 486 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 5091,0 493 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 5106,0 494 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 5277,0 501 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 5292,0 502 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 5500,0 509 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 5515,0 510 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 5553,0 517 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 5568,0 518 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+NO_GRAPHIC 525
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+GRAPHIC 2,0 527 0
+LIBRARY Wasmachine
+DESIGN @wassen
+VIEW @wassen.sm
+NO_GRAPHIC 529

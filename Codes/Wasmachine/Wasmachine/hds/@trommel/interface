@@ -68,6 +68,7 @@ n "aan_uit"
 t "std_logic"
 o 1
 suid 44,0
+i "'0'"
 )
 )
 uid 772,0
@@ -511,19 +512,19 @@ value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Tromm
 )
 (vvPair
 variable "date"
-value "05/03/2025"
+value "11/03/2025"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Tue"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Tuesday"
 )
 (vvPair
 variable "dd"
-value "05"
+value "11"
 )
 (vvPair
 variable "entity_name"
@@ -551,7 +552,7 @@ value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value "05/03/2025"
+value "11/03/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -563,7 +564,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "23:03:54"
+value "11:15:30"
 )
 (vvPair
 variable "group"
@@ -591,7 +592,7 @@ value "$HDS_PROJECT_DIR/Wasmachine/questasim"
 )
 (vvPair
 variable "library_downstream_QuestaSimSimulator"
-value "$HDS_PROJECT_DIR\\Wasmachine\\sim"
+value "$HDS_PROJECT_DIR/Wasmachine/sim"
 )
 (vvPair
 variable "mm"
@@ -671,7 +672,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "23:03:54"
+value "11:15:30"
 )
 (vvPair
 variable "unit"
@@ -737,8 +738,8 @@ uid 741,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,2000,65000,2800"
-st "aan_uit           : IN     std_logic  ;
+xt "44000,2000,78500,2800"
+st "aan_uit           : IN     std_logic                     := '0' ;
 "
 )
 thePort (LogicalPort
@@ -748,6 +749,7 @@ n "aan_uit"
 t "std_logic"
 o 1
 suid 44,0
+i "'0'"
 )
 )
 )
@@ -1735,6 +1737,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 831,0
+lastUid 900,0
 activeModelName "Symbol:CDM"
 )
