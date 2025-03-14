@@ -91,7 +91,7 @@ NO_GRAPHIC 56
 LIBRARY Wasmachine
 DESIGN wasmachien_block
 VIEW struct
-GRAPHIC 89,0 58 0 
+GRAPHIC 911,0 58 0 
 DESIGN wasmachien_block
 VIEW symbol.sb
 GRAPHIC 709,0 60 0 
@@ -133,170 +133,158 @@ VIEW symbol.sb
 GRAPHIC 854,0 72 0 
 DESIGN wasmachien_block
 VIEW symbol.sb
-GRAPHIC 1062,0 73 0 
+GRAPHIC 1072,0 73 0 
 DESIGN wasmachien_block
 VIEW symbol.sb
-GRAPHIC 1072,0 74 0 
+GRAPHIC 1077,0 74 0 
 DESIGN wasmachien_block
 VIEW symbol.sb
-GRAPHIC 1077,0 75 0 
+GRAPHIC 864,0 75 0 
 DESIGN wasmachien_block
 VIEW symbol.sb
-GRAPHIC 1067,0 76 0 
+GRAPHIC 859,0 76 0 
 DESIGN wasmachien_block
 VIEW symbol.sb
-GRAPHIC 864,0 77 0 
-DESIGN wasmachien_block
-VIEW symbol.sb
-GRAPHIC 859,0 78 0 
-DESIGN wasmachien_block
-VIEW symbol.sb
-GRAPHIC 768,0 79 0 
+GRAPHIC 768,0 77 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 259,0 82 0 
+GRAPHIC 259,0 80 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 413,0 84 0 
+GRAPHIC 413,0 82 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 389,0 85 0 
+GRAPHIC 389,0 83 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 309,0 86 0 
+GRAPHIC 309,0 84 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 317,0 87 0 
+GRAPHIC 317,0 85 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 325,0 88 0 
+GRAPHIC 325,0 86 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 301,0 89 0 
+GRAPHIC 301,0 87 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 269,0 90 0 
+GRAPHIC 269,0 88 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 349,0 91 0 
+GRAPHIC 349,0 89 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 421,0 92 0 
+GRAPHIC 421,0 90 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 285,0 93 0 
+GRAPHIC 285,0 91 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 373,0 94 0 
+GRAPHIC 373,0 92 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 381,0 95 0 
+GRAPHIC 381,0 93 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 333,0 96 0 
+GRAPHIC 333,0 94 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 365,0 97 0 
+GRAPHIC 365,0 95 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 397,0 98 0 
+GRAPHIC 397,0 96 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 277,0 99 0 
+GRAPHIC 277,0 97 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 341,0 100 0 
+GRAPHIC 341,0 98 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 293,0 101 0 
+GRAPHIC 293,0 99 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 405,0 102 0 
+GRAPHIC 405,0 100 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 357,0 103 0 
+GRAPHIC 357,0 101 0 
 LIBRARY Wasmachine
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-NO_GRAPHIC 106
+NO_GRAPHIC 104
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 89,0 109 0 
+GRAPHIC 911,0 107 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 259,0 110 0 
+GRAPHIC 259,0 108 0 
+DESIGN wasmachien_block_tb
+VIEW struct.bd
+NO_GRAPHIC 111
 DESIGN wasmachien_block_tb
 VIEW struct.bd
 NO_GRAPHIC 113
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-NO_GRAPHIC 115
+GRAPHIC 911,0 115 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 89,0 117 0 
+GRAPHIC 181,0 117 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 181,0 119 0 
+GRAPHIC 189,0 118 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 189,0 120 0 
+GRAPHIC 229,0 119 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 229,0 121 0 
+GRAPHIC 205,0 120 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 205,0 122 0 
+GRAPHIC 253,0 121 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 253,0 123 0 
+GRAPHIC 197,0 122 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 197,0 124 0 
+GRAPHIC 173,0 123 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 173,0 125 0 
+GRAPHIC 221,0 124 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 221,0 126 0 
+GRAPHIC 213,0 125 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 213,0 127 0 
+GRAPHIC 245,0 126 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 245,0 128 0 
+GRAPHIC 237,0 127 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 237,0 129 0 
+GRAPHIC 165,0 128 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 165,0 130 0 
+GRAPHIC 109,0 129 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 109,0 131 0 
+GRAPHIC 149,0 130 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 133,0 132 0 
+GRAPHIC 157,0 131 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 149,0 133 0 
+GRAPHIC 125,0 132 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 157,0 134 0 
+GRAPHIC 117,0 133 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 141,0 135 0 
+GRAPHIC 101,0 134 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 125,0 136 0 
+GRAPHIC 259,0 136 0 
 DESIGN wasmachien_block_tb
 VIEW struct.bd
-GRAPHIC 117,0 137 0 
-DESIGN wasmachien_block_tb
-VIEW struct.bd
-GRAPHIC 101,0 138 0 
-DESIGN wasmachien_block_tb
-VIEW struct.bd
-GRAPHIC 259,0 140 0 
-DESIGN wasmachien_block_tb
-VIEW struct.bd
-NO_GRAPHIC 164
+NO_GRAPHIC 160

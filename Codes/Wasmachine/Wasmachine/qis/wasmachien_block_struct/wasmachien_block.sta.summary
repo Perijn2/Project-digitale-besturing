@@ -1,0 +1,29 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'clk'
+Slack : -8.891
+TNS   : -210.435
+
+Type  : Setup 'centrifugeerkeuze[0]'
+Slack : -2.487
+TNS   : -2.487
+
+Type  : Hold 'centrifugeerkeuze[0]'
+Slack : 0.333
+TNS   : 0.000
+
+Type  : Hold 'clk'
+Slack : 1.541
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'centrifugeerkeuze[0]'
+Slack : -2.289
+TNS   : -2.289
+
+Type  : Minimum Pulse Width 'clk'
+Slack : -2.289
+TNS   : -2.289
+
+------------------------------------------------------------

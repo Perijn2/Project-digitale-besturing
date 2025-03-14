@@ -1,0 +1,84 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 14:57:29  March 10, 2025
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		wasmachien_block_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "max ii"
+set_global_assignment -name DEVICE epm1270f256c5es
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:57:29  MARCH 10, 2025"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name FMAX_REQUIREMENT "0.1 MHz"
+set_global_assignment -name TOP_LEVEL_ENTITY wasmachien_block
+set_global_assignment -name VHDL_FILE "C:/Project-digitale-besturing/Codes/Wasmachine/Wasmachine/hdl/master_master.vhd"
+set_global_assignment -name VHDL_FILE "C:/Project-digitale-besturing/Codes/Wasmachine/Wasmachine/hdl/trommel_trommel.vhd"
+set_global_assignment -name VHDL_FILE "C:/Project-digitale-besturing/Codes/Wasmachine/Wasmachine/hdl/wassen_wassen.vhd"
+set_global_assignment -name VHDL_FILE "C:/Project-digitale-besturing/Codes/Wasmachine/Wasmachine/hdl/verwarming_verwarming.vhd"
+set_global_assignment -name VHDL_FILE "C:/Project-digitale-besturing/Codes/Wasmachine/Wasmachine/hdl/afpompen_afpompen.vhd"
+set_global_assignment -name VHDL_FILE "C:/Project-digitale-besturing/Codes/Wasmachine/Wasmachine/hdl/toevoer_toevoer.vhd"
+set_global_assignment -name VHDL_FILE "C:/Project-digitale-besturing/Codes/Wasmachine/Wasmachine/hdl/wasmachien_block_struct.vhd"
+set_global_assignment -name VHDL_FILE ../../hdl/master_master.vhd
+set_global_assignment -name VHDL_FILE ../../hdl/trommel_trommel.vhd
+set_global_assignment -name VHDL_FILE ../../hdl/wassen_wassen.vhd
+set_global_assignment -name VHDL_FILE ../../hdl/verwarming_verwarming.vhd
+set_global_assignment -name VHDL_FILE ../../hdl/afpompen_afpompen.vhd
+set_global_assignment -name VHDL_FILE ../../hdl/toevoer_toevoer.vhd
+set_global_assignment -name VHDL_FILE ../../hdl/wasmachien_block_struct.vhd
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_H3 -to aan_uit
+set_location_assignment PIN_L1 -to centrifugeerkeuze[1]
+set_location_assignment PIN_K3 -to centrifugeerkeuze[0]
+set_location_assignment PIN_J5 -to clk
+set_location_assignment PIN_J2 -to deur_dicht
+set_location_assignment PIN_E1 -to deur_grendel
+set_location_assignment PIN_F3 -to klep_open
+set_location_assignment PIN_J3 -to kuip_leeg
+set_location_assignment PIN_G3 -to led_start
+set_location_assignment PIN_F4 -to led_status[2]
+set_location_assignment PIN_G1 -to led_status[1]
+set_location_assignment PIN_F2 -to led_status[0]
+set_location_assignment PIN_E4 -to motor[2]
+set_location_assignment PIN_F1 -to motor[1]
+set_location_assignment PIN_E2 -to motor[0]
+set_location_assignment PIN_E3 -to pomp_aan
+set_location_assignment PIN_K4 -to programmakeuze[1]
+set_location_assignment PIN_K2 -to programmakeuze[0]
+set_location_assignment PIN_K1 -to start
+set_location_assignment PIN_M1 -to t_hoog
+set_location_assignment PIN_L2 -to t_laag
+set_location_assignment PIN_D3 -to verwarmen
+set_location_assignment PIN_M3 -to w_hoog
+set_location_assignment PIN_M2 -to w_laag

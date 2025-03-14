@@ -74,19 +74,19 @@ value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Toevo
 )
 (vvPair
 variable "date"
-value "05/03/2025"
+value "10/03/2025"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Mon"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Monday"
 )
 (vvPair
 variable "dd"
-value "05"
+value "10"
 )
 (vvPair
 variable "entity_name"
@@ -114,7 +114,7 @@ value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value "05/03/2025"
+value "10/03/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -126,7 +126,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "23:03:37"
+value "17:56:29"
 )
 (vvPair
 variable "group"
@@ -149,12 +149,28 @@ variable "library_downstream_HdsLintPlugin"
 value "$HDS_PROJECT_DIR/Wasmachine/designcheck"
 )
 (vvPair
+variable "library_downstream_PrecisionSynthesisDataPrep"
+value "$HDS_PROJECT_DIR/Wasmachine/ps"
+)
+(vvPair
+variable "library_downstream_QISDataPrep"
+value "$HDS_PROJECT_DIR/Wasmachine/qis"
+)
+(vvPair
+variable "library_downstream_QISPARInvoke"
+value "$HDS_PROJECT_DIR/Wasmachine/qis"
+)
+(vvPair
+variable "library_downstream_QISPGMInvoke"
+value "$HDS_PROJECT_DIR/Wasmachine/qis"
+)
+(vvPair
 variable "library_downstream_QuestaSimCompiler"
 value "$HDS_PROJECT_DIR/Wasmachine/questasim"
 )
 (vvPair
 variable "library_downstream_QuestaSimSimulator"
-value "$HDS_PROJECT_DIR\\Wasmachine\\sim"
+value "$HDS_PROJECT_DIR/Wasmachine/sim"
 )
 (vvPair
 variable "mm"
@@ -234,7 +250,7 @@ value "Toevoer"
 )
 (vvPair
 variable "time"
-value "23:03:37"
+value "17:56:29"
 )
 (vvPair
 variable "unit"
@@ -334,7 +350,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "47200,10420,55800,11620"
+xt "47200,9920,55800,12120"
 )
 autoResize 1
 tline (Line
@@ -345,10 +361,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "47300,10320,55700,10320"
+xt "47300,9820,55700,9820"
 pts [
-"47300,10320"
-"55700,10320"
+"47300,9820"
+"55700,9820"
 ]
 )
 bline (Line
@@ -359,10 +375,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "47300,9670,55700,9670"
+xt "47300,9920,55700,9920"
 pts [
-"47300,9670"
-"55700,9670"
+"47300,9920"
+"55700,9920"
 ]
 )
 ttri (Triangle
@@ -376,7 +392,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "46850,9945,47200,10295"
+xt "46850,9445,47200,9795"
 )
 btri (Triangle
 uid 56,0
@@ -396,7 +412,7 @@ uid 57,0
 va (VaSet
 font "arial,8,0"
 )
-xt "47300,10120,47300,10120"
+xt "47300,9620,47300,9620"
 tm "Actions"
 )
 inActions (MLText
@@ -404,8 +420,9 @@ uid 58,0
 va (VaSet
 font "arial,8,0"
 )
-xt "47300,10520,55700,11520"
-st "toevoer_ready <= '1';"
+xt "47300,10020,55700,12020"
+st "toevoer_ready <= '1';
+klep_open <= '0' ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -1946,7 +1963,7 @@ tm "SmCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,1537,864"
-viewArea "-3600,-6800,94575,46300"
+viewArea "-3600,-6800,94575,48400"
 cachedDiagramExtent "0,-1000,73000,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
@@ -2325,7 +2342,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 413,0
+lastUid 442,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *58 (LEmptyRow
@@ -3703,6 +3720,6 @@ pts [
 ]
 )
 )
-activeModelName "StateMachine:CDM"
+activeModelName "StateMachine"
 LanguageMgr "Vhdl93LangMgr"
 )
