@@ -136,7 +136,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "12:38:51"
+value "12:40:07"
 )
 (vvPair
 variable "group"
@@ -260,7 +260,7 @@ value "Trommel"
 )
 (vvPair
 variable "time"
-value "12:38:51"
+value "12:40:07"
 )
 (vvPair
 variable "unit"
@@ -2810,8 +2810,7 @@ arrow 1
 start &34
 end &37
 es 0
-cond "centrifugeerkeuze = \"01\" AND
-Richting = '0'"
+cond "centrifugeerkeuze = \"01\""
 timeout 1
 tb (TransitionBlock
 uid 1532,0
@@ -2825,7 +2824,7 @@ bg "0,0,0"
 lineColor "0,32768,49152"
 lineWidth 2
 )
-xt "50082,36567,68882,39567"
+xt "50082,36567,66882,38567"
 )
 autoResize 1
 lineShape (Line
@@ -2845,9 +2844,8 @@ uid 1535,0
 va (VaSet
 font "arial,8,0"
 )
-xt "50582,37067,68382,39067"
-st "TIMEOUT AND (centrifugeerkeuze = \"01\" AND
-Richting = '0')"
+xt "50582,37067,66382,38067"
+st "TIMEOUT AND (centrifugeerkeuze = \"01\")"
 tm "Condition"
 )
 actions (MLText
@@ -2855,7 +2853,7 @@ uid 1536,0
 va (VaSet
 font "arial,8,0"
 )
-xt "59482,39467,59482,39467"
+xt "58482,38467,58482,38467"
 tm "Actions"
 )
 )
@@ -2903,8 +2901,7 @@ arrow 1
 start &34
 end &35
 es 0
-cond "centrifugeerkeuze = \"10\" AND
-Richting = '0'"
+cond "centrifugeerkeuze = \"10\""
 timeout 1
 tb (TransitionBlock
 uid 1559,0
@@ -2918,7 +2915,7 @@ bg "0,0,0"
 lineColor "0,32768,49152"
 lineWidth 2
 )
-xt "68299,33270,87099,36270"
+xt "68299,33270,85099,35270"
 )
 autoResize 1
 lineShape (Line
@@ -2938,9 +2935,8 @@ uid 1562,0
 va (VaSet
 font "arial,8,0"
 )
-xt "68799,33770,86599,35770"
-st "TIMEOUT AND (centrifugeerkeuze = \"10\" AND
-Richting = '0')"
+xt "68799,33770,84599,34770"
+st "TIMEOUT AND (centrifugeerkeuze = \"10\")"
 tm "Condition"
 )
 actions (MLText
@@ -2948,7 +2944,7 @@ uid 1563,0
 va (VaSet
 font "arial,8,0"
 )
-xt "77699,36170,77699,36170"
+xt "76699,35170,76699,35170"
 tm "Actions"
 )
 )
@@ -3537,7 +3533,7 @@ color "26368,26368,26368"
 )
 packageList &0
 windowSize "0,0,1537,864"
-viewArea "13200,-11788,112684,44148"
+viewArea "27944,6820,127428,62756"
 cachedDiagramExtent "45389,-10445,123345,102155"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -4414,9 +4410,9 @@ va (VaSet
 fg "0,0,32768"
 font "arial,10,1"
 )
-xt "32636,18263,36236,19463"
+xt "32768,18263,36368,19463"
 st "wait 5"
-blo "32636,19263"
+blo "32768,19263"
 tm "SmWaitText"
 )
 )
@@ -4444,7 +4440,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "19788,15063,30188,19263"
+xt "19788,15563,30188,18763"
 )
 autoResize 1
 tline (Line
@@ -4455,10 +4451,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "19888,14963,30088,14963"
+xt "19888,15463,30088,15463"
 pts [
-"19888,14963"
-"30088,14963"
+"19888,15463"
+"30088,15463"
 ]
 )
 bline (Line
@@ -4469,10 +4465,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "19888,16563,30088,16563"
+xt "19888,16313,30088,16313"
 pts [
-"19888,16563"
-"30088,16563"
+"19888,16313"
+"30088,16313"
 ]
 )
 ttri (Triangle
@@ -4486,7 +4482,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "19438,14588,19788,14938"
+xt "19438,15088,19788,15438"
 )
 btri (Triangle
 uid 2535,0
@@ -4506,7 +4502,7 @@ uid 2536,0
 va (VaSet
 font "arial,8,0"
 )
-xt "19888,14763,19888,14763"
+xt "19888,15263,19888,15263"
 tm "Actions"
 )
 inActions (MLText
@@ -4514,10 +4510,9 @@ uid 2537,0
 va (VaSet
 font "arial,8,0"
 )
-xt "19888,15163,30088,19163"
+xt "19888,15663,30088,18663"
 st "motor <= \"000\";
 trommel_ready <=  '0' ;
-Richting <= Richting ;
 Revoluties <= Revoluties ;"
 tm "Actions"
 )
@@ -5095,7 +5090,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "19730,34803,30130,39003"
+xt "19730,35303,30130,38503"
 )
 autoResize 1
 tline (Line
@@ -5106,10 +5101,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "19830,34703,30030,34703"
+xt "19830,35203,30030,35203"
 pts [
-"19830,34703"
-"30030,34703"
+"19830,35203"
+"30030,35203"
 ]
 )
 bline (Line
@@ -5120,10 +5115,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "19830,36303,30030,36303"
+xt "19830,36053,30030,36053"
 pts [
-"19830,36303"
-"30030,36303"
+"19830,36053"
+"30030,36053"
 ]
 )
 ttri (Triangle
@@ -5137,7 +5132,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "19380,34328,19730,34678"
+xt "19380,34828,19730,35178"
 )
 btri (Triangle
 uid 3523,0
@@ -5157,7 +5152,7 @@ uid 3524,0
 va (VaSet
 font "arial,8,0"
 )
-xt "19830,34503,19830,34503"
+xt "19830,35003,19830,35003"
 tm "Actions"
 )
 inActions (MLText
@@ -5165,10 +5160,9 @@ uid 3525,0
 va (VaSet
 font "arial,8,0"
 )
-xt "19830,34903,30030,38903"
+xt "19830,35403,30030,38403"
 st "motor <= \"000\";
 trommel_ready <=  '0' ;
-Richting <= Richting ;
 Revoluties <= Revoluties ;"
 tm "Actions"
 )
@@ -5941,7 +5935,7 @@ color "26368,26368,26368"
 )
 packageList &0
 windowSize "0,0,1537,864"
-viewArea "-13300,-433,90111,57711"
+viewArea "-24947,8821,74838,64927"
 cachedDiagramExtent "7372,2548,74798,63800"
 hasePageBreakOrigin 1
 pageBreakOrigin "-1000,1000"
@@ -7275,7 +7269,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 3556,0
+lastUid 3643,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *120 (LEmptyRow
