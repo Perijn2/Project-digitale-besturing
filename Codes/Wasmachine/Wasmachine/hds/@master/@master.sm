@@ -79,19 +79,19 @@ value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Maste
 )
 (vvPair
 variable "date"
-value "11/03/2025"
+value "17/03/2025"
 )
 (vvPair
 variable "day"
-value "Tue"
+value "Mon"
 )
 (vvPair
 variable "day_long"
-value "Tuesday"
+value "Monday"
 )
 (vvPair
 variable "dd"
-value "11"
+value "17"
 )
 (vvPair
 variable "entity_name"
@@ -119,7 +119,7 @@ value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value "11/03/2025"
+value "17/03/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -131,7 +131,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:33:50"
+value "12:34:33"
 )
 (vvPair
 variable "group"
@@ -255,7 +255,7 @@ value "Master"
 )
 (vvPair
 variable "time"
-value "15:33:50"
+value "12:34:33"
 )
 (vvPair
 variable "unit"
@@ -355,7 +355,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "42083,853,50483,5053"
+xt "42599,2677,52399,6877"
 )
 autoResize 1
 tline (Line
@@ -366,10 +366,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "42183,753,50383,753"
+xt "42699,2577,52299,2577"
 pts [
-"42183,753"
-"50383,753"
+"42699,2577"
+"52299,2577"
 ]
 )
 bline (Line
@@ -380,10 +380,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "42183,2353,50383,2353"
+xt "42699,4177,52299,4177"
 pts [
-"42183,2353"
-"50383,2353"
+"42699,4177"
+"52299,4177"
 ]
 )
 ttri (Triangle
@@ -397,7 +397,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "41733,378,42083,728"
+xt "42249,2202,42599,2552"
 )
 btri (Triangle
 uid 56,0
@@ -410,14 +410,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "41733,-422,42083,-72"
+xt "42249,1402,42599,1752"
 )
 entryActions (MLText
 uid 57,0
 va (VaSet
 font "arial,8,0"
 )
-xt "42183,553,42183,553"
+xt "42699,2377,42699,2377"
 tm "Actions"
 )
 inActions (MLText
@@ -425,8 +425,8 @@ uid 58,0
 va (VaSet
 font "arial,8,0"
 )
-xt "42183,953,50383,4953"
-st "deur_grendel <= '0';
+xt "42699,2777,52299,6777"
+st "deur_grendel <= w_laag;
 led_start <= '0' ;
 led_status <= \"000\"; 
 go_wassen <= '0' ;"
@@ -437,7 +437,7 @@ uid 59,0
 va (VaSet
 font "arial,8,0"
 )
-xt "42283,-247,42283,-247"
+xt "43499,1577,43499,1577"
 tm "Actions"
 )
 )
@@ -4767,8 +4767,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,1537,830"
-viewArea "8300,-1900,107784,49324"
+windowSize "0,34,1537,864"
+viewArea "8300,-1900,107784,51452"
 cachedDiagramExtent "0,-11800,75232,74360"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-51000"
@@ -5155,7 +5155,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 1586,0
+lastUid 1615,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *94 (LEmptyRow
@@ -6640,6 +6640,6 @@ pts [
 ]
 )
 )
-activeModelName "StateMachine:CDM"
+activeModelName "StateMachine"
 LanguageMgr "Vhdl93LangMgr"
 )
