@@ -84,19 +84,19 @@ value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Tromm
 )
 (vvPair
 variable "date"
-value "17/03/2025"
+value "21/03/2025"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "17"
+value "21"
 )
 (vvPair
 variable "entity_name"
@@ -124,7 +124,7 @@ value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value "17/03/2025"
+value "21/03/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -136,7 +136,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "12:40:07"
+value "11:56:07"
 )
 (vvPair
 variable "group"
@@ -260,7 +260,7 @@ value "Trommel"
 )
 (vvPair
 variable "time"
-value "12:40:07"
+value "11:56:07"
 )
 (vvPair
 variable "unit"
@@ -1565,7 +1565,7 @@ fg "0,0,32768"
 font "arial,10,1"
 )
 xt "57581,9035,61181,10235"
-st "wait 2"
+st "wait 3"
 blo "57581,10035"
 tm "SmWaitText"
 )
@@ -1728,7 +1728,7 @@ fg "0,0,32768"
 font "arial,10,1"
 )
 xt "57601,26887,61201,28087"
-st "wait 2"
+st "wait 3"
 blo "57601,27887"
 tm "SmWaitText"
 )
@@ -2381,7 +2381,7 @@ fg "0,0,32768"
 font "arial,10,1"
 )
 xt "78359,56247,81959,57447"
-st "wait 2"
+st "wait 3"
 blo "78359,57247"
 tm "SmWaitText"
 )
@@ -2544,7 +2544,7 @@ fg "0,0,32768"
 font "arial,10,1"
 )
 xt "58599,55107,62199,56307"
-st "wait 2"
+st "wait 3"
 blo "58599,56107"
 tm "SmWaitText"
 )
@@ -3533,7 +3533,7 @@ color "26368,26368,26368"
 )
 packageList &0
 windowSize "0,0,1537,864"
-viewArea "27944,6820,127428,62756"
+viewArea "27900,-3992,127384,51944"
 cachedDiagramExtent "45389,-10445,123345,102155"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -4411,7 +4411,7 @@ fg "0,0,32768"
 font "arial,10,1"
 )
 xt "32768,18263,36368,19463"
-st "wait 5"
+st "wait 2"
 blo "32768,19263"
 tm "SmWaitText"
 )
@@ -5061,7 +5061,7 @@ fg "0,0,32768"
 font "arial,10,1"
 )
 xt "32710,38003,36310,39203"
-st "wait 5"
+st "wait 2"
 blo "32710,39003"
 tm "SmWaitText"
 )
@@ -5389,7 +5389,7 @@ arrow 1
 start &67
 end &70
 es 0
-cond "Revoluties >= 5"
+cond "Revoluties >= 3"
 timeout 1
 tb (TransitionBlock
 uid 2768,0
@@ -5424,7 +5424,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "42048,18043,54948,19043"
-st "TIMEOUT AND (Revoluties >= 5)"
+st "TIMEOUT AND (Revoluties >= 3)"
 tm "Condition"
 )
 actions (MLText
@@ -5935,7 +5935,7 @@ color "26368,26368,26368"
 )
 packageList &0
 windowSize "0,0,1537,864"
-viewArea "-24947,8821,74838,64927"
+viewArea "-24900,-1800,74584,54136"
 cachedDiagramExtent "7372,2548,74798,63800"
 hasePageBreakOrigin 1
 pageBreakOrigin "-1000,1000"
@@ -7269,7 +7269,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 3643,0
+lastUid 3730,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *120 (LEmptyRow
@@ -8671,6 +8671,6 @@ pts [
 ]
 )
 )
-activeModelName "csm/s2"
+activeModelName "StateMachine"
 LanguageMgr "Vhdl93LangMgr"
 )
