@@ -74,19 +74,19 @@ value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Verwa
 )
 (vvPair
 variable "date"
-value "05/03/2025"
+value "17/03/2025"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Mon"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Monday"
 )
 (vvPair
 variable "dd"
-value "05"
+value "17"
 )
 (vvPair
 variable "entity_name"
@@ -114,7 +114,7 @@ value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value "05/03/2025"
+value "17/03/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -126,7 +126,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "23:03:25"
+value "12:35:01"
 )
 (vvPair
 variable "group"
@@ -154,7 +154,7 @@ value "$HDS_PROJECT_DIR/Wasmachine/questasim"
 )
 (vvPair
 variable "library_downstream_QuestaSimSimulator"
-value "$HDS_PROJECT_DIR\\Wasmachine\\sim"
+value "$HDS_PROJECT_DIR/Wasmachine/sim"
 )
 (vvPair
 variable "mm"
@@ -234,7 +234,7 @@ value "Verwarming"
 )
 (vvPair
 variable "time"
-value "23:03:25"
+value "12:35:01"
 )
 (vvPair
 variable "unit"
@@ -1485,7 +1485,7 @@ arrow 1
 )
 start &2
 end &19
-cond "go_verwarmen = '1' AND w_laag = '0'"
+cond "go_verwarmen = '1' AND w_laag = '1'"
 tb (TransitionBlock
 uid 323,0
 ps "CenterOffsetStrategy"
@@ -1518,7 +1518,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "30812,21760,45012,22760"
-st "go_verwarmen = '1' AND w_laag = '0'"
+st "go_verwarmen = '1' AND w_laag = '1'"
 tm "Condition"
 )
 actions (MLText
@@ -1577,7 +1577,7 @@ arrow 1
 start &2
 end &2
 es 0
-cond "go_verwarmen = '0' OR w_laag = '1'"
+cond "go_verwarmen = '0' OR w_laag = '0'"
 tb (TransitionBlock
 uid 333,0
 ps "CenterOffsetStrategy"
@@ -1610,7 +1610,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "36459,9021,50159,10021"
-st "go_verwarmen = '0' OR w_laag = '1'"
+st "go_verwarmen = '0' OR w_laag = '0'"
 tm "Condition"
 )
 actions (MLText
@@ -1669,7 +1669,7 @@ start &19
 end &2
 ss 0
 es 0
-cond "t_hoog = '1' OR w_laag = '1'"
+cond "t_hoog = '1' OR w_laag = '0'"
 tb (TransitionBlock
 uid 343,0
 ps "CenterOffsetStrategy"
@@ -1702,7 +1702,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "20290,24508,31090,25508"
-st "t_hoog = '1' OR w_laag = '1'"
+st "t_hoog = '1' OR w_laag = '0'"
 tm "Condition"
 )
 actions (MLText
@@ -1946,7 +1946,7 @@ tm "SmCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,1537,840"
-viewArea "17300,-1200,132492,58992"
+viewArea "17300,-1200,132492,61456"
 cachedDiagramExtent "0,-1000,73000,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
@@ -2325,7 +2325,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 418,0
+lastUid 447,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *58 (LEmptyRow
@@ -3720,6 +3720,6 @@ pts [
 ]
 )
 )
-activeModelName "StateMachine:CDM"
+activeModelName "StateMachine"
 LanguageMgr "Vhdl93LangMgr"
 )

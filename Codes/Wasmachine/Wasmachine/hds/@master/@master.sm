@@ -79,19 +79,19 @@ value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\Maste
 )
 (vvPair
 variable "date"
-value "11/03/2025"
+value "21/03/2025"
 )
 (vvPair
 variable "day"
-value "Tue"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Tuesday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "11"
+value "21"
 )
 (vvPair
 variable "entity_name"
@@ -119,7 +119,7 @@ value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value "11/03/2025"
+value "21/03/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -131,7 +131,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:33:50"
+value "11:54:55"
 )
 (vvPair
 variable "group"
@@ -255,7 +255,7 @@ value "Master"
 )
 (vvPair
 variable "time"
-value "15:33:50"
+value "11:54:55"
 )
 (vvPair
 variable "unit"
@@ -355,7 +355,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "42083,853,50483,5053"
+xt "42599,2677,52399,6877"
 )
 autoResize 1
 tline (Line
@@ -366,10 +366,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "42183,753,50383,753"
+xt "42699,2577,52299,2577"
 pts [
-"42183,753"
-"50383,753"
+"42699,2577"
+"52299,2577"
 ]
 )
 bline (Line
@@ -380,10 +380,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "42183,2353,50383,2353"
+xt "42699,4177,52299,4177"
 pts [
-"42183,2353"
-"50383,2353"
+"42699,4177"
+"52299,4177"
 ]
 )
 ttri (Triangle
@@ -397,7 +397,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "41733,378,42083,728"
+xt "42249,2202,42599,2552"
 )
 btri (Triangle
 uid 56,0
@@ -410,14 +410,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "41733,-422,42083,-72"
+xt "42249,1402,42599,1752"
 )
 entryActions (MLText
 uid 57,0
 va (VaSet
 font "arial,8,0"
 )
-xt "42183,553,42183,553"
+xt "42699,2377,42699,2377"
 tm "Actions"
 )
 inActions (MLText
@@ -425,8 +425,8 @@ uid 58,0
 va (VaSet
 font "arial,8,0"
 )
-xt "42183,953,50383,4953"
-st "deur_grendel <= '0';
+xt "42699,2777,52299,6777"
+st "deur_grendel <= w_laag;
 led_start <= '0' ;
 led_status <= \"000\"; 
 go_wassen <= '0' ;"
@@ -437,7 +437,7 @@ uid 59,0
 va (VaSet
 font "arial,8,0"
 )
-xt "42283,-247,42283,-247"
+xt "43499,1577,43499,1577"
 tm "Actions"
 )
 )
@@ -1284,7 +1284,7 @@ font "arial,8,0"
 xt "44328,23140,52528,27140"
 st "deur_grendel <= '1' ;
 led_start <= '1' ;
-led_status <= \"010\"; 
+led_status <= \"000\"; 
 go_wassen <= '0' ;"
 tm "Actions"
 )
@@ -2391,7 +2391,7 @@ fg "0,65535,65535"
 lineColor "0,32768,49152"
 lineWidth 2
 )
-xt "41256,10331,49744,18819"
+xt "46500,10407,54988,18895"
 radius 4244
 )
 name (Text
@@ -2399,10 +2399,10 @@ uid 1037,0
 va (VaSet
 font "arial,10,1"
 )
-xt "41900,13975,49100,15175"
+xt "47144,14051,54344,15251"
 st "s_spoelstop"
 ju 0
-blo "45500,14975"
+blo "50744,15051"
 tm "ONodeName"
 )
 wait (TextAssociate
@@ -2415,9 +2415,9 @@ isHidden 1
 fg "0,0,32768"
 font "arial,10,1"
 )
-xt "45600,14875,49200,16075"
+xt "50844,14951,54444,16151"
 st "wait 2"
-blo "45600,15875"
+blo "50844,15951"
 tm "SmWaitText"
 )
 )
@@ -2427,8 +2427,8 @@ va (VaSet
 isHidden 1
 font "arial,8,1"
 )
-xt "45500,15575,45500,15575"
-blo "45500,15575"
+xt "50744,15651,50744,15651"
+blo "50744,15651"
 tm "SmEncodingMgr"
 )
 actionBlk (SmStateActionsBlock
@@ -2438,12 +2438,14 @@ shape (Rectangle
 uid 1044,0
 va (VaSet
 vasetType 1
+transparent 1
 fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "39936,56832,65280"
-lineWidth 2
+lineWidth -1
+fillStyle 1
 )
-xt "47616,4214,56016,9814"
+xt "52860,4990,61260,9190"
 )
 autoResize 1
 tline (Line
@@ -2452,25 +2454,26 @@ va (VaSet
 vasetType 3
 isHidden 1
 lineColor "39936,56832,65280"
-lineWidth 2
+lineWidth -1
 )
-xt "47716,4114,55916,4114"
+xt "52960,4890,61160,4890"
 pts [
-"47716,4114"
-"55916,4114"
+"52960,4890"
+"61160,4890"
 ]
 )
 bline (Line
 uid 1046,0
 va (VaSet
 vasetType 3
+isHidden 1
 lineColor "39936,56832,65280"
-lineWidth 2
+lineWidth -1
 )
-xt "47716,8514,55916,8514"
+xt "52960,8940,61160,8940"
 pts [
-"47716,8514"
-"55916,8514"
+"52960,8940"
+"61160,8940"
 ]
 )
 ttri (Triangle
@@ -2484,26 +2487,27 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "47266,3739,47616,4089"
+xt "52510,4515,52860,4865"
 )
 btri (Triangle
 uid 1048,0
 ro 270
 va (VaSet
 vasetType 1
+isHidden 1
 fg "0,32768,49152"
 bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "47266,9039,47616,9389"
+xt "52510,9115,52860,9465"
 )
 entryActions (MLText
 uid 1049,0
 va (VaSet
 font "arial,8,0"
 )
-xt "47716,3914,47716,3914"
+xt "52960,4690,52960,4690"
 tm "Actions"
 )
 inActions (MLText
@@ -2511,7 +2515,7 @@ uid 1050,0
 va (VaSet
 font "arial,8,0"
 )
-xt "47716,4314,55916,8314"
+xt "52960,5090,61160,9090"
 st "led_status <= \"101\";
 deur_grendel <= '1' ;
 led_start <= '1' ;
@@ -2523,8 +2527,7 @@ uid 1051,0
 va (VaSet
 font "arial,8,0"
 )
-xt "47716,8714,54916,9714"
-st "go_wassen <= '1' ;"
+xt "52960,8790,60160,9790"
 tm "Actions"
 )
 )
@@ -2537,7 +2540,7 @@ va (VaSet
 isHidden 1
 font "arial,8,1"
 )
-xt "43900,15575,48900,16575"
+xt "49144,15651,54144,16651"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -2708,7 +2711,172 @@ tm "SmCaseExpr"
 )
 )
 )
-*41 (Transition
+*41 (State
+uid 1645,0
+shape (Circle
+uid 1646,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 2
+)
+xt "32600,7688,38600,13688"
+radius 3000
+)
+name (Text
+uid 1647,0
+va (VaSet
+font "arial,10,1"
+)
+xt "34700,10088,36500,11288"
+st "s1"
+ju 0
+blo "35600,11088"
+tm "ONodeName"
+)
+wait (TextAssociate
+uid 1648,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 1649,0
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "arial,10,1"
+)
+xt "35700,10988,39300,12188"
+st "wait 2"
+blo "35700,11988"
+tm "SmWaitText"
+)
+)
+encoding (Text
+uid 1650,0
+va (VaSet
+isHidden 1
+font "arial,8,1"
+)
+xt "35600,11688,35600,11688"
+blo "35600,11688"
+tm "SmEncodingMgr"
+)
+actionBlk (SmStateActionsBlock
+uid 1653,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 1654,0
+va (VaSet
+vasetType 1
+transparent 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "39936,56832,65280"
+lineWidth -1
+fillStyle 1
+)
+xt "32056,2896,40456,7096"
+)
+autoResize 1
+tline (Line
+uid 1655,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "32156,2796,40356,2796"
+pts [
+"32156,2796"
+"40356,2796"
+]
+)
+bline (Line
+uid 1656,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "32156,6846,40356,6846"
+pts [
+"32156,6846"
+"40356,6846"
+]
+)
+ttri (Triangle
+uid 1657,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "31706,2421,32056,2771"
+)
+btri (Triangle
+uid 1658,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "31706,7021,32056,7371"
+)
+entryActions (MLText
+uid 1659,0
+va (VaSet
+font "arial,8,0"
+)
+xt "32156,2596,32156,2596"
+tm "Actions"
+)
+inActions (MLText
+uid 1660,0
+va (VaSet
+font "arial,8,0"
+)
+xt "32156,2996,40356,6996"
+st "led_status <= \"101\";
+deur_grendel <= '1' ;
+led_start <= '1' ;
+go_wassen <= '1' ;"
+tm "Actions"
+)
+exitActions (MLText
+uid 1661,0
+va (VaSet
+font "arial,8,0"
+)
+xt "32156,6696,39156,7696"
+tm "Actions"
+)
+)
+caseExpr (TextAssociate
+uid 1651,0
+ps "CenterOffsetStrategy"
+text (MLText
+uid 1652,0
+va (VaSet
+isHidden 1
+font "arial,8,1"
+)
+xt "34000,11688,39000,12688"
+st "CASE: expr"
+tm "SmCaseExpr"
+)
+)
+)
+*42 (Transition
 uid 610,0
 shape (Spline
 uid 611,0
@@ -2800,7 +2968,7 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*42 (Transition
+*43 (Transition
 uid 729,0
 shape (Spline
 uid 730,0
@@ -2880,7 +3048,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "23682,23274,24482,24274"
-st "1"
+st "2"
 ju 0
 blo "24082,24074"
 tm "TransitionPriority"
@@ -2888,7 +3056,7 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*43 (Transition
+*44 (Transition
 uid 739,0
 shape (Spline
 uid 740,0
@@ -2977,7 +3145,7 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*44 (Transition
+*45 (Transition
 uid 749,0
 shape (Spline
 uid 750,0
@@ -3060,7 +3228,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "19041,22802,19841,23802"
-st "2"
+st "3"
 ju 0
 blo "19441,23602"
 tm "TransitionPriority"
@@ -3068,18 +3236,18 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*45 (Transition
+*46 (Transition
 uid 1052,0
 shape (Spline
 uid 1053,0
 va (VaSet
 vasetType 3
 )
-xt "27156,18685,44443,20133"
+xt "27156,18761,49687,20148"
 pts [
 "27156,20129"
-"35600,19975"
-"44443,18685"
+"38149,20011"
+"49687,18761"
 ]
 arrow 1
 )
@@ -3097,7 +3265,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "31050,18575,40950,20575"
+xt "33599,18611,43499,20611"
 )
 autoResize 1
 lineShape (Line
@@ -3106,10 +3274,10 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "33250,20475,33250,20475"
+xt "35799,20511,35799,20511"
 pts [
-"33250,20475"
-"33250,20475"
+"35799,20511"
+"35799,20511"
 ]
 )
 condition (MLText
@@ -3117,7 +3285,7 @@ uid 1057,0
 va (VaSet
 font "arial,8,0"
 )
-xt "31550,19075,40450,20075"
+xt "34099,19111,42999,20111"
 st "wassen_status = \"101\""
 tm "Condition"
 )
@@ -3126,7 +3294,7 @@ uid 1058,0
 va (VaSet
 font "arial,8,0"
 )
-xt "36000,20475,36000,20475"
+xt "38549,20511,38549,20511"
 tm "Actions"
 )
 )
@@ -3140,7 +3308,7 @@ vasetType 1
 fg "65535,65535,65535"
 bg "0,0,0"
 )
-xt "28112,19347,29674,20909"
+xt "28633,19355,30195,20917"
 radius 781
 )
 pr (Text
@@ -3148,29 +3316,29 @@ uid 1061,0
 va (VaSet
 font "arial,8,0"
 )
-xt "28493,19628,29293,20628"
-st "3"
+xt "29014,19636,29814,20636"
+st "1"
 ju 0
-blo "28893,20428"
+blo "29414,20436"
 tm "TransitionPriority"
 )
 padding "100,100"
 )
 )
-*46 (Transition
+*47 (Transition
 uid 1062,0
 shape (Spline
 uid 1063,0
 va (VaSet
 vasetType 3
 )
-xt "49223,11026,60611,19871"
+xt "54467,11102,65855,19947"
 pts [
-"49223,16612"
-"55180,19871"
-"60611,15929"
-"55968,11085"
-"49526,13233"
+"54467,16688"
+"60424,19947"
+"65855,16005"
+"61212,11161"
+"54770,13309"
 ]
 arrow 1
 )
@@ -3189,7 +3357,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "60111,15429,65111,17429"
+xt "65355,15505,70355,17505"
 )
 autoResize 1
 lineShape (Line
@@ -3198,10 +3366,10 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "62311,17329,62311,17329"
+xt "67555,17405,67555,17405"
 pts [
-"62311,17329"
-"62311,17329"
+"67555,17405"
+"67555,17405"
 ]
 )
 condition (MLText
@@ -3209,7 +3377,7 @@ uid 1067,0
 va (VaSet
 font "arial,8,0"
 )
-xt "60611,15929,64611,16929"
+xt "65855,16005,69855,17005"
 st "start = '0'"
 tm "Condition"
 )
@@ -3218,7 +3386,7 @@ uid 1068,0
 va (VaSet
 font "arial,8,0"
 )
-xt "62611,17329,62611,17329"
+xt "67855,17405,67855,17405"
 tm "Actions"
 )
 )
@@ -3232,7 +3400,7 @@ vasetType 1
 fg "65535,65535,65535"
 bg "0,0,0"
 )
-xt "50703,17444,52265,19006"
+xt "55947,17520,57509,19082"
 radius 781
 )
 pr (Text
@@ -3240,32 +3408,32 @@ uid 1071,0
 va (VaSet
 font "arial,8,0"
 )
-xt "51084,17725,51884,18725"
+xt "56328,17801,57128,18801"
 st "1"
 ju 0
-blo "51484,18525"
+blo "56728,18601"
 tm "TransitionPriority"
 )
 padding "100,100"
 )
 )
-*47 (Transition
+*48 (Transition
 uid 1072,0
 shape (Spline
 uid 1073,0
 va (VaSet
 vasetType 3
 )
-xt "26509,10858,43452,18112"
+xt "38283,9347,48696,10934"
 pts [
-"43452,10858"
-"35712,13263"
-"26509,18112"
+"48696,10934"
+"41703,10270"
+"38283,9347"
 ]
 arrow 1
 )
 start &39
-end &25
+end &41
 cond "start = '1'"
 tb (TransitionBlock
 uid 1074,0
@@ -3278,7 +3446,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "32887,12613,37887,14613"
+xt "40550,8480,45550,10480"
 )
 autoResize 1
 lineShape (Line
@@ -3287,10 +3455,10 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "35087,14513,35087,14513"
+xt "42750,10380,42750,10380"
 pts [
-"35087,14513"
-"35087,14513"
+"42750,10380"
+"42750,10380"
 ]
 )
 condition (MLText
@@ -3298,7 +3466,7 @@ uid 1077,0
 va (VaSet
 font "arial,8,0"
 )
-xt "33387,13113,37387,14113"
+xt "41050,8980,45050,9980"
 st "start = '1'"
 tm "Condition"
 )
@@ -3307,7 +3475,7 @@ uid 1078,0
 va (VaSet
 font "arial,8,0"
 )
-xt "35387,14513,35387,14513"
+xt "43050,10380,43050,10380"
 tm "Actions"
 )
 )
@@ -3321,7 +3489,7 @@ vasetType 1
 fg "65535,65535,65535"
 bg "0,0,0"
 )
-xt "40883,10565,42445,12127"
+xt "46860,10062,48422,11624"
 radius 781
 )
 pr (Text
@@ -3329,16 +3497,16 @@ uid 1081,0
 va (VaSet
 font "arial,8,0"
 )
-xt "41264,10846,42064,11846"
+xt "47241,10343,48041,11343"
 st "2"
 ju 0
-blo "41664,11646"
+blo "47641,11143"
 tm "TransitionPriority"
 )
 padding "100,100"
 )
 )
-*48 (Transition
+*49 (Transition
 uid 1099,0
 shape (Spline
 uid 1100,0
@@ -3427,7 +3595,7 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*49 (Transition
+*50 (Transition
 uid 1109,0
 shape (Spline
 uid 1110,0
@@ -3516,6 +3684,97 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
+*51 (Transition
+uid 1662,0
+shape (Spline
+uid 1663,0
+va (VaSet
+vasetType 3
+)
+xt "26470,11637,32753,18063"
+pts [
+"32753,11637"
+"26470,18063"
+]
+arrow 1
+)
+start &41
+end &25
+es 0
+cond "wassen_status /= \"101\""
+tb (TransitionBlock
+uid 1664,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 1665,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "25463,14198,35563,16198"
+)
+autoResize 1
+lineShape (Line
+uid 1666,0
+va (VaSet
+vasetType 3
+isHidden 1
+)
+xt "27663,16098,27663,16098"
+pts [
+"27663,16098"
+"27663,16098"
+]
+)
+condition (MLText
+uid 1667,0
+va (VaSet
+font "arial,8,0"
+)
+xt "25963,14698,35063,15698"
+st "wassen_status /= \"101\""
+tm "Condition"
+)
+actions (MLText
+uid 1668,0
+va (VaSet
+font "arial,8,0"
+)
+xt "30513,16098,30513,16098"
+tm "Actions"
+)
+)
+tp (TransitionPriority
+uid 1669,0
+ps "PercentageFromStartStrategy"
+shape (Circle
+uid 1670,0
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,65535"
+bg "0,0,0"
+)
+xt "31344,11498,32906,13060"
+radius 781
+)
+pr (Text
+uid 1671,0
+va (VaSet
+isHidden 1
+font "arial,8,0"
+)
+xt "31725,11779,32525,12779"
+st "1"
+ju 0
+blo "32125,12579"
+tm "TransitionPriority"
+)
+padding "100,100"
+)
+)
 ]
 bg "65535,65535,65535"
 grid (Grid
@@ -3530,7 +3789,7 @@ color "26368,26368,26368"
 )
 packageList &0
 windowSize "0,34,1537,864"
-viewArea "1400,-7400,100884,45952"
+viewArea "1400,-7400,104811,45846"
 cachedDiagramExtent "7117,2085,72000,50000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-1000,1000"
@@ -3619,7 +3878,7 @@ signalsGenStatus &0
 stateRegBlock &0
 )
 )
-*50 (Link
+*52 (Link
 uid 759,0
 shape (CompositeShape
 uid 760,0
@@ -3662,7 +3921,7 @@ tm "LinkName"
 )
 )
 )
-*51 (Transition
+*53 (Transition
 uid 104,0
 shape (Spline
 uid 105,0
@@ -3754,7 +4013,7 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*52 (Transition
+*54 (Transition
 uid 114,0
 shape (Spline
 uid 115,0
@@ -3844,7 +4103,7 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*53 (Transition
+*55 (Transition
 uid 484,0
 shape (Spline
 uid 485,0
@@ -3932,7 +4191,7 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*54 (Transition
+*56 (Transition
 uid 494,0
 shape (Spline
 uid 495,0
@@ -4025,7 +4284,7 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*55 (Transition
+*57 (Transition
 uid 504,0
 shape (Spline
 uid 505,0
@@ -4116,7 +4375,7 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*56 (Transition
+*58 (Transition
 uid 531,0
 shape (Spline
 uid 532,0
@@ -4204,7 +4463,7 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*57 (Transition
+*59 (Transition
 uid 541,0
 shape (Spline
 uid 542,0
@@ -4294,7 +4553,7 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*58 (Transition
+*60 (Transition
 uid 665,0
 shape (Spline
 uid 666,0
@@ -4383,7 +4642,7 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*59 (Transition
+*61 (Transition
 uid 702,0
 shape (Spline
 uid 703,0
@@ -4473,7 +4732,7 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*60 (Transition
+*62 (Transition
 uid 765,0
 shape (Spline
 uid 766,0
@@ -4487,7 +4746,7 @@ pts [
 ]
 )
 start &22
-end &50
+end &52
 es 0
 tb (TransitionBlock
 uid 767,0
@@ -4562,7 +4821,7 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*61 (Transition
+*63 (Transition
 uid 909,0
 shape (Spline
 uid 910,0
@@ -4665,11 +4924,11 @@ xShown 1
 yShown 1
 color "26368,26368,26368"
 )
-packageList *62 (PackageList
+packageList *64 (PackageList
 uid 31,0
 stg "VerticalLayoutStrategy"
 textVec [
-*63 (Text
+*65 (Text
 uid 32,0
 va (VaSet
 font "arial,8,1"
@@ -4678,7 +4937,7 @@ xt "0,3000,5400,4000"
 st "Package List"
 blo "0,3800"
 )
-*64 (MLText
+*66 (MLText
 uid 33,0
 va (VaSet
 font "arial,8,0"
@@ -4695,7 +4954,7 @@ compDirBlock (MlTextGroup
 uid 34,0
 stg "VerticalLayoutStrategy"
 textVec [
-*65 (Text
+*67 (Text
 uid 35,0
 va (VaSet
 isHidden 1
@@ -4705,7 +4964,7 @@ xt "20000,0,28100,1000"
 st "Compiler Directives"
 blo "20000,800"
 )
-*66 (Text
+*68 (Text
 uid 36,0
 va (VaSet
 isHidden 1
@@ -4715,7 +4974,7 @@ xt "20000,1000,29600,2000"
 st "Pre-module directives:"
 blo "20000,1800"
 )
-*67 (MLText
+*69 (MLText
 uid 37,0
 va (VaSet
 isHidden 1
@@ -4726,7 +4985,7 @@ st "`resetall
 `timescale 1ns/10ps"
 tm "SmCompilerDirectivesTextMgr"
 )
-*68 (Text
+*70 (Text
 uid 38,0
 va (VaSet
 isHidden 1
@@ -4736,7 +4995,7 @@ xt "20000,4000,30100,5000"
 st "Post-module directives:"
 blo "20000,4800"
 )
-*69 (MLText
+*71 (MLText
 uid 39,0
 va (VaSet
 isHidden 1
@@ -4745,7 +5004,7 @@ font "arial,8,0"
 xt "20000,0,20000,0"
 tm "SmCompilerDirectivesTextMgr"
 )
-*70 (Text
+*72 (Text
 uid 40,0
 va (VaSet
 isHidden 1
@@ -4755,7 +5014,7 @@ xt "20000,5000,29900,6000"
 st "End-module directives:"
 blo "20000,5800"
 )
-*71 (MLText
+*73 (MLText
 uid 41,0
 va (VaSet
 isHidden 1
@@ -4767,8 +5026,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,1537,830"
-viewArea "8300,-1900,107784,49324"
+windowSize "0,34,1537,864"
+viewArea "8300,40564,107784,93916"
 cachedDiagramExtent "0,-11800,75232,74360"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-51000"
@@ -4849,11 +5108,11 @@ tm "PanelText"
 )
 )
 )
-localDecl *72 (SmLocalDecl
+localDecl *74 (SmLocalDecl
 uid 3,0
 stg "VerticalLayoutStrategy"
 textVec [
-*73 (Text
+*75 (Text
 uid 4,0
 va (VaSet
 font "arial,8,1"
@@ -4862,7 +5121,7 @@ xt "21121,-9713,31621,-8713"
 st "Architecture Declarations"
 blo "21121,-8913"
 )
-*74 (MLText
+*76 (MLText
 uid 5,0
 va (VaSet
 font "arial,8,0"
@@ -4870,7 +5129,7 @@ font "arial,8,0"
 xt "21121,-9713,21121,-9713"
 tm "LocalDeclTextMgr"
 )
-*75 (Text
+*77 (Text
 uid 6,0
 va (VaSet
 font "arial,8,1"
@@ -4879,7 +5138,7 @@ xt "21121,-8713,24921,-7713"
 st "Pre Decls"
 blo "21121,-7913"
 )
-*76 (MLText
+*78 (MLText
 uid 7,0
 va (VaSet
 font "arial,8,0"
@@ -4887,7 +5146,7 @@ font "arial,8,0"
 xt "21121,-9713,21121,-9713"
 tm "LocalDeclTextMgr"
 )
-*77 (Text
+*79 (Text
 uid 8,0
 va (VaSet
 font "arial,8,1"
@@ -4896,7 +5155,7 @@ xt "21121,-7713,25821,-6713"
 st "Post Decls"
 blo "21121,-6913"
 )
-*78 (MLText
+*80 (MLText
 uid 9,0
 va (VaSet
 font "arial,8,0"
@@ -4906,11 +5165,11 @@ tm "LocalDeclTextMgr"
 )
 ]
 )
-processDecl *79 (SmProcessDecl
+processDecl *81 (SmProcessDecl
 uid 10,0
 stg "VerticalLayoutStrategy"
 textVec [
-*80 (Text
+*82 (Text
 uid 11,0
 va (VaSet
 font "arial,8,1"
@@ -4919,7 +5178,7 @@ xt "57380,-11800,66280,-10800"
 st "Process Declarations"
 blo "57380,-11000"
 )
-*81 (Text
+*83 (Text
 uid 12,0
 va (VaSet
 font "arial,8,1"
@@ -4928,7 +5187,7 @@ xt "57380,-10800,64580,-9800"
 st "Clocked Process:"
 blo "57380,-10000"
 )
-*82 (MLText
+*84 (MLText
 uid 13,0
 va (VaSet
 font "Courier New,8,0"
@@ -4936,7 +5195,7 @@ font "Courier New,8,0"
 xt "57380,-11800,57380,-11800"
 tm "ProcessDeclTextMgr"
 )
-*83 (Text
+*85 (Text
 uid 14,0
 va (VaSet
 font "arial,8,1"
@@ -4945,7 +5204,7 @@ xt "57380,-9800,64280,-8800"
 st "Output Process:"
 blo "57380,-9000"
 )
-*84 (MLText
+*86 (MLText
 uid 15,0
 va (VaSet
 font "Courier New,8,0"
@@ -4956,11 +5215,11 @@ tm "ProcessDeclTextMgr"
 ]
 associable 1
 )
-defaultActions *85 (MlTextGroup
+defaultActions *87 (MlTextGroup
 uid 16,0
 stg "VerticalLayoutStrategy"
 textVec [
-*86 (Text
+*88 (Text
 uid 17,0
 va (VaSet
 font "arial,8,1"
@@ -4969,7 +5228,7 @@ xt "0,-1000,6200,0"
 st "Global Actions"
 blo "0,-200"
 )
-*87 (Text
+*89 (Text
 uid 18,0
 va (VaSet
 font "arial,8,1"
@@ -4978,7 +5237,7 @@ xt "0,0,5300,1000"
 st "Pre Actions:"
 blo "0,800"
 )
-*88 (MLText
+*90 (MLText
 uid 19,0
 va (VaSet
 font "arial,8,0"
@@ -4986,7 +5245,7 @@ font "arial,8,0"
 xt "0,-1000,0,-1000"
 tm "Actions"
 )
-*89 (Text
+*91 (Text
 uid 20,0
 va (VaSet
 font "arial,8,1"
@@ -4995,7 +5254,7 @@ xt "0,1000,5800,2000"
 st "Post Actions:"
 blo "0,1800"
 )
-*90 (MLText
+*92 (MLText
 uid 21,0
 va (VaSet
 font "arial,8,0"
@@ -5006,7 +5265,7 @@ tm "Actions"
 ]
 associable 1
 )
-archConcurrentStatementBlock *91 (BiTextGroup
+archConcurrentStatementBlock *93 (BiTextGroup
 uid 22,0
 stg "VerticalLayoutStrategy"
 first (Text
@@ -5028,7 +5287,7 @@ tm "ArchConcStmtTextMgr"
 )
 associable 1
 )
-signalsGenStatus *92 (SmSignalGenStatus
+signalsGenStatus *94 (SmSignalGenStatus
 uid 28,0
 stg "VerticalLayoutStrategy"
 first (Text
@@ -5055,7 +5314,7 @@ led_start     OUT                     COMB
 tm "SmSignalsGenStatusTextMgr"
 )
 )
-stateRegBlock *93 (BiTextGroup
+stateRegBlock *95 (BiTextGroup
 uid 25,0
 stg "VerticalLayoutStrategy"
 first (Text
@@ -5151,69 +5410,70 @@ stateOrder [
 &38
 &39
 &40
+&41
 ]
 name "csm"
 )
 ]
-lastUid 1586,0
+lastUid 1787,0
 commonDM (CommonDM
 ldm (LogicalDM
-emptyRow *94 (LEmptyRow
+emptyRow *96 (LEmptyRow
 )
 uid 240,0
 optionalChildren [
-*95 (RefLabelRowHdr
+*97 (RefLabelRowHdr
 )
-*96 (TitleRowHdr
+*98 (TitleRowHdr
 )
-*97 (FilterRowHdr
+*99 (FilterRowHdr
 )
-*98 (RefLabelColHdr
+*100 (RefLabelColHdr
 tm "RefLabelColHdrMgr"
 )
-*99 (RowExpandColHdr
+*101 (RowExpandColHdr
 tm "RowExpandColHdrMgr"
 )
-*100 (GroupColHdr
+*102 (GroupColHdr
 tm "GroupColHdrMgr"
 )
-*101 (NameColHdr
+*103 (NameColHdr
 tm "SmNameColHdrMgr"
 )
-*102 (ModeColHdr
+*104 (ModeColHdr
 tm "SmModeColHdrMgr"
 )
-*103 (TypeColHdr
+*105 (TypeColHdr
 tm "SmTypeColHdrMgr"
 )
-*104 (BoundsColHdr
+*106 (BoundsColHdr
 tm "SmBoundsColHdrMgr"
 )
-*105 (InitColHdr
+*107 (InitColHdr
 tm "SmInitColHdrMgr"
 )
-*106 (ColumnHdr
+*108 (ColumnHdr
 tm "SmCategoryColHdrMgr"
 )
-*107 (ColumnHdr
+*109 (ColumnHdr
 tm "SmAssignColHdrMgr"
 )
-*108 (ColumnHdr
+*110 (ColumnHdr
 tm "SmExprColHdrMgr"
 )
-*109 (ColumnHdr
+*111 (ColumnHdr
 tm "SmSchemeColHdrMgr"
 )
-*110 (ColumnHdr
+*112 (ColumnHdr
 tm "SmDefValColHdrMgr"
 )
-*111 (ColumnHdr
+*113 (ColumnHdr
 tm "SmRstValColHdrMgr"
 )
-*112 (EolColHdr
+*114 (EolColHdr
 tm "SmEolColHdrMgr"
 )
-*113 (LeafLogPort
+*115 (LeafLogPort
 port (LogicalPort
 lang 2
 decl (Decl
@@ -5226,7 +5486,7 @@ uid 156,0
 cat 8
 expr "aan_uit = '0'"
 )
-*114 (LeafLogPort
+*116 (LeafLogPort
 port (LogicalPort
 lang 2
 decl (Decl
@@ -5239,7 +5499,7 @@ uid 162,0
 cat 1
 expr "clk'EVENT AND clk = '1'"
 )
-*115 (LeafLogPort
+*117 (LeafLogPort
 port (LogicalPort
 lang 2
 decl (Decl
@@ -5250,7 +5510,7 @@ o 3
 )
 uid 164,0
 )
-*116 (LeafLogPort
+*118 (LeafLogPort
 port (LogicalPort
 lang 2
 decl (Decl
@@ -5261,7 +5521,7 @@ o 5
 )
 uid 168,0
 )
-*117 (LeafLogPort
+*119 (LeafLogPort
 port (LogicalPort
 lang 2
 decl (Decl
@@ -5272,7 +5532,7 @@ o 6
 )
 uid 170,0
 )
-*118 (LeafLogPort
+*120 (LeafLogPort
 port (LogicalPort
 lang 2
 decl (Decl
@@ -5283,7 +5543,7 @@ o 7
 )
 uid 172,0
 )
-*119 (LeafLogPort
+*121 (LeafLogPort
 port (LogicalPort
 lang 2
 decl (Decl
@@ -5294,7 +5554,7 @@ o 8
 )
 uid 174,0
 )
-*120 (LeafLogPort
+*122 (LeafLogPort
 port (LogicalPort
 lang 2
 decl (Decl
@@ -5306,7 +5566,7 @@ o 9
 )
 uid 176,0
 )
-*121 (LeafLogPort
+*123 (LeafLogPort
 port (LogicalPort
 lang 2
 m 1
@@ -5319,7 +5579,7 @@ o 10
 uid 178,0
 scheme 0
 )
-*122 (LeafLogPort
+*124 (LeafLogPort
 port (LogicalPort
 lang 2
 m 1
@@ -5332,7 +5592,7 @@ o 11
 uid 182,0
 scheme 0
 )
-*123 (LeafLogPort
+*125 (LeafLogPort
 port (LogicalPort
 lang 2
 m 1
@@ -5346,7 +5606,7 @@ o 13
 uid 188,0
 scheme 0
 )
-*124 (LeafLogPort
+*126 (LeafLogPort
 port (LogicalPort
 lang 2
 m 1
@@ -5359,7 +5619,7 @@ o 12
 uid 190,0
 scheme 0
 )
-*125 (LeafLogPort
+*127 (LeafLogPort
 port (LogicalPort
 lang 2
 decl (Decl
@@ -5378,7 +5638,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 259,0
 optionalChildren [
-*126 (Sheet
+*128 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -5395,106 +5655,106 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "Tahoma,10,0"
 )
-emptyMRCItem *127 (MRCItem
-litem &94
+emptyMRCItem *129 (MRCItem
+litem &96
 pos 13
 dimension 20
 )
 uid 261,0
 optionalChildren [
-*128 (MRCItem
-litem &95
+*130 (MRCItem
+litem &97
 pos 0
 dimension 20
 uid 262,0
 )
-*129 (MRCItem
-litem &96
+*131 (MRCItem
+litem &98
 pos 1
 dimension 23
 uid 263,0
 )
-*130 (MRCItem
-litem &97
+*132 (MRCItem
+litem &99
 pos 2
 hidden 1
 dimension 20
 uid 264,0
 )
-*131 (MRCItem
-litem &113
+*133 (MRCItem
+litem &115
 pos 0
 dimension 20
 uid 157,0
 )
-*132 (MRCItem
-litem &114
+*134 (MRCItem
+litem &116
 pos 1
 dimension 20
 uid 163,0
 )
-*133 (MRCItem
-litem &115
+*135 (MRCItem
+litem &117
 pos 2
 dimension 20
 uid 165,0
 )
-*134 (MRCItem
-litem &116
+*136 (MRCItem
+litem &118
 pos 8
 dimension 20
 uid 169,0
 )
-*135 (MRCItem
-litem &117
+*137 (MRCItem
+litem &119
 pos 9
 dimension 20
 uid 171,0
 )
-*136 (MRCItem
-litem &118
+*138 (MRCItem
+litem &120
 pos 10
 dimension 20
 uid 173,0
 )
-*137 (MRCItem
-litem &119
+*139 (MRCItem
+litem &121
 pos 11
 dimension 20
 uid 175,0
 )
-*138 (MRCItem
-litem &120
+*140 (MRCItem
+litem &122
 pos 12
 dimension 20
 uid 177,0
 )
-*139 (MRCItem
-litem &121
+*141 (MRCItem
+litem &123
 pos 3
 dimension 20
 uid 179,0
 )
-*140 (MRCItem
-litem &122
+*142 (MRCItem
+litem &124
 pos 4
 dimension 20
 uid 183,0
 )
-*141 (MRCItem
-litem &123
+*143 (MRCItem
+litem &125
 pos 7
 dimension 20
 uid 189,0
 )
-*142 (MRCItem
-litem &124
+*144 (MRCItem
+litem &126
 pos 6
 dimension 20
 uid 191,0
 )
-*143 (MRCItem
-litem &125
+*145 (MRCItem
+litem &127
 pos 5
 dimension 20
 uid 1583,0
@@ -5510,86 +5770,86 @@ textAngle 90
 )
 uid 265,0
 optionalChildren [
-*144 (MRCItem
-litem &98
+*146 (MRCItem
+litem &100
 pos 0
 dimension 20
 uid 266,0
 )
-*145 (MRCItem
-litem &100
+*147 (MRCItem
+litem &102
 pos 1
 dimension 50
 uid 267,0
 )
-*146 (MRCItem
-litem &101
+*148 (MRCItem
+litem &103
 pos 2
 dimension 70
 uid 268,0
 )
-*147 (MRCItem
-litem &102
+*149 (MRCItem
+litem &104
 pos 3
 dimension 50
 uid 269,0
 )
-*148 (MRCItem
-litem &103
+*150 (MRCItem
+litem &105
 pos 4
 dimension 80
 uid 270,0
 )
-*149 (MRCItem
-litem &104
+*151 (MRCItem
+litem &106
 pos 5
 dimension 80
 uid 271,0
 )
-*150 (MRCItem
-litem &105
+*152 (MRCItem
+litem &107
 pos 6
 dimension 40
 uid 272,0
 )
-*151 (MRCItem
-litem &106
+*153 (MRCItem
+litem &108
 pos 7
 dimension 100
 uid 273,0
 )
-*152 (MRCItem
-litem &107
+*154 (MRCItem
+litem &109
 pos 8
 dimension 60
 uid 274,0
 )
-*153 (MRCItem
-litem &108
+*155 (MRCItem
+litem &110
 pos 9
 dimension 130
 uid 275,0
 )
-*154 (MRCItem
-litem &109
+*156 (MRCItem
+litem &111
 pos 10
 dimension 56
 uid 276,0
 )
-*155 (MRCItem
-litem &110
+*157 (MRCItem
+litem &112
 pos 11
 dimension 50
 uid 277,0
 )
-*156 (MRCItem
-litem &111
+*158 (MRCItem
+litem &113
 pos 12
 dimension 50
 uid 278,0
 )
-*157 (MRCItem
-litem &112
+*159 (MRCItem
+litem &114
 pos 13
 dimension 80
 uid 279,0
@@ -5610,38 +5870,38 @@ uid 239,0
 cdmCsm &1
 genericsCommonDM (CommonDM
 ldm (LogicalDM
-emptyRow *158 (LEmptyRow
+emptyRow *160 (LEmptyRow
 )
 uid 281,0
 optionalChildren [
-*159 (RefLabelRowHdr
+*161 (RefLabelRowHdr
 )
-*160 (TitleRowHdr
+*162 (TitleRowHdr
 )
-*161 (FilterRowHdr
+*163 (FilterRowHdr
 )
-*162 (RefLabelColHdr
+*164 (RefLabelColHdr
 tm "RefLabelColHdrMgr"
 )
-*163 (RowExpandColHdr
+*165 (RowExpandColHdr
 tm "RowExpandColHdrMgr"
 )
-*164 (GroupColHdr
+*166 (GroupColHdr
 tm "GroupColHdrMgr"
 )
-*165 (NameColHdr
+*167 (NameColHdr
 tm "GenericNameColHdrMgr"
 )
-*166 (TypeColHdr
+*168 (TypeColHdr
 tm "GenericTypeColHdrMgr"
 )
-*167 (InitColHdr
+*169 (InitColHdr
 tm "GenericValueColHdrMgr"
 )
-*168 (PragmaColHdr
+*170 (PragmaColHdr
 tm "GenericPragmaColHdrMgr"
 )
-*169 (EolColHdr
+*171 (EolColHdr
 tm "GenericEolColHdrMgr"
 )
 ]
@@ -5651,7 +5911,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 293,0
 optionalChildren [
-*170 (Sheet
+*172 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -5668,27 +5928,27 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "Tahoma,10,0"
 )
-emptyMRCItem *171 (MRCItem
-litem &158
+emptyMRCItem *173 (MRCItem
+litem &160
 pos 0
 dimension 20
 )
 uid 295,0
 optionalChildren [
-*172 (MRCItem
-litem &159
+*174 (MRCItem
+litem &161
 pos 0
 dimension 20
 uid 296,0
 )
-*173 (MRCItem
-litem &160
+*175 (MRCItem
+litem &162
 pos 1
 dimension 23
 uid 297,0
 )
-*174 (MRCItem
-litem &161
+*176 (MRCItem
+litem &163
 pos 2
 hidden 1
 dimension 20
@@ -5705,44 +5965,44 @@ textAngle 90
 )
 uid 299,0
 optionalChildren [
-*175 (MRCItem
-litem &162
+*177 (MRCItem
+litem &164
 pos 0
 dimension 20
 uid 300,0
 )
-*176 (MRCItem
-litem &164
+*178 (MRCItem
+litem &166
 pos 1
 dimension 50
 uid 301,0
 )
-*177 (MRCItem
-litem &165
+*179 (MRCItem
+litem &167
 pos 2
 dimension 100
 uid 302,0
 )
-*178 (MRCItem
-litem &166
+*180 (MRCItem
+litem &168
 pos 3
 dimension 100
 uid 303,0
 )
-*179 (MRCItem
-litem &167
+*181 (MRCItem
+litem &169
 pos 4
 dimension 50
 uid 304,0
 )
-*180 (MRCItem
-litem &168
+*182 (MRCItem
+litem &170
 pos 5
 dimension 50
 uid 305,0
 )
-*181 (MRCItem
-litem &169
+*183 (MRCItem
+litem &171
 pos 6
 dimension 80
 uid 306,0
@@ -6640,6 +6900,6 @@ pts [
 ]
 )
 )
-activeModelName "StateMachine:CDM"
+activeModelName "StateMachine"
 LanguageMgr "Vhdl93LangMgr"
 )

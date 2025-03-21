@@ -731,7 +731,7 @@ value "C:\\Project-digitale-besturing\\Codes\\Wasmachine\\Wasmachine\\hds\\wasma
 )
 (vvPair
 variable "date"
-value "11/03/2025"
+value "18/03/2025"
 )
 (vvPair
 variable "day"
@@ -743,7 +743,7 @@ value "Tuesday"
 )
 (vvPair
 variable "dd"
-value "11"
+value "18"
 )
 (vvPair
 variable "entity_name"
@@ -771,7 +771,7 @@ value "Perij"
 )
 (vvPair
 variable "graphical_source_date"
-value "11/03/2025"
+value "18/03/2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -783,7 +783,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:36:03"
+value "14:24:36"
 )
 (vvPair
 variable "group"
@@ -827,7 +827,7 @@ value "$HDS_PROJECT_DIR/Wasmachine/questasim"
 )
 (vvPair
 variable "library_downstream_QuestaSimSimulator"
-value "$HDS_PROJECT_DIR/Wasmachine/sim"
+value "$HDS_PROJECT_DIR\\Wasmachine\\sim"
 )
 (vvPair
 variable "mm"
@@ -907,7 +907,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:36:03"
+value "14:24:36"
 )
 (vvPair
 variable "unit"
@@ -2662,6 +2662,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 2208,0
+lastUid 2231,0
 activeModelName "Symbol:CDM"
 )

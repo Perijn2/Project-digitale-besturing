@@ -126,7 +126,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "22:56:23"
+value "23:03:25"
 )
 (vvPair
 variable "group"
@@ -234,7 +234,7 @@ value "Verwarming"
 )
 (vvPair
 variable "time"
-value "22:56:23"
+value "23:03:25"
 )
 (vvPair
 variable "unit"
@@ -820,7 +820,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,46000,46100,47000"
+xt "36200,46000,45400,47000"
 st "
 by %user on %dd %month %year
 "
@@ -1945,8 +1945,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1544,832"
-viewArea "17300,-1200,132488,58308"
+windowSize "0,0,1537,840"
+viewArea "17300,-1200,132492,58992"
 cachedDiagramExtent "0,-1000,73000,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
@@ -2325,7 +2325,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 389,0
+lastUid 418,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *58 (LEmptyRow
@@ -2461,7 +2461,7 @@ decl (Decl
 n "verwarmen"
 t "std_logic"
 o 7
-i "0"
+i "'0'"
 )
 )
 uid 168,0
@@ -2475,7 +2475,7 @@ decl (Decl
 n "verwarmen_ready"
 t "std_logic"
 o 8
-i "0"
+i "'0'"
 )
 )
 uid 170,0
