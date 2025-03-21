@@ -151,7 +151,7 @@ value "LAPTOP-Q0P13GKH"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:53:17"
+value "12:32:26"
 )
 (vvPair
 variable "group"
@@ -259,7 +259,7 @@ value "Wassen"
 )
 (vvPair
 variable "time"
-value "11:53:17"
+value "12:32:26"
 )
 (vvPair
 variable "unit"
@@ -6165,7 +6165,7 @@ go_trommel <= '0';
 go_verwarmen <= '0';
 trommel_keuze <= '0';
 wassen_ready <= '0';
-wassen_status <= \"010\";"
+wassen_status <= \"001\";"
 tm "Actions"
 )
 exitActions (MLText
@@ -8098,7 +8098,7 @@ color "26368,26368,26368"
 )
 packageList &0
 windowSize "0,0,1537,830"
-viewArea "700,-26050,102802,28706"
+viewArea "700,-15080,102802,39676"
 cachedDiagramExtent "7632,-24520,114224,73049"
 hasePageBreakOrigin 1
 pageBreakOrigin "-1000,-48000"
@@ -13087,7 +13087,7 @@ tm "SmCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,1537,830"
-viewArea "3400,6340,102884,59692"
+viewArea "3400,6300,102884,59652"
 cachedDiagramExtent "0,-1000,126116,195568"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -13514,7 +13514,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 5746,0
+lastUid 5775,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *209 (LEmptyRow
